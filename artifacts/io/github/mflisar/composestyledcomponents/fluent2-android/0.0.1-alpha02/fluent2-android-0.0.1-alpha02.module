@@ -1,0 +1,123 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../fluent2/0.0.1-alpha02/fluent2-0.0.1-alpha02.module",
+    "group": "io.github.mflisar.composestyledcomponents",
+    "module": "fluent2",
+    "version": "0.0.1-alpha02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composestyledcomponents",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fluent2.aar",
+          "url": "fluent2-android-0.0.1-alpha02.aar",
+          "size": 193376,
+          "sha512": "ca3de62e05d3215cecace5c0dd1ac47cf0a95099f494f8970b616b60d304014305fc88cf031cfb99d476fdaf267e2fb9e3b8c6f1f9cf168091623e843525de64",
+          "sha256": "b952cedb3d31c51b727c009e9ea889a6a8c676f7568ac095f11607847b9d64da",
+          "sha1": "c2ee8e950c7f5b7fb95c352097ff7984479a60bd",
+          "md5": "54cee094497c8114eb0cfdc0863d8641"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composestyledcomponents",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyledcomponents",
+          "module": "foundation",
+          "version": {
+            "requires": "0.0.1-alpha02"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fluent2.aar",
+          "url": "fluent2-android-0.0.1-alpha02.aar",
+          "size": 193376,
+          "sha512": "ca3de62e05d3215cecace5c0dd1ac47cf0a95099f494f8970b616b60d304014305fc88cf031cfb99d476fdaf267e2fb9e3b8c6f1f9cf168091623e843525de64",
+          "sha256": "b952cedb3d31c51b727c009e9ea889a6a8c676f7568ac095f11607847b9d64da",
+          "sha1": "c2ee8e950c7f5b7fb95c352097ff7984479a60bd",
+          "md5": "54cee094497c8114eb0cfdc0863d8641"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "fluent2-android-sources.jar",
+          "url": "fluent2-android-0.0.1-alpha02-sources.jar",
+          "size": 22710,
+          "sha512": "c15406f39f9a126b2a1bb2837436893dd60711ffc36bbec6039144b153eca733db417b97ffb13b738e35095816c6197e29baa32336526b21aef2ea7ab8640722",
+          "sha256": "1ad0cf3e9a04136501d7bb0559ae13ba2cf28fd796e7e51a10cf75f5ac394074",
+          "sha1": "b31f1dd40bc903e4eb5d9d9389723466dedd80ef",
+          "md5": "e7a7d8171a816caf250f1a76d649e933"
+        }
+      ]
+    }
+  ]
+}

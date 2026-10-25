@@ -1,0 +1,176 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../fluent2/0.0.1-alpha02/fluent2-0.0.1-alpha02.module",
+    "group": "io.github.mflisar.composestyledcomponents",
+    "module": "fluent2",
+    "version": "0.0.1-alpha02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composestyledcomponents",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyledcomponents",
+          "module": "foundation",
+          "version": {
+            "requires": "0.0.1-alpha02"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fluent2-iosArm64Main.klib",
+          "url": "fluent2-iosarm64-0.0.1-alpha02.klib",
+          "size": 154495,
+          "sha512": "28e8b4bfc1451f0d211a2d264c69b213b8f6eb04da86cc0b2e88399e92eac7712063368eec16ddfd62b44f02280e66e51b0166fea74ae0a1d52f2feb96e2ff7b",
+          "sha256": "d11962f2ddce5af8be4822ce83b39764fbca9f604a69ee98da5f4cd7ad3cec44",
+          "sha1": "8b060a42625208c539515f23e5f86d715baa83fb",
+          "md5": "b95d2920da4151f18039b2da43eff695"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "fluent2-iosarm64-sources.jar",
+          "url": "fluent2-iosarm64-0.0.1-alpha02-sources.jar",
+          "size": 22710,
+          "sha512": "c15406f39f9a126b2a1bb2837436893dd60711ffc36bbec6039144b153eca733db417b97ffb13b738e35095816c6197e29baa32336526b21aef2ea7ab8640722",
+          "sha256": "1ad0cf3e9a04136501d7bb0559ae13ba2cf28fd796e7e51a10cf75f5ac394074",
+          "sha1": "b31f1dd40bc903e4eb5d9d9389723466dedd80ef",
+          "md5": "e7a7d8171a816caf250f1a76d649e933"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composestyledcomponents",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyledcomponents",
+          "module": "foundation",
+          "version": {
+            "requires": "0.0.1-alpha02"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fluent2.kotlin_resources.zip",
+          "url": "fluent2-iosarm64-0.0.1-alpha02-kotlin_resources.kotlin_resources.zip",
+          "size": 430,
+          "sha512": "cac9da830d3764e36905dde60106dd08b07ee20fbff6ae5940586ad4ef29d14f913d707b2fbfff4a5c510b4649952d4342f6fb950ad4bfa432253e2f491b5b43",
+          "sha256": "f7dd391dcf08cad2f728e319fdfe28ad5825f2cede0bc7ac569e1f284686eaba",
+          "sha1": "bb6148d311be0be84ca32981d7155973419c62af",
+          "md5": "1fb997c8f1fcf811a8aa8822d076787e"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composestyledcomponents",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyledcomponents",
+          "module": "foundation",
+          "version": {
+            "requires": "0.0.1-alpha02"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fluent2-iosarm64-metadata.jar",
+          "url": "fluent2-iosarm64-0.0.1-alpha02-metadata.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    }
+  ]
+}
