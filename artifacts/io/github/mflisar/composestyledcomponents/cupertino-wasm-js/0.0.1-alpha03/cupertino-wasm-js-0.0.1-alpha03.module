@@ -1,0 +1,169 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../cupertino/0.0.1-alpha03/cupertino-0.0.1-alpha03.module",
+    "group": "io.github.mflisar.composestyledcomponents",
+    "module": "cupertino",
+    "version": "0.0.1-alpha03",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composestyledcomponents",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha03"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cupertino-wasm-js.klib",
+          "url": "cupertino-wasm-js-0.0.1-alpha03.klib",
+          "size": 155045,
+          "sha512": "ac05d782d62dca381b3542b0598784da2ed14a2e40910b0b76fc5fc7341b521de8a4e3c4f1ed08852e37a00771afa002f790586b6f3f5ef7acf410c95b08d366",
+          "sha256": "dc6541aac14e558608b152afa26da237ac3d1f0de51c72492eb4123d0a89021e",
+          "sha1": "67985ccaa87d51fce4f135b6d72ca4a171d66d7a",
+          "md5": "e48b8cbf9da9aa1da4cbaf468f0c4b2b"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composestyledcomponents",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha03"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyledcomponents",
+          "module": "foundation",
+          "version": {
+            "requires": "0.0.1-alpha03"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cupertino-wasm-js.klib",
+          "url": "cupertino-wasm-js-0.0.1-alpha03.klib",
+          "size": 155045,
+          "sha512": "ac05d782d62dca381b3542b0598784da2ed14a2e40910b0b76fc5fc7341b521de8a4e3c4f1ed08852e37a00771afa002f790586b6f3f5ef7acf410c95b08d366",
+          "sha256": "dc6541aac14e558608b152afa26da237ac3d1f0de51c72492eb4123d0a89021e",
+          "sha1": "67985ccaa87d51fce4f135b6d72ca4a171d66d7a",
+          "md5": "e48b8cbf9da9aa1da4cbaf468f0c4b2b"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "files": [
+        {
+          "name": "cupertino-wasm-js-sources.jar",
+          "url": "cupertino-wasm-js-0.0.1-alpha03-sources.jar",
+          "size": 22021,
+          "sha512": "94b9abc1fdc5f4135d4cd05511df1a0ae925333269c47f86067e5c377010f31498afc1b234474f783f2c6d12d2d1fd26b65463845eec773bead1d05cb5377f2e",
+          "sha256": "a8e68de20aea8806c4be09cd3bb523774d177a448659e34262c556b0943301d8",
+          "sha1": "afe7c7f35cdb98703446789bcd6c250e98c56de7",
+          "md5": "4bec1d3984d9307ea63a8cde3d458655"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composestyledcomponents",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha03"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyledcomponents",
+          "module": "foundation",
+          "version": {
+            "requires": "0.0.1-alpha03"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cupertino.kotlin_resources.zip",
+          "url": "cupertino-wasm-js-0.0.1-alpha03-kotlin_resources.kotlin_resources.zip",
+          "size": 434,
+          "sha512": "051e262ef7e2b6c6092b76c316d11e478ca070c939a8ec0e0555926b1e4095c8ac91d3da2f1cb6e8980f90b3dc33b651e29ea55160788005255da7461ea79c60",
+          "sha256": "73f243ff5d9b838c24e200d87963bfccc69a6eef5ff3499c0e72c9a24d0195b6",
+          "sha1": "4cb6b2955eff0dc61134ac8f846c44749696f98d",
+          "md5": "55bd3d7277417f4cbcbeb0bac58b1382"
+        }
+      ]
+    }
+  ]
+}
