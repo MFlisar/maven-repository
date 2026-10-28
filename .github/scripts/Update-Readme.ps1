@@ -41,6 +41,7 @@ $entries = @(
                 $link = ($relativePath -split '[/\\]' | ForEach-Object {
                     [uri]::EscapeDataString($_)
                 }) -join '/'
+                $link = "https://github.com/MFlisar/maven-repository/tree/main/$link"
                 [pscustomobject] @{
                     Group = $group
                     Latest = $latest
