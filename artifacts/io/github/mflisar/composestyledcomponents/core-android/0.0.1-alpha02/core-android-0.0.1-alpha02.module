@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core/0.0.1-alpha02/core-0.0.1-alpha02.module",
+    "group": "io.github.mflisar.composestyledcomponents",
+    "module": "core",
+    "version": "0.0.1-alpha02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.components",
+          "module": "components-resources",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core.aar",
+          "url": "core-android-0.0.1-alpha02.aar",
+          "size": 848257,
+          "sha512": "97bec734301545df08a8b34b037ca4da3dfb07ea3d1833d3d5e1a25d9f0b78abe7c88be14e405da9f3e8e8c8ef2717929e3ff16067107695584168443ca739e5",
+          "sha256": "2dd8bdaf992c95215edff46c0d7f44b64e22371205f6cf9020137d54cf62d244",
+          "sha1": "d1c70eba22e4520220188a076aedd0e425d43406",
+          "md5": "0506da0143774c92e8630a3c52f601ab"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.components",
+          "module": "components-resources",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core.aar",
+          "url": "core-android-0.0.1-alpha02.aar",
+          "size": 848257,
+          "sha512": "97bec734301545df08a8b34b037ca4da3dfb07ea3d1833d3d5e1a25d9f0b78abe7c88be14e405da9f3e8e8c8ef2717929e3ff16067107695584168443ca739e5",
+          "sha256": "2dd8bdaf992c95215edff46c0d7f44b64e22371205f6cf9020137d54cf62d244",
+          "sha1": "d1c70eba22e4520220188a076aedd0e425d43406",
+          "md5": "0506da0143774c92e8630a3c52f601ab"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "core-android-sources.jar",
+          "url": "core-android-0.0.1-alpha02-sources.jar",
+          "size": 113406,
+          "sha512": "0a18a1278789e35081bd9560b3b50abaa68007763694871cc0f377d4455cb371ab4694fe45a37b8acb621d09fb24fee46c4495db341519bf9ca42536b7c19656",
+          "sha256": "2942bd2ec449e320775a76e3452f8f34cdc1e140c94099e34f7be723c399ec40",
+          "sha1": "194fae557430d9454f2dd96e2aa980b3a821b653",
+          "md5": "447b60a48b69f215d4c81ad14b703a33"
+        }
+      ]
+    }
+  ]
+}
