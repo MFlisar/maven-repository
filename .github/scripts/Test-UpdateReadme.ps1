@@ -30,7 +30,7 @@ try {
     Add-Metadata 'io.github.mflisar.composetable' 'material3' '0.0.1-alpha01' '20261028095223'
     & $generator -RepositoryRoot $root
     Assert-True ([System.IO.File]::ReadAllText($readmePath).Contains(
-        '| [io.github.mflisar.composetable](artifacts/io/github/mflisar/composetable) | <code>0.0.1-alpha01</code> |'
+        '| [io.github.mflisar.composetable](https://github.com/MFlisar/maven-repository/tree/main/artifacts/io/github/mflisar/composetable) | <code>0.0.1-alpha01</code> |'
     )) 'The published composetable example must be extracted correctly.'
     Add-Metadata 'io.github.mflisar.composetable' 'styled' '0.0.2-alpha01' '20261029095223'
     Add-Metadata 'io.github.mflisar.composetable' 'styled-jvm' '0.0.2-alpha01' '20261029095223'
@@ -42,7 +42,7 @@ try {
         '<metadata><groupId>a.example</groupId><version>10.1-SNAPSHOT</version><versioning /></metadata>')
     & $generator -RepositoryRoot $root
     $result = [System.IO.File]::ReadAllText($readmePath)
-    Assert-True ($result.Contains('| [io.github.mflisar.composetable](artifacts/io/github/mflisar/composetable) | <code>0.0.2-alpha01</code> |')) 'Incorrect group, link or latest version.'
+    Assert-True ($result.Contains('| [io.github.mflisar.composetable](https://github.com/MFlisar/maven-repository/tree/main/artifacts/io/github/mflisar/composetable) | <code>0.0.2-alpha01</code> |')) 'Incorrect group, link or latest version.'
     Assert-True ([regex]::Matches($result, '\| \[io.github.mflisar.composetable\]').Count -eq 1) 'Platform variants must share a group row.'
     Assert-True ($result.IndexOf('[a.example]') -lt $result.IndexOf('[io.github')) 'Groups must be sorted.'
     Assert-True ($result.StartsWith("# Repository`nBefore`n") -and $result.EndsWith("`nAfter`n")) 'Content outside markers changed.'

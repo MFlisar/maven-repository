@@ -10,7 +10,7 @@ Latest version per artifact group, including prereleases, taken from the most re
 
 | Artifact group | Latest version |
 | --- | --- |
-| [io.github.mflisar.composetable](artifacts/io/github/mflisar/composetable) | <code>0.0.1-alpha01</code> |
+| [io.github.mflisar.composetable](https://github.com/MFlisar/maven-repository/tree/main/artifacts/io/github/mflisar/composetable) | <code>0.0.1-alpha01</code> |
 
 <!-- artifacts:end -->
 
