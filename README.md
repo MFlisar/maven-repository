@@ -9,7 +9,6 @@ Latest version per artifact group, including prereleases, taken from the most re
 <!-- artifacts:start -->
 | Artifact group | Latest version |
 | --- | --- |
-| [io.github.mflisar.composestyledcomponents](artifacts/io/github/mflisar/composestyledcomponents) | <code>0.0.1-alpha02</code> |
 | [io.github.mflisar.composetable](artifacts/io/github/mflisar/composetable) | <code>0.0.1-alpha01</code> |
 <!-- artifacts:end -->
 
