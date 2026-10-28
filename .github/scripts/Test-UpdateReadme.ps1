@@ -24,6 +24,8 @@ try {
     & $generator -RepositoryRoot $root
     $empty = [System.IO.File]::ReadAllText($readmePath)
     Assert-True ($empty.Contains('| Artifact group | Latest version |')) 'Missing empty table.'
+    Assert-True ($empty.Contains("<!-- artifacts:start -->`n`n| Artifact group")) 'Table must be separated from the HTML comment for GitHub Pages.'
+    Assert-True ($empty.Contains("| --- | --- |`n`n<!-- artifacts:end -->")) 'Closing marker must be separated from the table.'
 
     Add-Metadata 'io.github.mflisar.composetable' 'material3' '0.0.1-alpha01' '20261028095223'
     & $generator -RepositoryRoot $root

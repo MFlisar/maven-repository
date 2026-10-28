@@ -53,6 +53,7 @@ $entries = @(
 
 $lines = @(
     '<!-- artifacts:start -->'
+    ''
     '| Artifact group | Latest version |'
     '| --- | --- |'
     $entries | Group-Object Group -CaseSensitive | Sort-Object Name | ForEach-Object {
@@ -61,6 +62,7 @@ $lines = @(
         $versionText = $latest.Latest.Replace('&', '&amp;').Replace('<', '&lt;').Replace('|', '&#124;').Replace('`', '&#96;')
         '| [{0}]({1}) | <code>{2}</code> |' -f $groupText, $latest.Link, $versionText
     }
+    ''
     '<!-- artifacts:end -->'
 )
 $newline = if ($readme.Contains("`r`n")) { "`r`n" } else { "`n" }
