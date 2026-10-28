@@ -54,9 +54,10 @@ jobs:
         shell: pwsh
         run: |
           $jar = & .\.github\scripts\Get-MavenArtifactJar.ps1
-          java --class-path "$jar" .\.github\scripts\RebuildMetadata.java --test
+          $source = (Resolve-Path .\.github\scripts\RebuildMetadata.java).Path
+          java --class-path "$jar" "$source" --test
           if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
-          java --class-path "$jar" .\.github\scripts\RebuildMetadata.java
+          java --class-path "$jar" "$source"
           if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
 
       - name: Test README generator
