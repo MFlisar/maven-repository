@@ -53,11 +53,10 @@ jobs:
         if: steps.deletions.outputs.rebuild == 'true'
         shell: pwsh
         run: |
-          $jar = Get-ChildItem /usr/share/maven/lib/maven-artifact-*.jar
-          if (@($jar).Count -ne 1) { throw 'Expected one Maven artifact library on the runner.' }
-          java --class-path "$($jar.FullName)" .\.github\scripts\RebuildMetadata.java --test
+          $jar = & .\.github\scripts\Get-MavenArtifactJar.ps1
+          java --class-path "$jar" .\.github\scripts\RebuildMetadata.java --test
           if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
-          java --class-path "$($jar.FullName)" .\.github\scripts\RebuildMetadata.java
+          java --class-path "$jar" .\.github\scripts\RebuildMetadata.java
           if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
 
       - name: Test README generator

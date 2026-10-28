@@ -27,9 +27,8 @@ jobs:
       - name: Locate Maven version comparator
         shell: pwsh
         run: |
-          $jar = Get-ChildItem /usr/share/maven/lib/maven-artifact-*.jar
-          if (@($jar).Count -ne 1) { throw 'Expected one Maven artifact library on the runner.' }
-          "MAVEN_ARTIFACT_JAR=$($jar.FullName)" >> $env:GITHUB_ENV
+          $jar = & .\.github\scripts\Get-MavenArtifactJar.ps1
+          "MAVEN_ARTIFACT_JAR=$jar" >> $env:GITHUB_ENV
 
       - name: Test generators
         shell: pwsh
