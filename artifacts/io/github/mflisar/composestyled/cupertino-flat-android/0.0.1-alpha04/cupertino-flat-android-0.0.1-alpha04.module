@@ -1,0 +1,151 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../cupertino-flat/0.0.1-alpha04/cupertino-flat-0.0.1-alpha04.module",
+    "group": "io.github.mflisar.composestyled",
+    "module": "cupertino-flat",
+    "version": "0.0.1-alpha04",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha04"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "theme-cupertino",
+          "version": {
+            "requires": "0.0.1-alpha04"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "iconset-sfsymbols",
+          "version": {
+            "requires": "0.0.1-alpha04"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cupertino-flat.aar",
+          "url": "cupertino-flat-android-0.0.1-alpha04.aar",
+          "size": 196823,
+          "sha512": "6a4622812b6e832ddf9294b26ce3f635e24db1ec83619df8c8a2ab9b89956e04b6c4161ee98b56a863ecdaee45f3764ecdf2a09db115dc738d2af1ba5d9a34fc",
+          "sha256": "feca7e6963916abe68a2698993f944efed05a9aa03375422f361ad8624c3c9bd",
+          "sha1": "a017c76571db5b0c1fada6bc3bbbb317f08b9ab3",
+          "md5": "9ba129c2274575cf4d038536e9f6d206"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha04"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "theme-cupertino",
+          "version": {
+            "requires": "0.0.1-alpha04"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "iconset-sfsymbols",
+          "version": {
+            "requires": "0.0.1-alpha04"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "foundation",
+          "version": {
+            "requires": "0.0.1-alpha04"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cupertino-flat.aar",
+          "url": "cupertino-flat-android-0.0.1-alpha04.aar",
+          "size": 196823,
+          "sha512": "6a4622812b6e832ddf9294b26ce3f635e24db1ec83619df8c8a2ab9b89956e04b6c4161ee98b56a863ecdaee45f3764ecdf2a09db115dc738d2af1ba5d9a34fc",
+          "sha256": "feca7e6963916abe68a2698993f944efed05a9aa03375422f361ad8624c3c9bd",
+          "sha1": "a017c76571db5b0c1fada6bc3bbbb317f08b9ab3",
+          "md5": "9ba129c2274575cf4d038536e9f6d206"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "cupertino-flat-android-sources.jar",
+          "url": "cupertino-flat-android-0.0.1-alpha04-sources.jar",
+          "size": 27174,
+          "sha512": "8b198891fac30865f82c485e9f5b8c0d4b20860318e25286d16ffc608b21b5b79d5be0a5706f8d9275279b7c81e09c722c47ae6432f0113587b7df3e78b842d7",
+          "sha256": "c53b177f7a5784343338740479429a542cfceab84d1c83fe5867541bfe76141f",
+          "sha1": "cd46633cc6c898f973e6d30d87c4469fdad3b82d",
+          "md5": "c9a07c16e506be75bd1e04941054b20f"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,448 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mflisar.composestyled",
+    "module": "theme-cupertino",
+    "version": "0.0.1-alpha04",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha04"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cupertino-metadata.jar",
+          "url": "theme-cupertino-0.0.1-alpha04.jar",
+          "size": 2456,
+          "sha512": "e51c1e830e43ae523d4821bc70dead3704f54fddfd97216ffa093a6e50cad45ad8f01a5b50261f90c3b368ba6feab13fabec0452bfc2d1a9f22fb0556545a0a6",
+          "sha256": "aa86748aa3833973bfa8dd8e3e9bbdeb4848ad5006f23b2d73dcb58322b82f03",
+          "sha1": "55a34d2b2eb2b83105de6fa236db377a3e7403ee",
+          "md5": "0e6bae5d0882112d51c547fd507849c3"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "cupertino-kotlin-sources.jar",
+          "url": "theme-cupertino-0.0.1-alpha04-sources.jar",
+          "size": 1859,
+          "sha512": "fc335624f59732b691289c425cabc328a067fd6b489a7ddd79062916b816f2278c85bfc05a12ded750b3bea22d4dfc35f74d7c83f4b9b3a9f5a82280b15ce19d",
+          "sha256": "90b621952c6176958bf47547aa88458dd56559419c7421af355df2e640142fe8",
+          "sha1": "b17b0be583c2a6e86e783bec179c0cf9a56bc8fd",
+          "md5": "f9a4b2a611554d59ed26c98d1a5fa833"
+        }
+      ]
+    },
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../theme-cupertino-android/0.0.1-alpha04/theme-cupertino-android-0.0.1-alpha04.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "theme-cupertino-android",
+        "version": "0.0.1-alpha04"
+      }
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../theme-cupertino-android/0.0.1-alpha04/theme-cupertino-android-0.0.1-alpha04.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "theme-cupertino-android",
+        "version": "0.0.1-alpha04"
+      }
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../theme-cupertino-android/0.0.1-alpha04/theme-cupertino-android-0.0.1-alpha04.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "theme-cupertino-android",
+        "version": "0.0.1-alpha04"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../theme-cupertino-iosarm64/0.0.1-alpha04/theme-cupertino-iosarm64-0.0.1-alpha04.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "theme-cupertino-iosarm64",
+        "version": "0.0.1-alpha04"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../theme-cupertino-iosarm64/0.0.1-alpha04/theme-cupertino-iosarm64-0.0.1-alpha04.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "theme-cupertino-iosarm64",
+        "version": "0.0.1-alpha04"
+      }
+    },
+    {
+      "name": "iosArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../theme-cupertino-iosarm64/0.0.1-alpha04/theme-cupertino-iosarm64-0.0.1-alpha04.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "theme-cupertino-iosarm64",
+        "version": "0.0.1-alpha04"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../theme-cupertino-iosarm64/0.0.1-alpha04/theme-cupertino-iosarm64-0.0.1-alpha04.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "theme-cupertino-iosarm64",
+        "version": "0.0.1-alpha04"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../theme-cupertino-iossimulatorarm64/0.0.1-alpha04/theme-cupertino-iossimulatorarm64-0.0.1-alpha04.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "theme-cupertino-iossimulatorarm64",
+        "version": "0.0.1-alpha04"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../theme-cupertino-iossimulatorarm64/0.0.1-alpha04/theme-cupertino-iossimulatorarm64-0.0.1-alpha04.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "theme-cupertino-iossimulatorarm64",
+        "version": "0.0.1-alpha04"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../theme-cupertino-iossimulatorarm64/0.0.1-alpha04/theme-cupertino-iossimulatorarm64-0.0.1-alpha04.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "theme-cupertino-iossimulatorarm64",
+        "version": "0.0.1-alpha04"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../theme-cupertino-iossimulatorarm64/0.0.1-alpha04/theme-cupertino-iossimulatorarm64-0.0.1-alpha04.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "theme-cupertino-iossimulatorarm64",
+        "version": "0.0.1-alpha04"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../theme-cupertino-jvm/0.0.1-alpha04/theme-cupertino-jvm-0.0.1-alpha04.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "theme-cupertino-jvm",
+        "version": "0.0.1-alpha04"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../theme-cupertino-jvm/0.0.1-alpha04/theme-cupertino-jvm-0.0.1-alpha04.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "theme-cupertino-jvm",
+        "version": "0.0.1-alpha04"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../theme-cupertino-jvm/0.0.1-alpha04/theme-cupertino-jvm-0.0.1-alpha04.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "theme-cupertino-jvm",
+        "version": "0.0.1-alpha04"
+      }
+    },
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../theme-cupertino-macosarm64/0.0.1-alpha04/theme-cupertino-macosarm64-0.0.1-alpha04.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "theme-cupertino-macosarm64",
+        "version": "0.0.1-alpha04"
+      }
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../theme-cupertino-macosarm64/0.0.1-alpha04/theme-cupertino-macosarm64-0.0.1-alpha04.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "theme-cupertino-macosarm64",
+        "version": "0.0.1-alpha04"
+      }
+    },
+    {
+      "name": "macosArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../theme-cupertino-macosarm64/0.0.1-alpha04/theme-cupertino-macosarm64-0.0.1-alpha04.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "theme-cupertino-macosarm64",
+        "version": "0.0.1-alpha04"
+      }
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../theme-cupertino-macosarm64/0.0.1-alpha04/theme-cupertino-macosarm64-0.0.1-alpha04.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "theme-cupertino-macosarm64",
+        "version": "0.0.1-alpha04"
+      }
+    },
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../theme-cupertino-wasm-js/0.0.1-alpha04/theme-cupertino-wasm-js-0.0.1-alpha04.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "theme-cupertino-wasm-js",
+        "version": "0.0.1-alpha04"
+      }
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../theme-cupertino-wasm-js/0.0.1-alpha04/theme-cupertino-wasm-js-0.0.1-alpha04.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "theme-cupertino-wasm-js",
+        "version": "0.0.1-alpha04"
+      }
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../theme-cupertino-wasm-js/0.0.1-alpha04/theme-cupertino-wasm-js-0.0.1-alpha04.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "theme-cupertino-wasm-js",
+        "version": "0.0.1-alpha04"
+      }
+    },
+    {
+      "name": "wasmJsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../theme-cupertino-wasm-js/0.0.1-alpha04/theme-cupertino-wasm-js-0.0.1-alpha04.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "theme-cupertino-wasm-js",
+        "version": "0.0.1-alpha04"
+      }
+    }
+  ]
+}
