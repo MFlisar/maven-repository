@@ -1,0 +1,211 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../fluent2/0.0.1-alpha09/fluent2-0.0.1-alpha09.module",
+    "group": "io.github.mflisar.composestyled",
+    "module": "fluent2",
+    "version": "0.0.1-alpha09",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha09"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "theme-fluent2",
+          "version": {
+            "requires": "0.0.1-alpha09"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "iconset-fluent2",
+          "version": {
+            "requires": "0.0.1-alpha09"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fluent2-wasm-js.klib",
+          "url": "fluent2-wasm-js-0.0.1-alpha09.klib",
+          "size": 160036,
+          "sha512": "f6faec6c89798e8bf93f9594f70e3e7a32074846bc8e54f6883852dac6580415b315324d54dbc69c9880ad546809d714b67e3c2a3f19d66dacd8c68c2b5ea5b3",
+          "sha256": "53016311a17596c86dbd99b11d50a71557ba70e982c814d749ca269b887fabf4",
+          "sha1": "cc0bbe6b11c8819ee424444a78bb6aaaf81eca8f",
+          "md5": "838eb041357fc3102609ac5a54791a86"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha09"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "theme-fluent2",
+          "version": {
+            "requires": "0.0.1-alpha09"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "iconset-fluent2",
+          "version": {
+            "requires": "0.0.1-alpha09"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "foundation",
+          "version": {
+            "requires": "0.0.1-alpha09"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fluent2-wasm-js.klib",
+          "url": "fluent2-wasm-js-0.0.1-alpha09.klib",
+          "size": 160036,
+          "sha512": "f6faec6c89798e8bf93f9594f70e3e7a32074846bc8e54f6883852dac6580415b315324d54dbc69c9880ad546809d714b67e3c2a3f19d66dacd8c68c2b5ea5b3",
+          "sha256": "53016311a17596c86dbd99b11d50a71557ba70e982c814d749ca269b887fabf4",
+          "sha1": "cc0bbe6b11c8819ee424444a78bb6aaaf81eca8f",
+          "md5": "838eb041357fc3102609ac5a54791a86"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "files": [
+        {
+          "name": "fluent2-wasm-js-sources.jar",
+          "url": "fluent2-wasm-js-0.0.1-alpha09-sources.jar",
+          "size": 27620,
+          "sha512": "45af5af9059d462f531f762117823c422ecef5ffb0e6ef316db45f6870b6d53444c161240bdaab5a92b896317209305285fbdbddc9629dfdd31831a40730914f",
+          "sha256": "91cd32584cfa249e3050a8fa6f2ad1319abf6be45ee7db51a9268107c9c2ee8f",
+          "sha1": "75ae89380b267adc4b1c4fc94adb5cdc7f3dfc7e",
+          "md5": "b70a42ed4c06557bafa7f918629f9ec3"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha09"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "theme-fluent2",
+          "version": {
+            "requires": "0.0.1-alpha09"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "iconset-fluent2",
+          "version": {
+            "requires": "0.0.1-alpha09"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "foundation",
+          "version": {
+            "requires": "0.0.1-alpha09"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fluent2.kotlin_resources.zip",
+          "url": "fluent2-wasm-js-0.0.1-alpha09-kotlin_resources.kotlin_resources.zip",
+          "size": 390,
+          "sha512": "a80f8a07241a496b399ee9927f8fe1aa94b1ff83859c6c251d28413b79b42c056a738fa4f95b9f41036b1cea57a673676c872719dac7c8753660a4ed28d1c284",
+          "sha256": "747e63ee9f027674ac236451628aceca926de59026db8c7d81808fa2bd2b3448",
+          "sha1": "19cd3ba7d1ae8f54a5fb091784986903011dc134",
+          "md5": "c6ef437a170274ce0a9d2799f026347c"
+        }
+      ]
+    }
+  ]
+}
