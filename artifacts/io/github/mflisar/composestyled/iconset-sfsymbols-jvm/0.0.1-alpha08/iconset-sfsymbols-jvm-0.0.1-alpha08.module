@@ -1,0 +1,123 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../iconset-sfsymbols/0.0.1-alpha08/iconset-sfsymbols-0.0.1-alpha08.module",
+    "group": "io.github.mflisar.composestyled",
+    "module": "iconset-sfsymbols",
+    "version": "0.0.1-alpha08",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha08"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sfsymbols-jvm.jar",
+          "url": "iconset-sfsymbols-jvm-0.0.1-alpha08.jar",
+          "size": 5650,
+          "sha512": "b24da0b5f6a4519f3a354b9f474051e334386ba3fbe6da28a7d8f9679f1a2b340c9051a34b00204114c84db4eba78c7e0f65c05edede9f27ac5a2c631a57e56d",
+          "sha256": "6bf2c03446ef3c1e92fcdd8eb61a2bf1403d3e9f58685d688ccebb97149ce92d",
+          "sha1": "53f916aeff6ce9b88941fee0f1ad62cff559eea9",
+          "md5": "44f59cfe2633b213596380de5fc431fa"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha08"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "iconset-material3",
+          "version": {
+            "requires": "0.0.1-alpha08"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sfsymbols-jvm.jar",
+          "url": "iconset-sfsymbols-jvm-0.0.1-alpha08.jar",
+          "size": 5650,
+          "sha512": "b24da0b5f6a4519f3a354b9f474051e334386ba3fbe6da28a7d8f9679f1a2b340c9051a34b00204114c84db4eba78c7e0f65c05edede9f27ac5a2c631a57e56d",
+          "sha256": "6bf2c03446ef3c1e92fcdd8eb61a2bf1403d3e9f58685d688ccebb97149ce92d",
+          "sha1": "53f916aeff6ce9b88941fee0f1ad62cff559eea9",
+          "md5": "44f59cfe2633b213596380de5fc431fa"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "sfsymbols-jvm-sources.jar",
+          "url": "iconset-sfsymbols-jvm-0.0.1-alpha08-sources.jar",
+          "size": 3738,
+          "sha512": "e9abdd80b50974192b23e516ae7c79bbb923ca666e26c11505774199212083bad94d9d965d35604c1ce556ef4ede72f00b2d1289d72cc5b1eebf16528dacc348",
+          "sha256": "58ea8e24bf288482f5339d3c4c2fdd43dcca32745048e34f4284e736d51b04da",
+          "sha1": "c321024ba9bec39e1499846d86ac0dda59b0eade",
+          "md5": "7401d353938c8a15deff29ba509725c4"
+        }
+      ]
+    }
+  ]
+}
