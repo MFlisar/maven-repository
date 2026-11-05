@@ -1,0 +1,128 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../material3/0.0.1-alpha02/material3-0.0.1-alpha02.module",
+    "group": "io.github.mflisar.composetable",
+    "module": "material3",
+    "version": "0.0.1-alpha02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composetable",
+          "module": "material3-ui-provider",
+          "version": {
+            "requires": "0.0.1-alpha02"
+          },
+          "excludes": [
+            {
+              "group": "io.github.mflisar.composetable",
+              "module": "core"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "material3-jvm.jar",
+          "url": "material3-jvm-0.0.1-alpha02.jar",
+          "size": 325320,
+          "sha512": "e89aeed5e60f685334253e303c8f876aa9c2e4dd1b6b1bd335caf1753dc0fa500e068a0ba5fdeab843ab38bc86cfd7f966fe64be24247c5275503f009c239ae3",
+          "sha256": "0076f5c25100be146f2f37e84134c73164e6fc8ef1bf0af5250b44e4a40a1a9d",
+          "sha1": "410b9d74f4a522f7d1a41da0b2a3ef189f3be80d",
+          "md5": "2665aa1d57490d7cecac8861dfc0bf46"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composetable",
+          "module": "material3-ui-provider",
+          "version": {
+            "requires": "0.0.1-alpha02"
+          },
+          "excludes": [
+            {
+              "group": "io.github.mflisar.composetable",
+              "module": "core"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "material3-jvm.jar",
+          "url": "material3-jvm-0.0.1-alpha02.jar",
+          "size": 325320,
+          "sha512": "e89aeed5e60f685334253e303c8f876aa9c2e4dd1b6b1bd335caf1753dc0fa500e068a0ba5fdeab843ab38bc86cfd7f966fe64be24247c5275503f009c239ae3",
+          "sha256": "0076f5c25100be146f2f37e84134c73164e6fc8ef1bf0af5250b44e4a40a1a9d",
+          "sha1": "410b9d74f4a522f7d1a41da0b2a3ef189f3be80d",
+          "md5": "2665aa1d57490d7cecac8861dfc0bf46"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "material3-jvm-sources.jar",
+          "url": "material3-jvm-0.0.1-alpha02-sources.jar",
+          "size": 29319,
+          "sha512": "53b2ca109daef82dd17181a5ffe18ed776150a09558de50819286d90ec19390b2f1b3713c04e8e7365a372c3b952e0f04ee69f307b1ae4b4cc98de4c99ae3052",
+          "sha256": "ddd778b2fa889274b624345cfec4de3c3c8d64df4a489356e8b678a481d40715",
+          "sha1": "5e32b3350f5afb19651eb6773de62acd96ad09d6",
+          "md5": "897eb59476061e8e24be7a3ef1702b27"
+        }
+      ]
+    }
+  ]
+}

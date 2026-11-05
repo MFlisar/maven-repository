@@ -1,0 +1,173 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../material3/0.0.1-alpha02/material3-0.0.1-alpha02.module",
+    "group": "io.github.mflisar.composetable",
+    "module": "material3",
+    "version": "0.0.1-alpha02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composetable",
+          "module": "material3-ui-provider",
+          "version": {
+            "requires": "0.0.1-alpha02"
+          },
+          "excludes": [
+            {
+              "group": "io.github.mflisar.composetable",
+              "module": "core"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "material3-wasm-js.klib",
+          "url": "material3-wasm-js-0.0.1-alpha02.klib",
+          "size": 289113,
+          "sha512": "ae1d44d7fb14762fb370d1c5de1098bea351f8daef6b8bf923cb9b65b8436bc98e9e1be8d6524a50b4c1627b08d5c26c55e2149f600ecfb79f5e5e8f9d2301a0",
+          "sha256": "4af4f087c2baedf2c14a0aeb4761f2fbffbe4364ed42746a648936000d47ef24",
+          "sha1": "b9a288d562e311337caa3f9bfaf788d2f941135e",
+          "md5": "1a6584378e4cd06554e0309f02dab484"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composetable",
+          "module": "material3-ui-provider",
+          "version": {
+            "requires": "0.0.1-alpha02"
+          },
+          "excludes": [
+            {
+              "group": "io.github.mflisar.composetable",
+              "module": "core"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "material3-wasm-js.klib",
+          "url": "material3-wasm-js-0.0.1-alpha02.klib",
+          "size": 289113,
+          "sha512": "ae1d44d7fb14762fb370d1c5de1098bea351f8daef6b8bf923cb9b65b8436bc98e9e1be8d6524a50b4c1627b08d5c26c55e2149f600ecfb79f5e5e8f9d2301a0",
+          "sha256": "4af4f087c2baedf2c14a0aeb4761f2fbffbe4364ed42746a648936000d47ef24",
+          "sha1": "b9a288d562e311337caa3f9bfaf788d2f941135e",
+          "md5": "1a6584378e4cd06554e0309f02dab484"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "files": [
+        {
+          "name": "material3-wasm-js-sources.jar",
+          "url": "material3-wasm-js-0.0.1-alpha02-sources.jar",
+          "size": 29319,
+          "sha512": "53b2ca109daef82dd17181a5ffe18ed776150a09558de50819286d90ec19390b2f1b3713c04e8e7365a372c3b952e0f04ee69f307b1ae4b4cc98de4c99ae3052",
+          "sha256": "ddd778b2fa889274b624345cfec4de3c3c8d64df4a489356e8b678a481d40715",
+          "sha1": "5e32b3350f5afb19651eb6773de62acd96ad09d6",
+          "md5": "897eb59476061e8e24be7a3ef1702b27"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composetable",
+          "module": "material3-ui-provider",
+          "version": {
+            "requires": "0.0.1-alpha02"
+          },
+          "excludes": [
+            {
+              "group": "io.github.mflisar.composetable",
+              "module": "core"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "material3.kotlin_resources.zip",
+          "url": "material3-wasm-js-0.0.1-alpha02-kotlin_resources.kotlin_resources.zip",
+          "size": 388,
+          "sha512": "f81f2e341db8ab24f79ba72bd1b0b32916a11be2803ab751f5a6e0d3101ebec0122069f6e9df135365efa7ed20f5ad884668da21de340e16103b9abf1eebf088",
+          "sha256": "04ffc4884ca9d76590b550cd7c90cca2e10ecf419ca4d265a7b8d9d0c88fd6b7",
+          "sha1": "896e53ec14f26cc6b986c8af3fb1d01b4dd677b8",
+          "md5": "b664d90945460e88751d5746239ad685"
+        }
+      ]
+    }
+  ]
+}
