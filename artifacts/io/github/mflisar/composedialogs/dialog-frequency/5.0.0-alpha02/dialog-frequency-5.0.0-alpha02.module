@@ -1,0 +1,387 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mflisar.composedialogs",
+    "module": "dialog-frequency",
+    "version": "5.0.0-alpha02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "ui-frequency",
+          "version": {
+            "requires": "5.0.0-alpha02"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "material3",
+          "version": {
+            "requires": "5.0.0-alpha02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "frequency-metadata.jar",
+          "url": "dialog-frequency-5.0.0-alpha02.jar",
+          "size": 2771,
+          "sha512": "5a658dffe890f004885fd5ce684af6c33f329e5a2a0497fd4ba733403f1ddb01a3847aca56db0b30e3c2796caf9325f538b151ac99f9a6b7ddd8a08bafd226f0",
+          "sha256": "cb8acc323dfd91e3547336d5eeb5f077de676f9de3ab0d572c2a81a12d6ca974",
+          "sha1": "359c2dad622d40c6a111b8fafaba9be81aeb3dca",
+          "md5": "a2b83692faa858ae9e22102566e05fc2"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "frequency-kotlin-sources.jar",
+          "url": "dialog-frequency-5.0.0-alpha02-sources.jar",
+          "size": 2168,
+          "sha512": "0ce65dd69b4197c28be4c9f4110b815df1262d2626af78a9527e266ade8a59830c562968fafcaa930e33e3b250c3f9421d54c96db94561e9a99e61641eb4fa39",
+          "sha256": "aa396b8291af413efa9e45f69f1d54d2bcc6e415dd19a524d9ffcaf0c86ddfe7",
+          "sha1": "5b2c9960eea0f6ba83eaa4d98ed0bd5e7945ce42",
+          "md5": "73a244b00264f8298fc8e41c308370a1"
+        }
+      ]
+    },
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../dialog-frequency-android/5.0.0-alpha02/dialog-frequency-android-5.0.0-alpha02.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "dialog-frequency-android",
+        "version": "5.0.0-alpha02"
+      }
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../dialog-frequency-android/5.0.0-alpha02/dialog-frequency-android-5.0.0-alpha02.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "dialog-frequency-android",
+        "version": "5.0.0-alpha02"
+      }
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../dialog-frequency-android/5.0.0-alpha02/dialog-frequency-android-5.0.0-alpha02.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "dialog-frequency-android",
+        "version": "5.0.0-alpha02"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../dialog-frequency-iosarm64/5.0.0-alpha02/dialog-frequency-iosarm64-5.0.0-alpha02.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "dialog-frequency-iosarm64",
+        "version": "5.0.0-alpha02"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../dialog-frequency-iosarm64/5.0.0-alpha02/dialog-frequency-iosarm64-5.0.0-alpha02.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "dialog-frequency-iosarm64",
+        "version": "5.0.0-alpha02"
+      }
+    },
+    {
+      "name": "iosArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../dialog-frequency-iosarm64/5.0.0-alpha02/dialog-frequency-iosarm64-5.0.0-alpha02.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "dialog-frequency-iosarm64",
+        "version": "5.0.0-alpha02"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../dialog-frequency-iosarm64/5.0.0-alpha02/dialog-frequency-iosarm64-5.0.0-alpha02.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "dialog-frequency-iosarm64",
+        "version": "5.0.0-alpha02"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../dialog-frequency-iossimulatorarm64/5.0.0-alpha02/dialog-frequency-iossimulatorarm64-5.0.0-alpha02.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "dialog-frequency-iossimulatorarm64",
+        "version": "5.0.0-alpha02"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../dialog-frequency-iossimulatorarm64/5.0.0-alpha02/dialog-frequency-iossimulatorarm64-5.0.0-alpha02.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "dialog-frequency-iossimulatorarm64",
+        "version": "5.0.0-alpha02"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../dialog-frequency-iossimulatorarm64/5.0.0-alpha02/dialog-frequency-iossimulatorarm64-5.0.0-alpha02.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "dialog-frequency-iossimulatorarm64",
+        "version": "5.0.0-alpha02"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../dialog-frequency-iossimulatorarm64/5.0.0-alpha02/dialog-frequency-iossimulatorarm64-5.0.0-alpha02.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "dialog-frequency-iossimulatorarm64",
+        "version": "5.0.0-alpha02"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../dialog-frequency-jvm/5.0.0-alpha02/dialog-frequency-jvm-5.0.0-alpha02.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "dialog-frequency-jvm",
+        "version": "5.0.0-alpha02"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../dialog-frequency-jvm/5.0.0-alpha02/dialog-frequency-jvm-5.0.0-alpha02.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "dialog-frequency-jvm",
+        "version": "5.0.0-alpha02"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../dialog-frequency-jvm/5.0.0-alpha02/dialog-frequency-jvm-5.0.0-alpha02.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "dialog-frequency-jvm",
+        "version": "5.0.0-alpha02"
+      }
+    },
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../dialog-frequency-wasm-js/5.0.0-alpha02/dialog-frequency-wasm-js-5.0.0-alpha02.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "dialog-frequency-wasm-js",
+        "version": "5.0.0-alpha02"
+      }
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../dialog-frequency-wasm-js/5.0.0-alpha02/dialog-frequency-wasm-js-5.0.0-alpha02.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "dialog-frequency-wasm-js",
+        "version": "5.0.0-alpha02"
+      }
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../dialog-frequency-wasm-js/5.0.0-alpha02/dialog-frequency-wasm-js-5.0.0-alpha02.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "dialog-frequency-wasm-js",
+        "version": "5.0.0-alpha02"
+      }
+    },
+    {
+      "name": "wasmJsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../dialog-frequency-wasm-js/5.0.0-alpha02/dialog-frequency-wasm-js-5.0.0-alpha02.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "dialog-frequency-wasm-js",
+        "version": "5.0.0-alpha02"
+      }
+    }
+  ]
+}

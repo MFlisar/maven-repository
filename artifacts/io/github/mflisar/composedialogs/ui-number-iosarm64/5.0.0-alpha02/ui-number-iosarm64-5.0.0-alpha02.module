@@ -1,0 +1,197 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ui-number/5.0.0-alpha02/ui-number-5.0.0-alpha02.module",
+    "group": "io.github.mflisar.composedialogs",
+    "module": "ui-number",
+    "version": "5.0.0-alpha02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "core",
+          "version": {
+            "requires": "5.0.0-alpha02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "number-iosArm64Main.klib",
+          "url": "ui-number-iosarm64-5.0.0-alpha02.klib",
+          "size": 36678,
+          "sha512": "05ac56799e356e32be2810d7c73ad219ccb9d561d1e5651343addcbf49c6f4b92d416819aaf8ff24165693ef647e50eda79ba94f4ea8ca72b34e6d0bcba35642",
+          "sha256": "d42e0786f52d4ed961723cc0c7b855b15815d9f1eb21a721a3e2039406b5d44d",
+          "sha1": "bf768c1732605d5bec7a501d9be441e98f1ed78d",
+          "md5": "5865e751cd6ae4b1a6e4585c7c4b506a"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "number-iosarm64-sources.jar",
+          "url": "ui-number-iosarm64-5.0.0-alpha02-sources.jar",
+          "size": 5255,
+          "sha512": "8a36042bea6aca280d36b805277eb869cf1a94fbcd95dbe2091a533d4d6a4e37837287cf99287ab38f6928b970afb8b057610e3b9908fc876aa840d0e586ce47",
+          "sha256": "991b25b0fb46beaf2276bfe722f325d04945a363bb938fc09521633580e1d91d",
+          "sha1": "7c68950a28bd4ffaca95f387f91b67a4cc426761",
+          "md5": "954fb6f04a4efcfd85083d369717e6b2"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "core",
+          "version": {
+            "requires": "5.0.0-alpha02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "number.kotlin_resources.zip",
+          "url": "ui-number-iosarm64-5.0.0-alpha02-kotlin_resources.kotlin_resources.zip",
+          "size": 366,
+          "sha512": "c2d32e6f1b6c4f2a1879e5d7b8e900f1dfafcf05315fac7543c65794d490b89ad7d37fee84c0b12908d20cd812784319d04cc328b41a6decfd11fb7c1fd4f82a",
+          "sha256": "9cd7c22df88fdcbcbbfb4f908c557cc6c4d25d966d4960a917ece570d0e66c15",
+          "sha1": "bb583de6d0af099a676101a520d08029ac028b3b",
+          "md5": "4fe2fa43e4796933957ee3a68e12f19b"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "core",
+          "version": {
+            "requires": "5.0.0-alpha02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "number-iosarm64-metadata.jar",
+          "url": "ui-number-iosarm64-5.0.0-alpha02-metadata.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    }
+  ]
+}

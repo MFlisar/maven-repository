@@ -1,0 +1,448 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mflisar.composedialogs",
+    "module": "ui-menu",
+    "version": "5.0.0-alpha02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "core",
+          "version": {
+            "requires": "5.0.0-alpha02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "menu-metadata.jar",
+          "url": "ui-menu-5.0.0-alpha02.jar",
+          "size": 4448,
+          "sha512": "b2410721b6544801485bdbbe089aae804d8ed2939ded4e380915e21df3a79d6939a6e7c3ef38da3481cf0f7ec9e4dd7b620cccb8cc04e7fb8ba7a156ea7c7645",
+          "sha256": "29132e86896695a616989cd0017eeb3ebea3d87afb5844cc5f8fd0dcd12d2602",
+          "sha1": "578904065a2a76c9c609c24546095e7e32c353a6",
+          "md5": "cbaa88bc18c9162e46cb04ea9c6f630e"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "menu-kotlin-sources.jar",
+          "url": "ui-menu-5.0.0-alpha02-sources.jar",
+          "size": 4136,
+          "sha512": "d3be525acebbc5beaff5039e7d124aab886b976cabe85ee77dfeed89693cf48d0fdb1dcfce9caeea1313367ad830e05e1174ae1f706d3c1f8ad450aefadba5fd",
+          "sha256": "5dd94ba9679cb6d3c7759315ab5ae617638ef0e2b9c8246554ee465ce8e25ce4",
+          "sha1": "5dd269143e95ace13bd584a162cb399f440c416d",
+          "md5": "9a72a626fabd42422fe66e0e9e138b73"
+        }
+      ]
+    },
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../ui-menu-android/5.0.0-alpha02/ui-menu-android-5.0.0-alpha02.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-menu-android",
+        "version": "5.0.0-alpha02"
+      }
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../ui-menu-android/5.0.0-alpha02/ui-menu-android-5.0.0-alpha02.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-menu-android",
+        "version": "5.0.0-alpha02"
+      }
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../ui-menu-android/5.0.0-alpha02/ui-menu-android-5.0.0-alpha02.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-menu-android",
+        "version": "5.0.0-alpha02"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ui-menu-iosarm64/5.0.0-alpha02/ui-menu-iosarm64-5.0.0-alpha02.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-menu-iosarm64",
+        "version": "5.0.0-alpha02"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ui-menu-iosarm64/5.0.0-alpha02/ui-menu-iosarm64-5.0.0-alpha02.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-menu-iosarm64",
+        "version": "5.0.0-alpha02"
+      }
+    },
+    {
+      "name": "iosArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ui-menu-iosarm64/5.0.0-alpha02/ui-menu-iosarm64-5.0.0-alpha02.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-menu-iosarm64",
+        "version": "5.0.0-alpha02"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ui-menu-iosarm64/5.0.0-alpha02/ui-menu-iosarm64-5.0.0-alpha02.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-menu-iosarm64",
+        "version": "5.0.0-alpha02"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ui-menu-iossimulatorarm64/5.0.0-alpha02/ui-menu-iossimulatorarm64-5.0.0-alpha02.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-menu-iossimulatorarm64",
+        "version": "5.0.0-alpha02"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ui-menu-iossimulatorarm64/5.0.0-alpha02/ui-menu-iossimulatorarm64-5.0.0-alpha02.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-menu-iossimulatorarm64",
+        "version": "5.0.0-alpha02"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ui-menu-iossimulatorarm64/5.0.0-alpha02/ui-menu-iossimulatorarm64-5.0.0-alpha02.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-menu-iossimulatorarm64",
+        "version": "5.0.0-alpha02"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ui-menu-iossimulatorarm64/5.0.0-alpha02/ui-menu-iossimulatorarm64-5.0.0-alpha02.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-menu-iossimulatorarm64",
+        "version": "5.0.0-alpha02"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../ui-menu-jvm/5.0.0-alpha02/ui-menu-jvm-5.0.0-alpha02.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-menu-jvm",
+        "version": "5.0.0-alpha02"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../ui-menu-jvm/5.0.0-alpha02/ui-menu-jvm-5.0.0-alpha02.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-menu-jvm",
+        "version": "5.0.0-alpha02"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../ui-menu-jvm/5.0.0-alpha02/ui-menu-jvm-5.0.0-alpha02.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-menu-jvm",
+        "version": "5.0.0-alpha02"
+      }
+    },
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ui-menu-macosarm64/5.0.0-alpha02/ui-menu-macosarm64-5.0.0-alpha02.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-menu-macosarm64",
+        "version": "5.0.0-alpha02"
+      }
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ui-menu-macosarm64/5.0.0-alpha02/ui-menu-macosarm64-5.0.0-alpha02.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-menu-macosarm64",
+        "version": "5.0.0-alpha02"
+      }
+    },
+    {
+      "name": "macosArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ui-menu-macosarm64/5.0.0-alpha02/ui-menu-macosarm64-5.0.0-alpha02.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-menu-macosarm64",
+        "version": "5.0.0-alpha02"
+      }
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ui-menu-macosarm64/5.0.0-alpha02/ui-menu-macosarm64-5.0.0-alpha02.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-menu-macosarm64",
+        "version": "5.0.0-alpha02"
+      }
+    },
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../ui-menu-wasm-js/5.0.0-alpha02/ui-menu-wasm-js-5.0.0-alpha02.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-menu-wasm-js",
+        "version": "5.0.0-alpha02"
+      }
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../ui-menu-wasm-js/5.0.0-alpha02/ui-menu-wasm-js-5.0.0-alpha02.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-menu-wasm-js",
+        "version": "5.0.0-alpha02"
+      }
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../ui-menu-wasm-js/5.0.0-alpha02/ui-menu-wasm-js-5.0.0-alpha02.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-menu-wasm-js",
+        "version": "5.0.0-alpha02"
+      }
+    },
+    {
+      "name": "wasmJsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../ui-menu-wasm-js/5.0.0-alpha02/ui-menu-wasm-js-5.0.0-alpha02.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-menu-wasm-js",
+        "version": "5.0.0-alpha02"
+      }
+    }
+  ]
+}

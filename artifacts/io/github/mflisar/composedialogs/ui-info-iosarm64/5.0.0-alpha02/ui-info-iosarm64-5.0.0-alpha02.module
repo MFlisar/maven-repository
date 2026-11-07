@@ -1,0 +1,176 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ui-info/5.0.0-alpha02/ui-info-5.0.0-alpha02.module",
+    "group": "io.github.mflisar.composedialogs",
+    "module": "ui-info",
+    "version": "5.0.0-alpha02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "core",
+          "version": {
+            "requires": "5.0.0-alpha02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "info-iosArm64Main.klib",
+          "url": "ui-info-iosarm64-5.0.0-alpha02.klib",
+          "size": 9448,
+          "sha512": "58ed8040cd97a501107324b078a9772e100876589e37fb7504ea4a9323847ab20c11741a272c940cdc2927ac1cee64307f0ebca05971b70a101fdb57c4632709",
+          "sha256": "0949917e99135e9a7cce3a853f7afee78bcac8a0ae434fe46cace9360df7eb94",
+          "sha1": "0ee0b67d7fc203c31bbfbb091e929e21e15b60b0",
+          "md5": "bffb9b7b5753cdb981aff3491e0c63ed"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "info-iosarm64-sources.jar",
+          "url": "ui-info-iosarm64-5.0.0-alpha02-sources.jar",
+          "size": 1762,
+          "sha512": "9e59ed13a6be598752d8f63ed66a32ca9381bf92743ec1301270dea89b91e73c6918516700661245dfb961dae50ba52e4048f9a2f818deb6a29090b2218f6d34",
+          "sha256": "75edac15e64731096efd04643beb972d9c573ff4f26ecc2c23454e715c17af03",
+          "sha1": "43391b67246284be7d70e66a40963bb40337efe7",
+          "md5": "736a97c00f7f36055e994353708364e6"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "core",
+          "version": {
+            "requires": "5.0.0-alpha02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "info.kotlin_resources.zip",
+          "url": "ui-info-iosarm64-5.0.0-alpha02-kotlin_resources.kotlin_resources.zip",
+          "size": 362,
+          "sha512": "9253bce10bbe82a6e86f4e861614b0d94a320ba3270b8b6e168277a234faaa57a678438a9fc0e0832330a2e55e39bf66b53e1cfb25cda0537a653050fc521484",
+          "sha256": "82a9a530bead3731e4cb562c62dd8598651fbe1a558abee959cac5843da695ba",
+          "sha1": "3f8f82baf2771c05f1704af371b04f11f9dba0c0",
+          "md5": "05ded557eca9aff2649fb9b4745c6a27"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "core",
+          "version": {
+            "requires": "5.0.0-alpha02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "info-iosarm64-metadata.jar",
+          "url": "ui-info-iosarm64-5.0.0-alpha02-metadata.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../dialog-number/5.0.0-alpha02/dialog-number-5.0.0-alpha02.module",
+    "group": "io.github.mflisar.composedialogs",
+    "module": "dialog-number",
+    "version": "5.0.0-alpha02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "ui-number",
+          "version": {
+            "requires": "5.0.0-alpha02"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "material3",
+          "version": {
+            "requires": "5.0.0-alpha02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "number.aar",
+          "url": "dialog-number-android-5.0.0-alpha02.aar",
+          "size": 8872,
+          "sha512": "be0b510ffc0dc6be59493959e2ea381821b0bd8f193bbe75b15d93af3341dfd624f2d0be17db970e47320def39a02e44e4fda2a6748f9c1295040604ccc81582",
+          "sha256": "db1b1ecffba5d3f2468bac2375b21d1c622cd3a0a7b68a20b83c6376760295f0",
+          "sha1": "21b7235bd3e7535d97b8c879e0273e3df5b54382",
+          "md5": "2319b21ce7b32523ed86954c9b7e9827"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "ui-number",
+          "version": {
+            "requires": "5.0.0-alpha02"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "material3",
+          "version": {
+            "requires": "5.0.0-alpha02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "number.aar",
+          "url": "dialog-number-android-5.0.0-alpha02.aar",
+          "size": 8872,
+          "sha512": "be0b510ffc0dc6be59493959e2ea381821b0bd8f193bbe75b15d93af3341dfd624f2d0be17db970e47320def39a02e44e4fda2a6748f9c1295040604ccc81582",
+          "sha256": "db1b1ecffba5d3f2468bac2375b21d1c622cd3a0a7b68a20b83c6376760295f0",
+          "sha1": "21b7235bd3e7535d97b8c879e0273e3df5b54382",
+          "md5": "2319b21ce7b32523ed86954c9b7e9827"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "number-android-sources.jar",
+          "url": "dialog-number-android-5.0.0-alpha02-sources.jar",
+          "size": 2272,
+          "sha512": "e2fc805082e7c5a00fe9c9d6485f4dc522e45f8ffc947f8ddd325b94a96831a4752ab0af3b471995a7fe2e3266602d5e6da79bb67ca77207d7c23f29436f8450",
+          "sha256": "9cb18f61b17a4f84d9825428b9966f5ff1713f8b32d930879924974e67de1f7e",
+          "sha1": "e24fde7128e64bba8eeea1210bf27f0b9eb66fc7",
+          "md5": "7154ea67975e5ef88d6f4bc47721002b"
+        }
+      ]
+    }
+  ]
+}

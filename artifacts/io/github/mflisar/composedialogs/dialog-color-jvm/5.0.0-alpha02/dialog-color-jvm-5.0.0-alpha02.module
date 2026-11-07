@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../dialog-color/5.0.0-alpha02/dialog-color-5.0.0-alpha02.module",
+    "group": "io.github.mflisar.composedialogs",
+    "module": "dialog-color",
+    "version": "5.0.0-alpha02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "ui-color",
+          "version": {
+            "requires": "5.0.0-alpha02"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "material3",
+          "version": {
+            "requires": "5.0.0-alpha02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "color-jvm.jar",
+          "url": "dialog-color-jvm-5.0.0-alpha02.jar",
+          "size": 9088,
+          "sha512": "cecb56bc962a6466b16716205452c0119392f3691df08e190af06ce6762727d31cec90722ffee1c2a4efe891090a226a81305f7b25929c7ed64f742849fd8c37",
+          "sha256": "b794681a1a7bbf4b094a486c6402b6a5ffe287ff103d89f0f8c5f09282753779",
+          "sha1": "23d2ab4b8cd005acb558a2224f1b6a609d4915d8",
+          "md5": "ac7f083d1c4ac09ea591756861ea45ef"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "ui-color",
+          "version": {
+            "requires": "5.0.0-alpha02"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "material3",
+          "version": {
+            "requires": "5.0.0-alpha02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "color-jvm.jar",
+          "url": "dialog-color-jvm-5.0.0-alpha02.jar",
+          "size": 9088,
+          "sha512": "cecb56bc962a6466b16716205452c0119392f3691df08e190af06ce6762727d31cec90722ffee1c2a4efe891090a226a81305f7b25929c7ed64f742849fd8c37",
+          "sha256": "b794681a1a7bbf4b094a486c6402b6a5ffe287ff103d89f0f8c5f09282753779",
+          "sha1": "23d2ab4b8cd005acb558a2224f1b6a609d4915d8",
+          "md5": "ac7f083d1c4ac09ea591756861ea45ef"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "color-jvm-sources.jar",
+          "url": "dialog-color-jvm-5.0.0-alpha02-sources.jar",
+          "size": 3668,
+          "sha512": "7039a5a6f7ffec1820b932a832e04085fb8f2784bb63910a7a9cbb900c77f10cba16ed3b5ba52be93917541f815c83f15ac09a9cbf77f9048f089d49430a47a4",
+          "sha256": "036995bf541fbbb3cde8f3c68df180ec9e7e812b0349e4c46a9e47facd93db42",
+          "sha1": "0d84ba8d650e29a75e70bbf31d02cf7e96ffd148",
+          "md5": "32626900627710f63c832ef3b9308903"
+        }
+      ]
+    }
+  ]
+}

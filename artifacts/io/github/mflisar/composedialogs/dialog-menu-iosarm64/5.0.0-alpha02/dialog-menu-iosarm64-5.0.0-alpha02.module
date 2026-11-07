@@ -1,0 +1,176 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../dialog-menu/5.0.0-alpha02/dialog-menu-5.0.0-alpha02.module",
+    "group": "io.github.mflisar.composedialogs",
+    "module": "dialog-menu",
+    "version": "5.0.0-alpha02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "ui-menu",
+          "version": {
+            "requires": "5.0.0-alpha02"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "material3",
+          "version": {
+            "requires": "5.0.0-alpha02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "menu-iosArm64Main.klib",
+          "url": "dialog-menu-iosarm64-5.0.0-alpha02.klib",
+          "size": 11866,
+          "sha512": "4eb2bbd49d92fc6d01d140935c1525442256d3bd8cb503ea512a09e84dc6781aa2902e596c6078a91e1adbe7a39419beca702ca27a17020e91fc7e6803fd60f3",
+          "sha256": "6daf52d1c469517fadbe03a4c325c430662c544e3d14f355b69eabc922ac8a96",
+          "sha1": "011af32e088c7eb906bdf4025e5fe52f394e8510",
+          "md5": "efb470c1ec61f02f925e511f45c9a2d2"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "menu-iosarm64-sources.jar",
+          "url": "dialog-menu-iosarm64-5.0.0-alpha02-sources.jar",
+          "size": 1894,
+          "sha512": "899683ea6006862b543bf244ace60826104d9c74a5ef0e9f2f5a2dc34ceca2a1546035c5bd1eb744ab79fe21bf8bebb37cae7d0f5c15040f7d46161f785a5559",
+          "sha256": "3ee02928d5e4a48a20128002e4e5e88e71c6d1f584e8cdd9df4b620733ffcde6",
+          "sha1": "cef30c3047f6d25ad38e17ea869d247a0849024f",
+          "md5": "2e8a3702b0d387dff24220cada7bb71d"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "ui-menu",
+          "version": {
+            "requires": "5.0.0-alpha02"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "material3",
+          "version": {
+            "requires": "5.0.0-alpha02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "menu.kotlin_resources.zip",
+          "url": "dialog-menu-iosarm64-5.0.0-alpha02-kotlin_resources.kotlin_resources.zip",
+          "size": 372,
+          "sha512": "fd4eab9ed09afdddb0d6d1db9d0600347f15b6dfd107513b8c746ac73546fd27c68c54ccdb270c577d25f071845bd308ba3c1f9bc7a44c880daa0f30236ecc32",
+          "sha256": "1afde4e7f9574ae7e3b56e8845fd1d13dac49a131f551ac359df912725932002",
+          "sha1": "898adf163275af1562c1118b692ac2b364474952",
+          "md5": "426d8d52f7824ee8461a53c2397ec97c"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "ui-menu",
+          "version": {
+            "requires": "5.0.0-alpha02"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "material3",
+          "version": {
+            "requires": "5.0.0-alpha02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "menu-iosarm64-metadata.jar",
+          "url": "dialog-menu-iosarm64-5.0.0-alpha02-metadata.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    }
+  ]
+}

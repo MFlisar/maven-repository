@@ -1,0 +1,176 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../dialog-progress/5.0.0-alpha02/dialog-progress-5.0.0-alpha02.module",
+    "group": "io.github.mflisar.composedialogs",
+    "module": "dialog-progress",
+    "version": "5.0.0-alpha02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "ui-progress",
+          "version": {
+            "requires": "5.0.0-alpha02"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "material3",
+          "version": {
+            "requires": "5.0.0-alpha02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "progress-wasm-js.klib",
+          "url": "dialog-progress-wasm-js-5.0.0-alpha02.klib",
+          "size": 14007,
+          "sha512": "42f0a713877f679303ee9dc3e4f5492e45a15f07dcc3bc3d85c363c17aab338d89ce02da619b798c81cc2eb183766ca4b519cf9f04970d4ac78cc8dfa22edc99",
+          "sha256": "4443ae10bea98b98e3302ae035ddfb11ea87ddea18b691e809a66bb504a57ed5",
+          "sha1": "450728f6302b7edc2c48ff99c3515c09355825a0",
+          "md5": "326d9ce3bcaeff94c5d97da5af09d51b"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "ui-progress",
+          "version": {
+            "requires": "5.0.0-alpha02"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "material3",
+          "version": {
+            "requires": "5.0.0-alpha02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "progress-wasm-js.klib",
+          "url": "dialog-progress-wasm-js-5.0.0-alpha02.klib",
+          "size": 14007,
+          "sha512": "42f0a713877f679303ee9dc3e4f5492e45a15f07dcc3bc3d85c363c17aab338d89ce02da619b798c81cc2eb183766ca4b519cf9f04970d4ac78cc8dfa22edc99",
+          "sha256": "4443ae10bea98b98e3302ae035ddfb11ea87ddea18b691e809a66bb504a57ed5",
+          "sha1": "450728f6302b7edc2c48ff99c3515c09355825a0",
+          "md5": "326d9ce3bcaeff94c5d97da5af09d51b"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "files": [
+        {
+          "name": "progress-wasm-js-sources.jar",
+          "url": "dialog-progress-wasm-js-5.0.0-alpha02-sources.jar",
+          "size": 1981,
+          "sha512": "e655e9c79c79a57afdbacb5fb72332a008259d849eba64bde58d0aa8cbaf22597db18091d397bbd5a49b38ce92419882c4bc0da846161fefe78d887b7b44f538",
+          "sha256": "8474710d208492d2f60252a363393a684cae626638560c6b61cc680298fc556d",
+          "sha1": "c83d0cd1b297956372dedc272a0eeca1dd095651",
+          "md5": "71fe1c61a2a430a1acae83940f9e57ab"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "ui-progress",
+          "version": {
+            "requires": "5.0.0-alpha02"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "material3",
+          "version": {
+            "requires": "5.0.0-alpha02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "progress.kotlin_resources.zip",
+          "url": "dialog-progress-wasm-js-5.0.0-alpha02-kotlin_resources.kotlin_resources.zip",
+          "size": 380,
+          "sha512": "f6d7d57658a30744823d06fef7b8d0901ea24f46456159e5af5b7a689e8855802b6af12f3eda709a28fd182f0f4d0f348daea3042e9e79ae1f0d9d44839feaa2",
+          "sha256": "c6e9a35dd7a3b501f4a8b7e45f125625d97c0650c2b801eb7985cae99ed0dea0",
+          "sha1": "6e438e4bba5ab789001a5fea371f86f490a3fdbd",
+          "md5": "725e4fe3afe50f8944d01723d2232ff0"
+        }
+      ]
+    }
+  ]
+}

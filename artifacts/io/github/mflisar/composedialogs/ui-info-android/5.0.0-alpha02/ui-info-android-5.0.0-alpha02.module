@@ -1,0 +1,123 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ui-info/5.0.0-alpha02/ui-info-5.0.0-alpha02.module",
+    "group": "io.github.mflisar.composedialogs",
+    "module": "ui-info",
+    "version": "5.0.0-alpha02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "core",
+          "version": {
+            "requires": "5.0.0-alpha02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "info.aar",
+          "url": "ui-info-android-5.0.0-alpha02.aar",
+          "size": 5902,
+          "sha512": "aeb698bdc2cdfe299591d16b9456ef8642a03482a5302c7dae8f788415792313e2ddd3f3cf6fd48f858a04b6b91bea973e02c5cddf786dcc63575bddd21445f3",
+          "sha256": "09232f9722e208a3e155578069d624b8c368b07ed906567463f083aa81c3b8f5",
+          "sha1": "3acf7d888c9e6b8d54421674bdafde004af430f6",
+          "md5": "1848a52fbeb98d897a245db161a9ca14"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "core",
+          "version": {
+            "requires": "5.0.0-alpha02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "info.aar",
+          "url": "ui-info-android-5.0.0-alpha02.aar",
+          "size": 5902,
+          "sha512": "aeb698bdc2cdfe299591d16b9456ef8642a03482a5302c7dae8f788415792313e2ddd3f3cf6fd48f858a04b6b91bea973e02c5cddf786dcc63575bddd21445f3",
+          "sha256": "09232f9722e208a3e155578069d624b8c368b07ed906567463f083aa81c3b8f5",
+          "sha1": "3acf7d888c9e6b8d54421674bdafde004af430f6",
+          "md5": "1848a52fbeb98d897a245db161a9ca14"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "info-android-sources.jar",
+          "url": "ui-info-android-5.0.0-alpha02-sources.jar",
+          "size": 1762,
+          "sha512": "9e59ed13a6be598752d8f63ed66a32ca9381bf92743ec1301270dea89b91e73c6918516700661245dfb961dae50ba52e4048f9a2f818deb6a29090b2218f6d34",
+          "sha256": "75edac15e64731096efd04643beb972d9c573ff4f26ecc2c23454e715c17af03",
+          "sha1": "43391b67246284be7d70e66a40963bb40337efe7",
+          "md5": "736a97c00f7f36055e994353708364e6"
+        }
+      ]
+    }
+  ]
+}

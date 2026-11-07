@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ui-input/5.0.0-alpha02/ui-input-5.0.0-alpha02.module",
+    "group": "io.github.mflisar.composedialogs",
+    "module": "ui-input",
+    "version": "5.0.0-alpha02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "core",
+          "version": {
+            "requires": "5.0.0-alpha02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "input.aar",
+          "url": "ui-input-android-5.0.0-alpha02.aar",
+          "size": 55436,
+          "sha512": "09b1de7f9399028dcf1a82330dc00c80213eb5c29df99e6a746fa237dd3b2183262f5bc40534d8b4316208c78f064b1ac5a335aca8b0cae31fb622a00d158b7b",
+          "sha256": "a98495670fe126c5025e965f45c403df5a7f28809b05250cab59290c407bc326",
+          "sha1": "309fbe0b90b8ea56d542dc112b4d2a23a507c30f",
+          "md5": "3d3f546d7db990071eb2bc64becc9940"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "core",
+          "version": {
+            "requires": "5.0.0-alpha02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "input.aar",
+          "url": "ui-input-android-5.0.0-alpha02.aar",
+          "size": 55436,
+          "sha512": "09b1de7f9399028dcf1a82330dc00c80213eb5c29df99e6a746fa237dd3b2183262f5bc40534d8b4316208c78f064b1ac5a335aca8b0cae31fb622a00d158b7b",
+          "sha256": "a98495670fe126c5025e965f45c403df5a7f28809b05250cab59290c407bc326",
+          "sha1": "309fbe0b90b8ea56d542dc112b4d2a23a507c30f",
+          "md5": "3d3f546d7db990071eb2bc64becc9940"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "input-android-sources.jar",
+          "url": "ui-input-android-5.0.0-alpha02-sources.jar",
+          "size": 7540,
+          "sha512": "b1aacffaefacad9d7c94cb67418bbcb1414886bc56d1a9eefeb1d4d60515964872442407a382485152d745193efa0e68d688aa11e169675ea0ae6f9f7153fbbc",
+          "sha256": "856495229ca1aee39c8d0efff3f1eb1893e2d512e2b19725dbf289c98afa05e2",
+          "sha1": "755345074b185492a8895e35625bb84380502962",
+          "md5": "336fac9bd08413b515e53b8a4c31e90a"
+        }
+      ]
+    }
+  ]
+}

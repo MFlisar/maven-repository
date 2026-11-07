@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../dialog-progress/5.0.0-alpha02/dialog-progress-5.0.0-alpha02.module",
+    "group": "io.github.mflisar.composedialogs",
+    "module": "dialog-progress",
+    "version": "5.0.0-alpha02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "ui-progress",
+          "version": {
+            "requires": "5.0.0-alpha02"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "material3",
+          "version": {
+            "requires": "5.0.0-alpha02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "progress-jvm.jar",
+          "url": "dialog-progress-jvm-5.0.0-alpha02.jar",
+          "size": 8454,
+          "sha512": "481ed84df872bdb62b1ea64b9e5517d1293429cbf5e1f91753eaa9a202b5264fa4de93227152978a1c3d6f4a257cf8bdd8121c5bac441497be777f56ac5d4121",
+          "sha256": "90820d2850a39f778fff8cd242d23ade195d8a73e680d8ed235692610cbcdcd3",
+          "sha1": "380c0da6eb7242a129d5e61238c9484483495b72",
+          "md5": "ad3e1c8219834ba79c1aaa35033a0df2"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "ui-progress",
+          "version": {
+            "requires": "5.0.0-alpha02"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "material3",
+          "version": {
+            "requires": "5.0.0-alpha02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "progress-jvm.jar",
+          "url": "dialog-progress-jvm-5.0.0-alpha02.jar",
+          "size": 8454,
+          "sha512": "481ed84df872bdb62b1ea64b9e5517d1293429cbf5e1f91753eaa9a202b5264fa4de93227152978a1c3d6f4a257cf8bdd8121c5bac441497be777f56ac5d4121",
+          "sha256": "90820d2850a39f778fff8cd242d23ade195d8a73e680d8ed235692610cbcdcd3",
+          "sha1": "380c0da6eb7242a129d5e61238c9484483495b72",
+          "md5": "ad3e1c8219834ba79c1aaa35033a0df2"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "progress-jvm-sources.jar",
+          "url": "dialog-progress-jvm-5.0.0-alpha02-sources.jar",
+          "size": 3459,
+          "sha512": "86e96fad3d704087967dec7862c75c537f19709adc85b24fcce6ab6dec418d40530a0f70984241c876c693e09d3f6b3afa8dc02c590311e2d8cac4103e5233b2",
+          "sha256": "63fd0af2a2c05825a7bd73590bde5fb681203bb0a50caa3af8e3fa2ade5bc39c",
+          "sha1": "a3dfe9fdc9f0a199cda1f10013163e91492639d1",
+          "md5": "fa6e4e4c0895275b286b95e2d1427528"
+        }
+      ]
+    }
+  ]
+}

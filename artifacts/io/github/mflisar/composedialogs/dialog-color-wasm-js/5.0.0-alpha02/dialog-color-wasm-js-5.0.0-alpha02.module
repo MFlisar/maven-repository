@@ -1,0 +1,176 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../dialog-color/5.0.0-alpha02/dialog-color-5.0.0-alpha02.module",
+    "group": "io.github.mflisar.composedialogs",
+    "module": "dialog-color",
+    "version": "5.0.0-alpha02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "ui-color",
+          "version": {
+            "requires": "5.0.0-alpha02"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "material3",
+          "version": {
+            "requires": "5.0.0-alpha02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "color-wasm-js.klib",
+          "url": "dialog-color-wasm-js-5.0.0-alpha02.klib",
+          "size": 17248,
+          "sha512": "90da8aa9bd1e04212d1901cf407178502560cff4e65aaa7600e058cc4fa5d6ecb7768fbba2641f7cadad8bc8704601b99fa823caac896d030346a441dfae62f4",
+          "sha256": "7c247222984920b6e399ccb15699c38dbe7c35bfc84febfc4e5f12e11bae8e58",
+          "sha1": "b1d1afe72f5c420766dcb59b5a0a5e592415dc09",
+          "md5": "25f21caea18ea57ec1f3879f860ca974"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "ui-color",
+          "version": {
+            "requires": "5.0.0-alpha02"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "material3",
+          "version": {
+            "requires": "5.0.0-alpha02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "color-wasm-js.klib",
+          "url": "dialog-color-wasm-js-5.0.0-alpha02.klib",
+          "size": 17248,
+          "sha512": "90da8aa9bd1e04212d1901cf407178502560cff4e65aaa7600e058cc4fa5d6ecb7768fbba2641f7cadad8bc8704601b99fa823caac896d030346a441dfae62f4",
+          "sha256": "7c247222984920b6e399ccb15699c38dbe7c35bfc84febfc4e5f12e11bae8e58",
+          "sha1": "b1d1afe72f5c420766dcb59b5a0a5e592415dc09",
+          "md5": "25f21caea18ea57ec1f3879f860ca974"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "files": [
+        {
+          "name": "color-wasm-js-sources.jar",
+          "url": "dialog-color-wasm-js-5.0.0-alpha02-sources.jar",
+          "size": 2204,
+          "sha512": "fbdd4391f87dba56ad1e384ef0530469e8f10e430325fec0bc228bdc8ad2c1077a6b4768f8c1ed6b2c7a1897e9207f75b2af690d6ab00f9494b405af390a22d6",
+          "sha256": "330d648de9e5911871b0ec947c6e20a5197b3e7735041922eb6220fbc018d689",
+          "sha1": "6a37aa7132e43d8a4e4a22c68b75eb8bc37e57d3",
+          "md5": "03faa76280a57ae20aa5bf5964bdd056"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "ui-color",
+          "version": {
+            "requires": "5.0.0-alpha02"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "material3",
+          "version": {
+            "requires": "5.0.0-alpha02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "color.kotlin_resources.zip",
+          "url": "dialog-color-wasm-js-5.0.0-alpha02-kotlin_resources.kotlin_resources.zip",
+          "size": 374,
+          "sha512": "6801ca7885d7b05ff1af18e8c929d379beb50aff3b02a80145fdbccddc39513ca1c1bfee7cc8eed265cc9df4d8111ccdde7ef2af3ffa353f310b073ef87b5bf1",
+          "sha256": "ede9847736e8403fde0fc2e89c6e0b3afb092b1f966ab01081e7327f010d38c5",
+          "sha1": "05cf7717f5b0e2091085da5142535a69342544d4",
+          "md5": "830bf0b84da548ea4f0286fbc8bbdc72"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../dialog-frequency/5.0.0-alpha02/dialog-frequency-5.0.0-alpha02.module",
+    "group": "io.github.mflisar.composedialogs",
+    "module": "dialog-frequency",
+    "version": "5.0.0-alpha02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "ui-frequency",
+          "version": {
+            "requires": "5.0.0-alpha02"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "material3",
+          "version": {
+            "requires": "5.0.0-alpha02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "frequency.aar",
+          "url": "dialog-frequency-android-5.0.0-alpha02.aar",
+          "size": 6205,
+          "sha512": "4124e2bea38d4c5321ce8227fd6f897f907c196cd4ba0f18bdc974181503f4171a5f03b02ab3e755556506fdc8803ae36d6974f4af7efcf70dd2edd5cb0db64e",
+          "sha256": "927c421f36046eca08c032f29178fd220ed20b5a16107bf25aa6ced0d965273f",
+          "sha1": "4d6e9798fd19ae43b223eb7167c496d003c6aa95",
+          "md5": "58d1ed0e40b41ad4a5f812c8f7a53750"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "ui-frequency",
+          "version": {
+            "requires": "5.0.0-alpha02"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "material3",
+          "version": {
+            "requires": "5.0.0-alpha02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "frequency.aar",
+          "url": "dialog-frequency-android-5.0.0-alpha02.aar",
+          "size": 6205,
+          "sha512": "4124e2bea38d4c5321ce8227fd6f897f907c196cd4ba0f18bdc974181503f4171a5f03b02ab3e755556506fdc8803ae36d6974f4af7efcf70dd2edd5cb0db64e",
+          "sha256": "927c421f36046eca08c032f29178fd220ed20b5a16107bf25aa6ced0d965273f",
+          "sha1": "4d6e9798fd19ae43b223eb7167c496d003c6aa95",
+          "md5": "58d1ed0e40b41ad4a5f812c8f7a53750"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "frequency-android-sources.jar",
+          "url": "dialog-frequency-android-5.0.0-alpha02-sources.jar",
+          "size": 2168,
+          "sha512": "0ce65dd69b4197c28be4c9f4110b815df1262d2626af78a9527e266ade8a59830c562968fafcaa930e33e3b250c3f9421d54c96db94561e9a99e61641eb4fa39",
+          "sha256": "aa396b8291af413efa9e45f69f1d54d2bcc6e415dd19a524d9ffcaf0c86ddfe7",
+          "sha1": "5b2c9960eea0f6ba83eaa4d98ed0bd5e7945ce42",
+          "md5": "73a244b00264f8298fc8e41c308370a1"
+        }
+      ]
+    }
+  ]
+}

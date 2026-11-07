@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../dialog-frequency/5.0.0-alpha02/dialog-frequency-5.0.0-alpha02.module",
+    "group": "io.github.mflisar.composedialogs",
+    "module": "dialog-frequency",
+    "version": "5.0.0-alpha02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "ui-frequency",
+          "version": {
+            "requires": "5.0.0-alpha02"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "material3",
+          "version": {
+            "requires": "5.0.0-alpha02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "frequency-jvm.jar",
+          "url": "dialog-frequency-jvm-5.0.0-alpha02.jar",
+          "size": 9067,
+          "sha512": "af04ea4335502a0cb81a2db514699dd8bf8dac5555124adadca6415c3ab0b7e56de00bf37ff42e9490c2dcf14de76ed3a99adce0dfdf1b1d713e088ab5463e3a",
+          "sha256": "048c8659c78ab2615d690b3b06e840d48d769d9b27ad26aaeaa27baa4dd6408b",
+          "sha1": "f6bd131f4396bc41c3ff057c21d97e3f9f4c0614",
+          "md5": "f6549801f8bdb5f8a7f44c5c6baae45d"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "ui-frequency",
+          "version": {
+            "requires": "5.0.0-alpha02"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "material3",
+          "version": {
+            "requires": "5.0.0-alpha02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "frequency-jvm.jar",
+          "url": "dialog-frequency-jvm-5.0.0-alpha02.jar",
+          "size": 9067,
+          "sha512": "af04ea4335502a0cb81a2db514699dd8bf8dac5555124adadca6415c3ab0b7e56de00bf37ff42e9490c2dcf14de76ed3a99adce0dfdf1b1d713e088ab5463e3a",
+          "sha256": "048c8659c78ab2615d690b3b06e840d48d769d9b27ad26aaeaa27baa4dd6408b",
+          "sha1": "f6bd131f4396bc41c3ff057c21d97e3f9f4c0614",
+          "md5": "f6549801f8bdb5f8a7f44c5c6baae45d"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "frequency-jvm-sources.jar",
+          "url": "dialog-frequency-jvm-5.0.0-alpha02-sources.jar",
+          "size": 3653,
+          "sha512": "b41b869136b917a326b8d6995b688dbae4ac9df52f7806a2854fad4065274df9acde7ae6935d7de70be55e2470e20eace10624a94cb05a082b998081454420af",
+          "sha256": "6dfb66c789d3f83eb543cf62fdb13437cb584144b01fc8d1fdb66de7d062fe85",
+          "sha1": "2a2490ad5e85fcbdcb6e8d964a0a7454ee998567",
+          "md5": "62c101a4ecb3da27c6b2561ed276f4af"
+        }
+      ]
+    }
+  ]
+}
