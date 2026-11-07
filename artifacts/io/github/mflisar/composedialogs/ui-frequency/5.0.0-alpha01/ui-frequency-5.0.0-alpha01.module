@@ -1,0 +1,387 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mflisar.composedialogs",
+    "module": "ui-frequency",
+    "version": "5.0.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "core",
+          "version": {
+            "requires": "5.0.0-alpha01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "frequency-metadata.jar",
+          "url": "ui-frequency-5.0.0-alpha01.jar",
+          "size": 13035,
+          "sha512": "d22b5d44130c4d3e509cf7edf80f5482c426e25400b95da6f262e1b28bc15d61ad63686c2cd0e3cd12e75b4268aaf36d571eebd880698f154973bd870775e859",
+          "sha256": "bef43381628a775374d06968c8e7f32b2633466b7fc18b6790b77cae9af28ba9",
+          "sha1": "8a87bfe11d53e60a637f4e43b815897513dd4738",
+          "md5": "747d333ae185f1f214cc4f094c0800d2"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "frequency-kotlin-sources.jar",
+          "url": "ui-frequency-5.0.0-alpha01-sources.jar",
+          "size": 14123,
+          "sha512": "1fce0c5bbc2d9f61803cdcc234e542196e330f25fd27216efd7564e71a5195ff0112a211a587493ff3a9330921d40012003e1baf0021aa3f6a3a61bd948452c7",
+          "sha256": "4116ec729b11aea274f41b7d27b7b130ece831a9f80d8204dce41a4e21462baa",
+          "sha1": "c1a61c43756e5f684d9b56ee2e9933c689afe105",
+          "md5": "052003f1e73f411b87a255b49c144236"
+        }
+      ]
+    },
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../ui-frequency-android/5.0.0-alpha01/ui-frequency-android-5.0.0-alpha01.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-frequency-android",
+        "version": "5.0.0-alpha01"
+      }
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../ui-frequency-android/5.0.0-alpha01/ui-frequency-android-5.0.0-alpha01.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-frequency-android",
+        "version": "5.0.0-alpha01"
+      }
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../ui-frequency-android/5.0.0-alpha01/ui-frequency-android-5.0.0-alpha01.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-frequency-android",
+        "version": "5.0.0-alpha01"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ui-frequency-iosarm64/5.0.0-alpha01/ui-frequency-iosarm64-5.0.0-alpha01.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-frequency-iosarm64",
+        "version": "5.0.0-alpha01"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ui-frequency-iosarm64/5.0.0-alpha01/ui-frequency-iosarm64-5.0.0-alpha01.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-frequency-iosarm64",
+        "version": "5.0.0-alpha01"
+      }
+    },
+    {
+      "name": "iosArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ui-frequency-iosarm64/5.0.0-alpha01/ui-frequency-iosarm64-5.0.0-alpha01.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-frequency-iosarm64",
+        "version": "5.0.0-alpha01"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ui-frequency-iosarm64/5.0.0-alpha01/ui-frequency-iosarm64-5.0.0-alpha01.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-frequency-iosarm64",
+        "version": "5.0.0-alpha01"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ui-frequency-iossimulatorarm64/5.0.0-alpha01/ui-frequency-iossimulatorarm64-5.0.0-alpha01.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-frequency-iossimulatorarm64",
+        "version": "5.0.0-alpha01"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ui-frequency-iossimulatorarm64/5.0.0-alpha01/ui-frequency-iossimulatorarm64-5.0.0-alpha01.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-frequency-iossimulatorarm64",
+        "version": "5.0.0-alpha01"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ui-frequency-iossimulatorarm64/5.0.0-alpha01/ui-frequency-iossimulatorarm64-5.0.0-alpha01.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-frequency-iossimulatorarm64",
+        "version": "5.0.0-alpha01"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ui-frequency-iossimulatorarm64/5.0.0-alpha01/ui-frequency-iossimulatorarm64-5.0.0-alpha01.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-frequency-iossimulatorarm64",
+        "version": "5.0.0-alpha01"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../ui-frequency-jvm/5.0.0-alpha01/ui-frequency-jvm-5.0.0-alpha01.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-frequency-jvm",
+        "version": "5.0.0-alpha01"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../ui-frequency-jvm/5.0.0-alpha01/ui-frequency-jvm-5.0.0-alpha01.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-frequency-jvm",
+        "version": "5.0.0-alpha01"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../ui-frequency-jvm/5.0.0-alpha01/ui-frequency-jvm-5.0.0-alpha01.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-frequency-jvm",
+        "version": "5.0.0-alpha01"
+      }
+    },
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../ui-frequency-wasm-js/5.0.0-alpha01/ui-frequency-wasm-js-5.0.0-alpha01.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-frequency-wasm-js",
+        "version": "5.0.0-alpha01"
+      }
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../ui-frequency-wasm-js/5.0.0-alpha01/ui-frequency-wasm-js-5.0.0-alpha01.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-frequency-wasm-js",
+        "version": "5.0.0-alpha01"
+      }
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../ui-frequency-wasm-js/5.0.0-alpha01/ui-frequency-wasm-js-5.0.0-alpha01.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-frequency-wasm-js",
+        "version": "5.0.0-alpha01"
+      }
+    },
+    {
+      "name": "wasmJsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../ui-frequency-wasm-js/5.0.0-alpha01/ui-frequency-wasm-js-5.0.0-alpha01.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-frequency-wasm-js",
+        "version": "5.0.0-alpha01"
+      }
+    }
+  ]
+}

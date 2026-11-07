@@ -1,0 +1,190 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ui-progress/5.0.0-alpha01/ui-progress-5.0.0-alpha01.module",
+    "group": "io.github.mflisar.composedialogs",
+    "module": "ui-progress",
+    "version": "5.0.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "core",
+          "version": {
+            "requires": "5.0.0-alpha01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "progress-wasm-js.klib",
+          "url": "ui-progress-wasm-js-5.0.0-alpha01.klib",
+          "size": 15542,
+          "sha512": "739709b025338dc733e3dd5361197c860d78c550c7252a5dcc627736413f483d94b42d695294b276fbbc42ffbb1eb89147b16c253635e1af6f3daccae96536ec",
+          "sha256": "eefb079f322d18ddd4fab729de80525fdc27563c9f65aa58751f80453522f72d",
+          "sha1": "afb999efb42e5e27dd2e18983caf442bfac318c6",
+          "md5": "dff1624e8801ef88da82c7693032199b"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "core",
+          "version": {
+            "requires": "5.0.0-alpha01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "progress-wasm-js.klib",
+          "url": "ui-progress-wasm-js-5.0.0-alpha01.klib",
+          "size": 15542,
+          "sha512": "739709b025338dc733e3dd5361197c860d78c550c7252a5dcc627736413f483d94b42d695294b276fbbc42ffbb1eb89147b16c253635e1af6f3daccae96536ec",
+          "sha256": "eefb079f322d18ddd4fab729de80525fdc27563c9f65aa58751f80453522f72d",
+          "sha1": "afb999efb42e5e27dd2e18983caf442bfac318c6",
+          "md5": "dff1624e8801ef88da82c7693032199b"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "files": [
+        {
+          "name": "progress-wasm-js-sources.jar",
+          "url": "ui-progress-wasm-js-5.0.0-alpha01-sources.jar",
+          "size": 2497,
+          "sha512": "1cd41368c7e035b7d65fbf2aca07f3a862b1bb9d2cafd2c44f36c464bdd5a71f439a498b3cf7350b81a09cf40b266fb48810967c137ef7b0e4336febde7089eb",
+          "sha256": "6567d23f35c73fb64e482b367897b3afdca38a6e237c3f199d6bb582dc52824a",
+          "sha1": "f1cd4d2f946b6e3fd6937d08b4ddbf2ac49def9a",
+          "md5": "0fe9fdc013d5cade53915237d9a8e4a5"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "core",
+          "version": {
+            "requires": "5.0.0-alpha01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "progress.kotlin_resources.zip",
+          "url": "ui-progress-wasm-js-5.0.0-alpha01-kotlin_resources.kotlin_resources.zip",
+          "size": 370,
+          "sha512": "290c43b934194c4567bce5f3e35f6f0c52105bf888499c56a48b6c48d562dddfc1d849bf12173237d068ae14704497a79fbacba0a1e7ebda35e0a14702018c20",
+          "sha256": "7eed82dca5479fe234728f6aeebffee7f119398905fe90ea65842087829e3d33",
+          "sha1": "4df70bad88763cef37e6a95048fd381f8e886d15",
+          "md5": "87ffd5e98fe911a6da202921ff302fe7"
+        }
+      ]
+    }
+  ]
+}

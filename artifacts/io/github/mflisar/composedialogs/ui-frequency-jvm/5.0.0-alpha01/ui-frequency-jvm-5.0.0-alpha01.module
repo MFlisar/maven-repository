@@ -1,0 +1,158 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ui-frequency/5.0.0-alpha01/ui-frequency-5.0.0-alpha01.module",
+    "group": "io.github.mflisar.composedialogs",
+    "module": "ui-frequency",
+    "version": "5.0.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "core",
+          "version": {
+            "requires": "5.0.0-alpha01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "frequency-jvm.jar",
+          "url": "ui-frequency-jvm-5.0.0-alpha01.jar",
+          "size": 111336,
+          "sha512": "a801860eae086a7d3a9354ff774a98428b129f4e1d74f75ce27d89230d8bbfa8ffad3412f1f63b01a1bba5f3bd1c7870ed4a163d7b76ba39580eac7c53f68229",
+          "sha256": "a78543e5717c92a56c483bceafcdf550492dfc4f37a8cd33549df31c788dfcd8",
+          "sha1": "4808d9a85163ddcf78d1b6bb555285ab273d3b38",
+          "md5": "4ba495c1c5106324efcfddc30dcf4ee8"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "core",
+          "version": {
+            "requires": "5.0.0-alpha01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "ui-time",
+          "version": {
+            "requires": "5.0.0-alpha01"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "frequency-jvm.jar",
+          "url": "ui-frequency-jvm-5.0.0-alpha01.jar",
+          "size": 111336,
+          "sha512": "a801860eae086a7d3a9354ff774a98428b129f4e1d74f75ce27d89230d8bbfa8ffad3412f1f63b01a1bba5f3bd1c7870ed4a163d7b76ba39580eac7c53f68229",
+          "sha256": "a78543e5717c92a56c483bceafcdf550492dfc4f37a8cd33549df31c788dfcd8",
+          "sha1": "4808d9a85163ddcf78d1b6bb555285ab273d3b38",
+          "md5": "4ba495c1c5106324efcfddc30dcf4ee8"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "frequency-jvm-sources.jar",
+          "url": "ui-frequency-jvm-5.0.0-alpha01-sources.jar",
+          "size": 14123,
+          "sha512": "1fce0c5bbc2d9f61803cdcc234e542196e330f25fd27216efd7564e71a5195ff0112a211a587493ff3a9330921d40012003e1baf0021aa3f6a3a61bd948452c7",
+          "sha256": "4116ec729b11aea274f41b7d27b7b130ece831a9f80d8204dce41a4e21462baa",
+          "sha1": "c1a61c43756e5f684d9b56ee2e9933c689afe105",
+          "md5": "052003f1e73f411b87a255b49c144236"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ui-color/5.0.0-alpha01/ui-color-5.0.0-alpha01.module",
+    "group": "io.github.mflisar.composedialogs",
+    "module": "ui-color",
+    "version": "5.0.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "core",
+          "version": {
+            "requires": "5.0.0-alpha01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "color-wasm-js.klib",
+          "url": "ui-color-wasm-js-5.0.0-alpha01.klib",
+          "size": 87428,
+          "sha512": "3b30fa6daeb08c56fc29e948755c919c5fa41ed7a70951fcb789e98c30dee3990c888f914ff1a8b25f771fbcf1800610468f17191a204be60d818553872397c3",
+          "sha256": "007c7a38971ceddeff02adf668492416e1131a91d24ecf82749f1cec85bd3bb4",
+          "sha1": "bb6ba1b230ba438fe3ea70b1990ae7e09805f4ad",
+          "md5": "03d545adb7067d57e2ac9176919e83c2"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "core",
+          "version": {
+            "requires": "5.0.0-alpha01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.components",
+          "module": "components-resources",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-backhandler",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composecolors",
+          "module": "material",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composecolors",
+          "module": "material-palette",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "io.github.mflisar.kmpparcelize",
+          "module": "library",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "color-wasm-js.klib",
+          "url": "ui-color-wasm-js-5.0.0-alpha01.klib",
+          "size": 87428,
+          "sha512": "3b30fa6daeb08c56fc29e948755c919c5fa41ed7a70951fcb789e98c30dee3990c888f914ff1a8b25f771fbcf1800610468f17191a204be60d818553872397c3",
+          "sha256": "007c7a38971ceddeff02adf668492416e1131a91d24ecf82749f1cec85bd3bb4",
+          "sha1": "bb6ba1b230ba438fe3ea70b1990ae7e09805f4ad",
+          "md5": "03d545adb7067d57e2ac9176919e83c2"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "files": [
+        {
+          "name": "color-wasm-js-sources.jar",
+          "url": "ui-color-wasm-js-5.0.0-alpha01-sources.jar",
+          "size": 17136,
+          "sha512": "87046658adae0a349f648a77a5724450d8df2297b4836a6f2cee39fb004c0fd2bccd42542d5376f9e7e34ec52f1fda29f5d7b6ced6df06c1a7a7a9f7d7ad77d2",
+          "sha256": "56773047711af1a1a0381e656c349cf523600415c29924dd5becb996622a3060",
+          "sha1": "d30083ae9257146069beaf623cd1306026373fd6",
+          "md5": "983bd0c13d39e403b5470ad5a1fc429c"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "core",
+          "version": {
+            "requires": "5.0.0-alpha01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.components",
+          "module": "components-resources",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-backhandler",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composecolors",
+          "module": "material",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composecolors",
+          "module": "material-palette",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "io.github.mflisar.kmpparcelize",
+          "module": "library",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "color.kotlin_resources.zip",
+          "url": "ui-color-wasm-js-5.0.0-alpha01-kotlin_resources.kotlin_resources.zip",
+          "size": 1507,
+          "sha512": "589c1c42cbbe6d5bf17a1fe69277c9fba37703d7306d7013ec814edac3b63209bf7b48f6c35073afd5cb4c31b8ca72734c331b68f1fbfd7fa5f71b1056bedab6",
+          "sha256": "38f294c140468a8f2e4a53c690b6e8059bfa3fa4722212b66df3987420c7ab1a",
+          "sha1": "a1d3143551264555f59050197dd34a1110a7e2cd",
+          "md5": "4138983eda9fc369e07196968a9e7188"
+        }
+      ]
+    }
+  ]
+}

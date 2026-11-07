@@ -1,0 +1,218 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ui-time/5.0.0-alpha01/ui-time-5.0.0-alpha01.module",
+    "group": "io.github.mflisar.composedialogs",
+    "module": "ui-time",
+    "version": "5.0.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "core",
+          "version": {
+            "requires": "5.0.0-alpha01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "time-wasm-js.klib",
+          "url": "ui-time-wasm-js-5.0.0-alpha01.klib",
+          "size": 25496,
+          "sha512": "5dd5b69a4b70f16a80d286bcf3a1dcb922c317fbf051f11dcdabc269cad56cf48ca6d5c490921ec933f7f1ae7cc42964a9516abf6cb954c6251b403c284bfbc2",
+          "sha256": "a69c3271e34ded3556986b5e485c6537f47595521ae1141a95a07403c2ca094d",
+          "sha1": "53d603832f62ca958e1e9660290de05823ada04c",
+          "md5": "4c426d10c20e356b0f759e6f3399928a"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "core",
+          "version": {
+            "requires": "5.0.0-alpha01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.components",
+          "module": "components-resources",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "time-wasm-js.klib",
+          "url": "ui-time-wasm-js-5.0.0-alpha01.klib",
+          "size": 25496,
+          "sha512": "5dd5b69a4b70f16a80d286bcf3a1dcb922c317fbf051f11dcdabc269cad56cf48ca6d5c490921ec933f7f1ae7cc42964a9516abf6cb954c6251b403c284bfbc2",
+          "sha256": "a69c3271e34ded3556986b5e485c6537f47595521ae1141a95a07403c2ca094d",
+          "sha1": "53d603832f62ca958e1e9660290de05823ada04c",
+          "md5": "4c426d10c20e356b0f759e6f3399928a"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "files": [
+        {
+          "name": "time-wasm-js-sources.jar",
+          "url": "ui-time-wasm-js-5.0.0-alpha01-sources.jar",
+          "size": 7486,
+          "sha512": "65a59d52381af033241c9be9c17f47ed717c774cbaa54c1a19eaeccd5602cf33aa7ff875c888961785fc9d21f6aa42f4fe8efa05d1ce08aed2154cf057204845",
+          "sha256": "9fb7ebc8b50c5f16019fb3fcaf954af2ef1f72d55dffb66dad284705b7b62038",
+          "sha1": "f5330a42cd917639541f008fcc158614dab6b717",
+          "md5": "f8b6cb2db1f1568484d0948704e8d741"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "core",
+          "version": {
+            "requires": "5.0.0-alpha01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.components",
+          "module": "components-resources",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "time.kotlin_resources.zip",
+          "url": "ui-time-wasm-js-5.0.0-alpha01-kotlin_resources.kotlin_resources.zip",
+          "size": 342,
+          "sha512": "14b01ebbc8185ef41ebd5ffc34fb02a2aa5f792d0f1770663f1685122d902b20ae2bf6fa262edc92b0ab15660b4da98af368137e9a104786ec67849b8b8a88a7",
+          "sha256": "c6f72ae002d7566470720ee476b5279943bccdf0208a63c4669944b4572568ba",
+          "sha1": "1e6c908332930f4a999fb203b660c3c8bef3a0cf",
+          "md5": "2200d1d071c8050edab7414df309038b"
+        }
+      ]
+    }
+  ]
+}

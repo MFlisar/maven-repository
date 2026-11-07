@@ -1,0 +1,137 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ui-progress/5.0.0-alpha01/ui-progress-5.0.0-alpha01.module",
+    "group": "io.github.mflisar.composedialogs",
+    "module": "ui-progress",
+    "version": "5.0.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "core",
+          "version": {
+            "requires": "5.0.0-alpha01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "progress.aar",
+          "url": "ui-progress-android-5.0.0-alpha01.aar",
+          "size": 11917,
+          "sha512": "4f7f9fbb67c7f00cabecfc14aca8a0a50b6fde0fc7a879c81e2a648d0a15027574c5d020573a5493245ed109a10f195d88fa37c936072f29a51633db307ceb7c",
+          "sha256": "84dd7103255ce9849a01286595ade6ec2c7db361d488cc61e1ab389a7e84028e",
+          "sha1": "f45538b957f109ff8296079cb445d3c464b81e48",
+          "md5": "2c3f31fda00b19da78493aedc0567f45"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "core",
+          "version": {
+            "requires": "5.0.0-alpha01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "progress.aar",
+          "url": "ui-progress-android-5.0.0-alpha01.aar",
+          "size": 11917,
+          "sha512": "4f7f9fbb67c7f00cabecfc14aca8a0a50b6fde0fc7a879c81e2a648d0a15027574c5d020573a5493245ed109a10f195d88fa37c936072f29a51633db307ceb7c",
+          "sha256": "84dd7103255ce9849a01286595ade6ec2c7db361d488cc61e1ab389a7e84028e",
+          "sha1": "f45538b957f109ff8296079cb445d3c464b81e48",
+          "md5": "2c3f31fda00b19da78493aedc0567f45"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "progress-android-sources.jar",
+          "url": "ui-progress-android-5.0.0-alpha01-sources.jar",
+          "size": 2497,
+          "sha512": "1cd41368c7e035b7d65fbf2aca07f3a862b1bb9d2cafd2c44f36c464bdd5a71f439a498b3cf7350b81a09cf40b266fb48810967c137ef7b0e4336febde7089eb",
+          "sha256": "6567d23f35c73fb64e482b367897b3afdca38a6e237c3f199d6bb582dc52824a",
+          "sha1": "f1cd4d2f946b6e3fd6937d08b4ddbf2ac49def9a",
+          "md5": "0fe9fdc013d5cade53915237d9a8e4a5"
+        }
+      ]
+    }
+  ]
+}

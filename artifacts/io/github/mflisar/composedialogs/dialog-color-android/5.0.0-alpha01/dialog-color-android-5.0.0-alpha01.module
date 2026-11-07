@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../dialog-color/5.0.0-alpha01/dialog-color-5.0.0-alpha01.module",
+    "group": "io.github.mflisar.composedialogs",
+    "module": "dialog-color",
+    "version": "5.0.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "ui-color",
+          "version": {
+            "requires": "5.0.0-alpha01"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "material3",
+          "version": {
+            "requires": "5.0.0-alpha01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "color.aar",
+          "url": "dialog-color-android-5.0.0-alpha01.aar",
+          "size": 6268,
+          "sha512": "2166e861fe998e4a38fe274f862eb2f87b7d1e1a78de17a3388ab06fb268688738cc12b5bb2beae8e44a9371b17699611991651c044c71280dbb202c62f6f3c5",
+          "sha256": "55263a05377ba8ef7723e48749e17f8da94cbcf79c0896e5de05cc566316a6cc",
+          "sha1": "86a9eaba9026f65bf5ae3efa830ed4395fc4890e",
+          "md5": "494b9373b5b1d5bb86964543999d04f6"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "ui-color",
+          "version": {
+            "requires": "5.0.0-alpha01"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "material3",
+          "version": {
+            "requires": "5.0.0-alpha01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "color.aar",
+          "url": "dialog-color-android-5.0.0-alpha01.aar",
+          "size": 6268,
+          "sha512": "2166e861fe998e4a38fe274f862eb2f87b7d1e1a78de17a3388ab06fb268688738cc12b5bb2beae8e44a9371b17699611991651c044c71280dbb202c62f6f3c5",
+          "sha256": "55263a05377ba8ef7723e48749e17f8da94cbcf79c0896e5de05cc566316a6cc",
+          "sha1": "86a9eaba9026f65bf5ae3efa830ed4395fc4890e",
+          "md5": "494b9373b5b1d5bb86964543999d04f6"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "color-android-sources.jar",
+          "url": "dialog-color-android-5.0.0-alpha01-sources.jar",
+          "size": 2204,
+          "sha512": "fbdd4391f87dba56ad1e384ef0530469e8f10e430325fec0bc228bdc8ad2c1077a6b4768f8c1ed6b2c7a1897e9207f75b2af690d6ab00f9494b405af390a22d6",
+          "sha256": "330d648de9e5911871b0ec947c6e20a5197b3e7735041922eb6220fbc018d689",
+          "sha1": "6a37aa7132e43d8a4e4a22c68b75eb8bc37e57d3",
+          "md5": "03faa76280a57ae20aa5bf5964bdd056"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../dialog-info/5.0.0-alpha01/dialog-info-5.0.0-alpha01.module",
+    "group": "io.github.mflisar.composedialogs",
+    "module": "dialog-info",
+    "version": "5.0.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "ui-info",
+          "version": {
+            "requires": "5.0.0-alpha01"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "material3",
+          "version": {
+            "requires": "5.0.0-alpha01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "info-iosSimulatorArm64Main.klib",
+          "url": "dialog-info-iossimulatorarm64-5.0.0-alpha01.klib",
+          "size": 11433,
+          "sha512": "5b7c1e7b236acf0c3bce74aa8e4a6c82d378765d5168a9274f010f25dc3e363c50e56d5f84dfda4a0a81eb7f2ab2ba3e043cacb2d0bf9cfc4bfaa8300386d33f",
+          "sha256": "b607f989af54fecca1dc699a7e771c3937ffa2fdd58a9bd25d3cec0b2eeaede9",
+          "sha1": "28b688f38a933cb83ab4aea330319fabb7ee3f66",
+          "md5": "2d3a5042a7228fafcc06fd8969c40c88"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "info-iossimulatorarm64-sources.jar",
+          "url": "dialog-info-iossimulatorarm64-5.0.0-alpha01-sources.jar",
+          "size": 1886,
+          "sha512": "e7636ff96e38d2e714cc2e510d03c2162b7369fc043cc6c69cd11e70c785c23b087356174f287d0b442b105a6804035e2790be84cf620539aba06155c8231dfd",
+          "sha256": "7ae4c6e0c3761c6c0032439b9a126e09fdcf0b90e4295a390a304d4279d9abd2",
+          "sha1": "b926236ec37399084c39140f31523c040cf3a310",
+          "md5": "f42baa3495d008e8f654d239c6ab7164"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "ui-info",
+          "version": {
+            "requires": "5.0.0-alpha01"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "material3",
+          "version": {
+            "requires": "5.0.0-alpha01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "info.kotlin_resources.zip",
+          "url": "dialog-info-iossimulatorarm64-5.0.0-alpha01-kotlin_resources.kotlin_resources.zip",
+          "size": 372,
+          "sha512": "3016c5d5deb55d7be32da440f7082565145bbb8f9823749a74b50c144773e7087ae8fe8f0cdb1a953c06e8c1f727dc13f7d8f6a5b58b551875713f9b4d32caee",
+          "sha256": "c7c37bb1adf19bfcb668c4b8b28063f289f386ebb900a8e3d2d96c252e8c7358",
+          "sha1": "e972fcfff4538b01815eafc16177baf0494f42e6",
+          "md5": "9b2b8f46653e760728368856fd99f37b"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "ui-info",
+          "version": {
+            "requires": "5.0.0-alpha01"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "material3",
+          "version": {
+            "requires": "5.0.0-alpha01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "info-iossimulatorarm64-metadata.jar",
+          "url": "dialog-info-iossimulatorarm64-5.0.0-alpha01-metadata.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    }
+  ]
+}

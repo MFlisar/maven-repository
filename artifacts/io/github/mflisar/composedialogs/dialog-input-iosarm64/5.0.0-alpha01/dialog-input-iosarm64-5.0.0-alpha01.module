@@ -1,0 +1,176 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../dialog-input/5.0.0-alpha01/dialog-input-5.0.0-alpha01.module",
+    "group": "io.github.mflisar.composedialogs",
+    "module": "dialog-input",
+    "version": "5.0.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "ui-input",
+          "version": {
+            "requires": "5.0.0-alpha01"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "material3",
+          "version": {
+            "requires": "5.0.0-alpha01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "input-iosArm64Main.klib",
+          "url": "dialog-input-iosarm64-5.0.0-alpha01.klib",
+          "size": 22007,
+          "sha512": "1142ad2d7d9b23f874968c32f806d1f0c51be9db42d5a34096913c3687c6b4ef354b8ac62552595eeb9ffd5c60fe9568e7e2ec477c14367ea20db6cce5239993",
+          "sha256": "ff9c84de5bac2abb82715b130560d639f73c4a093ae3ab2d9640e71bb56d0253",
+          "sha1": "6ce59cdf1027cff22b7b3df14916e30a82b4d2a7",
+          "md5": "ee682026878abe330447e2f349fde9cf"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "input-iosarm64-sources.jar",
+          "url": "dialog-input-iosarm64-5.0.0-alpha01-sources.jar",
+          "size": 3607,
+          "sha512": "4e0ba8ebc5cd7386df5450244e83cee8beac238a464bef92405583621e0523abfeaac0c03f9b1e7cdf4d5e16a8ebf162bc562fe96d19426ab37c51f9e769f484",
+          "sha256": "3763eac94512cce096ae2c216399a471cf77a4f4516b50a2c185050f6221ea4f",
+          "sha1": "6db31bc0f1329c97828bbfea7b0133463361f971",
+          "md5": "516cdea66fee692a30ee70cbca41d252"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "ui-input",
+          "version": {
+            "requires": "5.0.0-alpha01"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "material3",
+          "version": {
+            "requires": "5.0.0-alpha01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "input.kotlin_resources.zip",
+          "url": "dialog-input-iosarm64-5.0.0-alpha01-kotlin_resources.kotlin_resources.zip",
+          "size": 374,
+          "sha512": "f9c3c8a8be6a3f4b436fd84368307254b453e240818e3a54de457a1d514c826cf17d8aba49aad7ae4cfb079835cde440fcc2abb42b3a4fa453d9f248a4cb9b23",
+          "sha256": "b8e5cb58ef0aad10b7f333d75e93b2cec6987da05d3cd9855fc1505ace2c65ac",
+          "sha1": "f2beacef8f43e068cd843c9e63b3a49ceffc0b5f",
+          "md5": "c7f7c6efa5fe83c74e96b712c01be96d"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "ui-input",
+          "version": {
+            "requires": "5.0.0-alpha01"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "material3",
+          "version": {
+            "requires": "5.0.0-alpha01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "input-iosarm64-metadata.jar",
+          "url": "dialog-input-iosarm64-5.0.0-alpha01-metadata.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    }
+  ]
+}

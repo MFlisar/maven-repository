@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../dialog-time/5.0.0-alpha01/dialog-time-5.0.0-alpha01.module",
+    "group": "io.github.mflisar.composedialogs",
+    "module": "dialog-time",
+    "version": "5.0.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "ui-time",
+          "version": {
+            "requires": "5.0.0-alpha01"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "material3",
+          "version": {
+            "requires": "5.0.0-alpha01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "time.aar",
+          "url": "dialog-time-android-5.0.0-alpha01.aar",
+          "size": 5531,
+          "sha512": "a8c9257a38ed0646d3f1a843e8d5389dd17cc4cfbe3e7a729d6018fa0effc8c5a9a1b783ce7b59ec14a57490d286b2ec6a1b34809a35fb9cd4f73680486f6278",
+          "sha256": "5cd162a4b0e3be578bc8bcdca3c6dce74160fdac9305c4daf51f5e4f9830f029",
+          "sha1": "a987d11cb6136e3ad88ddcc6b4ccb18c0cc85958",
+          "md5": "a28d8472119031968da5ce8d5be5a929"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "ui-time",
+          "version": {
+            "requires": "5.0.0-alpha01"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "material3",
+          "version": {
+            "requires": "5.0.0-alpha01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "time.aar",
+          "url": "dialog-time-android-5.0.0-alpha01.aar",
+          "size": 5531,
+          "sha512": "a8c9257a38ed0646d3f1a843e8d5389dd17cc4cfbe3e7a729d6018fa0effc8c5a9a1b783ce7b59ec14a57490d286b2ec6a1b34809a35fb9cd4f73680486f6278",
+          "sha256": "5cd162a4b0e3be578bc8bcdca3c6dce74160fdac9305c4daf51f5e4f9830f029",
+          "sha1": "a987d11cb6136e3ad88ddcc6b4ccb18c0cc85958",
+          "md5": "a28d8472119031968da5ce8d5be5a929"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "time-android-sources.jar",
+          "url": "dialog-time-android-5.0.0-alpha01-sources.jar",
+          "size": 1919,
+          "sha512": "678e1c497d1ef88e01c5ebcb68996e0710292628b99c3633ae443155a2f860ded9ed27e0750a25b772bc68dc8469d3d4624ad928a28cd81371e17c196821e550",
+          "sha256": "6daf70c6d4f3491be28ad1ef44dccb1987970a106455000036c89ca188e65ed4",
+          "sha1": "6b4b2a12963074aa70a3ca162e89e339e3786626",
+          "md5": "a2175a2fbe8bbaf5c50fca7541e75385"
+        }
+      ]
+    }
+  ]
+}
