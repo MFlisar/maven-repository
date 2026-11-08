@@ -1,0 +1,137 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../dialog-menu/5.0.0-alpha03/dialog-menu-5.0.0-alpha03.module",
+    "group": "io.github.mflisar.composedialogs",
+    "module": "dialog-menu",
+    "version": "5.0.0-alpha03",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "menu.aar",
+          "url": "dialog-menu-android-5.0.0-alpha03.aar",
+          "size": 32152,
+          "sha512": "3c3aaf84a5b690abb8d9589a040642ddb957f15f3942d7134af9882c8aa10a8470c58b6f4f7a5a8204ea4a124279b8df3ebb7107b212dc1e1266499cbdf987b8",
+          "sha256": "b4f7dae4e5d701817d7e4ecbcf63f3382642c8dde85044e0f5f12bea0a824804",
+          "sha1": "cd240b59583f0f8f73d9a370d78505fa11438699",
+          "md5": "c5e967604740d1262ba6f1ad24598830"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-backhandler",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-icons-core",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "core",
+          "version": {
+            "requires": "5.0.0-alpha03"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "menu.aar",
+          "url": "dialog-menu-android-5.0.0-alpha03.aar",
+          "size": 32152,
+          "sha512": "3c3aaf84a5b690abb8d9589a040642ddb957f15f3942d7134af9882c8aa10a8470c58b6f4f7a5a8204ea4a124279b8df3ebb7107b212dc1e1266499cbdf987b8",
+          "sha256": "b4f7dae4e5d701817d7e4ecbcf63f3382642c8dde85044e0f5f12bea0a824804",
+          "sha1": "cd240b59583f0f8f73d9a370d78505fa11438699",
+          "md5": "c5e967604740d1262ba6f1ad24598830"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "menu-android-sources.jar",
+          "url": "dialog-menu-android-5.0.0-alpha03-sources.jar",
+          "size": 4412,
+          "sha512": "75255843b199c8d506a360ef93f1014ed9eb8e80eaa71a206a4f8847a0274823466263d6e455ebc70facf39f724abc99dd5faed52bb82321781b47d730a536a6",
+          "sha256": "accb9ea37e6fcf68de9e70377f0b005be2985151a9b9b2c27ad17a50fc7645b5",
+          "sha1": "cbdd92d2612de17030c3021be54155bda7e45139",
+          "md5": "9678b777a92285ed1782131d81d347ee"
+        }
+      ]
+    }
+  ]
+}

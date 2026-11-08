@@ -1,0 +1,225 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ui-color/5.0.0-alpha03/ui-color-5.0.0-alpha03.module",
+    "group": "io.github.mflisar.composedialogs",
+    "module": "ui-color",
+    "version": "5.0.0-alpha03",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "color-wasm-js.klib",
+          "url": "ui-color-wasm-js-5.0.0-alpha03.klib",
+          "size": 62309,
+          "sha512": "f0b8a85fd6b35c23f78ff18e7fe88113401323a3307e56ee23f6e7f4e74fe397c55d1cff8a30a30aac624c7314fd56e6931ba1bdc08b689b6804dfed9039fa42",
+          "sha256": "65f59d4585dc12049e724eedc66b7f4df43328b1217d4007acb248456f5d69df",
+          "sha1": "afb7b3741438546d978e05a098c5963e55a1e553",
+          "md5": "61ec138f984bb70b30a8f14bcbe7a922"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-backhandler",
+          "version": {
+            "requires": "1.12.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "color-wasm-js.klib",
+          "url": "ui-color-wasm-js-5.0.0-alpha03.klib",
+          "size": 62309,
+          "sha512": "f0b8a85fd6b35c23f78ff18e7fe88113401323a3307e56ee23f6e7f4e74fe397c55d1cff8a30a30aac624c7314fd56e6931ba1bdc08b689b6804dfed9039fa42",
+          "sha256": "65f59d4585dc12049e724eedc66b7f4df43328b1217d4007acb248456f5d69df",
+          "sha1": "afb7b3741438546d978e05a098c5963e55a1e553",
+          "md5": "61ec138f984bb70b30a8f14bcbe7a922"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "files": [
+        {
+          "name": "color-wasm-js-sources.jar",
+          "url": "ui-color-wasm-js-5.0.0-alpha03-sources.jar",
+          "size": 10357,
+          "sha512": "a11e8d8ec123278dc5d15e6aac7d2ff218022f33797cd2955acda6cdae33e297c2ec56542548cf5ddc2b763c374f5dd9d7de99d94daca7b06ef602b2b87cbf49",
+          "sha256": "65805a733191090d769c26f055120bb855de49ddd6bfbe1405f3087031cdd1ce",
+          "sha1": "2bc3d2c3afbda3483d755abde86d0f4ba3e42a8c",
+          "md5": "a71b3bac02a75441e91ee14d0b97b355"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-backhandler",
+          "version": {
+            "requires": "1.12.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "color.kotlin_resources.zip",
+          "url": "ui-color-wasm-js-5.0.0-alpha03-kotlin_resources.kotlin_resources.zip",
+          "size": 364,
+          "sha512": "d15a624027c05540b28a64f8bc418efa73ce20ad3d1e718768304e94653e27035401b7ab48ddfaced59e471a12633cca52c5e77493597e4dd8fdf5d658872bb6",
+          "sha256": "bfd3db44ffce2f4e4825bccc29e8dda3b356244970a86295a71d822fe375eb47",
+          "sha1": "29c6ba25ffd2564f538e16549aa43281f032c7f8",
+          "md5": "8249be8bdd807d7aae41234ade3ad8a8"
+        }
+      ]
+    }
+  ]
+}

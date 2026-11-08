@@ -1,0 +1,190 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../dialog-input/5.0.0-alpha03/dialog-input-5.0.0-alpha03.module",
+    "group": "io.github.mflisar.composedialogs",
+    "module": "dialog-input",
+    "version": "5.0.0-alpha03",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "input-wasm-js.klib",
+          "url": "dialog-input-wasm-js-5.0.0-alpha03.klib",
+          "size": 58683,
+          "sha512": "a7fc2b7215190a14b39a479210a88477d497078359769140326d0c298870094c097cdf194744fd40c4143f9d55e04c5dd054068fa3513399fd59256223707303",
+          "sha256": "5770a4b9a91f509c95afdc3b4961e5aeaaade440ec129c2cb1b419c0a77099b8",
+          "sha1": "92b4a7d94fd2c76aa926b26f2aaea3218bfdd27c",
+          "md5": "cdfc1784a50ccdc183bd1fd7b3b85936"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-icons-core",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "core",
+          "version": {
+            "requires": "5.0.0-alpha03"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "input-wasm-js.klib",
+          "url": "dialog-input-wasm-js-5.0.0-alpha03.klib",
+          "size": 58683,
+          "sha512": "a7fc2b7215190a14b39a479210a88477d497078359769140326d0c298870094c097cdf194744fd40c4143f9d55e04c5dd054068fa3513399fd59256223707303",
+          "sha256": "5770a4b9a91f509c95afdc3b4961e5aeaaade440ec129c2cb1b419c0a77099b8",
+          "sha1": "92b4a7d94fd2c76aa926b26f2aaea3218bfdd27c",
+          "md5": "cdfc1784a50ccdc183bd1fd7b3b85936"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "files": [
+        {
+          "name": "input-wasm-js-sources.jar",
+          "url": "dialog-input-wasm-js-5.0.0-alpha03-sources.jar",
+          "size": 9808,
+          "sha512": "1ca7445efda9c2a3e0dfe2ab3d69af97405629e1063430b9c7c84659df0aa8eef9fbdac07bf0dd1909fc5f1e1e19725ea9fe54fb42dc11eb762d33f21fb1ed7e",
+          "sha256": "d84459b8bbc1d1cbbc380a4c28d5c72dc9294aafe2585be3d99e3de4257f912a",
+          "sha1": "d5c323bf8b82a1fce9a02977826ba7254aa835cd",
+          "md5": "299245a04c41f26b060221aded38ec48"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-icons-core",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "core",
+          "version": {
+            "requires": "5.0.0-alpha03"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "input.kotlin_resources.zip",
+          "url": "dialog-input-wasm-js-5.0.0-alpha03-kotlin_resources.kotlin_resources.zip",
+          "size": 374,
+          "sha512": "f9c3c8a8be6a3f4b436fd84368307254b453e240818e3a54de457a1d514c826cf17d8aba49aad7ae4cfb079835cde440fcc2abb42b3a4fa453d9f248a4cb9b23",
+          "sha256": "b8e5cb58ef0aad10b7f333d75e93b2cec6987da05d3cd9855fc1505ace2c65ac",
+          "sha1": "f2beacef8f43e068cd843c9e63b3a49ceffc0b5f",
+          "md5": "c7f7c6efa5fe83c74e96b712c01be96d"
+        }
+      ]
+    }
+  ]
+}
