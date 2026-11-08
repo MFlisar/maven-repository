@@ -1,0 +1,179 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../dialog-color/5.0.0-alpha04/dialog-color-5.0.0-alpha04.module",
+    "group": "io.github.mflisar.composedialogs",
+    "module": "dialog-color",
+    "version": "5.0.0-alpha04",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "ui-color",
+          "version": {
+            "requires": "5.0.0-alpha04"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "color-jvm.jar",
+          "url": "dialog-color-jvm-5.0.0-alpha04.jar",
+          "size": 51986,
+          "sha512": "a8378ba18e9a8fd76b5603777ec7a63fa86cc827c02d563d7c705331ea6338282627e586e5d08be2d91ff4e56f23d1634f9f023ce03acfe0f33492ac3e7874a5",
+          "sha256": "b2b9ad011a9e0b2850028381e7858f0f62427c86b4563db785a7a7631496ff57",
+          "sha1": "9aad6cc4d6e027917e6544d16acf12eec0a63810",
+          "md5": "2e858af0910ba40156b05dbc8f9f81e2"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "ui-color",
+          "version": {
+            "requires": "5.0.0-alpha04"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-backhandler",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-icons-core",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composecolors",
+          "module": "material",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composecolors",
+          "module": "material-palette",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "core",
+          "version": {
+            "requires": "5.0.0-alpha04"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "dialog-input",
+          "version": {
+            "requires": "5.0.0-alpha04"
+          }
+        },
+        {
+          "group": "io.github.mflisar.kmpparcelize",
+          "module": "library",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "color-jvm.jar",
+          "url": "dialog-color-jvm-5.0.0-alpha04.jar",
+          "size": 51986,
+          "sha512": "a8378ba18e9a8fd76b5603777ec7a63fa86cc827c02d563d7c705331ea6338282627e586e5d08be2d91ff4e56f23d1634f9f023ce03acfe0f33492ac3e7874a5",
+          "sha256": "b2b9ad011a9e0b2850028381e7858f0f62427c86b4563db785a7a7631496ff57",
+          "sha1": "9aad6cc4d6e027917e6544d16acf12eec0a63810",
+          "md5": "2e858af0910ba40156b05dbc8f9f81e2"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "color-jvm-sources.jar",
+          "url": "dialog-color-jvm-5.0.0-alpha04-sources.jar",
+          "size": 11499,
+          "sha512": "8bbecdce15d18ca287a36558efc841ea6208514b5d22b207daad82a0a2581a39d24c9b1507a503afb838f2f0d408a7bb261e1977bc72eed80d1327be0fa8febd",
+          "sha256": "e3650b1c2ae1608641040abe68b9aa3d525990b95fc0f53037fe36866210fee0",
+          "sha1": "fb1264452589edf453732834711e77f6d420d44b",
+          "md5": "a2acf999a2d4a844b43ba56138e4627a"
+        }
+      ]
+    }
+  ]
+}

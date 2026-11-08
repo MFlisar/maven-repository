@@ -1,0 +1,123 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../dialog-progress/5.0.0-alpha04/dialog-progress-5.0.0-alpha04.module",
+    "group": "io.github.mflisar.composedialogs",
+    "module": "dialog-progress",
+    "version": "5.0.0-alpha04",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "progress-jvm.jar",
+          "url": "dialog-progress-jvm-5.0.0-alpha04.jar",
+          "size": 18399,
+          "sha512": "a14547e3afa08a8d17433b17f20e6ff3ef9012ae0b36f1651fb59b64af156a642e30322a910311e291c74bfa93ef79b2da58867fcd5b08f76381f74e4efec811",
+          "sha256": "25ef47fef02ae50d8651f1ef38a4639231638fdd991baf01a6a0e5923c766c26",
+          "sha1": "3af994ee7a56aeb02ddbf1b1ab3653604f3e7091",
+          "md5": "17c3296dc0e0307ce2a2b8da4d46a76a"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "core",
+          "version": {
+            "requires": "5.0.0-alpha04"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "progress-jvm.jar",
+          "url": "dialog-progress-jvm-5.0.0-alpha04.jar",
+          "size": 18399,
+          "sha512": "a14547e3afa08a8d17433b17f20e6ff3ef9012ae0b36f1651fb59b64af156a642e30322a910311e291c74bfa93ef79b2da58867fcd5b08f76381f74e4efec811",
+          "sha256": "25ef47fef02ae50d8651f1ef38a4639231638fdd991baf01a6a0e5923c766c26",
+          "sha1": "3af994ee7a56aeb02ddbf1b1ab3653604f3e7091",
+          "md5": "17c3296dc0e0307ce2a2b8da4d46a76a"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "progress-jvm-sources.jar",
+          "url": "dialog-progress-jvm-5.0.0-alpha04-sources.jar",
+          "size": 3981,
+          "sha512": "df9aa331b2a5bed7b12d9d79dde46da9b5430b2b345276ab8825948a9fedb5efdfa67131ff91febbc2cd106dc2c6c7feefc909a115ab7572897a010c5dc0ffdb",
+          "sha256": "a0e73afe6349d0aac8080489b26260b7a09704c12d16a9ff8d1fb23ca6795765",
+          "sha1": "9fe4d45904070d0ae26537e2b46e945b4d4a1054",
+          "md5": "9f1849b28109dafbe8d4ae79de865cf2"
+        }
+      ]
+    }
+  ]
+}

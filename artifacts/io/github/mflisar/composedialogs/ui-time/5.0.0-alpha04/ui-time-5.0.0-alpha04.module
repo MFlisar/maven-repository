@@ -1,0 +1,476 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mflisar.composedialogs",
+    "module": "ui-time",
+    "version": "5.0.0-alpha04",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.components",
+          "module": "components-resources",
+          "version": {
+            "requires": "1.12.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "time-metadata.jar",
+          "url": "ui-time-5.0.0-alpha04.jar",
+          "size": 7321,
+          "sha512": "6d5ff94c50011206db7c408db6841a11e686aa70e49e55602f19d03c98aec20067c75efe83ee62c66fad44c0713bdf23c72d633e12cc265482fe653be263e6b4",
+          "sha256": "fe6e32f9b86092f9f334b7a5e999abab82ce1aaeb53d60d0da23d07470aab7bc",
+          "sha1": "e33a699888c1a754742949d63b0d4039cff901e0",
+          "md5": "3fc471e2b33df68946bbb0349e5785c9"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "time-kotlin-sources.jar",
+          "url": "ui-time-5.0.0-alpha04-sources.jar",
+          "size": 8589,
+          "sha512": "02cce204d3a9175e916757564286bb367b2226642e0b0d6c167e83919942eb8e9aec44519dcc7e089eee1670d1fee19770433c19b939e8285540548a6157e5e5",
+          "sha256": "41f4d2170f5ff42ffa1294f620ca6cf009e1e9669a3b9daddb129ec8a2121df6",
+          "sha1": "25022b3b39d4ce483239344d5cbe72ccbbc184fd",
+          "md5": "92a96a24b70f155229a508b775a2fe60"
+        }
+      ]
+    },
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../ui-time-android/5.0.0-alpha04/ui-time-android-5.0.0-alpha04.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-time-android",
+        "version": "5.0.0-alpha04"
+      }
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../ui-time-android/5.0.0-alpha04/ui-time-android-5.0.0-alpha04.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-time-android",
+        "version": "5.0.0-alpha04"
+      }
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../ui-time-android/5.0.0-alpha04/ui-time-android-5.0.0-alpha04.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-time-android",
+        "version": "5.0.0-alpha04"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ui-time-iosarm64/5.0.0-alpha04/ui-time-iosarm64-5.0.0-alpha04.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-time-iosarm64",
+        "version": "5.0.0-alpha04"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ui-time-iosarm64/5.0.0-alpha04/ui-time-iosarm64-5.0.0-alpha04.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-time-iosarm64",
+        "version": "5.0.0-alpha04"
+      }
+    },
+    {
+      "name": "iosArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ui-time-iosarm64/5.0.0-alpha04/ui-time-iosarm64-5.0.0-alpha04.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-time-iosarm64",
+        "version": "5.0.0-alpha04"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ui-time-iosarm64/5.0.0-alpha04/ui-time-iosarm64-5.0.0-alpha04.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-time-iosarm64",
+        "version": "5.0.0-alpha04"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ui-time-iossimulatorarm64/5.0.0-alpha04/ui-time-iossimulatorarm64-5.0.0-alpha04.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-time-iossimulatorarm64",
+        "version": "5.0.0-alpha04"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ui-time-iossimulatorarm64/5.0.0-alpha04/ui-time-iossimulatorarm64-5.0.0-alpha04.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-time-iossimulatorarm64",
+        "version": "5.0.0-alpha04"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ui-time-iossimulatorarm64/5.0.0-alpha04/ui-time-iossimulatorarm64-5.0.0-alpha04.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-time-iossimulatorarm64",
+        "version": "5.0.0-alpha04"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ui-time-iossimulatorarm64/5.0.0-alpha04/ui-time-iossimulatorarm64-5.0.0-alpha04.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-time-iossimulatorarm64",
+        "version": "5.0.0-alpha04"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../ui-time-jvm/5.0.0-alpha04/ui-time-jvm-5.0.0-alpha04.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-time-jvm",
+        "version": "5.0.0-alpha04"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../ui-time-jvm/5.0.0-alpha04/ui-time-jvm-5.0.0-alpha04.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-time-jvm",
+        "version": "5.0.0-alpha04"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../ui-time-jvm/5.0.0-alpha04/ui-time-jvm-5.0.0-alpha04.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-time-jvm",
+        "version": "5.0.0-alpha04"
+      }
+    },
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ui-time-macosarm64/5.0.0-alpha04/ui-time-macosarm64-5.0.0-alpha04.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-time-macosarm64",
+        "version": "5.0.0-alpha04"
+      }
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ui-time-macosarm64/5.0.0-alpha04/ui-time-macosarm64-5.0.0-alpha04.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-time-macosarm64",
+        "version": "5.0.0-alpha04"
+      }
+    },
+    {
+      "name": "macosArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ui-time-macosarm64/5.0.0-alpha04/ui-time-macosarm64-5.0.0-alpha04.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-time-macosarm64",
+        "version": "5.0.0-alpha04"
+      }
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ui-time-macosarm64/5.0.0-alpha04/ui-time-macosarm64-5.0.0-alpha04.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-time-macosarm64",
+        "version": "5.0.0-alpha04"
+      }
+    },
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../ui-time-wasm-js/5.0.0-alpha04/ui-time-wasm-js-5.0.0-alpha04.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-time-wasm-js",
+        "version": "5.0.0-alpha04"
+      }
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../ui-time-wasm-js/5.0.0-alpha04/ui-time-wasm-js-5.0.0-alpha04.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-time-wasm-js",
+        "version": "5.0.0-alpha04"
+      }
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../ui-time-wasm-js/5.0.0-alpha04/ui-time-wasm-js-5.0.0-alpha04.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-time-wasm-js",
+        "version": "5.0.0-alpha04"
+      }
+    },
+    {
+      "name": "wasmJsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../ui-time-wasm-js/5.0.0-alpha04/ui-time-wasm-js-5.0.0-alpha04.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-time-wasm-js",
+        "version": "5.0.0-alpha04"
+      }
+    }
+  ]
+}

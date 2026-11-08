@@ -1,0 +1,267 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ui-frequency/5.0.0-alpha04/ui-frequency-5.0.0-alpha04.module",
+    "group": "io.github.mflisar.composedialogs",
+    "module": "ui-frequency",
+    "version": "5.0.0-alpha04",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "ui-time",
+          "version": {
+            "requires": "5.0.0-alpha04"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "frequency-wasm-js.klib",
+          "url": "ui-frequency-wasm-js-5.0.0-alpha04.klib",
+          "size": 83780,
+          "sha512": "8d0dbf3e061cb9121e8c82943555fcc7a3a6e315c656ba6e5edbc57b142fa0cd00c17d23098dd27a1827a29284e19602980a2a517bdfb0430a9f94bb751d61b7",
+          "sha256": "0f4814be0f1d579d07d6ddf7e319bbcebb7f550a25e2381b9aa6dc03e40fd0f8",
+          "sha1": "1200f7967acf13fa9b17106ca58e901efffc1940",
+          "md5": "85b567345662e1d87cf9965fc742cc34"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "ui-time",
+          "version": {
+            "requires": "5.0.0-alpha04"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.components",
+          "module": "components-resources",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.12.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "frequency-wasm-js.klib",
+          "url": "ui-frequency-wasm-js-5.0.0-alpha04.klib",
+          "size": 83780,
+          "sha512": "8d0dbf3e061cb9121e8c82943555fcc7a3a6e315c656ba6e5edbc57b142fa0cd00c17d23098dd27a1827a29284e19602980a2a517bdfb0430a9f94bb751d61b7",
+          "sha256": "0f4814be0f1d579d07d6ddf7e319bbcebb7f550a25e2381b9aa6dc03e40fd0f8",
+          "sha1": "1200f7967acf13fa9b17106ca58e901efffc1940",
+          "md5": "85b567345662e1d87cf9965fc742cc34"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "files": [
+        {
+          "name": "frequency-wasm-js-sources.jar",
+          "url": "ui-frequency-wasm-js-5.0.0-alpha04-sources.jar",
+          "size": 15007,
+          "sha512": "b638b34862a7dd95803d70ec783fd01eb01cceabf03aa5801d445e12ff0af6641cb0ff39993589efea549009994bfe8e7430b2154d930f8f9d46ee0600ec09dd",
+          "sha256": "b62f930c9e5c51567265d0a14033ade0431b1f80544e1391fe4e3788bf990ffb",
+          "sha1": "061cb7e00a1780cbed2061655c75f7378dec4222",
+          "md5": "62fc4ec573613cc586b2a059c672203c"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "ui-time",
+          "version": {
+            "requires": "5.0.0-alpha04"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.components",
+          "module": "components-resources",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.12.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "frequency.kotlin_resources.zip",
+          "url": "ui-frequency-wasm-js-5.0.0-alpha04-kotlin_resources.kotlin_resources.zip",
+          "size": 2391,
+          "sha512": "bf9b4c2bd6d271cbc9fc331553e8971109f6cdfa1743f1be92014a3b6464092cd3a25261415e7af0d39804169c4ecce220edab7f80e0bc8732dd094cdc58fc01",
+          "sha256": "15705d56cda195418706ac2bb4cc19880e7cff55918fa6d56e0d10be6f4a4182",
+          "sha1": "e44e48d12397df65a84d9979b97fcd34ab1b1eb7",
+          "md5": "93a80b72af93e093fde1bb9f6aa4e6a5"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ui-color/5.0.0-alpha04/ui-color-5.0.0-alpha04.module",
+    "group": "io.github.mflisar.composedialogs",
+    "module": "ui-color",
+    "version": "5.0.0-alpha04",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "color.aar",
+          "url": "ui-color-android-5.0.0-alpha04.aar",
+          "size": 77105,
+          "sha512": "16a56301ce263a328c5de619a0fd2bafed9f3a1b0aee37134d41634fc67e9fd74e21679a8bf39c94cf717bb815849b21d8468ace2a8a9ce1dd33d505705a666f",
+          "sha256": "8e82684f209b0ba69e9847af9a0d3d809975484db00943682fa4a78f3a3b4ec7",
+          "sha1": "bab69e8dca51473a465bce2f8b87e31d7fee4959",
+          "md5": "4c2eb80dd71639f5c2bcfd2cc50eb208"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.components",
+          "module": "components-resources",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-backhandler",
+          "version": {
+            "requires": "1.12.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "color.aar",
+          "url": "ui-color-android-5.0.0-alpha04.aar",
+          "size": 77105,
+          "sha512": "16a56301ce263a328c5de619a0fd2bafed9f3a1b0aee37134d41634fc67e9fd74e21679a8bf39c94cf717bb815849b21d8468ace2a8a9ce1dd33d505705a666f",
+          "sha256": "8e82684f209b0ba69e9847af9a0d3d809975484db00943682fa4a78f3a3b4ec7",
+          "sha1": "bab69e8dca51473a465bce2f8b87e31d7fee4959",
+          "md5": "4c2eb80dd71639f5c2bcfd2cc50eb208"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "color-android-sources.jar",
+          "url": "ui-color-android-5.0.0-alpha04-sources.jar",
+          "size": 14880,
+          "sha512": "e32acb812b122788ccba83cd6abeed172c198f7de86d4075ccf43cf75f81970703c9f7acb06fe817f6534eb0cbc698b130e2cc0e2101221c233ce3c8c71b7c33",
+          "sha256": "5dc785692b513577204baa72bd29b7a9232464815a122ac29515cb158a09b8a8",
+          "sha1": "07e8321d5a207987509499aafc66f65c9afe5f8b",
+          "md5": "2e1180e79ffd6457678bef09c8f29d26"
+        }
+      ]
+    }
+  ]
+}

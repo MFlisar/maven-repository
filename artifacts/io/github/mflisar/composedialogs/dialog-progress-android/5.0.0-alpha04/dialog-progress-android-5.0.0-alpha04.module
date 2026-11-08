@@ -1,0 +1,123 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../dialog-progress/5.0.0-alpha04/dialog-progress-5.0.0-alpha04.module",
+    "group": "io.github.mflisar.composedialogs",
+    "module": "dialog-progress",
+    "version": "5.0.0-alpha04",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "progress.aar",
+          "url": "dialog-progress-android-5.0.0-alpha04.aar",
+          "size": 14781,
+          "sha512": "95525cd9e9c3ecc62b3552d296ee234a994d21a3960f4f47b05c1a69d1ce82d6d98f41df4457ae59a87f86c3dc8b80c8788bd009cd0e8fa0fdfeba16e0e676f1",
+          "sha256": "4998f6c54217bada891ad4a65ecbfd403ae99e88187154159fe4bb6eea4a45c7",
+          "sha1": "5799f56a86d0c1611045a5f36096a41040afc26f",
+          "md5": "252b66185980aabd12c4f286acdfbdb7"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "core",
+          "version": {
+            "requires": "5.0.0-alpha04"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "progress.aar",
+          "url": "dialog-progress-android-5.0.0-alpha04.aar",
+          "size": 14781,
+          "sha512": "95525cd9e9c3ecc62b3552d296ee234a994d21a3960f4f47b05c1a69d1ce82d6d98f41df4457ae59a87f86c3dc8b80c8788bd009cd0e8fa0fdfeba16e0e676f1",
+          "sha256": "4998f6c54217bada891ad4a65ecbfd403ae99e88187154159fe4bb6eea4a45c7",
+          "sha1": "5799f56a86d0c1611045a5f36096a41040afc26f",
+          "md5": "252b66185980aabd12c4f286acdfbdb7"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "progress-android-sources.jar",
+          "url": "dialog-progress-android-5.0.0-alpha04-sources.jar",
+          "size": 2503,
+          "sha512": "3bbc52da367161400bb43c300db92330931283fd494d704a8ca1d42997abc3134b97e1138f8b4fed4edb65f56c2cc3203797ac8b9be6a0c2a412262db8b9ec07",
+          "sha256": "752ac2e81444032cb6d71ea0f82bb603237cf18240ae12c220b0bfd34ef2d5f9",
+          "sha1": "07950caffb07e80d8415abc4cb2f0991fbc81bef",
+          "md5": "b52cf4d6ca711aa4e284c3f8970efc5e"
+        }
+      ]
+    }
+  ]
+}
