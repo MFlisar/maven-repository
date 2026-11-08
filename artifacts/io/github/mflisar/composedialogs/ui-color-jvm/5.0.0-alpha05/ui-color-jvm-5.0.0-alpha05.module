@@ -1,0 +1,165 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ui-color/5.0.0-alpha05/ui-color-5.0.0-alpha05.module",
+    "group": "io.github.mflisar.composedialogs",
+    "module": "ui-color",
+    "version": "5.0.0-alpha05",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "color-jvm.jar",
+          "url": "ui-color-jvm-5.0.0-alpha05.jar",
+          "size": 82504,
+          "sha512": "3495985ce4ebc0ae38f217d1f0f245ea105e9e8091a8f664a607b2f7396f1b95f3923e7856928cee0630cefd6f3e9b7862e30e78f5343f3941b3305a5edc333f",
+          "sha256": "c35a6947deb1c638cdf9f9f27b1a7e70d01ead8f684c6de786e332e8fc5a89d7",
+          "sha1": "18e2186d1024774d9c0234bdfaeb16674cce2efa",
+          "md5": "133632016ee231ddd0d5d9941361a8ed"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.components",
+          "module": "components-resources",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-backhandler",
+          "version": {
+            "requires": "1.12.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "color-jvm.jar",
+          "url": "ui-color-jvm-5.0.0-alpha05.jar",
+          "size": 82504,
+          "sha512": "3495985ce4ebc0ae38f217d1f0f245ea105e9e8091a8f664a607b2f7396f1b95f3923e7856928cee0630cefd6f3e9b7862e30e78f5343f3941b3305a5edc333f",
+          "sha256": "c35a6947deb1c638cdf9f9f27b1a7e70d01ead8f684c6de786e332e8fc5a89d7",
+          "sha1": "18e2186d1024774d9c0234bdfaeb16674cce2efa",
+          "md5": "133632016ee231ddd0d5d9941361a8ed"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "color-jvm-sources.jar",
+          "url": "ui-color-jvm-5.0.0-alpha05-sources.jar",
+          "size": 14824,
+          "sha512": "dd8f1b0d495def0187a75e434e12e8d62ad76f196dccf27e3d88a6daace895a15ab7bee266abeb6110e68492515b08f5458eef5c1d438da4915b0e3e08028da2",
+          "sha256": "4f6ace27ef265c0a6934f22c445f2abd3525fe54850fa8ddb3ad6ab2ed05996d",
+          "sha1": "7f06a9c0d3e7009ddd70f0032b1c21107955256e",
+          "md5": "d2f3b29411fd8498817cacbf50a8e03c"
+        }
+      ]
+    }
+  ]
+}

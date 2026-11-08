@@ -1,0 +1,137 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../dialog-number/5.0.0-alpha05/dialog-number-5.0.0-alpha05.module",
+    "group": "io.github.mflisar.composedialogs",
+    "module": "dialog-number",
+    "version": "5.0.0-alpha05",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "number.aar",
+          "url": "dialog-number-android-5.0.0-alpha05.aar",
+          "size": 33307,
+          "sha512": "dd77202ba770d0540be04a17393614cab1da59bfad9b254c7f2c9fe7d1456f13e62fbf134a174d632ee466081fd3b0932094bffc469aff2d0588ad6b4c3ea72f",
+          "sha256": "ded310af11a720c0ec374ea047e3d67a8c2e926ee849dfc3236016ecd8a1dcbf",
+          "sha1": "f48fcc7f99402f515bf284082637524862785475",
+          "md5": "fdc56e8efe910280d66ae91f8731272d"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-icons-core",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-icons-extended",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "core",
+          "version": {
+            "requires": "5.0.0-alpha05"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "number.aar",
+          "url": "dialog-number-android-5.0.0-alpha05.aar",
+          "size": 33307,
+          "sha512": "dd77202ba770d0540be04a17393614cab1da59bfad9b254c7f2c9fe7d1456f13e62fbf134a174d632ee466081fd3b0932094bffc469aff2d0588ad6b4c3ea72f",
+          "sha256": "ded310af11a720c0ec374ea047e3d67a8c2e926ee849dfc3236016ecd8a1dcbf",
+          "sha1": "f48fcc7f99402f515bf284082637524862785475",
+          "md5": "fdc56e8efe910280d66ae91f8731272d"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "number-android-sources.jar",
+          "url": "dialog-number-android-5.0.0-alpha05-sources.jar",
+          "size": 7073,
+          "sha512": "e35ede0f2ce1acf75b58d565146fd6d7cb350ee5585392e456d51b04deadb597ea1505ae998c7d0f9fa9aeda16c420f8b0405ee4d7621f90ae3bcad6bd81541e",
+          "sha256": "81a9517caba745e1b800d6b246cd37dbabaeedd0b58a55e433759efa75ad9b37",
+          "sha1": "d4c7996b69a64f83c1ba741aa1637139d4652263",
+          "md5": "7013a198e298a5c9f5316055db2a463a"
+        }
+      ]
+    }
+  ]
+}

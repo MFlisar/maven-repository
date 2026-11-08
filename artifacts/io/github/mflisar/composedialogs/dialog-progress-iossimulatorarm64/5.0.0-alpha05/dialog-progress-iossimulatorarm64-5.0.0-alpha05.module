@@ -1,0 +1,197 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../dialog-progress/5.0.0-alpha05/dialog-progress-5.0.0-alpha05.module",
+    "group": "io.github.mflisar.composedialogs",
+    "module": "dialog-progress",
+    "version": "5.0.0-alpha05",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "core",
+          "version": {
+            "requires": "5.0.0-alpha05"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "progress-iosSimulatorArm64Main.klib",
+          "url": "dialog-progress-iossimulatorarm64-5.0.0-alpha05.klib",
+          "size": 18869,
+          "sha512": "2d36c37a56e671bb0a652f0a4a344db66f4f3b63d41177395810cb6285c024da84aeb27427854dfbfee6d6996c72bc4788a828450f397276d4e31b6977374ff5",
+          "sha256": "b0f9ada3e24c3b24998a4e7decee2e8f9bd2e78293e2d32e1630c2c9dfccbbdd",
+          "sha1": "93839e961d6279a78a407e313756bfeb5088b3e0",
+          "md5": "0477641f7f22a5070a71024007cbfd0d"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "progress-iossimulatorarm64-sources.jar",
+          "url": "dialog-progress-iossimulatorarm64-5.0.0-alpha05-sources.jar",
+          "size": 2503,
+          "sha512": "3bbc52da367161400bb43c300db92330931283fd494d704a8ca1d42997abc3134b97e1138f8b4fed4edb65f56c2cc3203797ac8b9be6a0c2a412262db8b9ec07",
+          "sha256": "752ac2e81444032cb6d71ea0f82bb603237cf18240ae12c220b0bfd34ef2d5f9",
+          "sha1": "07950caffb07e80d8415abc4cb2f0991fbc81bef",
+          "md5": "b52cf4d6ca711aa4e284c3f8970efc5e"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "core",
+          "version": {
+            "requires": "5.0.0-alpha05"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "progress.kotlin_resources.zip",
+          "url": "dialog-progress-iossimulatorarm64-5.0.0-alpha05-kotlin_resources.kotlin_resources.zip",
+          "size": 380,
+          "sha512": "f6d7d57658a30744823d06fef7b8d0901ea24f46456159e5af5b7a689e8855802b6af12f3eda709a28fd182f0f4d0f348daea3042e9e79ae1f0d9d44839feaa2",
+          "sha256": "c6e9a35dd7a3b501f4a8b7e45f125625d97c0650c2b801eb7985cae99ed0dea0",
+          "sha1": "6e438e4bba5ab789001a5fea371f86f490a3fdbd",
+          "md5": "725e4fe3afe50f8944d01723d2232ff0"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "core",
+          "version": {
+            "requires": "5.0.0-alpha05"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "progress-iossimulatorarm64-metadata.jar",
+          "url": "dialog-progress-iossimulatorarm64-5.0.0-alpha05-metadata.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    }
+  ]
+}

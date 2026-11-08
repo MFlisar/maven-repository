@@ -1,0 +1,462 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mflisar.composedialogs",
+    "module": "ui-color",
+    "version": "5.0.0-alpha05",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "color-metadata.jar",
+          "url": "ui-color-5.0.0-alpha05.jar",
+          "size": 11777,
+          "sha512": "fb90093d45eceec5bd1276c7e968e83dc59320059c5200c65a206055ce50a1b9614f60e2889538d9fc3cfac7c74f9951e557a17abafb50203da6f713706f6071",
+          "sha256": "f0a8a0b08f5e254a2d840e2cf5e03a8c7287351f593164e0e35c3a676b9bdb76",
+          "sha1": "32fb0073397e23688f21bb564d2142350f77fd4e",
+          "md5": "1d2108aa8ecb79c08a5ed3bbc69844a6"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "color-kotlin-sources.jar",
+          "url": "ui-color-5.0.0-alpha05-sources.jar",
+          "size": 13406,
+          "sha512": "2cdcc6d9ecb827eea1192a8c2bc4379fecab478b92b072804838a6cd6b26c2045c156a79076cd27d80c085cb00f48a2fe0f5a9ad23d2c6d18cfcc83ed85f0179",
+          "sha256": "81516b81a27c41143e033cf9a0d08b7cd55e64cca8d24b8b4c4fe9a59e6441d3",
+          "sha1": "663bef31997e049014abaede1dff5c2b3b73c739",
+          "md5": "c09f3b631d9e0633e7be7ef6151b4133"
+        }
+      ]
+    },
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../ui-color-android/5.0.0-alpha05/ui-color-android-5.0.0-alpha05.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-color-android",
+        "version": "5.0.0-alpha05"
+      }
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../ui-color-android/5.0.0-alpha05/ui-color-android-5.0.0-alpha05.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-color-android",
+        "version": "5.0.0-alpha05"
+      }
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../ui-color-android/5.0.0-alpha05/ui-color-android-5.0.0-alpha05.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-color-android",
+        "version": "5.0.0-alpha05"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ui-color-iosarm64/5.0.0-alpha05/ui-color-iosarm64-5.0.0-alpha05.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-color-iosarm64",
+        "version": "5.0.0-alpha05"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ui-color-iosarm64/5.0.0-alpha05/ui-color-iosarm64-5.0.0-alpha05.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-color-iosarm64",
+        "version": "5.0.0-alpha05"
+      }
+    },
+    {
+      "name": "iosArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ui-color-iosarm64/5.0.0-alpha05/ui-color-iosarm64-5.0.0-alpha05.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-color-iosarm64",
+        "version": "5.0.0-alpha05"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ui-color-iosarm64/5.0.0-alpha05/ui-color-iosarm64-5.0.0-alpha05.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-color-iosarm64",
+        "version": "5.0.0-alpha05"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ui-color-iossimulatorarm64/5.0.0-alpha05/ui-color-iossimulatorarm64-5.0.0-alpha05.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-color-iossimulatorarm64",
+        "version": "5.0.0-alpha05"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ui-color-iossimulatorarm64/5.0.0-alpha05/ui-color-iossimulatorarm64-5.0.0-alpha05.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-color-iossimulatorarm64",
+        "version": "5.0.0-alpha05"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ui-color-iossimulatorarm64/5.0.0-alpha05/ui-color-iossimulatorarm64-5.0.0-alpha05.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-color-iossimulatorarm64",
+        "version": "5.0.0-alpha05"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ui-color-iossimulatorarm64/5.0.0-alpha05/ui-color-iossimulatorarm64-5.0.0-alpha05.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-color-iossimulatorarm64",
+        "version": "5.0.0-alpha05"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../ui-color-jvm/5.0.0-alpha05/ui-color-jvm-5.0.0-alpha05.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-color-jvm",
+        "version": "5.0.0-alpha05"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../ui-color-jvm/5.0.0-alpha05/ui-color-jvm-5.0.0-alpha05.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-color-jvm",
+        "version": "5.0.0-alpha05"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../ui-color-jvm/5.0.0-alpha05/ui-color-jvm-5.0.0-alpha05.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-color-jvm",
+        "version": "5.0.0-alpha05"
+      }
+    },
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ui-color-macosarm64/5.0.0-alpha05/ui-color-macosarm64-5.0.0-alpha05.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-color-macosarm64",
+        "version": "5.0.0-alpha05"
+      }
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ui-color-macosarm64/5.0.0-alpha05/ui-color-macosarm64-5.0.0-alpha05.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-color-macosarm64",
+        "version": "5.0.0-alpha05"
+      }
+    },
+    {
+      "name": "macosArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ui-color-macosarm64/5.0.0-alpha05/ui-color-macosarm64-5.0.0-alpha05.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-color-macosarm64",
+        "version": "5.0.0-alpha05"
+      }
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ui-color-macosarm64/5.0.0-alpha05/ui-color-macosarm64-5.0.0-alpha05.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-color-macosarm64",
+        "version": "5.0.0-alpha05"
+      }
+    },
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../ui-color-wasm-js/5.0.0-alpha05/ui-color-wasm-js-5.0.0-alpha05.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-color-wasm-js",
+        "version": "5.0.0-alpha05"
+      }
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../ui-color-wasm-js/5.0.0-alpha05/ui-color-wasm-js-5.0.0-alpha05.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-color-wasm-js",
+        "version": "5.0.0-alpha05"
+      }
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../ui-color-wasm-js/5.0.0-alpha05/ui-color-wasm-js-5.0.0-alpha05.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-color-wasm-js",
+        "version": "5.0.0-alpha05"
+      }
+    },
+    {
+      "name": "wasmJsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../ui-color-wasm-js/5.0.0-alpha05/ui-color-wasm-js-5.0.0-alpha05.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "ui-color-wasm-js",
+        "version": "5.0.0-alpha05"
+      }
+    }
+  ]
+}

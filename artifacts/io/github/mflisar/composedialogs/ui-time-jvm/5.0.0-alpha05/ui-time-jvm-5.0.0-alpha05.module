@@ -1,0 +1,165 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ui-time/5.0.0-alpha05/ui-time-5.0.0-alpha05.module",
+    "group": "io.github.mflisar.composedialogs",
+    "module": "ui-time",
+    "version": "5.0.0-alpha05",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "time-jvm.jar",
+          "url": "ui-time-jvm-5.0.0-alpha05.jar",
+          "size": 44268,
+          "sha512": "f68ac511160cfd66e87abc5a966e4c0570b85ac8838b41d6efa1b8c633b5c925ff21779cea04ff83375fcf595c1b2912d263827a1cd4c142ca4da6c4394fbc3a",
+          "sha256": "6799246572ef601b87802a53ea7a90d51e1ce39d256d9babbab6f72330271918",
+          "sha1": "ff7e3b05581f0c3637af55d30235639f808c49d2",
+          "md5": "f8d8c0e39a1b9b91debe1cfced165159"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.components",
+          "module": "components-resources",
+          "version": {
+            "requires": "1.12.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "time-jvm.jar",
+          "url": "ui-time-jvm-5.0.0-alpha05.jar",
+          "size": 44268,
+          "sha512": "f68ac511160cfd66e87abc5a966e4c0570b85ac8838b41d6efa1b8c633b5c925ff21779cea04ff83375fcf595c1b2912d263827a1cd4c142ca4da6c4394fbc3a",
+          "sha256": "6799246572ef601b87802a53ea7a90d51e1ce39d256d9babbab6f72330271918",
+          "sha1": "ff7e3b05581f0c3637af55d30235639f808c49d2",
+          "md5": "f8d8c0e39a1b9b91debe1cfced165159"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "time-jvm-sources.jar",
+          "url": "ui-time-jvm-5.0.0-alpha05-sources.jar",
+          "size": 9466,
+          "sha512": "4be5840027b3d22ed7ff90fc4e0bd4a4ec29da095f70fe7b33e33d7f906dc93fb8c0ec1500370dc406aa058d98efd25a1d5873282ae8019489e7cd018ff740d0",
+          "sha256": "e6b879353ad7a7cf1ad9d5b95bf474f64c1d3cdf28babdb80e42522a081b5a94",
+          "sha1": "a8e6bee9392ba78824ee8001785789c7344c9695",
+          "md5": "55aed7b5c2d31cfe9abd7ddbf84d10bc"
+        }
+      ]
+    }
+  ]
+}

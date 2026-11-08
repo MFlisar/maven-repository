@@ -1,0 +1,373 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mflisar.composedialogs",
+    "module": "dialog-progress",
+    "version": "5.0.0-alpha05",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "progress-metadata.jar",
+          "url": "dialog-progress-5.0.0-alpha05.jar",
+          "size": 2907,
+          "sha512": "e049836809e0c14cb417666bdfafc911b781c6473770d0766ab1f676cb0122e77738049470c9dc3a1dc985373ff19b4fc6656ca9889e186a73ea747fd9550ed2",
+          "sha256": "cbea2e8c816900518055f9f45b8ab10fd61967bec2daa59efc1f114499df8e02",
+          "sha1": "503b2ed383c1149a35147d55a310ee57759671a6",
+          "md5": "ed6a1c1ef7373a7f4bc62d4f5fc0e18f"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "progress-kotlin-sources.jar",
+          "url": "dialog-progress-5.0.0-alpha05-sources.jar",
+          "size": 2503,
+          "sha512": "3bbc52da367161400bb43c300db92330931283fd494d704a8ca1d42997abc3134b97e1138f8b4fed4edb65f56c2cc3203797ac8b9be6a0c2a412262db8b9ec07",
+          "sha256": "752ac2e81444032cb6d71ea0f82bb603237cf18240ae12c220b0bfd34ef2d5f9",
+          "sha1": "07950caffb07e80d8415abc4cb2f0991fbc81bef",
+          "md5": "b52cf4d6ca711aa4e284c3f8970efc5e"
+        }
+      ]
+    },
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../dialog-progress-android/5.0.0-alpha05/dialog-progress-android-5.0.0-alpha05.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "dialog-progress-android",
+        "version": "5.0.0-alpha05"
+      }
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../dialog-progress-android/5.0.0-alpha05/dialog-progress-android-5.0.0-alpha05.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "dialog-progress-android",
+        "version": "5.0.0-alpha05"
+      }
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../dialog-progress-android/5.0.0-alpha05/dialog-progress-android-5.0.0-alpha05.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "dialog-progress-android",
+        "version": "5.0.0-alpha05"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../dialog-progress-iosarm64/5.0.0-alpha05/dialog-progress-iosarm64-5.0.0-alpha05.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "dialog-progress-iosarm64",
+        "version": "5.0.0-alpha05"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../dialog-progress-iosarm64/5.0.0-alpha05/dialog-progress-iosarm64-5.0.0-alpha05.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "dialog-progress-iosarm64",
+        "version": "5.0.0-alpha05"
+      }
+    },
+    {
+      "name": "iosArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../dialog-progress-iosarm64/5.0.0-alpha05/dialog-progress-iosarm64-5.0.0-alpha05.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "dialog-progress-iosarm64",
+        "version": "5.0.0-alpha05"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../dialog-progress-iosarm64/5.0.0-alpha05/dialog-progress-iosarm64-5.0.0-alpha05.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "dialog-progress-iosarm64",
+        "version": "5.0.0-alpha05"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../dialog-progress-iossimulatorarm64/5.0.0-alpha05/dialog-progress-iossimulatorarm64-5.0.0-alpha05.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "dialog-progress-iossimulatorarm64",
+        "version": "5.0.0-alpha05"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../dialog-progress-iossimulatorarm64/5.0.0-alpha05/dialog-progress-iossimulatorarm64-5.0.0-alpha05.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "dialog-progress-iossimulatorarm64",
+        "version": "5.0.0-alpha05"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../dialog-progress-iossimulatorarm64/5.0.0-alpha05/dialog-progress-iossimulatorarm64-5.0.0-alpha05.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "dialog-progress-iossimulatorarm64",
+        "version": "5.0.0-alpha05"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../dialog-progress-iossimulatorarm64/5.0.0-alpha05/dialog-progress-iossimulatorarm64-5.0.0-alpha05.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "dialog-progress-iossimulatorarm64",
+        "version": "5.0.0-alpha05"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../dialog-progress-jvm/5.0.0-alpha05/dialog-progress-jvm-5.0.0-alpha05.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "dialog-progress-jvm",
+        "version": "5.0.0-alpha05"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../dialog-progress-jvm/5.0.0-alpha05/dialog-progress-jvm-5.0.0-alpha05.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "dialog-progress-jvm",
+        "version": "5.0.0-alpha05"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../dialog-progress-jvm/5.0.0-alpha05/dialog-progress-jvm-5.0.0-alpha05.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "dialog-progress-jvm",
+        "version": "5.0.0-alpha05"
+      }
+    },
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../dialog-progress-wasm-js/5.0.0-alpha05/dialog-progress-wasm-js-5.0.0-alpha05.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "dialog-progress-wasm-js",
+        "version": "5.0.0-alpha05"
+      }
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../dialog-progress-wasm-js/5.0.0-alpha05/dialog-progress-wasm-js-5.0.0-alpha05.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "dialog-progress-wasm-js",
+        "version": "5.0.0-alpha05"
+      }
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../dialog-progress-wasm-js/5.0.0-alpha05/dialog-progress-wasm-js-5.0.0-alpha05.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "dialog-progress-wasm-js",
+        "version": "5.0.0-alpha05"
+      }
+    },
+    {
+      "name": "wasmJsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../dialog-progress-wasm-js/5.0.0-alpha05/dialog-progress-wasm-js-5.0.0-alpha05.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "dialog-progress-wasm-js",
+        "version": "5.0.0-alpha05"
+      }
+    }
+  ]
+}
