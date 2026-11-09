@@ -1,0 +1,197 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../themes-flatui/2.0.1-testonly/themes-flatui-2.0.1-testonly.module",
+    "group": "io.github.mflisar.composethemer",
+    "module": "themes-flatui",
+    "version": "2.0.1-testonly",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "ComposeThemer.composethemer",
+          "module": "core",
+          "version": {
+            "requires": "unspecified"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flatui-iosSimulatorArm64Main.klib",
+          "url": "themes-flatui-iossimulatorarm64-2.0.1-testonly.klib",
+          "size": 1175559,
+          "sha512": "c09b7256b776f5fd4bb130ac8c6eeeae4eb9c412eb099401d54a721fe1775fc7cf775fdec6b2d866d0774bb1525ac98ce46b022ab886fbc5c22e2ae633bd18fc",
+          "sha256": "c06f1f904d316e10051c27f7a1c35e98ea2b277132ff2a8bdd00037df166fc55",
+          "sha1": "3ececf843dc207bdf383dd98c8d6a713c98c5050",
+          "md5": "dcb3a06bf991c7160a08dd71bff74a5e"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "flatui-iossimulatorarm64-sources.jar",
+          "url": "themes-flatui-iossimulatorarm64-2.0.1-testonly-sources.jar",
+          "size": 69253,
+          "sha512": "c143f94468888c716e9414b02b15ce90da84813d60b52947fb718a3632dce44b71d7de030b7b3140940f71e835f87219be249994f4e1717940a5e6b86f56c0c7",
+          "sha256": "a01d545f2846492e010f14f7794c96d2b6a22032f0807af822bfe2953937c4ba",
+          "sha1": "35956788c209342984530d8279a928a453f99ba9",
+          "md5": "338e87649cd4e9bd688420d2891e7593"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "ComposeThemer.composethemer",
+          "module": "core",
+          "version": {
+            "requires": "unspecified"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flatui.kotlin_resources.zip",
+          "url": "themes-flatui-iossimulatorarm64-2.0.1-testonly-kotlin_resources.kotlin_resources.zip",
+          "size": 386,
+          "sha512": "e83c27238e5e66d8bd4397a4897dc3797cf797d9b2200dcc234800061005a2c81268c5c57993c7ed41a72edf83bd40ad8c78db12926ade95a7cd955ebff20a02",
+          "sha256": "57f953a83f38215286e58d3c79e4ac27ec2f2f5a4f13ef305522a87620ab6a08",
+          "sha1": "262f53134ba1cbf47ce5842493a6759808a11a74",
+          "md5": "fabd12591a34e950580af6dd81128f4b"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "ComposeThemer.composethemer",
+          "module": "core",
+          "version": {
+            "requires": "unspecified"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flatui-iossimulatorarm64-metadata.jar",
+          "url": "themes-flatui-iossimulatorarm64-2.0.1-testonly-metadata.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    }
+  ]
+}

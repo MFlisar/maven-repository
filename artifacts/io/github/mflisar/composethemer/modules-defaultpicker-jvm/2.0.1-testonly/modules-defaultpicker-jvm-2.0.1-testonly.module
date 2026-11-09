@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../modules-defaultpicker/2.0.1-testonly/modules-defaultpicker-2.0.1-testonly.module",
+    "group": "io.github.mflisar.composethemer",
+    "module": "modules-defaultpicker",
+    "version": "2.0.1-testonly",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "defaultpicker-jvm.jar",
+          "url": "modules-defaultpicker-jvm-2.0.1-testonly.jar",
+          "size": 16863,
+          "sha512": "0b6d1a27230e1b90cdb7ba0a50958dca528c80a249e4a67ae3ccca14e6cb28529aa2de7ba0d2cf56dbaf879e32abbdbf74fa7639696525d1782dd8575eb8b25a",
+          "sha256": "4b5e9ec14cc3118ab3a1e38a308b6999c4c55dafb6e7ebefabdb4515c2fe9183",
+          "sha1": "788270d9233ba04d1844e904a9c82681fc77b97d",
+          "md5": "0a66a6147f79ff5da0a834a52bb3460f"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-icons-core",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-icons-extended",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "ComposeThemer.composethemer",
+          "module": "core",
+          "version": {
+            "requires": "unspecified"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composethemer",
+          "module": "modules-picker",
+          "version": {
+            "requires": "2.0.1-testonly"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "defaultpicker-jvm.jar",
+          "url": "modules-defaultpicker-jvm-2.0.1-testonly.jar",
+          "size": 16863,
+          "sha512": "0b6d1a27230e1b90cdb7ba0a50958dca528c80a249e4a67ae3ccca14e6cb28529aa2de7ba0d2cf56dbaf879e32abbdbf74fa7639696525d1782dd8575eb8b25a",
+          "sha256": "4b5e9ec14cc3118ab3a1e38a308b6999c4c55dafb6e7ebefabdb4515c2fe9183",
+          "sha1": "788270d9233ba04d1844e904a9c82681fc77b97d",
+          "md5": "0a66a6147f79ff5da0a834a52bb3460f"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "defaultpicker-jvm-sources.jar",
+          "url": "modules-defaultpicker-jvm-2.0.1-testonly-sources.jar",
+          "size": 3040,
+          "sha512": "7ab940c6d14fb92e18b803c7a77fe913861bf69ff4fa47f92a3ba674b4c02bbd55a19b6165ad9297a419b15f6e7ad0caab586c26f630535989f18cf603f3d17f",
+          "sha256": "26a53fd36e4d263c51a0d55002c233daf0187ac2292d043cff55582c3de2a54e",
+          "sha1": "ed3216cb5daaf0f109140587af22ab2298fde295",
+          "md5": "4380d3777d66c87bd87eabeb317790ba"
+        }
+      ]
+    }
+  ]
+}

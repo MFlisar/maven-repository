@@ -1,0 +1,123 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../themes-material500/2.0.1-testonly/themes-material500-2.0.1-testonly.module",
+    "group": "io.github.mflisar.composethemer",
+    "module": "themes-material500",
+    "version": "2.0.1-testonly",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "material500-jvm.jar",
+          "url": "themes-material500-jvm-2.0.1-testonly.jar",
+          "size": 996935,
+          "sha512": "fd376ce6757e07e55966c3c6a732f5df16ab4c5837a4007b41c4be21db65b1592a38412d43494be16561b878fc64cd52e8f1005b8563a3e88f3842c55823e050",
+          "sha256": "f38e63550dd2ce455d6fb0f1ac9138cb99223953b8eaf0f98e40fea74dc817f7",
+          "sha1": "a4ecfd6618362da2e667672e98128e5a93cb4dfb",
+          "md5": "41d96e95ce900758995dd6f8ba8d2592"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "ComposeThemer.composethemer",
+          "module": "core",
+          "version": {
+            "requires": "unspecified"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "material500-jvm.jar",
+          "url": "themes-material500-jvm-2.0.1-testonly.jar",
+          "size": 996935,
+          "sha512": "fd376ce6757e07e55966c3c6a732f5df16ab4c5837a4007b41c4be21db65b1592a38412d43494be16561b878fc64cd52e8f1005b8563a3e88f3842c55823e050",
+          "sha256": "f38e63550dd2ce455d6fb0f1ac9138cb99223953b8eaf0f98e40fea74dc817f7",
+          "sha1": "a4ecfd6618362da2e667672e98128e5a93cb4dfb",
+          "md5": "41d96e95ce900758995dd6f8ba8d2592"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "material500-jvm-sources.jar",
+          "url": "themes-material500-jvm-2.0.1-testonly-sources.jar",
+          "size": 65765,
+          "sha512": "347991c7d652c71f8b90b531469f88893be25a9d4ff459e0c7dea5378dcb8e9a524600298caf166d9d11422b6cd3641279957dff88691a5b8f2c5616cf647966",
+          "sha256": "71170f4ce71d19b5a346122c85552190e332663ef65b69b65fcfdbeef6ed669e",
+          "sha1": "e2860328840e14ecb7526390a0f3cb4a86f7b1aa",
+          "md5": "05fe4e117205041a745036c00c60a906"
+        }
+      ]
+    }
+  ]
+}

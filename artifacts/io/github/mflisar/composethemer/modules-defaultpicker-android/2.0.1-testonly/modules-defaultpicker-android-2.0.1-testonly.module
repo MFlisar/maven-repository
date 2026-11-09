@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../modules-defaultpicker/2.0.1-testonly/modules-defaultpicker-2.0.1-testonly.module",
+    "group": "io.github.mflisar.composethemer",
+    "module": "modules-defaultpicker",
+    "version": "2.0.1-testonly",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "defaultpicker.aar",
+          "url": "modules-defaultpicker-android-2.0.1-testonly.aar",
+          "size": 16280,
+          "sha512": "fb99a08d65fccfb18b50538b79b5da43359f29b18e10c1db290762d05f6d334b72ef2799d326aac921fe2a8b51fb832d6a9c962d9ca6b9ee6b6cae1e646e93d4",
+          "sha256": "56b9ada5ac682811fd255e47afca0124ee9d7b147249643ddb514281b2569018",
+          "sha1": "9401a5fbce8e57b8a20c8323f7f8d26e1a426773",
+          "md5": "4a6b3d6c9e6b20e64037f0a328a43b9b"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-icons-core",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-icons-extended",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "ComposeThemer.composethemer",
+          "module": "core",
+          "version": {
+            "requires": "unspecified"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composethemer",
+          "module": "modules-picker",
+          "version": {
+            "requires": "2.0.1-testonly"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "defaultpicker.aar",
+          "url": "modules-defaultpicker-android-2.0.1-testonly.aar",
+          "size": 16280,
+          "sha512": "fb99a08d65fccfb18b50538b79b5da43359f29b18e10c1db290762d05f6d334b72ef2799d326aac921fe2a8b51fb832d6a9c962d9ca6b9ee6b6cae1e646e93d4",
+          "sha256": "56b9ada5ac682811fd255e47afca0124ee9d7b147249643ddb514281b2569018",
+          "sha1": "9401a5fbce8e57b8a20c8323f7f8d26e1a426773",
+          "md5": "4a6b3d6c9e6b20e64037f0a328a43b9b"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "defaultpicker-android-sources.jar",
+          "url": "modules-defaultpicker-android-2.0.1-testonly-sources.jar",
+          "size": 3040,
+          "sha512": "7ab940c6d14fb92e18b803c7a77fe913861bf69ff4fa47f92a3ba674b4c02bbd55a19b6165ad9297a419b15f6e7ad0caab586c26f630535989f18cf603f3d17f",
+          "sha256": "26a53fd36e4d263c51a0d55002c233daf0187ac2292d043cff55582c3de2a54e",
+          "sha1": "ed3216cb5daaf0f109140587af22ab2298fde295",
+          "md5": "4380d3777d66c87bd87eabeb317790ba"
+        }
+      ]
+    }
+  ]
+}

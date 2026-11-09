@@ -1,0 +1,441 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mflisar.composethemer",
+    "module": "themes-flatui",
+    "version": "2.0.1-testonly",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flatui-metadata.jar",
+          "url": "themes-flatui-2.0.1-testonly.jar",
+          "size": 51850,
+          "sha512": "0428d38857ef7321f43a7b3e97790867fbd3a2e2e75eaad4bc098ff07282e6747107b6d780a02abea47759e8af2f78883998aac66a288915e45e428bee7f3574",
+          "sha256": "f46ea9bfc8e2524533af297596cc278f38ab4527b7c96e7756af25d77ac54d00",
+          "sha1": "87c82114ae768b958ec59d6bd56dd9fefefe5bbb",
+          "md5": "e54a0d0045932769ae679b163131480c"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "flatui-kotlin-sources.jar",
+          "url": "themes-flatui-2.0.1-testonly-sources.jar",
+          "size": 69253,
+          "sha512": "c143f94468888c716e9414b02b15ce90da84813d60b52947fb718a3632dce44b71d7de030b7b3140940f71e835f87219be249994f4e1717940a5e6b86f56c0c7",
+          "sha256": "a01d545f2846492e010f14f7794c96d2b6a22032f0807af822bfe2953937c4ba",
+          "sha1": "35956788c209342984530d8279a928a453f99ba9",
+          "md5": "338e87649cd4e9bd688420d2891e7593"
+        }
+      ]
+    },
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../themes-flatui-android/2.0.1-testonly/themes-flatui-android-2.0.1-testonly.module",
+        "group": "io.github.mflisar.composethemer",
+        "module": "themes-flatui-android",
+        "version": "2.0.1-testonly"
+      }
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../themes-flatui-android/2.0.1-testonly/themes-flatui-android-2.0.1-testonly.module",
+        "group": "io.github.mflisar.composethemer",
+        "module": "themes-flatui-android",
+        "version": "2.0.1-testonly"
+      }
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../themes-flatui-android/2.0.1-testonly/themes-flatui-android-2.0.1-testonly.module",
+        "group": "io.github.mflisar.composethemer",
+        "module": "themes-flatui-android",
+        "version": "2.0.1-testonly"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../themes-flatui-iosarm64/2.0.1-testonly/themes-flatui-iosarm64-2.0.1-testonly.module",
+        "group": "io.github.mflisar.composethemer",
+        "module": "themes-flatui-iosarm64",
+        "version": "2.0.1-testonly"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../themes-flatui-iosarm64/2.0.1-testonly/themes-flatui-iosarm64-2.0.1-testonly.module",
+        "group": "io.github.mflisar.composethemer",
+        "module": "themes-flatui-iosarm64",
+        "version": "2.0.1-testonly"
+      }
+    },
+    {
+      "name": "iosArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../themes-flatui-iosarm64/2.0.1-testonly/themes-flatui-iosarm64-2.0.1-testonly.module",
+        "group": "io.github.mflisar.composethemer",
+        "module": "themes-flatui-iosarm64",
+        "version": "2.0.1-testonly"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../themes-flatui-iosarm64/2.0.1-testonly/themes-flatui-iosarm64-2.0.1-testonly.module",
+        "group": "io.github.mflisar.composethemer",
+        "module": "themes-flatui-iosarm64",
+        "version": "2.0.1-testonly"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../themes-flatui-iossimulatorarm64/2.0.1-testonly/themes-flatui-iossimulatorarm64-2.0.1-testonly.module",
+        "group": "io.github.mflisar.composethemer",
+        "module": "themes-flatui-iossimulatorarm64",
+        "version": "2.0.1-testonly"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../themes-flatui-iossimulatorarm64/2.0.1-testonly/themes-flatui-iossimulatorarm64-2.0.1-testonly.module",
+        "group": "io.github.mflisar.composethemer",
+        "module": "themes-flatui-iossimulatorarm64",
+        "version": "2.0.1-testonly"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../themes-flatui-iossimulatorarm64/2.0.1-testonly/themes-flatui-iossimulatorarm64-2.0.1-testonly.module",
+        "group": "io.github.mflisar.composethemer",
+        "module": "themes-flatui-iossimulatorarm64",
+        "version": "2.0.1-testonly"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../themes-flatui-iossimulatorarm64/2.0.1-testonly/themes-flatui-iossimulatorarm64-2.0.1-testonly.module",
+        "group": "io.github.mflisar.composethemer",
+        "module": "themes-flatui-iossimulatorarm64",
+        "version": "2.0.1-testonly"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../themes-flatui-jvm/2.0.1-testonly/themes-flatui-jvm-2.0.1-testonly.module",
+        "group": "io.github.mflisar.composethemer",
+        "module": "themes-flatui-jvm",
+        "version": "2.0.1-testonly"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../themes-flatui-jvm/2.0.1-testonly/themes-flatui-jvm-2.0.1-testonly.module",
+        "group": "io.github.mflisar.composethemer",
+        "module": "themes-flatui-jvm",
+        "version": "2.0.1-testonly"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../themes-flatui-jvm/2.0.1-testonly/themes-flatui-jvm-2.0.1-testonly.module",
+        "group": "io.github.mflisar.composethemer",
+        "module": "themes-flatui-jvm",
+        "version": "2.0.1-testonly"
+      }
+    },
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../themes-flatui-macosarm64/2.0.1-testonly/themes-flatui-macosarm64-2.0.1-testonly.module",
+        "group": "io.github.mflisar.composethemer",
+        "module": "themes-flatui-macosarm64",
+        "version": "2.0.1-testonly"
+      }
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../themes-flatui-macosarm64/2.0.1-testonly/themes-flatui-macosarm64-2.0.1-testonly.module",
+        "group": "io.github.mflisar.composethemer",
+        "module": "themes-flatui-macosarm64",
+        "version": "2.0.1-testonly"
+      }
+    },
+    {
+      "name": "macosArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../themes-flatui-macosarm64/2.0.1-testonly/themes-flatui-macosarm64-2.0.1-testonly.module",
+        "group": "io.github.mflisar.composethemer",
+        "module": "themes-flatui-macosarm64",
+        "version": "2.0.1-testonly"
+      }
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../themes-flatui-macosarm64/2.0.1-testonly/themes-flatui-macosarm64-2.0.1-testonly.module",
+        "group": "io.github.mflisar.composethemer",
+        "module": "themes-flatui-macosarm64",
+        "version": "2.0.1-testonly"
+      }
+    },
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../themes-flatui-wasm-js/2.0.1-testonly/themes-flatui-wasm-js-2.0.1-testonly.module",
+        "group": "io.github.mflisar.composethemer",
+        "module": "themes-flatui-wasm-js",
+        "version": "2.0.1-testonly"
+      }
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../themes-flatui-wasm-js/2.0.1-testonly/themes-flatui-wasm-js-2.0.1-testonly.module",
+        "group": "io.github.mflisar.composethemer",
+        "module": "themes-flatui-wasm-js",
+        "version": "2.0.1-testonly"
+      }
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../themes-flatui-wasm-js/2.0.1-testonly/themes-flatui-wasm-js-2.0.1-testonly.module",
+        "group": "io.github.mflisar.composethemer",
+        "module": "themes-flatui-wasm-js",
+        "version": "2.0.1-testonly"
+      }
+    },
+    {
+      "name": "wasmJsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../themes-flatui-wasm-js/2.0.1-testonly/themes-flatui-wasm-js-2.0.1-testonly.module",
+        "group": "io.github.mflisar.composethemer",
+        "module": "themes-flatui-wasm-js",
+        "version": "2.0.1-testonly"
+      }
+    }
+  ]
+}

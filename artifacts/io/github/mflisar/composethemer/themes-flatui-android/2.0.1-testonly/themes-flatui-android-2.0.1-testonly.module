@@ -1,0 +1,123 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../themes-flatui/2.0.1-testonly/themes-flatui-2.0.1-testonly.module",
+    "group": "io.github.mflisar.composethemer",
+    "module": "themes-flatui",
+    "version": "2.0.1-testonly",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flatui.aar",
+          "url": "themes-flatui-android-2.0.1-testonly.aar",
+          "size": 891457,
+          "sha512": "adbe5884bd910907970c2965a85ed753d7661361d9548980e013e9f2e119efa54364676c19a9dde61c88d806630140e45102c164d7c8619574f0a86d937c1c1b",
+          "sha256": "bd0dc1fedc5010e499003e46d27f6b11d6e217606e06a99becb5fdb6f879a755",
+          "sha1": "04f2f44ebe6ff7ecef52b967db5b25eeaef3e54e",
+          "md5": "b73ad9181f08b56f9146e7d798617473"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "ComposeThemer.composethemer",
+          "module": "core",
+          "version": {
+            "requires": "unspecified"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flatui.aar",
+          "url": "themes-flatui-android-2.0.1-testonly.aar",
+          "size": 891457,
+          "sha512": "adbe5884bd910907970c2965a85ed753d7661361d9548980e013e9f2e119efa54364676c19a9dde61c88d806630140e45102c164d7c8619574f0a86d937c1c1b",
+          "sha256": "bd0dc1fedc5010e499003e46d27f6b11d6e217606e06a99becb5fdb6f879a755",
+          "sha1": "04f2f44ebe6ff7ecef52b967db5b25eeaef3e54e",
+          "md5": "b73ad9181f08b56f9146e7d798617473"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "flatui-android-sources.jar",
+          "url": "themes-flatui-android-2.0.1-testonly-sources.jar",
+          "size": 69253,
+          "sha512": "c143f94468888c716e9414b02b15ce90da84813d60b52947fb718a3632dce44b71d7de030b7b3140940f71e835f87219be249994f4e1717940a5e6b86f56c0c7",
+          "sha256": "a01d545f2846492e010f14f7794c96d2b6a22032f0807af822bfe2953937c4ba",
+          "sha1": "35956788c209342984530d8279a928a453f99ba9",
+          "md5": "338e87649cd4e9bd688420d2891e7593"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../modules-picker/2.0.1-testonly/modules-picker-2.0.1-testonly.module",
+    "group": "io.github.mflisar.composethemer",
+    "module": "modules-picker",
+    "version": "2.0.1-testonly",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "picker-wasm-js.klib",
+          "url": "modules-picker-wasm-js-2.0.1-testonly.klib",
+          "size": 89682,
+          "sha512": "7f178272858dfc08fd1dd2b2f0220a4ff8b075a32e9f424a6cebaf5697dac1b7ec088ffb1ac34df335fa3349b3013bd4aa3b8a7e2dee40be7c1f4a2ae6df9ee2",
+          "sha256": "3e1a85c5b213e02a2f2f49c51a2b02fd0f124bd133cba91d3a6c5cd23f46c2f2",
+          "sha1": "c54ab5c58354b737b24a399ebadeabfa0036f057",
+          "md5": "37752e17affee358f9c5253876d0d714"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-icons-core",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "ComposeThemer.composethemer",
+          "module": "core",
+          "version": {
+            "requires": "unspecified"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "picker-wasm-js.klib",
+          "url": "modules-picker-wasm-js-2.0.1-testonly.klib",
+          "size": 89682,
+          "sha512": "7f178272858dfc08fd1dd2b2f0220a4ff8b075a32e9f424a6cebaf5697dac1b7ec088ffb1ac34df335fa3349b3013bd4aa3b8a7e2dee40be7c1f4a2ae6df9ee2",
+          "sha256": "3e1a85c5b213e02a2f2f49c51a2b02fd0f124bd133cba91d3a6c5cd23f46c2f2",
+          "sha1": "c54ab5c58354b737b24a399ebadeabfa0036f057",
+          "md5": "37752e17affee358f9c5253876d0d714"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "files": [
+        {
+          "name": "picker-wasm-js-sources.jar",
+          "url": "modules-picker-wasm-js-2.0.1-testonly-sources.jar",
+          "size": 12249,
+          "sha512": "d6ea530dde021a003fbe6242529228d053cc517a96a2adc1efccdf94e6c60deb5d85a5874ed44deef1b2891aab3f4f19fb4a778acbad475ce2ff546290fcb5d1",
+          "sha256": "e7998333a682c25b2ed4e307a79d7759763ef31d6ed2e3dea3c8a8810d30f09e",
+          "sha1": "d682126ecc32ec8a94b95d44bcb0d8e4c0195716",
+          "md5": "367b98d05cd161da93783732598d72d6"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-icons-core",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "ComposeThemer.composethemer",
+          "module": "core",
+          "version": {
+            "requires": "unspecified"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "picker.kotlin_resources.zip",
+          "url": "modules-picker-wasm-js-2.0.1-testonly-kotlin_resources.kotlin_resources.zip",
+          "size": 372,
+          "sha512": "4dea4d7bc79e7a1f1b111e1c1f7623c6d187d3a18647932c5395f7f0d4d42448e65c6a2526fcf8c9568f4fcf88f774720c088d35e85957023df2e5d1cd940ff2",
+          "sha256": "e7d55df7dc09bd5706a7164887a77feeee27dba294c7fbc09ac5c0073adf1c3e",
+          "sha1": "a6e13711a4b78e893fecb2596a355c32777ac5cd",
+          "md5": "afa726e222cde4c961dc20bda57383f2"
+        }
+      ]
+    }
+  ]
+}

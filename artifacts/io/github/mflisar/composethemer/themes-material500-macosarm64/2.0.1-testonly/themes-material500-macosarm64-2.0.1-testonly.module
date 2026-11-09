@@ -1,0 +1,197 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../themes-material500/2.0.1-testonly/themes-material500-2.0.1-testonly.module",
+    "group": "io.github.mflisar.composethemer",
+    "module": "themes-material500",
+    "version": "2.0.1-testonly",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "ComposeThemer.composethemer",
+          "module": "core",
+          "version": {
+            "requires": "unspecified"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "material500-macosArm64Main.klib",
+          "url": "themes-material500-macosarm64-2.0.1-testonly.klib",
+          "size": 1115796,
+          "sha512": "ca4ced97b23c1497ff96a0a138b36af36521f153a53157aa38644387a4a81f7fc66dca285ab3e72454d707d605d6e75d7465e1e6d1627b2c0ae25867a2e3a29d",
+          "sha256": "f8c84cbfa12c740feda47eb92683f96b6ac29ef48ecb5aa38836f385129b9e5c",
+          "sha1": "4a6a17ffc25c2c6e55e455b05147f782644617b5",
+          "md5": "d4e47c4677fa7efc96ac45798aa2beda"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "material500-macosarm64-sources.jar",
+          "url": "themes-material500-macosarm64-2.0.1-testonly-sources.jar",
+          "size": 65765,
+          "sha512": "347991c7d652c71f8b90b531469f88893be25a9d4ff459e0c7dea5378dcb8e9a524600298caf166d9d11422b6cd3641279957dff88691a5b8f2c5616cf647966",
+          "sha256": "71170f4ce71d19b5a346122c85552190e332663ef65b69b65fcfdbeef6ed669e",
+          "sha1": "e2860328840e14ecb7526390a0f3cb4a86f7b1aa",
+          "md5": "05fe4e117205041a745036c00c60a906"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "ComposeThemer.composethemer",
+          "module": "core",
+          "version": {
+            "requires": "unspecified"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "material500.kotlin_resources.zip",
+          "url": "themes-material500-macosarm64-2.0.1-testonly-kotlin_resources.kotlin_resources.zip",
+          "size": 396,
+          "sha512": "08f0a39a4f4d9744a44d34d3b5614a2a2fd91713a857d58392b00301f0021a602344bc020cffd73df218ca6ee7c5869a819530d88fabe73166fb152944226b47",
+          "sha256": "a2e7a915249ba49d1b9541a9bde5e2bb825e013e20a45552fb2f9b6a3058fa17",
+          "sha1": "4ea5fcbbd30452b0c00a398d0c8d07491386e010",
+          "md5": "e3b5f4218d15f803aea1c5fabc10a4d8"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "ComposeThemer.composethemer",
+          "module": "core",
+          "version": {
+            "requires": "unspecified"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "material500-macosarm64-metadata.jar",
+          "url": "themes-material500-macosarm64-2.0.1-testonly-metadata.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    }
+  ]
+}

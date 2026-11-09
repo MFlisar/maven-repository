@@ -1,0 +1,176 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../themes-flatui/2.0.1-testonly/themes-flatui-2.0.1-testonly.module",
+    "group": "io.github.mflisar.composethemer",
+    "module": "themes-flatui",
+    "version": "2.0.1-testonly",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flatui-wasm-js.klib",
+          "url": "themes-flatui-wasm-js-2.0.1-testonly.klib",
+          "size": 1174079,
+          "sha512": "0dc6b22fe87fe9c4b42cbcf1d789d2a068c9316e188e06b93cfdcb391277e709fae05f49af70108a1939cbeaa5e0da22076f5cea32fb67c4bb5dff04fc5c8c08",
+          "sha256": "7eaa715751aebf77251f0506dffcd79d328bb070dbc1c6c15f83a552c512e775",
+          "sha1": "4f1dc55691ba427d513e53025fefe4dfc75b8702",
+          "md5": "97aa43573dc42cabf5225769c6d5148e"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "ComposeThemer.composethemer",
+          "module": "core",
+          "version": {
+            "requires": "unspecified"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flatui-wasm-js.klib",
+          "url": "themes-flatui-wasm-js-2.0.1-testonly.klib",
+          "size": 1174079,
+          "sha512": "0dc6b22fe87fe9c4b42cbcf1d789d2a068c9316e188e06b93cfdcb391277e709fae05f49af70108a1939cbeaa5e0da22076f5cea32fb67c4bb5dff04fc5c8c08",
+          "sha256": "7eaa715751aebf77251f0506dffcd79d328bb070dbc1c6c15f83a552c512e775",
+          "sha1": "4f1dc55691ba427d513e53025fefe4dfc75b8702",
+          "md5": "97aa43573dc42cabf5225769c6d5148e"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "files": [
+        {
+          "name": "flatui-wasm-js-sources.jar",
+          "url": "themes-flatui-wasm-js-2.0.1-testonly-sources.jar",
+          "size": 69253,
+          "sha512": "c143f94468888c716e9414b02b15ce90da84813d60b52947fb718a3632dce44b71d7de030b7b3140940f71e835f87219be249994f4e1717940a5e6b86f56c0c7",
+          "sha256": "a01d545f2846492e010f14f7794c96d2b6a22032f0807af822bfe2953937c4ba",
+          "sha1": "35956788c209342984530d8279a928a453f99ba9",
+          "md5": "338e87649cd4e9bd688420d2891e7593"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "ComposeThemer.composethemer",
+          "module": "core",
+          "version": {
+            "requires": "unspecified"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flatui.kotlin_resources.zip",
+          "url": "themes-flatui-wasm-js-2.0.1-testonly-kotlin_resources.kotlin_resources.zip",
+          "size": 386,
+          "sha512": "e83c27238e5e66d8bd4397a4897dc3797cf797d9b2200dcc234800061005a2c81268c5c57993c7ed41a72edf83bd40ad8c78db12926ade95a7cd955ebff20a02",
+          "sha256": "57f953a83f38215286e58d3c79e4ac27ec2f2f5a4f13ef305522a87620ab6a08",
+          "sha1": "262f53134ba1cbf47ce5842493a6759808a11a74",
+          "md5": "fabd12591a34e950580af6dd81128f4b"
+        }
+      ]
+    }
+  ]
+}
