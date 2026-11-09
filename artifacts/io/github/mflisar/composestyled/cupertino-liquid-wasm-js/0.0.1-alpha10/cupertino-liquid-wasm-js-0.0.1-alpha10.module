@@ -1,0 +1,239 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../cupertino-liquid/0.0.1-alpha10/cupertino-liquid-0.0.1-alpha10.module",
+    "group": "io.github.mflisar.composestyled",
+    "module": "cupertino-liquid",
+    "version": "0.0.1-alpha10",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha10"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "theme-cupertino",
+          "version": {
+            "requires": "0.0.1-alpha10"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "iconset-sfsymbols",
+          "version": {
+            "requires": "0.0.1-alpha10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cupertino-liquid-wasm-js.klib",
+          "url": "cupertino-liquid-wasm-js-0.0.1-alpha10.klib",
+          "size": 179879,
+          "sha512": "a7bbcfb71a03a852f18ffbcac1500eeba2379be47869576c5c06cb76033c5634f52aa553bc66525a99b6251b0bc4229962f633e6f6c41e826fc272464dd6ce12",
+          "sha256": "4f768e872218b3f6c17de5b85797f1cd67ed56b023ddc6f1e7454ce59c8392a8",
+          "sha1": "46016c54e4e61d84f349ab3bc8a001d6dfa0f36c",
+          "md5": "2f6d39d6ad87f79a9ec037408e3672d9"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha10"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "theme-cupertino",
+          "version": {
+            "requires": "0.0.1-alpha10"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "iconset-sfsymbols",
+          "version": {
+            "requires": "0.0.1-alpha10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "foundation",
+          "version": {
+            "requires": "0.0.1-alpha10"
+          }
+        },
+        {
+          "group": "dev.chrisbanes.haze",
+          "module": "haze",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "dev.chrisbanes.haze",
+          "module": "haze-glass",
+          "version": {
+            "requires": "2.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cupertino-liquid-wasm-js.klib",
+          "url": "cupertino-liquid-wasm-js-0.0.1-alpha10.klib",
+          "size": 179879,
+          "sha512": "a7bbcfb71a03a852f18ffbcac1500eeba2379be47869576c5c06cb76033c5634f52aa553bc66525a99b6251b0bc4229962f633e6f6c41e826fc272464dd6ce12",
+          "sha256": "4f768e872218b3f6c17de5b85797f1cd67ed56b023ddc6f1e7454ce59c8392a8",
+          "sha1": "46016c54e4e61d84f349ab3bc8a001d6dfa0f36c",
+          "md5": "2f6d39d6ad87f79a9ec037408e3672d9"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "files": [
+        {
+          "name": "cupertino-liquid-wasm-js-sources.jar",
+          "url": "cupertino-liquid-wasm-js-0.0.1-alpha10-sources.jar",
+          "size": 32019,
+          "sha512": "fa15c746fdfc02171d54a30d62e73a6dfa656b13618589611705714f78b5fc5fd4595572c51a66b3ea0470f533f26eb0bd1ddc127a629db2db5c87eea791c3f1",
+          "sha256": "5cf9b26eeeee30b2de1d6c004d8d68c33587f2ace88ac7e08a6928116468e9c6",
+          "sha1": "cd19bb2d4941825f7595a8e6cfa4a47f44d69782",
+          "md5": "e4d3a2b681c478f04def608bad5f5a9c"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha10"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "theme-cupertino",
+          "version": {
+            "requires": "0.0.1-alpha10"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "iconset-sfsymbols",
+          "version": {
+            "requires": "0.0.1-alpha10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "foundation",
+          "version": {
+            "requires": "0.0.1-alpha10"
+          }
+        },
+        {
+          "group": "dev.chrisbanes.haze",
+          "module": "haze",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "dev.chrisbanes.haze",
+          "module": "haze-glass",
+          "version": {
+            "requires": "2.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cupertino-liquid.kotlin_resources.zip",
+          "url": "cupertino-liquid-wasm-js-0.0.1-alpha10-kotlin_resources.kotlin_resources.zip",
+          "size": 408,
+          "sha512": "871f68b0f7fd2dbaef9b8f78dea74a1cab6e3b4a40e8c599f6e2136001927928aeb0fcdafe688cee5c3fc8411795d06e50a561ad9d3f3de0eead4d7ca377b87e",
+          "sha256": "588e96260048f6bb434d084c28cff8ac260ca8eed1b1dbec5ebcc9e27b48afb5",
+          "sha1": "6a470dc2945793f07b53024e51e2a36556e63d53",
+          "md5": "e5515253d006de858c9ddb4a263b35be"
+        }
+      ]
+    }
+  ]
+}
