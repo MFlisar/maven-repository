@@ -1,0 +1,476 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mflisar.composestyled",
+    "module": "styled-composedialog",
+    "version": "0.0.1-alpha16",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha16"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "ui-date",
+          "version": {
+            "requires": "5.0.0-alpha06"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "ui-time",
+          "version": {
+            "requires": "5.0.0-alpha06"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "ui-color",
+          "version": {
+            "requires": "5.0.0-alpha06"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "ui-frequency",
+          "version": {
+            "requires": "5.0.0-alpha06"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "composedialogs-metadata.jar",
+          "url": "styled-composedialog-0.0.1-alpha16.jar",
+          "size": 18674,
+          "sha512": "e784be78a4f090b40694abaf07432bfe5883e0523cfb30add64e999f091817fd0ad2ed304f8bb2376107c294ef6fc9c52c869afa8e22c4608558c55f471cfb2e",
+          "sha256": "f3b264f95412a02764cedcc7fe36b22eed46cf835f6d9f74f36185a61c4cc8ed",
+          "sha1": "176f94bf46a8429507d3fc1d7be703fc6bc8d52a",
+          "md5": "06275a5083fecb463902ef12d487bb78"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "composedialogs-kotlin-sources.jar",
+          "url": "styled-composedialog-0.0.1-alpha16-sources.jar",
+          "size": 22697,
+          "sha512": "46d7379dab9febf3d398c85059edc3c0d7f75b168134f4aafed6155409f47499570a446417692c114500a5756c0b758e4f6090cdc664180766d0dc58a1fba9dd",
+          "sha256": "99a1223858fd21497bf3fe156985cf80bd751a3e4fc7a3782e231f77e0966942",
+          "sha1": "bbb06da116ec940217f93b1625f795fddfa7eb16",
+          "md5": "a31ac00a18ef42a8c68c185dc8a17b20"
+        }
+      ]
+    },
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../styled-composedialog-android/0.0.1-alpha16/styled-composedialog-android-0.0.1-alpha16.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "styled-composedialog-android",
+        "version": "0.0.1-alpha16"
+      }
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../styled-composedialog-android/0.0.1-alpha16/styled-composedialog-android-0.0.1-alpha16.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "styled-composedialog-android",
+        "version": "0.0.1-alpha16"
+      }
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../styled-composedialog-android/0.0.1-alpha16/styled-composedialog-android-0.0.1-alpha16.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "styled-composedialog-android",
+        "version": "0.0.1-alpha16"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../styled-composedialog-iosarm64/0.0.1-alpha16/styled-composedialog-iosarm64-0.0.1-alpha16.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "styled-composedialog-iosarm64",
+        "version": "0.0.1-alpha16"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../styled-composedialog-iosarm64/0.0.1-alpha16/styled-composedialog-iosarm64-0.0.1-alpha16.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "styled-composedialog-iosarm64",
+        "version": "0.0.1-alpha16"
+      }
+    },
+    {
+      "name": "iosArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../styled-composedialog-iosarm64/0.0.1-alpha16/styled-composedialog-iosarm64-0.0.1-alpha16.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "styled-composedialog-iosarm64",
+        "version": "0.0.1-alpha16"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../styled-composedialog-iosarm64/0.0.1-alpha16/styled-composedialog-iosarm64-0.0.1-alpha16.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "styled-composedialog-iosarm64",
+        "version": "0.0.1-alpha16"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../styled-composedialog-iossimulatorarm64/0.0.1-alpha16/styled-composedialog-iossimulatorarm64-0.0.1-alpha16.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "styled-composedialog-iossimulatorarm64",
+        "version": "0.0.1-alpha16"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../styled-composedialog-iossimulatorarm64/0.0.1-alpha16/styled-composedialog-iossimulatorarm64-0.0.1-alpha16.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "styled-composedialog-iossimulatorarm64",
+        "version": "0.0.1-alpha16"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../styled-composedialog-iossimulatorarm64/0.0.1-alpha16/styled-composedialog-iossimulatorarm64-0.0.1-alpha16.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "styled-composedialog-iossimulatorarm64",
+        "version": "0.0.1-alpha16"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../styled-composedialog-iossimulatorarm64/0.0.1-alpha16/styled-composedialog-iossimulatorarm64-0.0.1-alpha16.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "styled-composedialog-iossimulatorarm64",
+        "version": "0.0.1-alpha16"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../styled-composedialog-jvm/0.0.1-alpha16/styled-composedialog-jvm-0.0.1-alpha16.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "styled-composedialog-jvm",
+        "version": "0.0.1-alpha16"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../styled-composedialog-jvm/0.0.1-alpha16/styled-composedialog-jvm-0.0.1-alpha16.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "styled-composedialog-jvm",
+        "version": "0.0.1-alpha16"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../styled-composedialog-jvm/0.0.1-alpha16/styled-composedialog-jvm-0.0.1-alpha16.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "styled-composedialog-jvm",
+        "version": "0.0.1-alpha16"
+      }
+    },
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../styled-composedialog-macosarm64/0.0.1-alpha16/styled-composedialog-macosarm64-0.0.1-alpha16.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "styled-composedialog-macosarm64",
+        "version": "0.0.1-alpha16"
+      }
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../styled-composedialog-macosarm64/0.0.1-alpha16/styled-composedialog-macosarm64-0.0.1-alpha16.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "styled-composedialog-macosarm64",
+        "version": "0.0.1-alpha16"
+      }
+    },
+    {
+      "name": "macosArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../styled-composedialog-macosarm64/0.0.1-alpha16/styled-composedialog-macosarm64-0.0.1-alpha16.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "styled-composedialog-macosarm64",
+        "version": "0.0.1-alpha16"
+      }
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../styled-composedialog-macosarm64/0.0.1-alpha16/styled-composedialog-macosarm64-0.0.1-alpha16.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "styled-composedialog-macosarm64",
+        "version": "0.0.1-alpha16"
+      }
+    },
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../styled-composedialog-wasm-js/0.0.1-alpha16/styled-composedialog-wasm-js-0.0.1-alpha16.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "styled-composedialog-wasm-js",
+        "version": "0.0.1-alpha16"
+      }
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../styled-composedialog-wasm-js/0.0.1-alpha16/styled-composedialog-wasm-js-0.0.1-alpha16.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "styled-composedialog-wasm-js",
+        "version": "0.0.1-alpha16"
+      }
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../styled-composedialog-wasm-js/0.0.1-alpha16/styled-composedialog-wasm-js-0.0.1-alpha16.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "styled-composedialog-wasm-js",
+        "version": "0.0.1-alpha16"
+      }
+    },
+    {
+      "name": "wasmJsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../styled-composedialog-wasm-js/0.0.1-alpha16/styled-composedialog-wasm-js-0.0.1-alpha16.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "styled-composedialog-wasm-js",
+        "version": "0.0.1-alpha16"
+      }
+    }
+  ]
+}

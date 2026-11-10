@@ -1,0 +1,176 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../iconset-sfsymbols/0.0.1-alpha16/iconset-sfsymbols-0.0.1-alpha16.module",
+    "group": "io.github.mflisar.composestyled",
+    "module": "iconset-sfsymbols",
+    "version": "0.0.1-alpha16",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha16"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "iconset-material3",
+          "version": {
+            "requires": "0.0.1-alpha16"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sfsymbols-macosArm64Main.klib",
+          "url": "iconset-sfsymbols-macosarm64-0.0.1-alpha16.klib",
+          "size": 9955,
+          "sha512": "86f9e508bf13dbdf92808c286c891e06c93cbed4fb0971095a179410a482492630a8ccd15922d9ebf0b4fc85f54541aa25379f66b1d16b1e7d42b3eb2fd1b1bb",
+          "sha256": "00b90c544ea3d0a53dfa134fe4ae9949e995eb45e5ccf64419525b5a70030d39",
+          "sha1": "e5ff8c462e01139ead3dc158920d3734deac7478",
+          "md5": "62abab8aaa00259bd210e1c228b46281"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "sfsymbols-macosarm64-sources.jar",
+          "url": "iconset-sfsymbols-macosarm64-0.0.1-alpha16-sources.jar",
+          "size": 3743,
+          "sha512": "8b24612ea3f706c176c4a870c30e9eb0cd2ae53a222cf99c7623ee5170a071265e40612e60d1304aef5ce2f6bc252598a0945ccf476d000efaec68670114046e",
+          "sha256": "eceeaf1374b4f3e2c4b86f64fe5185be10522ee679ffca77d0be9867982ac847",
+          "sha1": "64c798b9345f90831d0027ce0a06e4291a664e26",
+          "md5": "39f6883ecb52c0fc524f843d250644d9"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha16"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "iconset-material3",
+          "version": {
+            "requires": "0.0.1-alpha16"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sfsymbols.kotlin_resources.zip",
+          "url": "iconset-sfsymbols-macosarm64-0.0.1-alpha16-kotlin_resources.kotlin_resources.zip",
+          "size": 380,
+          "sha512": "769b0554f70b4ef0aa7df2dd858cb4f65bd6f30086570783e5c893cabc56876b3e3019f1842d93e49f79d75260e471a38713b760c4d83cdb2450eb90eb2c13c3",
+          "sha256": "0eec9772edfbcabbaff511ee8b374ebda588a62a33d12285e456a1b219688272",
+          "sha1": "74ce93fd9cbb6b996bcd87020467dc9320d2d1a8",
+          "md5": "b779627c1d1df419b25499fc1b40ea05"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha16"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "iconset-material3",
+          "version": {
+            "requires": "0.0.1-alpha16"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sfsymbols-macosarm64-metadata.jar",
+          "url": "iconset-sfsymbols-macosarm64-0.0.1-alpha16-metadata.jar",
+          "size": 2899,
+          "sha512": "164b80a2ebb0508c79ab068ecb174ff87b3dada4260f267aa06b6394405d85898e82ff8d3b045f437e27e43e725e8131ec8a359f4643282787d6c22e7f691ba6",
+          "sha256": "122d5fabf6695cb69c6f0985bf518d10ec91aa328944c7ac60300395881a6bdc",
+          "sha1": "fb7bb613aace3cd16e851fc8bc60c3067a7afbd4",
+          "md5": "9ffc777003c7847f536aa5f63961234b"
+        }
+      ]
+    }
+  ]
+}
