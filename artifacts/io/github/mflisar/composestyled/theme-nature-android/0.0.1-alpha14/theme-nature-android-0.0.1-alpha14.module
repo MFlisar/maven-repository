@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../theme-nature/0.0.1-alpha14/theme-nature-0.0.1-alpha14.module",
+    "group": "io.github.mflisar.composestyled",
+    "module": "theme-nature",
+    "version": "0.0.1-alpha14",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha14"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nature.aar",
+          "url": "theme-nature-android-0.0.1-alpha14.aar",
+          "size": 3216,
+          "sha512": "64467772aebdfceedf5f5f670404696bcf5d15c9c93753469b05bb93855938f9d67026f9565cf93f1f8943884f14b5721662c5c8c69eda0ae8091cb68edb488f",
+          "sha256": "e31e8c70a326c6352b9dfac05e152040d698aae588cfd22ed4a4f872d03454c1",
+          "sha1": "e9d61643f072619fb722c873620c166ccb58aa19",
+          "md5": "f3aeff2f9686be3963bc4514d6307cea"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha14"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nature.aar",
+          "url": "theme-nature-android-0.0.1-alpha14.aar",
+          "size": 3216,
+          "sha512": "64467772aebdfceedf5f5f670404696bcf5d15c9c93753469b05bb93855938f9d67026f9565cf93f1f8943884f14b5721662c5c8c69eda0ae8091cb68edb488f",
+          "sha256": "e31e8c70a326c6352b9dfac05e152040d698aae588cfd22ed4a4f872d03454c1",
+          "sha1": "e9d61643f072619fb722c873620c166ccb58aa19",
+          "md5": "f3aeff2f9686be3963bc4514d6307cea"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "nature-android-sources.jar",
+          "url": "theme-nature-android-0.0.1-alpha14-sources.jar",
+          "size": 2028,
+          "sha512": "21d1a307545c82370746eb0e15ee64c915595ef4fe1b16f5826aee8583ac4e601ce7f048203b30584eafb353aa5d1383aa093307d2689697c14be6acb0286539",
+          "sha256": "d8d92ec8ea48c3d4dabcfc1e8910a9ea885be9ce25e7df19b7718dcdb643858c",
+          "sha1": "649f20c1b41ab2070d6ee86c60a8eb8c468a4f3b",
+          "md5": "811e6144a6fcaf0100360e9a2fd474d3"
+        }
+      ]
+    }
+  ]
+}
