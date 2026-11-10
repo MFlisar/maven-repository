@@ -1,0 +1,158 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../dialog-frequency/5.0.0-alpha06/dialog-frequency-5.0.0-alpha06.module",
+    "group": "io.github.mflisar.composedialogs",
+    "module": "dialog-frequency",
+    "version": "5.0.0-alpha06",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "ui-frequency",
+          "version": {
+            "requires": "5.0.0-alpha06"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "frequency-jvm.jar",
+          "url": "dialog-frequency-jvm-5.0.0-alpha06.jar",
+          "size": 30872,
+          "sha512": "122153bd382ea377ef839ad90f2a903202e4edfccb17d7529d0fae2f4e7e4955fbdeda9b3b33ec00a1bbe82efe234acb66962252feb11bba514048c4ab87319a",
+          "sha256": "6fbcab0f86376b75916e702e08156958c0f6a56e41c0839d5be491334871eae7",
+          "sha1": "9fd48aa9e2d4988baca7ffb903a877d78f5ec717",
+          "md5": "e9332536846f828cdc7d0e556f2da2d5"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "ui-frequency",
+          "version": {
+            "requires": "5.0.0-alpha06"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-icons-core",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "core",
+          "version": {
+            "requires": "5.0.0-alpha06"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "dialog-time",
+          "version": {
+            "requires": "5.0.0-alpha06"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "frequency-jvm.jar",
+          "url": "dialog-frequency-jvm-5.0.0-alpha06.jar",
+          "size": 30872,
+          "sha512": "122153bd382ea377ef839ad90f2a903202e4edfccb17d7529d0fae2f4e7e4955fbdeda9b3b33ec00a1bbe82efe234acb66962252feb11bba514048c4ab87319a",
+          "sha256": "6fbcab0f86376b75916e702e08156958c0f6a56e41c0839d5be491334871eae7",
+          "sha1": "9fd48aa9e2d4988baca7ffb903a877d78f5ec717",
+          "md5": "e9332536846f828cdc7d0e556f2da2d5"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "frequency-jvm-sources.jar",
+          "url": "dialog-frequency-jvm-5.0.0-alpha06-sources.jar",
+          "size": 6031,
+          "sha512": "10e44e0db90f73ac3cb2f1844c6c27b833f0d13bdedcf428e8a9ff967f944deb9e4d87d0d41c1ae857d7d08527e52af7caf0afe5a51db63e3506941dd1680063",
+          "sha256": "69d7addc8933b670e065d7bc48bfdfe0064a1a360656105765c98c5bcfb35755",
+          "sha1": "c0ae90a8bf11290318de4b1dbff0da5e897f5478",
+          "md5": "a359732b9c79a33f85d9878e485a493b"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../dialog-number/5.0.0-alpha06/dialog-number-5.0.0-alpha06.module",
+    "group": "io.github.mflisar.composedialogs",
+    "module": "dialog-number",
+    "version": "5.0.0-alpha06",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "number-jvm.jar",
+          "url": "dialog-number-jvm-5.0.0-alpha06.jar",
+          "size": 38819,
+          "sha512": "b68af10b127f6cd0d01c7a4c07e3feabbcb1ecfaca7adebe89872d6c9c7ea5499e71ebfaba2351779eaffb884caae76008ad7b11207bdb71727e09444944c351",
+          "sha256": "5159ebe073add9296d1b1e723625b2a061392d88bc2ba8696fe7e6132eab28ea",
+          "sha1": "f343f338c60509786d1a32033c2d4c591c1fb078",
+          "md5": "ff48435fcdccec023d1ea307b4c4f911"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-icons-core",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-icons-extended",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "core",
+          "version": {
+            "requires": "5.0.0-alpha06"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "number-jvm.jar",
+          "url": "dialog-number-jvm-5.0.0-alpha06.jar",
+          "size": 38819,
+          "sha512": "b68af10b127f6cd0d01c7a4c07e3feabbcb1ecfaca7adebe89872d6c9c7ea5499e71ebfaba2351779eaffb884caae76008ad7b11207bdb71727e09444944c351",
+          "sha256": "5159ebe073add9296d1b1e723625b2a061392d88bc2ba8696fe7e6132eab28ea",
+          "sha1": "f343f338c60509786d1a32033c2d4c591c1fb078",
+          "md5": "ff48435fcdccec023d1ea307b4c4f911"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "number-jvm-sources.jar",
+          "url": "dialog-number-jvm-5.0.0-alpha06-sources.jar",
+          "size": 7653,
+          "sha512": "b95ac0ed3a4486a8fe359fb72916e63cbd47eca1b29b8ba70d64529c532943714ee2b2a255693c853c7326488e8e8cd0f975181deae1599de544d24201d62530",
+          "sha256": "362e5d3c9e4df902ab97448b28df709d055ba47c114d4697cd7f602449a92fca",
+          "sha1": "34ecd37b94d30d1297887bc73bc0b6c7c128175b",
+          "md5": "c378215ed0e1c046fe55965de9d963bc"
+        }
+      ]
+    }
+  ]
+}

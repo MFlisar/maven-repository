@@ -1,0 +1,204 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../dialog-menu/5.0.0-alpha06/dialog-menu-5.0.0-alpha06.module",
+    "group": "io.github.mflisar.composedialogs",
+    "module": "dialog-menu",
+    "version": "5.0.0-alpha06",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "menu-wasm-js.klib",
+          "url": "dialog-menu-wasm-js-5.0.0-alpha06.klib",
+          "size": 36505,
+          "sha512": "d2bc57aa6fb18b85167896fe4f5551d9dcc639a460d9313f87ed5c3626e49e49a6cdb8d4dfa7abab0eac0179a3ac4b22216dfb166e77b4b257e805d41635832b",
+          "sha256": "996b521958d866a0d339621b2a8fcccb82fbdb335aed634d1e5c2b1a87bab463",
+          "sha1": "7f22978a1a368430236cd12b69101e1db5513ae6",
+          "md5": "c6c9d6ce5de52fde4139892cfe2a0105"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-backhandler",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-icons-core",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "core",
+          "version": {
+            "requires": "5.0.0-alpha06"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "menu-wasm-js.klib",
+          "url": "dialog-menu-wasm-js-5.0.0-alpha06.klib",
+          "size": 36505,
+          "sha512": "d2bc57aa6fb18b85167896fe4f5551d9dcc639a460d9313f87ed5c3626e49e49a6cdb8d4dfa7abab0eac0179a3ac4b22216dfb166e77b4b257e805d41635832b",
+          "sha256": "996b521958d866a0d339621b2a8fcccb82fbdb335aed634d1e5c2b1a87bab463",
+          "sha1": "7f22978a1a368430236cd12b69101e1db5513ae6",
+          "md5": "c6c9d6ce5de52fde4139892cfe2a0105"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "files": [
+        {
+          "name": "menu-wasm-js-sources.jar",
+          "url": "dialog-menu-wasm-js-5.0.0-alpha06-sources.jar",
+          "size": 4412,
+          "sha512": "75255843b199c8d506a360ef93f1014ed9eb8e80eaa71a206a4f8847a0274823466263d6e455ebc70facf39f724abc99dd5faed52bb82321781b47d730a536a6",
+          "sha256": "accb9ea37e6fcf68de9e70377f0b005be2985151a9b9b2c27ad17a50fc7645b5",
+          "sha1": "cbdd92d2612de17030c3021be54155bda7e45139",
+          "md5": "9678b777a92285ed1782131d81d347ee"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-backhandler",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-icons-core",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "core",
+          "version": {
+            "requires": "5.0.0-alpha06"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "menu.kotlin_resources.zip",
+          "url": "dialog-menu-wasm-js-5.0.0-alpha06-kotlin_resources.kotlin_resources.zip",
+          "size": 372,
+          "sha512": "fd4eab9ed09afdddb0d6d1db9d0600347f15b6dfd107513b8c746ac73546fd27c68c54ccdb270c577d25f071845bd308ba3c1f9bc7a44c880daa0f30236ecc32",
+          "sha256": "1afde4e7f9574ae7e3b56e8845fd1d13dac49a131f551ac359df912725932002",
+          "sha1": "898adf163275af1562c1118b692ac2b364474952",
+          "md5": "426d8d52f7824ee8461a53c2397ec97c"
+        }
+      ]
+    }
+  ]
+}
