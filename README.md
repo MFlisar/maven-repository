@@ -10,7 +10,7 @@ Latest version per artifact group, including prereleases, taken from the most re
 
 | Artifact group | Latest version |
 | --- | --- |
-| [io.github.mflisar.composedialogs](https://github.com/MFlisar/maven-repository/tree/main/artifacts/io/github/mflisar/composedialogs) | <code>5.0.0-alpha05</code> |
+| [io.github.mflisar.composedialogs](https://github.com/MFlisar/maven-repository/tree/main/artifacts/io/github/mflisar/composedialogs) | <code>5.0.0-alpha06</code> |
 | [io.github.mflisar.composestyled](https://github.com/MFlisar/maven-repository/tree/main/artifacts/io/github/mflisar/composestyled) | <code>0.0.1-alpha15</code> |
 | [io.github.mflisar.composetable](https://github.com/MFlisar/maven-repository/tree/main/artifacts/io/github/mflisar/composetable) | <code>0.0.1-alpha06</code> |
 | [io.github.mflisar.composethemer](https://github.com/MFlisar/maven-repository/tree/main/artifacts/io/github/mflisar/composethemer) | <code>2.0.1-testonly</code> |
