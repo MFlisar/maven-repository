@@ -1,0 +1,225 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../material3/0.0.1-alpha13/material3-0.0.1-alpha13.module",
+    "group": "io.github.mflisar.composestyled",
+    "module": "material3",
+    "version": "0.0.1-alpha13",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha13"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "theme-material3",
+          "version": {
+            "requires": "0.0.1-alpha13"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "iconset-material3",
+          "version": {
+            "requires": "0.0.1-alpha13"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "material3-wasm-js.klib",
+          "url": "material3-wasm-js-0.0.1-alpha13.klib",
+          "size": 363418,
+          "sha512": "57b99f6643eb9a0ef02ad4a6c5a5522bd92b6f74cedfe31546091a7d2ef4c1f436ec7dea50eb7e6743a071cbaf746809f64538b51f0ce82b87dd34eed56b0932",
+          "sha256": "c1340a6b47379367d038f16def3ef78ba4634b0e3d0d09c0390bece1291a8867",
+          "sha1": "2de3ff7604338c7250fd6b2d5472c97260632ac0",
+          "md5": "8f262f1a8e64e34b5b3e9805f7823384"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha13"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "theme-material3",
+          "version": {
+            "requires": "0.0.1-alpha13"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "iconset-material3",
+          "version": {
+            "requires": "0.0.1-alpha13"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "foundation",
+          "version": {
+            "requires": "0.0.1-alpha13"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "material3-wasm-js.klib",
+          "url": "material3-wasm-js-0.0.1-alpha13.klib",
+          "size": 363418,
+          "sha512": "57b99f6643eb9a0ef02ad4a6c5a5522bd92b6f74cedfe31546091a7d2ef4c1f436ec7dea50eb7e6743a071cbaf746809f64538b51f0ce82b87dd34eed56b0932",
+          "sha256": "c1340a6b47379367d038f16def3ef78ba4634b0e3d0d09c0390bece1291a8867",
+          "sha1": "2de3ff7604338c7250fd6b2d5472c97260632ac0",
+          "md5": "8f262f1a8e64e34b5b3e9805f7823384"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "files": [
+        {
+          "name": "material3-wasm-js-sources.jar",
+          "url": "material3-wasm-js-0.0.1-alpha13-sources.jar",
+          "size": 48315,
+          "sha512": "fb79393b6b83316dd5935b3088a85cb9558992cd2971554e66c8f3f1afee049bd8c6638199da1528165ba9e9fa9e7d3c9b63e1b446f09b76ea2876be5faa54ab",
+          "sha256": "8fc58703ffa8572bb2d10ee453c5cf5695d2135adb2745d2a3fc4e19b5ad6bea",
+          "sha1": "36d26cf4ac3ffc3e0faf4fa0856716f82d1e7480",
+          "md5": "540c9bc473ec17f5a9f87d22890083e2"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha13"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "theme-material3",
+          "version": {
+            "requires": "0.0.1-alpha13"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "iconset-material3",
+          "version": {
+            "requires": "0.0.1-alpha13"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "foundation",
+          "version": {
+            "requires": "0.0.1-alpha13"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "material3.kotlin_resources.zip",
+          "url": "material3-wasm-js-0.0.1-alpha13-kotlin_resources.kotlin_resources.zip",
+          "size": 394,
+          "sha512": "b5f103a93efc03db11c1df5e70e9cc751fe6fe1beb6871a4db1cce15c081092c879e481782cfdf73fa0715ddaf1d14e5e39801ab2a69a9519f0eac6a006f3be4",
+          "sha256": "894b35ba10280b9023256f101dfc58a8bba92591fb3739f817dae59ada59bf5c",
+          "sha1": "e9678d1fbc8927a28c757a82bf90a21b66dfe215",
+          "md5": "972fb372ce9654952ea8136be871854a"
+        }
+      ]
+    }
+  ]
+}
