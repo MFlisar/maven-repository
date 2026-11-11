@@ -1,0 +1,190 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../styled-composetable/0.0.1-alpha18/styled-composetable-0.0.1-alpha18.module",
+    "group": "io.github.mflisar.composestyled",
+    "module": "styled-composetable",
+    "version": "0.0.1-alpha18",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha18"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composetable",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha06"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "composetable-wasm-js.klib",
+          "url": "styled-composetable-wasm-js-0.0.1-alpha18.klib",
+          "size": 43081,
+          "sha512": "9472b264344175a312efb3474d078d27a38ec2e7f39b18046c934bfc738c67c5f517f6f74ec2e289371936ea3e4efecf398e51161380295cca43204b9fa5759e",
+          "sha256": "28dc5cd5107d3f9d037e431691d829aad4ef7c301b2a44f732e1a75c3b7f1d55",
+          "sha1": "b7a5b4b65b4172f04aca86e205e42955971f7b0a",
+          "md5": "bb3194b89bbd30016c940acad7e1dd07"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha18"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composetable",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha06"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-icons-extended",
+          "version": {
+            "requires": "1.7.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "composetable-wasm-js.klib",
+          "url": "styled-composetable-wasm-js-0.0.1-alpha18.klib",
+          "size": 43081,
+          "sha512": "9472b264344175a312efb3474d078d27a38ec2e7f39b18046c934bfc738c67c5f517f6f74ec2e289371936ea3e4efecf398e51161380295cca43204b9fa5759e",
+          "sha256": "28dc5cd5107d3f9d037e431691d829aad4ef7c301b2a44f732e1a75c3b7f1d55",
+          "sha1": "b7a5b4b65b4172f04aca86e205e42955971f7b0a",
+          "md5": "bb3194b89bbd30016c940acad7e1dd07"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "files": [
+        {
+          "name": "composetable-wasm-js-sources.jar",
+          "url": "styled-composetable-wasm-js-0.0.1-alpha18-sources.jar",
+          "size": 3841,
+          "sha512": "f915f709250087ff91cb6a86c6ee4f032ab077939bd32650a5a24bf92346e7d09603ef18d16d4d1f5054a368ff4d8d844367836c15e7d4a0135c4c24f4b21823",
+          "sha256": "e6568ae603967c2943e6e39785ad8d8164626b422262f7a72067e4380dc7d7ef",
+          "sha1": "64df3e986bb3a5418c9809c1a61361e572ad3eb0",
+          "md5": "0540faa71a5e50b475736f53af0f70b6"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha18"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composetable",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha06"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-icons-extended",
+          "version": {
+            "requires": "1.7.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "composetable.kotlin_resources.zip",
+          "url": "styled-composetable-wasm-js-0.0.1-alpha18-kotlin_resources.kotlin_resources.zip",
+          "size": 388,
+          "sha512": "afeeaad04db166e2c0262a8dc4f4a8b0abb538ed840844c9786b0c0a41fe03970b6be8a8acca8ea1966d9d4e6b0d1169eee4812d4f7e40cea36fe69d0b171c62",
+          "sha256": "acca8bc5bfd4a8a84c566316fef109670ad837856e6cb0e0f2b5ca5f2ab15a06",
+          "sha1": "144f0c1e4b6aa1f05f84798286a0229edbfac8c5",
+          "md5": "02d3652bfde2f1f2bea14fd81a0f30ef"
+        }
+      ]
+    }
+  ]
+}
