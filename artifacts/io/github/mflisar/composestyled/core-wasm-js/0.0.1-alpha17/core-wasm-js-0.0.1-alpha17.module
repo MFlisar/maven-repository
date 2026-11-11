@@ -1,0 +1,232 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core/0.0.1-alpha17/core-0.0.1-alpha17.module",
+    "group": "io.github.mflisar.composestyled",
+    "module": "core",
+    "version": "0.0.1-alpha17",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.components",
+          "module": "components-resources",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-wasm-js.klib",
+          "url": "core-wasm-js-0.0.1-alpha17.klib",
+          "size": 1810042,
+          "sha512": "58fe0cdb2ad8ee53cc4ecc0c1263342f1db0fe4590aac95553d7f06f951b4216677af74e3705523228ea1b62564da66da4ba3c79f652ebaffdb38174fa67ba00",
+          "sha256": "4ab713d1b24ff8b0cda2353675a8d62db3001a575591825a796e476e647765bb",
+          "sha1": "449efb900f5b9bd26c87172d52ed45412b3682c2",
+          "md5": "03a2e538bbe685b1d7dd9f650b255eb0"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.components",
+          "module": "components-resources",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-backhandler",
+          "version": {
+            "requires": "1.12.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-wasm-js.klib",
+          "url": "core-wasm-js-0.0.1-alpha17.klib",
+          "size": 1810042,
+          "sha512": "58fe0cdb2ad8ee53cc4ecc0c1263342f1db0fe4590aac95553d7f06f951b4216677af74e3705523228ea1b62564da66da4ba3c79f652ebaffdb38174fa67ba00",
+          "sha256": "4ab713d1b24ff8b0cda2353675a8d62db3001a575591825a796e476e647765bb",
+          "sha1": "449efb900f5b9bd26c87172d52ed45412b3682c2",
+          "md5": "03a2e538bbe685b1d7dd9f650b255eb0"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "files": [
+        {
+          "name": "core-wasm-js-sources.jar",
+          "url": "core-wasm-js-0.0.1-alpha17-sources.jar",
+          "size": 226554,
+          "sha512": "5a6100a3cd3de2e4de5de6a3ea6c412d84e30c753aa9a7ea545882962ef5dea3f34d90cf7825e0ebddf026dee60c72b0361be1f32f2fc59bd2dc39e9186bfdab",
+          "sha256": "c2ecf0fafc7a85d3ec0ef0a37545c8696aec3434afcddfab370106e244bf65f9",
+          "sha1": "910c9b4ec767a2a6afb7cadd400df1738d0d7be0",
+          "md5": "2eac7504fa88a1ca4d5ac7e3fb3ef448"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.components",
+          "module": "components-resources",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-backhandler",
+          "version": {
+            "requires": "1.12.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core.kotlin_resources.zip",
+          "url": "core-wasm-js-0.0.1-alpha17-kotlin_resources.kotlin_resources.zip",
+          "size": 352,
+          "sha512": "2fc670af4575dbdafe0a23905aeb874e617aeba6fe50b60fc731b59035c5cbcb3cb1daf6cd2fbab4537757cd2b9bb1f877923611bd282b00019a91305426b687",
+          "sha256": "8cd53df3b7db0a78007d1621289c8355b74bba8250e0aa5bb3f6c46f6ca8c689",
+          "sha1": "533da1f159550302fd0643321fb74ad6b937dc97",
+          "md5": "bdd115d5b8539e74dcef7450f2df8672"
+        }
+      ]
+    }
+  ]
+}

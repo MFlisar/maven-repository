@@ -1,0 +1,176 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../foundation/0.0.1-alpha17/foundation-0.0.1-alpha17.module",
+    "group": "io.github.mflisar.composestyled",
+    "module": "foundation",
+    "version": "0.0.1-alpha17",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha17"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-backhandler",
+          "version": {
+            "requires": "1.12.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "foundation-iosSimulatorArm64Main.klib",
+          "url": "foundation-iossimulatorarm64-0.0.1-alpha17.klib",
+          "size": 521185,
+          "sha512": "adbb16952c310c767ac036392717aa836aaf0a31b237c82b73328f4ebb9c0a1c4efcb48ed7dc7c0d398bf1ac61325910b04432345dbd7cac3532f6ad01babba4",
+          "sha256": "a15f661c7254efaf22eaac8934d116eceb97151a4183a1a32c0efc375e9188ca",
+          "sha1": "87b57bb144219b105afa30a885e498af5cbd5874",
+          "md5": "27751ac339e9bf0d957e00e28919c3e7"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "foundation-iossimulatorarm64-sources.jar",
+          "url": "foundation-iossimulatorarm64-0.0.1-alpha17-sources.jar",
+          "size": 74173,
+          "sha512": "7398f5113b8726cffc491a029993ead3b21e500a4cd849166a402a6426661023955a55bda9bd2d6a2561e6d8f05273e495c5a4acf864eda7402f92f96e9f942e",
+          "sha256": "9f58c1bfe62170ef0ecbe07c62cea5c725c069316ca3a4aec702ab24696aaef6",
+          "sha1": "adafeece444490281fddeac36ce58ad5bd044c6f",
+          "md5": "870d08c3fba11369f745657bd0c60168"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha17"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-backhandler",
+          "version": {
+            "requires": "1.12.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "foundation.kotlin_resources.zip",
+          "url": "foundation-iossimulatorarm64-0.0.1-alpha17-kotlin_resources.kotlin_resources.zip",
+          "size": 396,
+          "sha512": "08be1745ea465426fba3a527cb92e026c9b054acb357aa87acaa984f2f819c13aedf2b1efc1efb78ec97fe3b78b3d693bde58e7087c282b9cd434bf4a7740987",
+          "sha256": "a73514bd32f7cf55fced4f4fb38a8fd5b3ebca3b4f8cc448494d3b7c2526884e",
+          "sha1": "08a9b9e6610237d726fcaf54540430d23056e0ec",
+          "md5": "dbcd882b86f8a01cfd41da1e68f814cd"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha17"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-backhandler",
+          "version": {
+            "requires": "1.12.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "foundation-iossimulatorarm64-metadata.jar",
+          "url": "foundation-iossimulatorarm64-0.0.1-alpha17-metadata.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    }
+  ]
+}

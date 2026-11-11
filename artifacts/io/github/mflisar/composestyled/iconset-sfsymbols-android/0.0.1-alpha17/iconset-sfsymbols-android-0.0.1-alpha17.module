@@ -1,0 +1,123 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../iconset-sfsymbols/0.0.1-alpha17/iconset-sfsymbols-0.0.1-alpha17.module",
+    "group": "io.github.mflisar.composestyled",
+    "module": "iconset-sfsymbols",
+    "version": "0.0.1-alpha17",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha17"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sfsymbols.aar",
+          "url": "iconset-sfsymbols-android-0.0.1-alpha17.aar",
+          "size": 4799,
+          "sha512": "6e356bbbf88cf29d20e300c9a1503e9c7485c030b2edfcd00225ce11d541da99e4cd15c4778fbb8912d529d0d2e56865d9dfcaa1f8094db6137a77ad3a79faf2",
+          "sha256": "4bb652c459a87404243fb7cf291341370d73d4a8a5d8d6f8452f8dc95c94381f",
+          "sha1": "8f833a9f61a8f48b07573c6044e608922f5ad483",
+          "md5": "55d4417496a5677f31623148c72323a1"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha17"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "iconset-material3",
+          "version": {
+            "requires": "0.0.1-alpha17"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sfsymbols.aar",
+          "url": "iconset-sfsymbols-android-0.0.1-alpha17.aar",
+          "size": 4799,
+          "sha512": "6e356bbbf88cf29d20e300c9a1503e9c7485c030b2edfcd00225ce11d541da99e4cd15c4778fbb8912d529d0d2e56865d9dfcaa1f8094db6137a77ad3a79faf2",
+          "sha256": "4bb652c459a87404243fb7cf291341370d73d4a8a5d8d6f8452f8dc95c94381f",
+          "sha1": "8f833a9f61a8f48b07573c6044e608922f5ad483",
+          "md5": "55d4417496a5677f31623148c72323a1"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "sfsymbols-android-sources.jar",
+          "url": "iconset-sfsymbols-android-0.0.1-alpha17-sources.jar",
+          "size": 3743,
+          "sha512": "8b24612ea3f706c176c4a870c30e9eb0cd2ae53a222cf99c7623ee5170a071265e40612e60d1304aef5ce2f6bc252598a0945ccf476d000efaec68670114046e",
+          "sha256": "eceeaf1374b4f3e2c4b86f64fe5185be10522ee679ffca77d0be9867982ac847",
+          "sha1": "64c798b9345f90831d0027ce0a06e4291a664e26",
+          "md5": "39f6883ecb52c0fc524f843d250644d9"
+        }
+      ]
+    }
+  ]
+}
