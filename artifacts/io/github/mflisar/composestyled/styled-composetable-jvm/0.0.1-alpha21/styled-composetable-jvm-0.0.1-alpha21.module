@@ -1,0 +1,137 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../styled-composetable/0.0.1-alpha21/styled-composetable-0.0.1-alpha21.module",
+    "group": "io.github.mflisar.composestyled",
+    "module": "styled-composetable",
+    "version": "0.0.1-alpha21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha21"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composetable",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha06"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "composetable-jvm.jar",
+          "url": "styled-composetable-jvm-0.0.1-alpha21.jar",
+          "size": 35551,
+          "sha512": "f58fe5a88cd16c01f38977289e0ac2139e33a11fc92107209d72a380bd3f748a1cc5684abd265ca679cc8e64c666718c38fb70f08390a0915360b5bebe656c32",
+          "sha256": "1da3734d15824dc7e0e61418b9225524ac6853638515ff1369cf43cc0471759e",
+          "sha1": "25c17675072e2e7c7003389b0e85df7f18a833af",
+          "md5": "a19d6a95f19495f9cd700291f4e6204a"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha21"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composetable",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha06"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-icons-extended",
+          "version": {
+            "requires": "1.7.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "composetable-jvm.jar",
+          "url": "styled-composetable-jvm-0.0.1-alpha21.jar",
+          "size": 35551,
+          "sha512": "f58fe5a88cd16c01f38977289e0ac2139e33a11fc92107209d72a380bd3f748a1cc5684abd265ca679cc8e64c666718c38fb70f08390a0915360b5bebe656c32",
+          "sha256": "1da3734d15824dc7e0e61418b9225524ac6853638515ff1369cf43cc0471759e",
+          "sha1": "25c17675072e2e7c7003389b0e85df7f18a833af",
+          "md5": "a19d6a95f19495f9cd700291f4e6204a"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "composetable-jvm-sources.jar",
+          "url": "styled-composetable-jvm-0.0.1-alpha21-sources.jar",
+          "size": 3841,
+          "sha512": "f915f709250087ff91cb6a86c6ee4f032ab077939bd32650a5a24bf92346e7d09603ef18d16d4d1f5054a368ff4d8d844367836c15e7d4a0135c4c24f4b21823",
+          "sha256": "e6568ae603967c2943e6e39785ad8d8164626b422262f7a72067e4380dc7d7ef",
+          "sha1": "64df3e986bb3a5418c9809c1a61361e572ad3eb0",
+          "md5": "0540faa71a5e50b475736f53af0f70b6"
+        }
+      ]
+    }
+  ]
+}

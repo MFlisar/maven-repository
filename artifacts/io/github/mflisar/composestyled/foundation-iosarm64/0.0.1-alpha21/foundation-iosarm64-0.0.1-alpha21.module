@@ -1,0 +1,176 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../foundation/0.0.1-alpha21/foundation-0.0.1-alpha21.module",
+    "group": "io.github.mflisar.composestyled",
+    "module": "foundation",
+    "version": "0.0.1-alpha21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-backhandler",
+          "version": {
+            "requires": "1.12.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "foundation-iosArm64Main.klib",
+          "url": "foundation-iosarm64-0.0.1-alpha21.klib",
+          "size": 546939,
+          "sha512": "fcac8466c082dc1d4bb8a04108d87c03a0c030bbd14c8fadbb0039542334777bb433687826569cbf39b3ce2c8d01b113136c628ea359003c99f26d3f1f343653",
+          "sha256": "b45786ffd9a18da1c40c2db4b8894e4b0491e829e1b4226f8f4135a8db021f3f",
+          "sha1": "e22659af7a69a8e1851c6e763f19edf471212ebd",
+          "md5": "bf992b34dd05180d4766ef0dd24d1b93"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "foundation-iosarm64-sources.jar",
+          "url": "foundation-iosarm64-0.0.1-alpha21-sources.jar",
+          "size": 78029,
+          "sha512": "b0e55411537a950ec9c11f947390247e32861247f319b4ae5e16c429d0cc4843abafdbc9608d235dd107d6baeca3f311b1c7dd387386f3ad334cd3569c4fe83a",
+          "sha256": "2eb59ce80ef9e6159165e219fe15706164ba8b3f4d0f12350fc3e6bb93a9ee87",
+          "sha1": "8430efe5c87055f6cebab4616a7e298c4aac9172",
+          "md5": "ec15d6cfeee3ca4070d4710bc06a5692"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-backhandler",
+          "version": {
+            "requires": "1.12.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "foundation.kotlin_resources.zip",
+          "url": "foundation-iosarm64-0.0.1-alpha21-kotlin_resources.kotlin_resources.zip",
+          "size": 396,
+          "sha512": "08be1745ea465426fba3a527cb92e026c9b054acb357aa87acaa984f2f819c13aedf2b1efc1efb78ec97fe3b78b3d693bde58e7087c282b9cd434bf4a7740987",
+          "sha256": "a73514bd32f7cf55fced4f4fb38a8fd5b3ebca3b4f8cc448494d3b7c2526884e",
+          "sha1": "08a9b9e6610237d726fcaf54540430d23056e0ec",
+          "md5": "dbcd882b86f8a01cfd41da1e68f814cd"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-backhandler",
+          "version": {
+            "requires": "1.12.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "foundation-iosarm64-metadata.jar",
+          "url": "foundation-iosarm64-0.0.1-alpha21-metadata.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    }
+  ]
+}
