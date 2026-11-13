@@ -1,0 +1,448 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mflisar.composestyled",
+    "module": "iconset-sfsymbols",
+    "version": "0.0.1-alpha27",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha27"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sfsymbols-metadata.jar",
+          "url": "iconset-sfsymbols-0.0.1-alpha27.jar",
+          "size": 4743,
+          "sha512": "56e71dec83f24704bfb253cebadfa198123b793dbbc6d05a07f0cb1aaccaa2918e217b46b58d5fe23db10eeb78e2840d00f7e1ba0e4fd47f7904a5bc523770bc",
+          "sha256": "ed626ed27f1aeb7ad9fb6d8299af6f293699a05757801a1b40f7d1787640d4cb",
+          "sha1": "e7c3925a488dbe23ddb59a026d32de015cefaf37",
+          "md5": "0fc398264be69df86e09455f62b7ca98"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "sfsymbols-kotlin-sources.jar",
+          "url": "iconset-sfsymbols-0.0.1-alpha27-sources.jar",
+          "size": 5655,
+          "sha512": "e6cac9f50f3e19b658388f542e3792bd7940a993fe0fe688ca4731f5fd6bc10c912dd40e17fccb07b1039b0d075f3b236618bf2ba50d37a8e74955e3f109103f",
+          "sha256": "2fd67f420f2d6bc9206e3d4e4083587d1afb2a3ddd0a10ed0e33c93bd4e20b67",
+          "sha1": "48d7779b38bd75bbe863975e6a5d22d30a421abd",
+          "md5": "d40b63f1e9c6a1844740bbfe7f7e54fa"
+        }
+      ]
+    },
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../iconset-sfsymbols-android/0.0.1-alpha27/iconset-sfsymbols-android-0.0.1-alpha27.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "iconset-sfsymbols-android",
+        "version": "0.0.1-alpha27"
+      }
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../iconset-sfsymbols-android/0.0.1-alpha27/iconset-sfsymbols-android-0.0.1-alpha27.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "iconset-sfsymbols-android",
+        "version": "0.0.1-alpha27"
+      }
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../iconset-sfsymbols-android/0.0.1-alpha27/iconset-sfsymbols-android-0.0.1-alpha27.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "iconset-sfsymbols-android",
+        "version": "0.0.1-alpha27"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../iconset-sfsymbols-iosarm64/0.0.1-alpha27/iconset-sfsymbols-iosarm64-0.0.1-alpha27.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "iconset-sfsymbols-iosarm64",
+        "version": "0.0.1-alpha27"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../iconset-sfsymbols-iosarm64/0.0.1-alpha27/iconset-sfsymbols-iosarm64-0.0.1-alpha27.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "iconset-sfsymbols-iosarm64",
+        "version": "0.0.1-alpha27"
+      }
+    },
+    {
+      "name": "iosArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../iconset-sfsymbols-iosarm64/0.0.1-alpha27/iconset-sfsymbols-iosarm64-0.0.1-alpha27.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "iconset-sfsymbols-iosarm64",
+        "version": "0.0.1-alpha27"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../iconset-sfsymbols-iosarm64/0.0.1-alpha27/iconset-sfsymbols-iosarm64-0.0.1-alpha27.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "iconset-sfsymbols-iosarm64",
+        "version": "0.0.1-alpha27"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../iconset-sfsymbols-iossimulatorarm64/0.0.1-alpha27/iconset-sfsymbols-iossimulatorarm64-0.0.1-alpha27.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "iconset-sfsymbols-iossimulatorarm64",
+        "version": "0.0.1-alpha27"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../iconset-sfsymbols-iossimulatorarm64/0.0.1-alpha27/iconset-sfsymbols-iossimulatorarm64-0.0.1-alpha27.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "iconset-sfsymbols-iossimulatorarm64",
+        "version": "0.0.1-alpha27"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../iconset-sfsymbols-iossimulatorarm64/0.0.1-alpha27/iconset-sfsymbols-iossimulatorarm64-0.0.1-alpha27.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "iconset-sfsymbols-iossimulatorarm64",
+        "version": "0.0.1-alpha27"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../iconset-sfsymbols-iossimulatorarm64/0.0.1-alpha27/iconset-sfsymbols-iossimulatorarm64-0.0.1-alpha27.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "iconset-sfsymbols-iossimulatorarm64",
+        "version": "0.0.1-alpha27"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../iconset-sfsymbols-jvm/0.0.1-alpha27/iconset-sfsymbols-jvm-0.0.1-alpha27.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "iconset-sfsymbols-jvm",
+        "version": "0.0.1-alpha27"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../iconset-sfsymbols-jvm/0.0.1-alpha27/iconset-sfsymbols-jvm-0.0.1-alpha27.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "iconset-sfsymbols-jvm",
+        "version": "0.0.1-alpha27"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../iconset-sfsymbols-jvm/0.0.1-alpha27/iconset-sfsymbols-jvm-0.0.1-alpha27.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "iconset-sfsymbols-jvm",
+        "version": "0.0.1-alpha27"
+      }
+    },
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../iconset-sfsymbols-macosarm64/0.0.1-alpha27/iconset-sfsymbols-macosarm64-0.0.1-alpha27.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "iconset-sfsymbols-macosarm64",
+        "version": "0.0.1-alpha27"
+      }
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../iconset-sfsymbols-macosarm64/0.0.1-alpha27/iconset-sfsymbols-macosarm64-0.0.1-alpha27.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "iconset-sfsymbols-macosarm64",
+        "version": "0.0.1-alpha27"
+      }
+    },
+    {
+      "name": "macosArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../iconset-sfsymbols-macosarm64/0.0.1-alpha27/iconset-sfsymbols-macosarm64-0.0.1-alpha27.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "iconset-sfsymbols-macosarm64",
+        "version": "0.0.1-alpha27"
+      }
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../iconset-sfsymbols-macosarm64/0.0.1-alpha27/iconset-sfsymbols-macosarm64-0.0.1-alpha27.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "iconset-sfsymbols-macosarm64",
+        "version": "0.0.1-alpha27"
+      }
+    },
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../iconset-sfsymbols-wasm-js/0.0.1-alpha27/iconset-sfsymbols-wasm-js-0.0.1-alpha27.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "iconset-sfsymbols-wasm-js",
+        "version": "0.0.1-alpha27"
+      }
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../iconset-sfsymbols-wasm-js/0.0.1-alpha27/iconset-sfsymbols-wasm-js-0.0.1-alpha27.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "iconset-sfsymbols-wasm-js",
+        "version": "0.0.1-alpha27"
+      }
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../iconset-sfsymbols-wasm-js/0.0.1-alpha27/iconset-sfsymbols-wasm-js-0.0.1-alpha27.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "iconset-sfsymbols-wasm-js",
+        "version": "0.0.1-alpha27"
+      }
+    },
+    {
+      "name": "wasmJsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../iconset-sfsymbols-wasm-js/0.0.1-alpha27/iconset-sfsymbols-wasm-js-0.0.1-alpha27.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "iconset-sfsymbols-wasm-js",
+        "version": "0.0.1-alpha27"
+      }
+    }
+  ]
+}
