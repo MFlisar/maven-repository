@@ -1,0 +1,462 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mflisar.composestyled",
+    "module": "material3",
+    "version": "0.0.1-alpha25",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha25"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "theme-material3",
+          "version": {
+            "requires": "0.0.1-alpha25"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "iconset-material3",
+          "version": {
+            "requires": "0.0.1-alpha25"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "material3-metadata.jar",
+          "url": "material3-0.0.1-alpha25.jar",
+          "size": 37432,
+          "sha512": "391befc1c6754acd71f934b3e620695eac82c598e82a71b9a8efcf95f148624ab43ab58ca18ae6328bc1517bb02fc355b095296312283a7bfd1a6639376e8e1e",
+          "sha256": "a6b4b13d3805ff7c890aa07a3f59dc2f967347321eebd415aa9a878948ea3038",
+          "sha1": "f63e6bb2febbf743b486066c44d9d7d602f826d9",
+          "md5": "56d5d4dce9aba59326af8a743c03cbaa"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "material3-kotlin-sources.jar",
+          "url": "material3-0.0.1-alpha25-sources.jar",
+          "size": 50044,
+          "sha512": "9c45b45dc8d23af62b79994c5fdd3d1b89eca19941eb131ccc9c0dae4ed0787d170313fac0d8e161aa3152e8f59a7eedf300cf959ab450c2c02c2a6df96d9c2f",
+          "sha256": "de4230b7849a5041032e5fa2ebdc9cd2e64bc609d447be72343b49412a06fc2a",
+          "sha1": "ea9c6f9db7bb40b87b7a607a3abf56200ca9ccdc",
+          "md5": "b35b80c93e1af4d0e2a5111e2f34643f"
+        }
+      ]
+    },
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../material3-android/0.0.1-alpha25/material3-android-0.0.1-alpha25.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "material3-android",
+        "version": "0.0.1-alpha25"
+      }
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../material3-android/0.0.1-alpha25/material3-android-0.0.1-alpha25.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "material3-android",
+        "version": "0.0.1-alpha25"
+      }
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../material3-android/0.0.1-alpha25/material3-android-0.0.1-alpha25.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "material3-android",
+        "version": "0.0.1-alpha25"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../material3-iosarm64/0.0.1-alpha25/material3-iosarm64-0.0.1-alpha25.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "material3-iosarm64",
+        "version": "0.0.1-alpha25"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../material3-iosarm64/0.0.1-alpha25/material3-iosarm64-0.0.1-alpha25.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "material3-iosarm64",
+        "version": "0.0.1-alpha25"
+      }
+    },
+    {
+      "name": "iosArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../material3-iosarm64/0.0.1-alpha25/material3-iosarm64-0.0.1-alpha25.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "material3-iosarm64",
+        "version": "0.0.1-alpha25"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../material3-iosarm64/0.0.1-alpha25/material3-iosarm64-0.0.1-alpha25.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "material3-iosarm64",
+        "version": "0.0.1-alpha25"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../material3-iossimulatorarm64/0.0.1-alpha25/material3-iossimulatorarm64-0.0.1-alpha25.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "material3-iossimulatorarm64",
+        "version": "0.0.1-alpha25"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../material3-iossimulatorarm64/0.0.1-alpha25/material3-iossimulatorarm64-0.0.1-alpha25.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "material3-iossimulatorarm64",
+        "version": "0.0.1-alpha25"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../material3-iossimulatorarm64/0.0.1-alpha25/material3-iossimulatorarm64-0.0.1-alpha25.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "material3-iossimulatorarm64",
+        "version": "0.0.1-alpha25"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../material3-iossimulatorarm64/0.0.1-alpha25/material3-iossimulatorarm64-0.0.1-alpha25.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "material3-iossimulatorarm64",
+        "version": "0.0.1-alpha25"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../material3-jvm/0.0.1-alpha25/material3-jvm-0.0.1-alpha25.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "material3-jvm",
+        "version": "0.0.1-alpha25"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../material3-jvm/0.0.1-alpha25/material3-jvm-0.0.1-alpha25.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "material3-jvm",
+        "version": "0.0.1-alpha25"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../material3-jvm/0.0.1-alpha25/material3-jvm-0.0.1-alpha25.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "material3-jvm",
+        "version": "0.0.1-alpha25"
+      }
+    },
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../material3-macosarm64/0.0.1-alpha25/material3-macosarm64-0.0.1-alpha25.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "material3-macosarm64",
+        "version": "0.0.1-alpha25"
+      }
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../material3-macosarm64/0.0.1-alpha25/material3-macosarm64-0.0.1-alpha25.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "material3-macosarm64",
+        "version": "0.0.1-alpha25"
+      }
+    },
+    {
+      "name": "macosArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../material3-macosarm64/0.0.1-alpha25/material3-macosarm64-0.0.1-alpha25.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "material3-macosarm64",
+        "version": "0.0.1-alpha25"
+      }
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../material3-macosarm64/0.0.1-alpha25/material3-macosarm64-0.0.1-alpha25.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "material3-macosarm64",
+        "version": "0.0.1-alpha25"
+      }
+    },
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../material3-wasm-js/0.0.1-alpha25/material3-wasm-js-0.0.1-alpha25.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "material3-wasm-js",
+        "version": "0.0.1-alpha25"
+      }
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../material3-wasm-js/0.0.1-alpha25/material3-wasm-js-0.0.1-alpha25.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "material3-wasm-js",
+        "version": "0.0.1-alpha25"
+      }
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../material3-wasm-js/0.0.1-alpha25/material3-wasm-js-0.0.1-alpha25.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "material3-wasm-js",
+        "version": "0.0.1-alpha25"
+      }
+    },
+    {
+      "name": "wasmJsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../material3-wasm-js/0.0.1-alpha25/material3-wasm-js-0.0.1-alpha25.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "material3-wasm-js",
+        "version": "0.0.1-alpha25"
+      }
+    }
+  ]
+}
