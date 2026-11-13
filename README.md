@@ -14,9 +14,9 @@ Latest version per artifact group, including prereleases, taken from the most re
 | [io.github.mflisar.composestyled](https://github.com/MFlisar/maven-repository/tree/main/artifacts/io/github/mflisar/composestyled) | <code>0.0.1-alpha26</code> |
 | [io.github.mflisar.composetable](https://github.com/MFlisar/maven-repository/tree/main/artifacts/io/github/mflisar/composetable) | <code>0.0.1-alpha06</code> |
 | [io.github.mflisar.composethemer](https://github.com/MFlisar/maven-repository/tree/main/artifacts/io/github/mflisar/composethemer) | <code>2.0.1-testonly</code> |
-| [io.github.mflisar.kmpdevtools](https://github.com/MFlisar/maven-repository/tree/main/artifacts/io/github/mflisar/kmpdevtools) | <code>9.3.7</code> |
-| [io.github.mflisar.kmpdevtools.plugins-build-gradle](https://github.com/MFlisar/maven-repository/tree/main/artifacts/io/github/mflisar/kmpdevtools/plugins-build-gradle) | <code>9.3.7</code> |
-| [io.github.mflisar.kmpdevtools.plugins-settings-gradle](https://github.com/MFlisar/maven-repository/tree/main/artifacts/io/github/mflisar/kmpdevtools/plugins-settings-gradle) | <code>9.3.7</code> |
+| [io.github.mflisar.kmpdevtools](https://github.com/MFlisar/maven-repository/tree/main/artifacts/io/github/mflisar/kmpdevtools) | <code>9.3.8</code> |
+| [io.github.mflisar.kmpdevtools.plugins-build-gradle](https://github.com/MFlisar/maven-repository/tree/main/artifacts/io/github/mflisar/kmpdevtools/plugins-build-gradle) | <code>9.3.8</code> |
+| [io.github.mflisar.kmpdevtools.plugins-settings-gradle](https://github.com/MFlisar/maven-repository/tree/main/artifacts/io/github/mflisar/kmpdevtools/plugins-settings-gradle) | <code>9.3.8</code> |
 
 <!-- artifacts:end -->
 
