@@ -1,0 +1,207 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mflisar.kmpdevtools",
+    "module": "plugins-build-gradle",
+    "version": "9.3.7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.kmpdevtools",
+          "module": "core",
+          "version": {
+            "requires": "9.3.7"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "plugins-build-gradle-9.3.7.jar",
+          "url": "plugins-build-gradle-9.3.7.jar",
+          "size": 248005,
+          "sha512": "648c5a8d03ec624f037ebe2145324bfff09f6b86a4ad9a4b733eccc969c4e49797209b7f9e65c0ff900036b830a9dbed5f0de53533ca90f661c67d2807e38dc1",
+          "sha256": "aead313c1217b172442ea1587d504308b0a218c35b8dd5ed64966cf16c27a7d4",
+          "sha1": "438cc77fa8eff3e84f6bcee48e37a196207f690e",
+          "md5": "793028c1e032b0e348671f6ae408e4df"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.vanniktech",
+          "module": "gradle-maven-publish-plugin",
+          "version": {
+            "requires": "0.37.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "9.2.1"
+          }
+        },
+        {
+          "group": "com.android.kotlin.multiplatform.library",
+          "module": "com.android.kotlin.multiplatform.library.gradle.plugin",
+          "version": {
+            "requires": "9.2.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose",
+          "module": "org.jetbrains.compose.gradle.plugin",
+          "version": {
+            "requires": "1.8.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "compose-compiler-gradle-plugin",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "edu.sc.seis.launch4j",
+          "module": "edu.sc.seis.launch4j.gradle.plugin",
+          "version": {
+            "requires": "3.0.7"
+          }
+        },
+        {
+          "group": "com.codingfeline.buildkonfig",
+          "module": "com.codingfeline.buildkonfig.gradle.plugin",
+          "version": {
+            "requires": "0.21.2"
+          }
+        },
+        {
+          "group": "com.codingfeline.buildkonfig",
+          "module": "buildkonfig-compiler",
+          "version": {
+            "requires": "0.21.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.dokka",
+          "module": "dokka-gradle-plugin",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "com.charleskorn.kaml",
+          "module": "kaml",
+          "version": {
+            "requires": "0.83.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "com.android.built-in-kotlin",
+          "module": "com.android.built-in-kotlin.gradle.plugin",
+          "version": {
+            "requires": "9.1.0"
+          }
+        },
+        {
+          "group": "com.android.library",
+          "module": "com.android.library.gradle.plugin",
+          "version": {
+            "requires": "9.1.0"
+          }
+        },
+        {
+          "group": "com.android.kotlin.multiplatform.library",
+          "module": "com.android.kotlin.multiplatform.library.gradle.plugin",
+          "version": {
+            "requires": "9.1.0"
+          }
+        },
+        {
+          "group": "io.github.mflisar.kmpdevtools",
+          "module": "core",
+          "version": {
+            "requires": "9.3.7"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "plugins-build-gradle-9.3.7.jar",
+          "url": "plugins-build-gradle-9.3.7.jar",
+          "size": 248005,
+          "sha512": "648c5a8d03ec624f037ebe2145324bfff09f6b86a4ad9a4b733eccc969c4e49797209b7f9e65c0ff900036b830a9dbed5f0de53533ca90f661c67d2807e38dc1",
+          "sha256": "aead313c1217b172442ea1587d504308b0a218c35b8dd5ed64966cf16c27a7d4",
+          "sha1": "438cc77fa8eff3e84f6bcee48e37a196207f690e",
+          "md5": "793028c1e032b0e348671f6ae408e4df"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "plugins-build-gradle-9.3.7-sources.jar",
+          "url": "plugins-build-gradle-9.3.7-sources.jar",
+          "size": 40182,
+          "sha512": "56802b047cfdc0ff1bc6c16937a7ce5f1a39139fdf77017c0b0e0880934526fdac92e676f6d83becf95d03a61acf0b3568c1548b6362c5d4f5cd43f3e69b91ad",
+          "sha256": "2cc90e88a7662458103feed537520dc67be9ed0c49bda500de5ffaaf2cb57796",
+          "sha1": "1567ccd32ad4c0abdd097968dcb8e0dc8da71409",
+          "md5": "12191925bbf77c2c02dce212069897a5"
+        }
+      ]
+    }
+  ]
+}
