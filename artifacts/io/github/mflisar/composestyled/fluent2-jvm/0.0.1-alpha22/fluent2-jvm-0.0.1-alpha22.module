@@ -1,0 +1,151 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../fluent2/0.0.1-alpha22/fluent2-0.0.1-alpha22.module",
+    "group": "io.github.mflisar.composestyled",
+    "module": "fluent2",
+    "version": "0.0.1-alpha22",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha22"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "theme-fluent2",
+          "version": {
+            "requires": "0.0.1-alpha22"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "iconset-fluent2",
+          "version": {
+            "requires": "0.0.1-alpha22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fluent2-jvm.jar",
+          "url": "fluent2-jvm-0.0.1-alpha22.jar",
+          "size": 235874,
+          "sha512": "4c96d9f6fae317c328abea6857bf7f0ea74b3849ad69fd2423eaf54cfe392a70b70941d7b80f81c685065f2c7e28d1971f00a8c6d290b788a334f3ab6bfada01",
+          "sha256": "efe4073c711edc56e5988ea5f28a6e52fb6755b0ffd7d7f164475253823ed759",
+          "sha1": "cafb22d574c503eb7ff0b27fd08ee8302a131c2b",
+          "md5": "fd2bfe57f593d86ee445cd92379236dc"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha22"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "theme-fluent2",
+          "version": {
+            "requires": "0.0.1-alpha22"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "iconset-fluent2",
+          "version": {
+            "requires": "0.0.1-alpha22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "foundation",
+          "version": {
+            "requires": "0.0.1-alpha22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fluent2-jvm.jar",
+          "url": "fluent2-jvm-0.0.1-alpha22.jar",
+          "size": 235874,
+          "sha512": "4c96d9f6fae317c328abea6857bf7f0ea74b3849ad69fd2423eaf54cfe392a70b70941d7b80f81c685065f2c7e28d1971f00a8c6d290b788a334f3ab6bfada01",
+          "sha256": "efe4073c711edc56e5988ea5f28a6e52fb6755b0ffd7d7f164475253823ed759",
+          "sha1": "cafb22d574c503eb7ff0b27fd08ee8302a131c2b",
+          "md5": "fd2bfe57f593d86ee445cd92379236dc"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "fluent2-jvm-sources.jar",
+          "url": "fluent2-jvm-0.0.1-alpha22-sources.jar",
+          "size": 29733,
+          "sha512": "02b869cc00cb86ee9f255e953bbc8361c8364a9efb622e757a921b3a95bbe2942a2583b0ac8144b253986ce4c759028fe15d0de8e386d3d02ed56b630b802e29",
+          "sha256": "187b748a365c37d49f647d273c59b40b6ffb83c5338170494e4d40efd5c21f45",
+          "sha1": "593e969c1650cd156b967f17ed9500d635f4188e",
+          "md5": "67a8928c1e73682f23247b2ce2963a6a"
+        }
+      ]
+    }
+  ]
+}

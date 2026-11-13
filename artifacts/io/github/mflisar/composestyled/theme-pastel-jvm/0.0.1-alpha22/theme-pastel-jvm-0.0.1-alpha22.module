@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../theme-pastel/0.0.1-alpha22/theme-pastel-0.0.1-alpha22.module",
+    "group": "io.github.mflisar.composestyled",
+    "module": "theme-pastel",
+    "version": "0.0.1-alpha22",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pastel-jvm.jar",
+          "url": "theme-pastel-jvm-0.0.1-alpha22.jar",
+          "size": 3664,
+          "sha512": "31d082a36d89d542cc449048a553a18b84c74cd7ed59201af5f84e5184509cac636b1a414f42d9bcbe6f317bf93e7a66871f6ffe2e7913f11563fd1287981f72",
+          "sha256": "7883c9c53d8958728ec47bacb4397ecb1eea31beeb061bf30c80986954a7fb6b",
+          "sha1": "8997ea8b826b05c2e911f68ee475a002b698bd30",
+          "md5": "f246006b9aa57b79bd89dcd7151cd086"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pastel-jvm.jar",
+          "url": "theme-pastel-jvm-0.0.1-alpha22.jar",
+          "size": 3664,
+          "sha512": "31d082a36d89d542cc449048a553a18b84c74cd7ed59201af5f84e5184509cac636b1a414f42d9bcbe6f317bf93e7a66871f6ffe2e7913f11563fd1287981f72",
+          "sha256": "7883c9c53d8958728ec47bacb4397ecb1eea31beeb061bf30c80986954a7fb6b",
+          "sha1": "8997ea8b826b05c2e911f68ee475a002b698bd30",
+          "md5": "f246006b9aa57b79bd89dcd7151cd086"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "pastel-jvm-sources.jar",
+          "url": "theme-pastel-jvm-0.0.1-alpha22-sources.jar",
+          "size": 1972,
+          "sha512": "7c9c5b19298817736e8bda0a00bdeb3a3e4cb5a4cb2c3e0aa2a6d37a2082f7303fcc87ed5b1753cd5328cb2a1b810649b093e2b0643c4a6499e2214898ad26f4",
+          "sha256": "84872e3c4785808ef93747aa14eb74d6799352d10a041ca21b4c78cb4a8ba617",
+          "sha1": "c19c066c552f92222977eb8a926b599e64794aef",
+          "md5": "dfcc82b035c30baf3ead6b3903c918d5"
+        }
+      ]
+    }
+  ]
+}
