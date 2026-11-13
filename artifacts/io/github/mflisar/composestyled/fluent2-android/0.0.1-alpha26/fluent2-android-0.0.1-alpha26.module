@@ -1,0 +1,151 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../fluent2/0.0.1-alpha26/fluent2-0.0.1-alpha26.module",
+    "group": "io.github.mflisar.composestyled",
+    "module": "fluent2",
+    "version": "0.0.1-alpha26",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha26"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "theme-fluent2",
+          "version": {
+            "requires": "0.0.1-alpha26"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "iconset-fluent2",
+          "version": {
+            "requires": "0.0.1-alpha26"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fluent2.aar",
+          "url": "fluent2-android-0.0.1-alpha26.aar",
+          "size": 220351,
+          "sha512": "e72fe6bba57ebefaaa43cacaafe344b6deacd58822e1424fa3a0a690bcfcdfd1dcab6615712ace03ff9cc84d40116d69f475ea018fa5f0f13fe65fd011073d5b",
+          "sha256": "f6e9df8f2ee1c0eb85477e9bbfcaa8b29795e59328659f2008eda41546fe53ff",
+          "sha1": "38cded6c1e071ab486cc0184fc7df6936ee53cbe",
+          "md5": "4093e5a1ef1ec1a470e87774f2c4f85d"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha26"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "theme-fluent2",
+          "version": {
+            "requires": "0.0.1-alpha26"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "iconset-fluent2",
+          "version": {
+            "requires": "0.0.1-alpha26"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "foundation",
+          "version": {
+            "requires": "0.0.1-alpha26"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fluent2.aar",
+          "url": "fluent2-android-0.0.1-alpha26.aar",
+          "size": 220351,
+          "sha512": "e72fe6bba57ebefaaa43cacaafe344b6deacd58822e1424fa3a0a690bcfcdfd1dcab6615712ace03ff9cc84d40116d69f475ea018fa5f0f13fe65fd011073d5b",
+          "sha256": "f6e9df8f2ee1c0eb85477e9bbfcaa8b29795e59328659f2008eda41546fe53ff",
+          "sha1": "38cded6c1e071ab486cc0184fc7df6936ee53cbe",
+          "md5": "4093e5a1ef1ec1a470e87774f2c4f85d"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "fluent2-android-sources.jar",
+          "url": "fluent2-android-0.0.1-alpha26-sources.jar",
+          "size": 29741,
+          "sha512": "4b5f5a41cf4cdd3387bd9046f45dc4b562ba26fa60a132003e885a5d8a6b1b0343b0ce8d8563ef4632a53d6300ea310d885f5bb9061bbc82745e3fdd6bea9ae3",
+          "sha256": "4966e46bbed10d44e4346715dfd7debea32290df9768178b8229dc83ce4865b4",
+          "sha1": "75e6d8c6acb458c0de0d101cc8c977f0dbb12262",
+          "md5": "8dca9b517be2ef27aa31a50b8e35f8b0"
+        }
+      ]
+    }
+  ]
+}
