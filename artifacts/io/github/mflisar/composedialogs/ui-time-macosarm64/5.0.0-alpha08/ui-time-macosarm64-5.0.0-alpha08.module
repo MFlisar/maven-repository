@@ -1,0 +1,239 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ui-time/5.0.0-alpha08/ui-time-5.0.0-alpha08.module",
+    "group": "io.github.mflisar.composedialogs",
+    "module": "ui-time",
+    "version": "5.0.0-alpha08",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.components",
+          "module": "components-resources",
+          "version": {
+            "requires": "1.12.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "time-macosArm64Main.klib",
+          "url": "ui-time-macosarm64-5.0.0-alpha08.klib",
+          "size": 47028,
+          "sha512": "f2e0f99f6f465f272b265405861ca1a6bea4c5351e93747b72e3c65b30897cc4890e38d9f22ce90cbe53842d12b37760d11263344cd5d2e10a53c7f2861c6fea",
+          "sha256": "8058a6cae7bd7a03abfee53ebeec638d0f36b7a54b2b1524e4c54871a1ea5237",
+          "sha1": "a7967e7b92715711e7d63d39dd288e520b9fab81",
+          "md5": "e5a2fc5c4e2266b0318e49aa93337ccc"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "time-macosarm64-sources.jar",
+          "url": "ui-time-macosarm64-5.0.0-alpha08-sources.jar",
+          "size": 11273,
+          "sha512": "d40311e591a8d27c8edc558f3e2edf851e3de254780b2176e31a24717c209e9079c03785649b60c8ed48eeeac3ae986bb614c12333f4e73fc5173515a2e7fdf2",
+          "sha256": "b9575b51784353460ab3b0586382421194a85f558f2b915aaa6c838dccd6f4d3",
+          "sha1": "79e107443d2c43c48a4010919ceb90675354b0e6",
+          "md5": "f33b88a20a08e2b4c7b6c61281bda471"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.components",
+          "module": "components-resources",
+          "version": {
+            "requires": "1.12.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "time.kotlin_resources.zip",
+          "url": "ui-time-macosarm64-5.0.0-alpha08-kotlin_resources.kotlin_resources.zip",
+          "size": 1587,
+          "sha512": "d186d70e33395945444648c1df3080c9fd48f352eb0aefb9af6f6738db95e3b46838103abe2ee71aeb736de3b3545b18a20cf1706e00e6a2cad8cfcdd3111c82",
+          "sha256": "4649b59288d052f46350a1b760e810e7d7442712b94f7691ae53078c0f0a4c34",
+          "sha1": "340b4f87e859d89ae5eccfc4d4cef78cb2426ea0",
+          "md5": "a8b140ce3a8f8397c974915487bb282a"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.components",
+          "module": "components-resources",
+          "version": {
+            "requires": "1.12.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "time-macosarm64-metadata.jar",
+          "url": "ui-time-macosarm64-5.0.0-alpha08-metadata.jar",
+          "size": 2623,
+          "sha512": "84f8d3251a9be484a308efb65cef2e3853a525c4e761feccc5f2b4fbf1760976c218a8ff0979634d8e72b0170b309f2de3364433888186b017e3f22c23311ec8",
+          "sha256": "0dcbd66aec3442d5ecc422a484778ad8ad63b24b50a24bc152ec29223741b343",
+          "sha1": "4c28d7d9d9e43a9cc592f4a611a438eceacd6308",
+          "md5": "fcc1acc5ff7367bd494cebafde49088a"
+        }
+      ]
+    }
+  ]
+}

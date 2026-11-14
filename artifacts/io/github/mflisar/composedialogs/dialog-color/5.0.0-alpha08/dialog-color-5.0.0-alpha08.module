@@ -1,0 +1,380 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mflisar.composedialogs",
+    "module": "dialog-color",
+    "version": "5.0.0-alpha08",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "ui-color",
+          "version": {
+            "requires": "5.0.0-alpha08"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "color-metadata.jar",
+          "url": "dialog-color-5.0.0-alpha08.jar",
+          "size": 4216,
+          "sha512": "57dc0fa48b2e2632ef1c98a5fffe1a0a0a46530f93651b05783941e67714128cc952a1302dfff57affb253d4d0ba1622311c332c737057c46e85375f91879079",
+          "sha256": "3c78cd4a711ebe138cf6cad63f7ad28a14ebd6a03fe6a800100dd53f38efd9f4",
+          "sha1": "fa71c1465178e908458ab97acd4c59117a8f50bc",
+          "md5": "754fca0cdfbb7ad159c3d5150f5895a3"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "color-kotlin-sources.jar",
+          "url": "dialog-color-5.0.0-alpha08-sources.jar",
+          "size": 4195,
+          "sha512": "6a4aeb0fa4d7e4f0bae4064615678485fd2faec5165462c5d5ad84aeab38a0abd8fc708f5650eb13f3be3ca2940dc8eb96be26674a90d3e754edd5254c0d50ea",
+          "sha256": "3b63e078de787462180d1a15f0492041f6d7e21397ef3c2d86d4f2b72351f1a2",
+          "sha1": "708d1645d9cb76e51919adc53033d2efc2fa06df",
+          "md5": "89654ea71c2b3d2467f92d8767d3381e"
+        }
+      ]
+    },
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../dialog-color-android/5.0.0-alpha08/dialog-color-android-5.0.0-alpha08.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "dialog-color-android",
+        "version": "5.0.0-alpha08"
+      }
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../dialog-color-android/5.0.0-alpha08/dialog-color-android-5.0.0-alpha08.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "dialog-color-android",
+        "version": "5.0.0-alpha08"
+      }
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../dialog-color-android/5.0.0-alpha08/dialog-color-android-5.0.0-alpha08.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "dialog-color-android",
+        "version": "5.0.0-alpha08"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../dialog-color-iosarm64/5.0.0-alpha08/dialog-color-iosarm64-5.0.0-alpha08.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "dialog-color-iosarm64",
+        "version": "5.0.0-alpha08"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../dialog-color-iosarm64/5.0.0-alpha08/dialog-color-iosarm64-5.0.0-alpha08.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "dialog-color-iosarm64",
+        "version": "5.0.0-alpha08"
+      }
+    },
+    {
+      "name": "iosArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../dialog-color-iosarm64/5.0.0-alpha08/dialog-color-iosarm64-5.0.0-alpha08.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "dialog-color-iosarm64",
+        "version": "5.0.0-alpha08"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../dialog-color-iosarm64/5.0.0-alpha08/dialog-color-iosarm64-5.0.0-alpha08.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "dialog-color-iosarm64",
+        "version": "5.0.0-alpha08"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../dialog-color-iossimulatorarm64/5.0.0-alpha08/dialog-color-iossimulatorarm64-5.0.0-alpha08.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "dialog-color-iossimulatorarm64",
+        "version": "5.0.0-alpha08"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../dialog-color-iossimulatorarm64/5.0.0-alpha08/dialog-color-iossimulatorarm64-5.0.0-alpha08.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "dialog-color-iossimulatorarm64",
+        "version": "5.0.0-alpha08"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../dialog-color-iossimulatorarm64/5.0.0-alpha08/dialog-color-iossimulatorarm64-5.0.0-alpha08.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "dialog-color-iossimulatorarm64",
+        "version": "5.0.0-alpha08"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../dialog-color-iossimulatorarm64/5.0.0-alpha08/dialog-color-iossimulatorarm64-5.0.0-alpha08.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "dialog-color-iossimulatorarm64",
+        "version": "5.0.0-alpha08"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../dialog-color-jvm/5.0.0-alpha08/dialog-color-jvm-5.0.0-alpha08.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "dialog-color-jvm",
+        "version": "5.0.0-alpha08"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../dialog-color-jvm/5.0.0-alpha08/dialog-color-jvm-5.0.0-alpha08.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "dialog-color-jvm",
+        "version": "5.0.0-alpha08"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../dialog-color-jvm/5.0.0-alpha08/dialog-color-jvm-5.0.0-alpha08.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "dialog-color-jvm",
+        "version": "5.0.0-alpha08"
+      }
+    },
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../dialog-color-wasm-js/5.0.0-alpha08/dialog-color-wasm-js-5.0.0-alpha08.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "dialog-color-wasm-js",
+        "version": "5.0.0-alpha08"
+      }
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../dialog-color-wasm-js/5.0.0-alpha08/dialog-color-wasm-js-5.0.0-alpha08.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "dialog-color-wasm-js",
+        "version": "5.0.0-alpha08"
+      }
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../dialog-color-wasm-js/5.0.0-alpha08/dialog-color-wasm-js-5.0.0-alpha08.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "dialog-color-wasm-js",
+        "version": "5.0.0-alpha08"
+      }
+    },
+    {
+      "name": "wasmJsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../dialog-color-wasm-js/5.0.0-alpha08/dialog-color-wasm-js-5.0.0-alpha08.module",
+        "group": "io.github.mflisar.composedialogs",
+        "module": "dialog-color-wasm-js",
+        "version": "5.0.0-alpha08"
+      }
+    }
+  ]
+}

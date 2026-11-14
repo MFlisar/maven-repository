@@ -1,0 +1,281 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../dialog-frequency/5.0.0-alpha08/dialog-frequency-5.0.0-alpha08.module",
+    "group": "io.github.mflisar.composedialogs",
+    "module": "dialog-frequency",
+    "version": "5.0.0-alpha08",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "ui-frequency",
+          "version": {
+            "requires": "5.0.0-alpha08"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-icons-core",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "core",
+          "version": {
+            "requires": "5.0.0-alpha08"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "dialog-time",
+          "version": {
+            "requires": "5.0.0-alpha08"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "frequency-iosArm64Main.klib",
+          "url": "dialog-frequency-iosarm64-5.0.0-alpha08.klib",
+          "size": 35044,
+          "sha512": "0d17e3c19d58c73a4d7e445c17a07c14d7b970d2210bf175aa66a7e7a52f99f5589d8dc7707ad971b55570ae4d20a4b02bc8366350be7d9d95bee902a48d07ee",
+          "sha256": "12b22ca03fe6482e87eed2247edfff0d8eeba4030a6d5e85275ecb6cac605517",
+          "sha1": "de3a7b3ef4b69541d1ae1924fe800148a525017a",
+          "md5": "41a3087b112c1e27bd58377728f738c0"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "frequency-iosarm64-sources.jar",
+          "url": "dialog-frequency-iosarm64-5.0.0-alpha08-sources.jar",
+          "size": 4549,
+          "sha512": "f25ea9981dec0ae615b8cecc00ce44aed805c1711d6f0b50b45a1ad97369e328d56cbc8ebbce4dbee46429df3aab6cc8c6f91a7cbacf2fbdf971c913482488b1",
+          "sha256": "1950f16e001d1018a5fe54acbc98a444343b0337c4adff790cff3f9ace5da28f",
+          "sha1": "1bfdf81875eaf600a5c47fcaebfc15a5cee2a55f",
+          "md5": "4b0d515e8025bd6be39e0584b76446dd"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "ui-frequency",
+          "version": {
+            "requires": "5.0.0-alpha08"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-icons-core",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "core",
+          "version": {
+            "requires": "5.0.0-alpha08"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "dialog-time",
+          "version": {
+            "requires": "5.0.0-alpha08"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "frequency.kotlin_resources.zip",
+          "url": "dialog-frequency-iosarm64-5.0.0-alpha08-kotlin_resources.kotlin_resources.zip",
+          "size": 382,
+          "sha512": "459fa6ecf99f213aac28b0e2d6972253c9a197d03a28ec52ce12521cd57c7092cbf5f02be80d625b3b75ce1003f24858d5cdfdd53391f1652f2fadbe7e3caeb5",
+          "sha256": "2ce4ebf68570de99c139b1c8001a7429a1531e72cd06388de26bab442ef22ece",
+          "sha1": "c04985f182905bd9f5eadf8509b9c91af0534eb4",
+          "md5": "31fe59f4d034f9a49f0fea71ab5f2e48"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "ui-frequency",
+          "version": {
+            "requires": "5.0.0-alpha08"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-icons-core",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "core",
+          "version": {
+            "requires": "5.0.0-alpha08"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "dialog-time",
+          "version": {
+            "requires": "5.0.0-alpha08"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "frequency-iosarm64-metadata.jar",
+          "url": "dialog-frequency-iosarm64-5.0.0-alpha08-metadata.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    }
+  ]
+}

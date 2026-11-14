@@ -1,0 +1,158 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../dialog-color/5.0.0-alpha08/dialog-color-5.0.0-alpha08.module",
+    "group": "io.github.mflisar.composedialogs",
+    "module": "dialog-color",
+    "version": "5.0.0-alpha08",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "ui-color",
+          "version": {
+            "requires": "5.0.0-alpha08"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "color.aar",
+          "url": "dialog-color-android-5.0.0-alpha08.aar",
+          "size": 21371,
+          "sha512": "86c5c6bafccb2aa28a39a31eacd40b3b6944013a22cb78bb1781791e3f433f3a1eb6c2a42d31672e6929ad81c7d2e218181390eb04f24f05b449445d42b1260d",
+          "sha256": "de5d69bb43445950da19a7da597edbacc98c773e66a42f325d0cb0f08e81cebc",
+          "sha1": "a1a980f05a7c59bcb9cafdd0fd6bc5c629f432d3",
+          "md5": "cc7a186cf7d5c6bcac02a9aa9c839635"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "ui-color",
+          "version": {
+            "requires": "5.0.0-alpha08"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-backhandler",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-icons-core",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "core",
+          "version": {
+            "requires": "5.0.0-alpha08"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "dialog-input",
+          "version": {
+            "requires": "5.0.0-alpha08"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "color.aar",
+          "url": "dialog-color-android-5.0.0-alpha08.aar",
+          "size": 21371,
+          "sha512": "86c5c6bafccb2aa28a39a31eacd40b3b6944013a22cb78bb1781791e3f433f3a1eb6c2a42d31672e6929ad81c7d2e218181390eb04f24f05b449445d42b1260d",
+          "sha256": "de5d69bb43445950da19a7da597edbacc98c773e66a42f325d0cb0f08e81cebc",
+          "sha1": "a1a980f05a7c59bcb9cafdd0fd6bc5c629f432d3",
+          "md5": "cc7a186cf7d5c6bcac02a9aa9c839635"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "color-android-sources.jar",
+          "url": "dialog-color-android-5.0.0-alpha08-sources.jar",
+          "size": 4195,
+          "sha512": "6a4aeb0fa4d7e4f0bae4064615678485fd2faec5165462c5d5ad84aeab38a0abd8fc708f5650eb13f3be3ca2940dc8eb96be26674a90d3e754edd5254c0d50ea",
+          "sha256": "3b63e078de787462180d1a15f0492041f6d7e21397ef3c2d86d4f2b72351f1a2",
+          "sha1": "708d1645d9cb76e51919adc53033d2efc2fa06df",
+          "md5": "89654ea71c2b3d2467f92d8767d3381e"
+        }
+      ]
+    }
+  ]
+}
