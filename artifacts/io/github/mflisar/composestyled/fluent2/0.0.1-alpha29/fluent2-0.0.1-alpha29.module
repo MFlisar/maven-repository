@@ -1,0 +1,462 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mflisar.composestyled",
+    "module": "fluent2",
+    "version": "0.0.1-alpha29",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha29"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "theme-fluent2",
+          "version": {
+            "requires": "0.0.1-alpha29"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "iconset-fluent2",
+          "version": {
+            "requires": "0.0.1-alpha29"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fluent2-metadata.jar",
+          "url": "fluent2-0.0.1-alpha29.jar",
+          "size": 31248,
+          "sha512": "a59b42c16af0eaea17b4458f59058ada3bd264c29d4b98ed74118ec654fa7a789b4c36cdaa1af3b5c5d2d564b309ae1686c631edbc8c5d3e18cf7c78a089ba7d",
+          "sha256": "ee636b5b3f6ad4a7d8911f3326f3f156afb2aabf846f58a04e8370ef2feddfd1",
+          "sha1": "64267299a7c11d39d8e559596ef1ddc0a2ddc860",
+          "md5": "1d3c4a2ea0b519d25828fa792b84bfc1"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "fluent2-kotlin-sources.jar",
+          "url": "fluent2-0.0.1-alpha29-sources.jar",
+          "size": 29939,
+          "sha512": "cc25f56b640caec35c8acbb5d4aef7817db54e76ccc60fac1cde7388faea34f5a49b8ba5535972e151799bffcf9f68f024c0e62d9e89b319907bbd97a383c68b",
+          "sha256": "ea43a99e4c3885daf223da26f8d4f1713bafe685f270233e0e9567073415851c",
+          "sha1": "9e464b4fec4766750f1a2d0404946cc8f6ef7f19",
+          "md5": "307e7323f0e8ee987c4afc0b6f138a48"
+        }
+      ]
+    },
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../fluent2-android/0.0.1-alpha29/fluent2-android-0.0.1-alpha29.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "fluent2-android",
+        "version": "0.0.1-alpha29"
+      }
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../fluent2-android/0.0.1-alpha29/fluent2-android-0.0.1-alpha29.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "fluent2-android",
+        "version": "0.0.1-alpha29"
+      }
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../fluent2-android/0.0.1-alpha29/fluent2-android-0.0.1-alpha29.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "fluent2-android",
+        "version": "0.0.1-alpha29"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../fluent2-iosarm64/0.0.1-alpha29/fluent2-iosarm64-0.0.1-alpha29.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "fluent2-iosarm64",
+        "version": "0.0.1-alpha29"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../fluent2-iosarm64/0.0.1-alpha29/fluent2-iosarm64-0.0.1-alpha29.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "fluent2-iosarm64",
+        "version": "0.0.1-alpha29"
+      }
+    },
+    {
+      "name": "iosArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../fluent2-iosarm64/0.0.1-alpha29/fluent2-iosarm64-0.0.1-alpha29.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "fluent2-iosarm64",
+        "version": "0.0.1-alpha29"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../fluent2-iosarm64/0.0.1-alpha29/fluent2-iosarm64-0.0.1-alpha29.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "fluent2-iosarm64",
+        "version": "0.0.1-alpha29"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../fluent2-iossimulatorarm64/0.0.1-alpha29/fluent2-iossimulatorarm64-0.0.1-alpha29.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "fluent2-iossimulatorarm64",
+        "version": "0.0.1-alpha29"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../fluent2-iossimulatorarm64/0.0.1-alpha29/fluent2-iossimulatorarm64-0.0.1-alpha29.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "fluent2-iossimulatorarm64",
+        "version": "0.0.1-alpha29"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../fluent2-iossimulatorarm64/0.0.1-alpha29/fluent2-iossimulatorarm64-0.0.1-alpha29.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "fluent2-iossimulatorarm64",
+        "version": "0.0.1-alpha29"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../fluent2-iossimulatorarm64/0.0.1-alpha29/fluent2-iossimulatorarm64-0.0.1-alpha29.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "fluent2-iossimulatorarm64",
+        "version": "0.0.1-alpha29"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../fluent2-jvm/0.0.1-alpha29/fluent2-jvm-0.0.1-alpha29.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "fluent2-jvm",
+        "version": "0.0.1-alpha29"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../fluent2-jvm/0.0.1-alpha29/fluent2-jvm-0.0.1-alpha29.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "fluent2-jvm",
+        "version": "0.0.1-alpha29"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../fluent2-jvm/0.0.1-alpha29/fluent2-jvm-0.0.1-alpha29.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "fluent2-jvm",
+        "version": "0.0.1-alpha29"
+      }
+    },
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../fluent2-macosarm64/0.0.1-alpha29/fluent2-macosarm64-0.0.1-alpha29.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "fluent2-macosarm64",
+        "version": "0.0.1-alpha29"
+      }
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../fluent2-macosarm64/0.0.1-alpha29/fluent2-macosarm64-0.0.1-alpha29.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "fluent2-macosarm64",
+        "version": "0.0.1-alpha29"
+      }
+    },
+    {
+      "name": "macosArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../fluent2-macosarm64/0.0.1-alpha29/fluent2-macosarm64-0.0.1-alpha29.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "fluent2-macosarm64",
+        "version": "0.0.1-alpha29"
+      }
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../fluent2-macosarm64/0.0.1-alpha29/fluent2-macosarm64-0.0.1-alpha29.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "fluent2-macosarm64",
+        "version": "0.0.1-alpha29"
+      }
+    },
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../fluent2-wasm-js/0.0.1-alpha29/fluent2-wasm-js-0.0.1-alpha29.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "fluent2-wasm-js",
+        "version": "0.0.1-alpha29"
+      }
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../fluent2-wasm-js/0.0.1-alpha29/fluent2-wasm-js-0.0.1-alpha29.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "fluent2-wasm-js",
+        "version": "0.0.1-alpha29"
+      }
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../fluent2-wasm-js/0.0.1-alpha29/fluent2-wasm-js-0.0.1-alpha29.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "fluent2-wasm-js",
+        "version": "0.0.1-alpha29"
+      }
+    },
+    {
+      "name": "wasmJsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../fluent2-wasm-js/0.0.1-alpha29/fluent2-wasm-js-0.0.1-alpha29.module",
+        "group": "io.github.mflisar.composestyled",
+        "module": "fluent2-wasm-js",
+        "version": "0.0.1-alpha29"
+      }
+    }
+  ]
+}
