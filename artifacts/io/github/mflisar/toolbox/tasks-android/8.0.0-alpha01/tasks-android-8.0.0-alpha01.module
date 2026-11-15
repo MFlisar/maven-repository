@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../tasks/8.0.0-alpha01/tasks-8.0.0-alpha01.module",
+    "group": "io.github.mflisar.toolbox",
+    "module": "tasks",
+    "version": "8.0.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.toolbox",
+          "module": "core",
+          "version": {
+            "requires": "8.0.0-alpha01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tasks.aar",
+          "url": "tasks-android-8.0.0-alpha01.aar",
+          "size": 222482,
+          "sha512": "ab0660cd6cb144c55da92f5bbd9d427704ec39ee22f00e0787103c8282e89c0131ca716ef4231ff9639992d8cc7a8f0e7f027b5a17a4b61be856b151891934d2",
+          "sha256": "c8ea04fedc876f42aa6594e07233768308db1dec79b402e9cc5405d10b2af607",
+          "sha1": "1ff7f383354b5b94a29bd84fdfd1f6e434a39dff",
+          "md5": "e67b2f41a1cd664de08d9df2a8ab9084"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.toolbox",
+          "module": "core",
+          "version": {
+            "requires": "8.0.0-alpha01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-icons-core",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-icons-extended",
+          "version": {
+            "requires": "1.7.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tasks.aar",
+          "url": "tasks-android-8.0.0-alpha01.aar",
+          "size": 222482,
+          "sha512": "ab0660cd6cb144c55da92f5bbd9d427704ec39ee22f00e0787103c8282e89c0131ca716ef4231ff9639992d8cc7a8f0e7f027b5a17a4b61be856b151891934d2",
+          "sha256": "c8ea04fedc876f42aa6594e07233768308db1dec79b402e9cc5405d10b2af607",
+          "sha1": "1ff7f383354b5b94a29bd84fdfd1f6e434a39dff",
+          "md5": "e67b2f41a1cd664de08d9df2a8ab9084"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "tasks-android-sources.jar",
+          "url": "tasks-android-8.0.0-alpha01-sources.jar",
+          "size": 25661,
+          "sha512": "1d2aede2f6e6aba3cdbb737a484c34659b3bfcdad01825b0563f20e82696782fd616d7cf4e89951782ad6df4b69fe80cf08c5b897029f3dd69048a06d392f47b",
+          "sha256": "2988474ed32d835d88d15f182dd01fdb8bedfec7e95ed52b28d8ba6bde541217",
+          "sha1": "e7032b48c2f4b3f3714c1c1027a3a0d88774fc74",
+          "md5": "e7885c098b9a2aabe857b19967f2026c"
+        }
+      ]
+    }
+  ]
+}

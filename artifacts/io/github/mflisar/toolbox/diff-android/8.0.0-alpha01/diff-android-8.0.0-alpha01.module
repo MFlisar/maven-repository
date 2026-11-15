@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../diff/8.0.0-alpha01/diff-8.0.0-alpha01.module",
+    "group": "io.github.mflisar.toolbox",
+    "module": "diff",
+    "version": "8.0.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.toolbox",
+          "module": "core",
+          "version": {
+            "requires": "8.0.0-alpha01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "diff.aar",
+          "url": "diff-android-8.0.0-alpha01.aar",
+          "size": 53580,
+          "sha512": "807ea8252e97db920419aae4b46b94cb28d3e290ce83c97146e755898a5ba8844f18cd6521618b3da941c1f60ce471a27bb48c976510f7eda09ea3e1b5e3e22f",
+          "sha256": "2a823347a606433b2f531e23c86d6e78efd1ebc6da450264f7011205585d0edd",
+          "sha1": "69bf821661036c8ef1f04c189acc8893fe5fd3e8",
+          "md5": "4839fb8d4e1f9f23079feeb652dfa26d"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.toolbox",
+          "module": "core",
+          "version": {
+            "requires": "8.0.0-alpha01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "diff.aar",
+          "url": "diff-android-8.0.0-alpha01.aar",
+          "size": 53580,
+          "sha512": "807ea8252e97db920419aae4b46b94cb28d3e290ce83c97146e755898a5ba8844f18cd6521618b3da941c1f60ce471a27bb48c976510f7eda09ea3e1b5e3e22f",
+          "sha256": "2a823347a606433b2f531e23c86d6e78efd1ebc6da450264f7011205585d0edd",
+          "sha1": "69bf821661036c8ef1f04c189acc8893fe5fd3e8",
+          "md5": "4839fb8d4e1f9f23079feeb652dfa26d"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "diff-android-sources.jar",
+          "url": "diff-android-8.0.0-alpha01-sources.jar",
+          "size": 6411,
+          "sha512": "fa29dd264dca78de54f1c7e059689557d4976b9c160ac3f3ff181b511c95c9d3edbd7e2f4768b1581d6ee032a6cc48514da9b4a116e2224ff51a92e428b639d3",
+          "sha256": "08e234da001085099312770a0cccd9db29591a00efb7fdd11459d6e6a2ec161b",
+          "sha1": "390c1bb3caf412070593c74e866e4d231b553a49",
+          "md5": "1fa67749d7ff00db2e26207e0abfb013"
+        }
+      ]
+    }
+  ]
+}

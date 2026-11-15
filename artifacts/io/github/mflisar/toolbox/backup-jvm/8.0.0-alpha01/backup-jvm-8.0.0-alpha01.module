@@ -1,0 +1,186 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../backup/8.0.0-alpha01/backup-8.0.0-alpha01.module",
+    "group": "io.github.mflisar.toolbox",
+    "module": "backup",
+    "version": "8.0.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.kmpparcelize",
+          "module": "library",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "styled-composedialog",
+          "version": {
+            "requires": "0.0.1-alpha33"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "backup-jvm.jar",
+          "url": "backup-jvm-8.0.0-alpha01.jar",
+          "size": 59958,
+          "sha512": "6d4531fe39a880f869639bf6007af88d74b74c99376c5bb0970d5aeec934b45b3b98eaf0a33919c8d4ab19eae8009bc5ecf6b20d056e3fa688bb11d0dd4556e8",
+          "sha256": "5a59b0f5107d6c76a140c71d4e169b8e34aad1e73232f08509a8ddce953bbbac",
+          "sha1": "c045e850ae42b16efb3d39ae7bc13fff005d81b2",
+          "md5": "b3b622b7556ff978327e219ed16f833e"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.kmpparcelize",
+          "module": "library",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "styled-composedialog",
+          "version": {
+            "requires": "0.0.1-alpha33"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "io.github.mflisar.toolbox",
+          "module": "core",
+          "version": {
+            "requires": "8.0.0-alpha01"
+          }
+        },
+        {
+          "group": "io.github.mflisar.toolbox",
+          "module": "zip",
+          "version": {
+            "requires": "8.0.0-alpha01"
+          }
+        },
+        {
+          "group": "io.github.mflisar.lumberjack",
+          "module": "core",
+          "version": {
+            "requires": "12.0.0"
+          }
+        },
+        {
+          "group": "io.github.vinceglb",
+          "module": "filekit-dialogs-compose",
+          "version": {
+            "requires": "0.17.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "backup-jvm.jar",
+          "url": "backup-jvm-8.0.0-alpha01.jar",
+          "size": 59958,
+          "sha512": "6d4531fe39a880f869639bf6007af88d74b74c99376c5bb0970d5aeec934b45b3b98eaf0a33919c8d4ab19eae8009bc5ecf6b20d056e3fa688bb11d0dd4556e8",
+          "sha256": "5a59b0f5107d6c76a140c71d4e169b8e34aad1e73232f08509a8ddce953bbbac",
+          "sha1": "c045e850ae42b16efb3d39ae7bc13fff005d81b2",
+          "md5": "b3b622b7556ff978327e219ed16f833e"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "backup-jvm-sources.jar",
+          "url": "backup-jvm-8.0.0-alpha01-sources.jar",
+          "size": 11662,
+          "sha512": "cad263690693d3ce56027cc2789288b77a0eb232d071c1dd1a3ead0bd4c91be6aa95b8b8692453aa27a14438f352a5a457bd73d042cf25fe2454afdb3887b957",
+          "sha256": "4f705dc194f79b89f692cab322e78d379a675878d3d4339d0a304573d73d80ab",
+          "sha1": "521e1f8be8d44a9da1cefaf920e8f38a83cd08a2",
+          "md5": "26e239050af19c7788e2d520c740aa01"
+        }
+      ]
+    }
+  ]
+}
