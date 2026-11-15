@@ -1,0 +1,158 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../dialog-frequency/5.0.0-alpha10/dialog-frequency-5.0.0-alpha10.module",
+    "group": "io.github.mflisar.composedialogs",
+    "module": "dialog-frequency",
+    "version": "5.0.0-alpha10",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "ui-frequency",
+          "version": {
+            "requires": "5.0.0-alpha10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "frequency.aar",
+          "url": "dialog-frequency-android-5.0.0-alpha10.aar",
+          "size": 24969,
+          "sha512": "0845b9669b359fb784745f30cf037a4113ba65c6bc92d4ac7e8c73bfdb6bdaf15141d50c0b59625af36369ff7140a2661fbc1b79c1bf69a2642a85ef6af43747",
+          "sha256": "1da47f0d0baed8c65de39a2259aa997089572b28f9a17500e3c80e93f44b29d4",
+          "sha1": "40cb5082224b5baa26efc2ae78f1f56ca04967e1",
+          "md5": "404b80395f22fe2026eecf85eb29768d"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "ui-frequency",
+          "version": {
+            "requires": "5.0.0-alpha10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-icons-core",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "core",
+          "version": {
+            "requires": "5.0.0-alpha10"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "dialog-time",
+          "version": {
+            "requires": "5.0.0-alpha10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "frequency.aar",
+          "url": "dialog-frequency-android-5.0.0-alpha10.aar",
+          "size": 24969,
+          "sha512": "0845b9669b359fb784745f30cf037a4113ba65c6bc92d4ac7e8c73bfdb6bdaf15141d50c0b59625af36369ff7140a2661fbc1b79c1bf69a2642a85ef6af43747",
+          "sha256": "1da47f0d0baed8c65de39a2259aa997089572b28f9a17500e3c80e93f44b29d4",
+          "sha1": "40cb5082224b5baa26efc2ae78f1f56ca04967e1",
+          "md5": "404b80395f22fe2026eecf85eb29768d"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "frequency-android-sources.jar",
+          "url": "dialog-frequency-android-5.0.0-alpha10-sources.jar",
+          "size": 4454,
+          "sha512": "6c7b668d6eddc756d1f8ba9843db7dcd86ed3d1a49d5b69ba5e4d92f7f41063595539e69610c2d157b31c9185f9abd264bd217af59b0a240bf172c921d815099",
+          "sha256": "3868679e47d3f99d82f500391a6dd5fc4c1d41d38087735f2d42d7f22d1c08e8",
+          "sha1": "e918d6576777f6882f7f70196238c9e5ccd0586a",
+          "md5": "1db2826b731752d3630936a77e086961"
+        }
+      ]
+    }
+  ]
+}

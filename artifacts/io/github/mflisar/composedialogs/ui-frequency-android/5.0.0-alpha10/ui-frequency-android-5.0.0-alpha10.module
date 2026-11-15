@@ -1,0 +1,186 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ui-frequency/5.0.0-alpha10/ui-frequency-5.0.0-alpha10.module",
+    "group": "io.github.mflisar.composedialogs",
+    "module": "ui-frequency",
+    "version": "5.0.0-alpha10",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "ui-time",
+          "version": {
+            "requires": "5.0.0-alpha10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "frequency.aar",
+          "url": "ui-frequency-android-5.0.0-alpha10.aar",
+          "size": 104479,
+          "sha512": "c4c4b75df503b71ed2c805fa5e94e8104fa2ec9c0d4a34921a527c7b2161d55975f9cdd9a59e7fe2a3fb7933b01a563eab4a87a3ed38770d8802a9aaa92334f3",
+          "sha256": "a0a975270a601e6978ced50f9193843dcbb7ae77f9e00dcad299dc8d7195b661",
+          "sha1": "c464f8b5f433eff2368c7fd62c36961fc32c9231",
+          "md5": "db874aa14464823fe4e155a437b6df65"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "ui-time",
+          "version": {
+            "requires": "5.0.0-alpha10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.components",
+          "module": "components-resources",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.12.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "frequency.aar",
+          "url": "ui-frequency-android-5.0.0-alpha10.aar",
+          "size": 104479,
+          "sha512": "c4c4b75df503b71ed2c805fa5e94e8104fa2ec9c0d4a34921a527c7b2161d55975f9cdd9a59e7fe2a3fb7933b01a563eab4a87a3ed38770d8802a9aaa92334f3",
+          "sha256": "a0a975270a601e6978ced50f9193843dcbb7ae77f9e00dcad299dc8d7195b661",
+          "sha1": "c464f8b5f433eff2368c7fd62c36961fc32c9231",
+          "md5": "db874aa14464823fe4e155a437b6df65"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "frequency-android-sources.jar",
+          "url": "ui-frequency-android-5.0.0-alpha10-sources.jar",
+          "size": 19092,
+          "sha512": "b572adf8c50734f71f70c8cd47a24e50d36ba23640b07e78703dc152aea3a87628a03a50b0f5a0ba60d4a285afccb5fcf2c467efbdee38b813a07990d4ea7dd5",
+          "sha256": "10a6c4b5fafb2b51b4ae9d27cbf8e5d45b1288bf44123b8eb42d28000cbc7a2b",
+          "sha1": "fcbc5b38871efc2bad1ad336ae6c87bd9af6b98f",
+          "md5": "7f5745dd52c3b3734e1c740646c2f7f0"
+        }
+      ]
+    }
+  ]
+}

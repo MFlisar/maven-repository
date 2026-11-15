@@ -1,0 +1,197 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../dialog-date/5.0.0-alpha10/dialog-date-5.0.0-alpha10.module",
+    "group": "io.github.mflisar.composedialogs",
+    "module": "dialog-date",
+    "version": "5.0.0-alpha10",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "ui-date",
+          "version": {
+            "requires": "5.0.0-alpha10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "date-wasm-js.klib",
+          "url": "dialog-date-wasm-js-5.0.0-alpha10.klib",
+          "size": 41232,
+          "sha512": "b70e6b4658f04d0ad8048d729c29782b89aab07266af0318e320441ae4a6c65b3c115434c59cbf9b4d0ec000f647bd3fe196346c8ab1543bf91293d3b55a546e",
+          "sha256": "48d2b9f60ee6fc853406604605ee1b3a532fd5928aaaaa2abaaa3ac9fcd7e06e",
+          "sha1": "e44db20486c09b099a9c72a50d802b73f02b1dcb",
+          "md5": "7d69026069c4955809bebba4c67eb07b"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "ui-date",
+          "version": {
+            "requires": "5.0.0-alpha10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-icons-core",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "core",
+          "version": {
+            "requires": "5.0.0-alpha10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "date-wasm-js.klib",
+          "url": "dialog-date-wasm-js-5.0.0-alpha10.klib",
+          "size": 41232,
+          "sha512": "b70e6b4658f04d0ad8048d729c29782b89aab07266af0318e320441ae4a6c65b3c115434c59cbf9b4d0ec000f647bd3fe196346c8ab1543bf91293d3b55a546e",
+          "sha256": "48d2b9f60ee6fc853406604605ee1b3a532fd5928aaaaa2abaaa3ac9fcd7e06e",
+          "sha1": "e44db20486c09b099a9c72a50d802b73f02b1dcb",
+          "md5": "7d69026069c4955809bebba4c67eb07b"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "files": [
+        {
+          "name": "date-wasm-js-sources.jar",
+          "url": "dialog-date-wasm-js-5.0.0-alpha10-sources.jar",
+          "size": 4603,
+          "sha512": "8da2746a10e591e967ce732b176b497e450f6da8e07e605433563176e675d31146b873ca2e0c4322dca15eae2146784aa90245c8966aa5bb317c1d9a8b402623",
+          "sha256": "4b234f96e3d80d4e50e67e20685206519a65ce3d28106ab1ab16bccdd3e2bfbb",
+          "sha1": "31614bb5c38079d5183e5c4a456e29500ded1f41",
+          "md5": "b0db3a9549148702ecd6f0bf5b8b20aa"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "ui-date",
+          "version": {
+            "requires": "5.0.0-alpha10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-icons-core",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "core",
+          "version": {
+            "requires": "5.0.0-alpha10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "date.kotlin_resources.zip",
+          "url": "dialog-date-wasm-js-5.0.0-alpha10-kotlin_resources.kotlin_resources.zip",
+          "size": 372,
+          "sha512": "297961f50ff25207120aa9c2c3665a1c4c9078b9934f4bacd609e6041df3fc1a5533152fa344c0144b79316c179e5159a46214fff51121f902b8f2606d2a0128",
+          "sha256": "240d9623796c5286ddbae4bff901009dfc664a18fbca4d99ff9a911443c8fda4",
+          "sha1": "2510f079d34d0a6df56e15b8ff7f180914b203be",
+          "md5": "643c50f2c08deb2db69c2f1d60de1b8c"
+        }
+      ]
+    }
+  ]
+}

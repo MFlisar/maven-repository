@@ -1,0 +1,239 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../dialog-frequency/5.0.0-alpha10/dialog-frequency-5.0.0-alpha10.module",
+    "group": "io.github.mflisar.composedialogs",
+    "module": "dialog-frequency",
+    "version": "5.0.0-alpha10",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "ui-frequency",
+          "version": {
+            "requires": "5.0.0-alpha10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "frequency-wasm-js.klib",
+          "url": "dialog-frequency-wasm-js-5.0.0-alpha10.klib",
+          "size": 43694,
+          "sha512": "281088ad2228f03ea66f22520f604ac9abe2b6c2fe953e9fa8059aebf2dbb6a087f7c2627ce4c8b5b85c95d0237093c94a50812ba0e5b8d3b88ef586f1cce24d",
+          "sha256": "5a81199165d1ce9f23c928ae5c48fab05495984266b424144dfdd5c868fd049b",
+          "sha1": "8ed24aaea495f46218979155ee15a2eb41f1474c",
+          "md5": "12c7b9ae7d22230ffce297f06fde04bd"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "ui-frequency",
+          "version": {
+            "requires": "5.0.0-alpha10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-icons-core",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "core",
+          "version": {
+            "requires": "5.0.0-alpha10"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "dialog-time",
+          "version": {
+            "requires": "5.0.0-alpha10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "frequency-wasm-js.klib",
+          "url": "dialog-frequency-wasm-js-5.0.0-alpha10.klib",
+          "size": 43694,
+          "sha512": "281088ad2228f03ea66f22520f604ac9abe2b6c2fe953e9fa8059aebf2dbb6a087f7c2627ce4c8b5b85c95d0237093c94a50812ba0e5b8d3b88ef586f1cce24d",
+          "sha256": "5a81199165d1ce9f23c928ae5c48fab05495984266b424144dfdd5c868fd049b",
+          "sha1": "8ed24aaea495f46218979155ee15a2eb41f1474c",
+          "md5": "12c7b9ae7d22230ffce297f06fde04bd"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "files": [
+        {
+          "name": "frequency-wasm-js-sources.jar",
+          "url": "dialog-frequency-wasm-js-5.0.0-alpha10-sources.jar",
+          "size": 4454,
+          "sha512": "6c7b668d6eddc756d1f8ba9843db7dcd86ed3d1a49d5b69ba5e4d92f7f41063595539e69610c2d157b31c9185f9abd264bd217af59b0a240bf172c921d815099",
+          "sha256": "3868679e47d3f99d82f500391a6dd5fc4c1d41d38087735f2d42d7f22d1c08e8",
+          "sha1": "e918d6576777f6882f7f70196238c9e5ccd0586a",
+          "md5": "1db2826b731752d3630936a77e086961"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "ui-frequency",
+          "version": {
+            "requires": "5.0.0-alpha10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-icons-core",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "core",
+          "version": {
+            "requires": "5.0.0-alpha10"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "dialog-time",
+          "version": {
+            "requires": "5.0.0-alpha10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "frequency.kotlin_resources.zip",
+          "url": "dialog-frequency-wasm-js-5.0.0-alpha10-kotlin_resources.kotlin_resources.zip",
+          "size": 382,
+          "sha512": "459fa6ecf99f213aac28b0e2d6972253c9a197d03a28ec52ce12521cd57c7092cbf5f02be80d625b3b75ce1003f24858d5cdfdd53391f1652f2fadbe7e3caeb5",
+          "sha256": "2ce4ebf68570de99c139b1c8001a7429a1531e72cd06388de26bab442ef22ece",
+          "sha1": "c04985f182905bd9f5eadf8509b9c91af0534eb4",
+          "md5": "31fe59f4d034f9a49f0fea71ab5f2e48"
+        }
+      ]
+    }
+  ]
+}
