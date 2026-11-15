@@ -1,0 +1,151 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../dialog-time/5.0.0-alpha09/dialog-time-5.0.0-alpha09.module",
+    "group": "io.github.mflisar.composedialogs",
+    "module": "dialog-time",
+    "version": "5.0.0-alpha09",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "ui-time",
+          "version": {
+            "requires": "5.0.0-alpha09"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "time.aar",
+          "url": "dialog-time-android-5.0.0-alpha09.aar",
+          "size": 13295,
+          "sha512": "a5ea36208156f3e6ec4df1b2ba23b0e1233928ff72a61b133ba60eb9cb1d5191008ad3c283077d5c47ee5f6aa5d040e3c8ea2cda1dde7caf7888ad3652b34a91",
+          "sha256": "226327baaabddf9992e24c4b9f613372e796e72df9239f8d74ec48ebb1e9f491",
+          "sha1": "444aca425c2f3786835678f6227f3879bc2ab84b",
+          "md5": "61e69a3e1ab723eefd770858fb74ef8a"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "ui-time",
+          "version": {
+            "requires": "5.0.0-alpha09"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "core",
+          "version": {
+            "requires": "5.0.0-alpha09"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "time.aar",
+          "url": "dialog-time-android-5.0.0-alpha09.aar",
+          "size": 13295,
+          "sha512": "a5ea36208156f3e6ec4df1b2ba23b0e1233928ff72a61b133ba60eb9cb1d5191008ad3c283077d5c47ee5f6aa5d040e3c8ea2cda1dde7caf7888ad3652b34a91",
+          "sha256": "226327baaabddf9992e24c4b9f613372e796e72df9239f8d74ec48ebb1e9f491",
+          "sha1": "444aca425c2f3786835678f6227f3879bc2ab84b",
+          "md5": "61e69a3e1ab723eefd770858fb74ef8a"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "time-android-sources.jar",
+          "url": "dialog-time-android-5.0.0-alpha09-sources.jar",
+          "size": 3467,
+          "sha512": "fcf118f2d7539bb5adf4b42f55392e87159d1c17ed85d411dfeed9371f0055ee3c65de39faab385dfbc1237d2574dc64ff3a4042b79e5065b541ccdcf92ff444",
+          "sha256": "f97e0780bee429f5c5a270109d3d51b48abfb47f7759231b6f083a135eb6c6af",
+          "sha1": "dc4a25126546c99a9c638c234978fe76b4a11c04",
+          "md5": "8fd5697105fffed8ef1f861a91b1cd44"
+        }
+      ]
+    }
+  ]
+}

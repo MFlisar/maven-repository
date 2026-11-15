@@ -1,0 +1,218 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../dialog-time/5.0.0-alpha09/dialog-time-5.0.0-alpha09.module",
+    "group": "io.github.mflisar.composedialogs",
+    "module": "dialog-time",
+    "version": "5.0.0-alpha09",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "ui-time",
+          "version": {
+            "requires": "5.0.0-alpha09"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "time-wasm-js.klib",
+          "url": "dialog-time-wasm-js-5.0.0-alpha09.klib",
+          "size": 25927,
+          "sha512": "a0d5ce86049efe818d505e8daf0ee768b951bb0974d8c7c0d47330ef0b4ecb7d96a7314b325164c90f84c96952a922fd4845b2263565d8011c6ce4c2c8924757",
+          "sha256": "001e971847e3c1ae6112d14e5a6d778a211ee5abaccdc21a15ae61e3710c531c",
+          "sha1": "ca3eb9fe7541ea859b5760872a6aab3ef28d852b",
+          "md5": "9fa70474ae2fa8ab40e17db93ff386f7"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "ui-time",
+          "version": {
+            "requires": "5.0.0-alpha09"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "core",
+          "version": {
+            "requires": "5.0.0-alpha09"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "time-wasm-js.klib",
+          "url": "dialog-time-wasm-js-5.0.0-alpha09.klib",
+          "size": 25927,
+          "sha512": "a0d5ce86049efe818d505e8daf0ee768b951bb0974d8c7c0d47330ef0b4ecb7d96a7314b325164c90f84c96952a922fd4845b2263565d8011c6ce4c2c8924757",
+          "sha256": "001e971847e3c1ae6112d14e5a6d778a211ee5abaccdc21a15ae61e3710c531c",
+          "sha1": "ca3eb9fe7541ea859b5760872a6aab3ef28d852b",
+          "md5": "9fa70474ae2fa8ab40e17db93ff386f7"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "files": [
+        {
+          "name": "time-wasm-js-sources.jar",
+          "url": "dialog-time-wasm-js-5.0.0-alpha09-sources.jar",
+          "size": 3467,
+          "sha512": "fcf118f2d7539bb5adf4b42f55392e87159d1c17ed85d411dfeed9371f0055ee3c65de39faab385dfbc1237d2574dc64ff3a4042b79e5065b541ccdcf92ff444",
+          "sha256": "f97e0780bee429f5c5a270109d3d51b48abfb47f7759231b6f083a135eb6c6af",
+          "sha1": "dc4a25126546c99a9c638c234978fe76b4a11c04",
+          "md5": "8fd5697105fffed8ef1f861a91b1cd44"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "ui-time",
+          "version": {
+            "requires": "5.0.0-alpha09"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "core",
+          "version": {
+            "requires": "5.0.0-alpha09"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "time.kotlin_resources.zip",
+          "url": "dialog-time-wasm-js-5.0.0-alpha09-kotlin_resources.kotlin_resources.zip",
+          "size": 372,
+          "sha512": "864c83aef82bb3a890935accb159d66829fb39071fec92aa29bd6480ddb45e8558261ea5a56c4b30fb1fc75d00599a2f0bdd668e6e16ab52092b06234a2b73d0",
+          "sha256": "93cbc92b44e0f85a0fe41798055cd4b6dde70a2f66ca6ba2d47778b62c8f84c2",
+          "sha1": "1b8219731cb9fb1fa76f685bfe1e6390800b8ad1",
+          "md5": "6f4f10362fd49261bebd9cf25bbea868"
+        }
+      ]
+    }
+  ]
+}

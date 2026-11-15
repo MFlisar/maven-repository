@@ -1,0 +1,137 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../dialog-date/5.0.0-alpha09/dialog-date-5.0.0-alpha09.module",
+    "group": "io.github.mflisar.composedialogs",
+    "module": "dialog-date",
+    "version": "5.0.0-alpha09",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "ui-date",
+          "version": {
+            "requires": "5.0.0-alpha09"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "date.aar",
+          "url": "dialog-date-android-5.0.0-alpha09.aar",
+          "size": 29623,
+          "sha512": "26d744a41f8c6391b62b333536299206ba81ad6e64986a8c3ee8f90adbe0c3647b64a34fcbcfc081e918d146b2370cbd17845100ceaacd7108c4efdc45f523de",
+          "sha256": "64e6683c3477cf5d660e5949474a391758418866d3062616825955f32b9a62f5",
+          "sha1": "df05ff013b152a5ed2bbcd5df41b610b7b6794a4",
+          "md5": "5ed0eb0429fba68547aa1449831ed847"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "ui-date",
+          "version": {
+            "requires": "5.0.0-alpha09"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-icons-core",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "core",
+          "version": {
+            "requires": "5.0.0-alpha09"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "date.aar",
+          "url": "dialog-date-android-5.0.0-alpha09.aar",
+          "size": 29623,
+          "sha512": "26d744a41f8c6391b62b333536299206ba81ad6e64986a8c3ee8f90adbe0c3647b64a34fcbcfc081e918d146b2370cbd17845100ceaacd7108c4efdc45f523de",
+          "sha256": "64e6683c3477cf5d660e5949474a391758418866d3062616825955f32b9a62f5",
+          "sha1": "df05ff013b152a5ed2bbcd5df41b610b7b6794a4",
+          "md5": "5ed0eb0429fba68547aa1449831ed847"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "date-android-sources.jar",
+          "url": "dialog-date-android-5.0.0-alpha09-sources.jar",
+          "size": 4544,
+          "sha512": "46375019023225c8bd78ef80ae7693571182da52041a87c17b7d0473af51cd2e2fc832bfa6e25b4556e218ec2f9565005aa3a3d6aeb032c9aa26bd21f96b7fbd",
+          "sha256": "63d7d64e9b9818e0a013ebd57d3f7a47830d82941677dca585117129aa62301d",
+          "sha1": "b133d65a332a76b2cc265db420ad7620319046ee",
+          "md5": "ce324050db332f69baa0cfc995f34def"
+        }
+      ]
+    }
+  ]
+}

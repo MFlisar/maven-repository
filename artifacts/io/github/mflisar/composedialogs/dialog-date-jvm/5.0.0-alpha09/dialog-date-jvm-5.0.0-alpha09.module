@@ -1,0 +1,137 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../dialog-date/5.0.0-alpha09/dialog-date-5.0.0-alpha09.module",
+    "group": "io.github.mflisar.composedialogs",
+    "module": "dialog-date",
+    "version": "5.0.0-alpha09",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "ui-date",
+          "version": {
+            "requires": "5.0.0-alpha09"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "date-jvm.jar",
+          "url": "dialog-date-jvm-5.0.0-alpha09.jar",
+          "size": 33134,
+          "sha512": "7e7910e6d30acc409a3173ab4d64aac5a416f8eb459ecf679c6d83d2554747a6b7b77f964e11421b3914a7cf3f92d652992874f33e62f5ea2b521a90e3ed441f",
+          "sha256": "377a8cd283a5f746a44d03b4c27150551f68136da7e51bb98563f509da9f65d9",
+          "sha1": "d26dc98a00e7d5083276b5aa721b6dbbe47beeeb",
+          "md5": "bcee412659d04b4ae3da60392675d9f5"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "ui-date",
+          "version": {
+            "requires": "5.0.0-alpha09"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-icons-core",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composedialogs",
+          "module": "core",
+          "version": {
+            "requires": "5.0.0-alpha09"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "date-jvm.jar",
+          "url": "dialog-date-jvm-5.0.0-alpha09.jar",
+          "size": 33134,
+          "sha512": "7e7910e6d30acc409a3173ab4d64aac5a416f8eb459ecf679c6d83d2554747a6b7b77f964e11421b3914a7cf3f92d652992874f33e62f5ea2b521a90e3ed441f",
+          "sha256": "377a8cd283a5f746a44d03b4c27150551f68136da7e51bb98563f509da9f65d9",
+          "sha1": "d26dc98a00e7d5083276b5aa721b6dbbe47beeeb",
+          "md5": "bcee412659d04b4ae3da60392675d9f5"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "date-jvm-sources.jar",
+          "url": "dialog-date-jvm-5.0.0-alpha09-sources.jar",
+          "size": 5999,
+          "sha512": "08fbf8130a8b5bde426490c45cbaefcac552864fd6473df2820c02377e0ac32b1e5c9433bbd204c95cfa812959e054ae6b7ab0434ff87e2fbba8fe46baf84633",
+          "sha256": "ad75918cb438e1497bb67c8be1eabf251f87ff5a48a73e4b300a49b0704ba875",
+          "sha1": "01e19b1afa8f8980260f04b8588783222b326bb3",
+          "md5": "37d941d1474445debf8ae2708cfd6778"
+        }
+      ]
+    }
+  ]
+}
