@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../coil/8.0.0-alpha02/coil-8.0.0-alpha02.module",
+    "group": "io.github.mflisar.toolbox",
+    "module": "coil",
+    "version": "8.0.0-alpha02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.9.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.coil-kt.coil3",
+          "module": "coil-core",
+          "version": {
+            "requires": "3.6.3"
+          }
+        },
+        {
+          "group": "io.coil-kt.coil3",
+          "module": "coil-compose",
+          "version": {
+            "requires": "3.6.3"
+          }
+        },
+        {
+          "group": "io.github.mflisar.toolbox",
+          "module": "core",
+          "version": {
+            "requires": "8.0.0-alpha02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "coil.aar",
+          "url": "coil-android-8.0.0-alpha02.aar",
+          "size": 45164,
+          "sha512": "8c6faf3468300188ba6c3243754e9b26112d3f72aafb6f6971c61ba191053ab66602fd4144d64a595ad74034afdd2a071edc377aaa9d2aa510306433e5ef13cc",
+          "sha256": "021ff3052140cf6f8f55c57befafa5532859812572ada2402f091424e10c758b",
+          "sha1": "86e04740f4d9aa4e2f2db2ac777fa404b5ae9553",
+          "md5": "cf99218a6d2b5ae2abc0d205ef78fdc3"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.coil-kt.coil3",
+          "module": "coil-core",
+          "version": {
+            "requires": "3.6.3"
+          }
+        },
+        {
+          "group": "io.coil-kt.coil3",
+          "module": "coil-compose",
+          "version": {
+            "requires": "3.6.3"
+          }
+        },
+        {
+          "group": "io.github.mflisar.toolbox",
+          "module": "core",
+          "version": {
+            "requires": "8.0.0-alpha02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "coil.aar",
+          "url": "coil-android-8.0.0-alpha02.aar",
+          "size": 45164,
+          "sha512": "8c6faf3468300188ba6c3243754e9b26112d3f72aafb6f6971c61ba191053ab66602fd4144d64a595ad74034afdd2a071edc377aaa9d2aa510306433e5ef13cc",
+          "sha256": "021ff3052140cf6f8f55c57befafa5532859812572ada2402f091424e10c758b",
+          "sha1": "86e04740f4d9aa4e2f2db2ac777fa404b5ae9553",
+          "md5": "cf99218a6d2b5ae2abc0d205ef78fdc3"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "coil-android-sources.jar",
+          "url": "coil-android-8.0.0-alpha02-sources.jar",
+          "size": 8675,
+          "sha512": "8db8195cc1d62950e8337383b07043606450d0b1c7b502dd09ba266620a10ae48cd661fa70662d4f251e273415cfb8ee29c18af4a96d18518110745b960a0e39",
+          "sha256": "785007ad16445fb85225299a550aa9d8a35b70a8ffa4af3ac715b5844a06d81e",
+          "sha1": "80e2189959b00c315ae5159e8cc27b8aa1a84515",
+          "md5": "f1dafb30f848253b13194c140deba7f1"
+        }
+      ]
+    }
+  ]
+}
