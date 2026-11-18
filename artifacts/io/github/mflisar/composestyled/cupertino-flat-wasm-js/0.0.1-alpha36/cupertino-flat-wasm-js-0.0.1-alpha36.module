@@ -1,0 +1,211 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../cupertino-flat/0.0.1-alpha36/cupertino-flat-0.0.1-alpha36.module",
+    "group": "io.github.mflisar.composestyled",
+    "module": "cupertino-flat",
+    "version": "0.0.1-alpha36",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha36"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "theme-cupertino",
+          "version": {
+            "requires": "0.0.1-alpha36"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "iconset-sfsymbols",
+          "version": {
+            "requires": "0.0.1-alpha36"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cupertino-flat-wasm-js.klib",
+          "url": "cupertino-flat-wasm-js-0.0.1-alpha36.klib",
+          "size": 169116,
+          "sha512": "13145485a68117fde1b544def38f3968d90df169e70801490313ba6b94cecb20dea7fa10fa9677b2f433c0b72b08f54c44843d14e7d5a2d016889e2b30caf335",
+          "sha256": "b9276f9e0f111a0ad0dddcd15bb71797fe5369415b9a955fcff7fc9b75d0d60e",
+          "sha1": "5eff572f190eb9faf6ddf6ef048426e51f187b45",
+          "md5": "f4b02ffb53e6aa477f1f119900705ead"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha36"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "theme-cupertino",
+          "version": {
+            "requires": "0.0.1-alpha36"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "iconset-sfsymbols",
+          "version": {
+            "requires": "0.0.1-alpha36"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "foundation",
+          "version": {
+            "requires": "0.0.1-alpha36"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cupertino-flat-wasm-js.klib",
+          "url": "cupertino-flat-wasm-js-0.0.1-alpha36.klib",
+          "size": 169116,
+          "sha512": "13145485a68117fde1b544def38f3968d90df169e70801490313ba6b94cecb20dea7fa10fa9677b2f433c0b72b08f54c44843d14e7d5a2d016889e2b30caf335",
+          "sha256": "b9276f9e0f111a0ad0dddcd15bb71797fe5369415b9a955fcff7fc9b75d0d60e",
+          "sha1": "5eff572f190eb9faf6ddf6ef048426e51f187b45",
+          "md5": "f4b02ffb53e6aa477f1f119900705ead"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "files": [
+        {
+          "name": "cupertino-flat-wasm-js-sources.jar",
+          "url": "cupertino-flat-wasm-js-0.0.1-alpha36-sources.jar",
+          "size": 29567,
+          "sha512": "5477cbae51379dcf78aa7a0a6ca66a4caa036f0c4640c74b9da587142c8ce3e407969768b8b48dcf0baefc0fb7f46441a6bd4b04d8579f1982825fcdd190b749",
+          "sha256": "c2b3bd0393df21c8cedfc549a514d16b03934f10c30d7f3d9a8d00f37077a9a1",
+          "sha1": "a2031d908f7021614e16ea4379d6869112b7ad05",
+          "md5": "466eb0c2deb115d5ba93481d4138c600"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha36"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "theme-cupertino",
+          "version": {
+            "requires": "0.0.1-alpha36"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "iconset-sfsymbols",
+          "version": {
+            "requires": "0.0.1-alpha36"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "foundation",
+          "version": {
+            "requires": "0.0.1-alpha36"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cupertino-flat.kotlin_resources.zip",
+          "url": "cupertino-flat-wasm-js-0.0.1-alpha36-kotlin_resources.kotlin_resources.zip",
+          "size": 404,
+          "sha512": "bfbea62d59f1c259ec6b81ba64d6c0582a98d04b28c189a5c9ea99ec70f77dbef7aca6c2b6ae3a0d964d89eb68641a6d12b361fe6bc561c83be253749c7f5e14",
+          "sha256": "9b89d8f764388885fa15ed72dcf4a81e4162608feea0389dc56045b38dc26fd5",
+          "sha1": "7fdc95b4cc5f31364278a5716b2584d3b4d8f1e8",
+          "md5": "1588f45726cdf15b7069c51be180a93a"
+        }
+      ]
+    }
+  ]
+}
