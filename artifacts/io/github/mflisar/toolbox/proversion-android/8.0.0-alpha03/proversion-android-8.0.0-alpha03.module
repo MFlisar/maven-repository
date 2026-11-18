@@ -1,0 +1,168 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../proversion/8.0.0-alpha03/proversion-8.0.0-alpha03.module",
+    "group": "io.github.mflisar.toolbox",
+    "module": "proversion",
+    "version": "8.0.0-alpha03",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.9.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.toolbox",
+          "module": "core",
+          "version": {
+            "requires": "8.0.0-alpha03"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "proversion.aar",
+          "url": "proversion-android-8.0.0-alpha03.aar",
+          "size": 107186,
+          "sha512": "bd2e613d546c861be7c23235546a1051f4d55c35925a845642cfadd8caa4a835cea02dab7ca8cc0e1b24edc08286698ed97d1186de6d30a79913edd1b9263ee4",
+          "sha256": "bd4183ae3ad7578203a8903f7207c542515503cd89bedf58c1895039915f7396",
+          "sha1": "a84d28c9242854eb9d5b1e86ee22a9742944e31b",
+          "md5": "d0ebd98adb685d16e986dd91e8656236"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.toolbox",
+          "module": "core",
+          "version": {
+            "requires": "8.0.0-alpha03"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-icons-core",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-icons-extended",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-tooling-preview",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "io.github.mflisar.kotpreferences",
+          "module": "core",
+          "version": {
+            "requires": "4.0.1"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "styled-composedialog",
+          "version": {
+            "requires": "0.0.1-alpha36"
+          }
+        },
+        {
+          "group": "io.github.hyochan",
+          "module": "kmp-iap",
+          "version": {
+            "requires": "4.2.3"
+          },
+          "attributes": {
+            "com.android.build.api.attributes.ProductFlavor:platform": "play"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "proversion.aar",
+          "url": "proversion-android-8.0.0-alpha03.aar",
+          "size": 107186,
+          "sha512": "bd2e613d546c861be7c23235546a1051f4d55c35925a845642cfadd8caa4a835cea02dab7ca8cc0e1b24edc08286698ed97d1186de6d30a79913edd1b9263ee4",
+          "sha256": "bd4183ae3ad7578203a8903f7207c542515503cd89bedf58c1895039915f7396",
+          "sha1": "a84d28c9242854eb9d5b1e86ee22a9742944e31b",
+          "md5": "d0ebd98adb685d16e986dd91e8656236"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "proversion-android-sources.jar",
+          "url": "proversion-android-8.0.0-alpha03-sources.jar",
+          "size": 11603,
+          "sha512": "3f8bca143fe4eec2628a394721ae04fb8d9cdd6873da5ad9822220623894220be76a5a842d39250045d98f17ffe99fa39e21020334f18ecdd864a2b60edd29ec",
+          "sha256": "106d10d6531897cfc48dee465255dbbc43bc2e5c38514432e13554ef77acb25b",
+          "sha1": "2ee246af07709c37cdc051d1b67c89b5192e9ea5",
+          "md5": "806362350276cc71059096f9e686681a"
+        }
+      ]
+    }
+  ]
+}
