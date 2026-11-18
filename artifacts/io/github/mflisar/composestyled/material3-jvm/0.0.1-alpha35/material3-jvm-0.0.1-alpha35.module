@@ -1,0 +1,158 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../material3/0.0.1-alpha35/material3-0.0.1-alpha35.module",
+    "group": "io.github.mflisar.composestyled",
+    "module": "material3",
+    "version": "0.0.1-alpha35",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha35"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "theme-material3",
+          "version": {
+            "requires": "0.0.1-alpha35"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "iconset-material3",
+          "version": {
+            "requires": "0.0.1-alpha35"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "material3-jvm.jar",
+          "url": "material3-jvm-0.0.1-alpha35.jar",
+          "size": 423168,
+          "sha512": "70b35cc64a9958b7a4c0ecd8bb8855a5f985992fba7fa0963638fd9a4b2a2b44443c91db9af182915932359da43a2b0e264f04491018a3e5853970420001ea5e",
+          "sha256": "bf44421319e0c75d3ee9029c575e84525a2ba20493376864a741b8fff7564eac",
+          "sha1": "d5dc10489ea721e6d80f01a4acde9ad4a3bc9777",
+          "md5": "5e3633ebb5607333e1c8a12df682d24c"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha35"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "theme-material3",
+          "version": {
+            "requires": "0.0.1-alpha35"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "iconset-material3",
+          "version": {
+            "requires": "0.0.1-alpha35"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "foundation",
+          "version": {
+            "requires": "0.0.1-alpha35"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "material3-jvm.jar",
+          "url": "material3-jvm-0.0.1-alpha35.jar",
+          "size": 423168,
+          "sha512": "70b35cc64a9958b7a4c0ecd8bb8855a5f985992fba7fa0963638fd9a4b2a2b44443c91db9af182915932359da43a2b0e264f04491018a3e5853970420001ea5e",
+          "sha256": "bf44421319e0c75d3ee9029c575e84525a2ba20493376864a741b8fff7564eac",
+          "sha1": "d5dc10489ea721e6d80f01a4acde9ad4a3bc9777",
+          "md5": "5e3633ebb5607333e1c8a12df682d24c"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "material3-jvm-sources.jar",
+          "url": "material3-jvm-0.0.1-alpha35-sources.jar",
+          "size": 51160,
+          "sha512": "4880b4edb0cbf30f8074ef8cafc7e2cf09872151b3ae48a64067739962489bd2bd9b5f63044f8a6f64469a80dbc701d69d8dbc4d0f9fab4aa7f022a526e606b0",
+          "sha256": "08e87f6b82e349a291e767dbd0187449b8290a5664543a3cbbb28c14e88f164c",
+          "sha1": "15acbcb91fba918d0548a711e32ecf1a4fa7c767",
+          "md5": "23a5f8ac875f977245e46692837410f8"
+        }
+      ]
+    }
+  ]
+}
