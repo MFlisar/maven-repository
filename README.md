@@ -17,7 +17,7 @@ Latest version per artifact group, including prereleases, taken from the most re
 | [io.github.mflisar.kmpdevtools](https://github.com/MFlisar/maven-repository/tree/main/artifacts/io/github/mflisar/kmpdevtools) | <code>9.4.2</code> |
 | [io.github.mflisar.kmpdevtools.plugins-build-gradle](https://github.com/MFlisar/maven-repository/tree/main/artifacts/io/github/mflisar/kmpdevtools/plugins-build-gradle) | <code>9.4.2</code> |
 | [io.github.mflisar.kmpdevtools.plugins-settings-gradle](https://github.com/MFlisar/maven-repository/tree/main/artifacts/io/github/mflisar/kmpdevtools/plugins-settings-gradle) | <code>9.4.2</code> |
-| [io.github.mflisar.toolbox](https://github.com/MFlisar/maven-repository/tree/main/artifacts/io/github/mflisar/toolbox) | <code>8.0.0-alpha02</code> |
+| [io.github.mflisar.toolbox](https://github.com/MFlisar/maven-repository/tree/main/artifacts/io/github/mflisar/toolbox) | <code>8.0.0-alpha03</code> |
 
 <!-- artifacts:end -->
 
