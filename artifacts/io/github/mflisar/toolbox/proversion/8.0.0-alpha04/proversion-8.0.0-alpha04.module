@@ -1,0 +1,262 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mflisar.toolbox",
+    "module": "proversion",
+    "version": "8.0.0-alpha04",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.9.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.toolbox",
+          "module": "core",
+          "version": {
+            "requires": "8.0.0-alpha04"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "proversion-metadata.jar",
+          "url": "proversion-8.0.0-alpha04.jar",
+          "size": 9459,
+          "sha512": "4113fee6d3b1f597e1cee90f944d331f2f09f041970f4fbbf6bb0a2d3607ada862d0f590856dbe81955d79320fd426dc0d14e6896135a148fda8fd58aca52975",
+          "sha256": "9ae7e965c2e4a1bd182311c89406ce9d41e94169e086ed710325e9e29c6c446d",
+          "sha1": "6da4715468a23b0fcd03929b963e6c0126e1b4d5",
+          "md5": "333ba6759c2067f452bba90c342ae2f6"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "proversion-kotlin-sources.jar",
+          "url": "proversion-8.0.0-alpha04-sources.jar",
+          "size": 11603,
+          "sha512": "3f8bca143fe4eec2628a394721ae04fb8d9cdd6873da5ad9822220623894220be76a5a842d39250045d98f17ffe99fa39e21020334f18ecdd864a2b60edd29ec",
+          "sha256": "106d10d6531897cfc48dee465255dbbc43bc2e5c38514432e13554ef77acb25b",
+          "sha1": "2ee246af07709c37cdc051d1b67c89b5192e9ea5",
+          "md5": "806362350276cc71059096f9e686681a"
+        }
+      ]
+    },
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../proversion-android/8.0.0-alpha04/proversion-android-8.0.0-alpha04.module",
+        "group": "io.github.mflisar.toolbox",
+        "module": "proversion-android",
+        "version": "8.0.0-alpha04"
+      }
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../proversion-android/8.0.0-alpha04/proversion-android-8.0.0-alpha04.module",
+        "group": "io.github.mflisar.toolbox",
+        "module": "proversion-android",
+        "version": "8.0.0-alpha04"
+      }
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../proversion-android/8.0.0-alpha04/proversion-android-8.0.0-alpha04.module",
+        "group": "io.github.mflisar.toolbox",
+        "module": "proversion-android",
+        "version": "8.0.0-alpha04"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../proversion-iosarm64/8.0.0-alpha04/proversion-iosarm64-8.0.0-alpha04.module",
+        "group": "io.github.mflisar.toolbox",
+        "module": "proversion-iosarm64",
+        "version": "8.0.0-alpha04"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../proversion-iosarm64/8.0.0-alpha04/proversion-iosarm64-8.0.0-alpha04.module",
+        "group": "io.github.mflisar.toolbox",
+        "module": "proversion-iosarm64",
+        "version": "8.0.0-alpha04"
+      }
+    },
+    {
+      "name": "iosArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../proversion-iosarm64/8.0.0-alpha04/proversion-iosarm64-8.0.0-alpha04.module",
+        "group": "io.github.mflisar.toolbox",
+        "module": "proversion-iosarm64",
+        "version": "8.0.0-alpha04"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../proversion-iosarm64/8.0.0-alpha04/proversion-iosarm64-8.0.0-alpha04.module",
+        "group": "io.github.mflisar.toolbox",
+        "module": "proversion-iosarm64",
+        "version": "8.0.0-alpha04"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../proversion-iossimulatorarm64/8.0.0-alpha04/proversion-iossimulatorarm64-8.0.0-alpha04.module",
+        "group": "io.github.mflisar.toolbox",
+        "module": "proversion-iossimulatorarm64",
+        "version": "8.0.0-alpha04"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../proversion-iossimulatorarm64/8.0.0-alpha04/proversion-iossimulatorarm64-8.0.0-alpha04.module",
+        "group": "io.github.mflisar.toolbox",
+        "module": "proversion-iossimulatorarm64",
+        "version": "8.0.0-alpha04"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../proversion-iossimulatorarm64/8.0.0-alpha04/proversion-iossimulatorarm64-8.0.0-alpha04.module",
+        "group": "io.github.mflisar.toolbox",
+        "module": "proversion-iossimulatorarm64",
+        "version": "8.0.0-alpha04"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../proversion-iossimulatorarm64/8.0.0-alpha04/proversion-iossimulatorarm64-8.0.0-alpha04.module",
+        "group": "io.github.mflisar.toolbox",
+        "module": "proversion-iossimulatorarm64",
+        "version": "8.0.0-alpha04"
+      }
+    }
+  ]
+}
