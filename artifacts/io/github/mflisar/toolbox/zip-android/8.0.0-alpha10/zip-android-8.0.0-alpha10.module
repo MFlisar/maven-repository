@@ -1,0 +1,151 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../zip/8.0.0-alpha10/zip-8.0.0-alpha10.module",
+    "group": "io.github.mflisar.toolbox",
+    "module": "zip",
+    "version": "8.0.0-alpha10",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.9.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-io-core",
+          "version": {
+            "requires": "0.9.3"
+          }
+        },
+        {
+          "group": "io.github.mflisar.lumberjack",
+          "module": "core",
+          "version": {
+            "requires": "12.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "zip.aar",
+          "url": "zip-android-8.0.0-alpha10.aar",
+          "size": 50890,
+          "sha512": "926fb5c3e1da96d9321fd511f2164910d7a3de07a2248adef3f608590159f8c2a8593cf1fe64aee15f91857a3a36e88cee094b56d0981c912a5e7daed1faf643",
+          "sha256": "48ab9bd1a22e958041f01f3c08f19be76db6b1d5d7a9b30080d3555270b49a47",
+          "sha1": "6a7090bc760ab3f61cdf1a9f93e0d1f7c66467dd",
+          "md5": "8375aacb7decb1bd1c7343157e12d1fb"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-io-core",
+          "version": {
+            "requires": "0.9.3"
+          }
+        },
+        {
+          "group": "io.github.mflisar.lumberjack",
+          "module": "core",
+          "version": {
+            "requires": "12.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "io.github.mflisar.toolbox",
+          "module": "core",
+          "version": {
+            "requires": "8.0.0-alpha10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "zip.aar",
+          "url": "zip-android-8.0.0-alpha10.aar",
+          "size": 50890,
+          "sha512": "926fb5c3e1da96d9321fd511f2164910d7a3de07a2248adef3f608590159f8c2a8593cf1fe64aee15f91857a3a36e88cee094b56d0981c912a5e7daed1faf643",
+          "sha256": "48ab9bd1a22e958041f01f3c08f19be76db6b1d5d7a9b30080d3555270b49a47",
+          "sha1": "6a7090bc760ab3f61cdf1a9f93e0d1f7c66467dd",
+          "md5": "8375aacb7decb1bd1c7343157e12d1fb"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "zip-android-sources.jar",
+          "url": "zip-android-8.0.0-alpha10-sources.jar",
+          "size": 8851,
+          "sha512": "266377bcb155b6ee0e3ff9ff05fd9ec1355ba01c20f161891b272f9d92c7f55e77ea3209928d79441900a13b195bee58d37f5bbda103c0b05884cbcf100b40dc",
+          "sha256": "a8842349699441776d9e1fba90d727142268fb9ada76ab68f00ca791e498406f",
+          "sha1": "94b7f0eebbbcf349deb387d5f337ae96ebecdc6d",
+          "md5": "1d0a975664d802e480e6c396e7a01854"
+        }
+      ]
+    }
+  ]
+}

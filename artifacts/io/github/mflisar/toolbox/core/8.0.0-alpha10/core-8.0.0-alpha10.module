@@ -1,0 +1,532 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mflisar.toolbox",
+    "module": "core",
+    "version": "8.0.0-alpha10",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.9.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.components",
+          "module": "components-resources",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "io.github.mflisar.kmpplatformcontext",
+          "module": "core",
+          "version": {
+            "requires": "2.0.2"
+          }
+        },
+        {
+          "group": "io.github.mflisar.lumberjack",
+          "module": "core",
+          "version": {
+            "requires": "12.0.0"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha40"
+          }
+        },
+        {
+          "group": "io.github.mflisar.kmpparcelize",
+          "module": "library",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-icons-core",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-icons-extended",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "io.github.vinceglb",
+          "module": "filekit-dialogs-compose",
+          "version": {
+            "requires": "0.17.1"
+          }
+        },
+        {
+          "group": "io.github.mflisar.kmpmail",
+          "module": "library",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.github.mflisar.lumberjack",
+          "module": "extension-feedback",
+          "version": {
+            "requires": "12.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-metadata.jar",
+          "url": "core-8.0.0-alpha10.jar",
+          "size": 29717,
+          "sha512": "5a70cb7da55068c1f3a59016792ab01dd3d46d0151348124becb174fba88ec77485e8908d99a550ccd8e22826ec9e5ef41517fe5e6ccbca4e38323db980a6b29",
+          "sha256": "c145b2018102f4fea51627ccdb46016a982b8e9a5a7d8e5541179c4cd4812f49",
+          "sha1": "6053f66d8154433a5a47138cbb67bc62af54ba94",
+          "md5": "91ab9ee78650d201bd138a9710dae305"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "core-kotlin-sources.jar",
+          "url": "core-8.0.0-alpha10-sources.jar",
+          "size": 33821,
+          "sha512": "5c95e677043017e6341dd6b4559f1617b8ad527141f05f071c70a44b5dfac79d50b8005a55345e2e5974d3d2ba9ea1fe991e785cfedabe27d23f8856e8adf3b5",
+          "sha256": "dcffd3c3c767051af47e4caa6a7a843a6cc082c3adde524e4e41e3e852bcde8b",
+          "sha1": "a2202840fd99327a14b664f5c14f4ebe57a79833",
+          "md5": "0e6bc736da4c8c42af17496e19eba6ef"
+        }
+      ]
+    },
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../core-android/8.0.0-alpha10/core-android-8.0.0-alpha10.module",
+        "group": "io.github.mflisar.toolbox",
+        "module": "core-android",
+        "version": "8.0.0-alpha10"
+      }
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../core-android/8.0.0-alpha10/core-android-8.0.0-alpha10.module",
+        "group": "io.github.mflisar.toolbox",
+        "module": "core-android",
+        "version": "8.0.0-alpha10"
+      }
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../core-android/8.0.0-alpha10/core-android-8.0.0-alpha10.module",
+        "group": "io.github.mflisar.toolbox",
+        "module": "core-android",
+        "version": "8.0.0-alpha10"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-iosarm64/8.0.0-alpha10/core-iosarm64-8.0.0-alpha10.module",
+        "group": "io.github.mflisar.toolbox",
+        "module": "core-iosarm64",
+        "version": "8.0.0-alpha10"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-iosarm64/8.0.0-alpha10/core-iosarm64-8.0.0-alpha10.module",
+        "group": "io.github.mflisar.toolbox",
+        "module": "core-iosarm64",
+        "version": "8.0.0-alpha10"
+      }
+    },
+    {
+      "name": "iosArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-iosarm64/8.0.0-alpha10/core-iosarm64-8.0.0-alpha10.module",
+        "group": "io.github.mflisar.toolbox",
+        "module": "core-iosarm64",
+        "version": "8.0.0-alpha10"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-iosarm64/8.0.0-alpha10/core-iosarm64-8.0.0-alpha10.module",
+        "group": "io.github.mflisar.toolbox",
+        "module": "core-iosarm64",
+        "version": "8.0.0-alpha10"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-iossimulatorarm64/8.0.0-alpha10/core-iossimulatorarm64-8.0.0-alpha10.module",
+        "group": "io.github.mflisar.toolbox",
+        "module": "core-iossimulatorarm64",
+        "version": "8.0.0-alpha10"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-iossimulatorarm64/8.0.0-alpha10/core-iossimulatorarm64-8.0.0-alpha10.module",
+        "group": "io.github.mflisar.toolbox",
+        "module": "core-iossimulatorarm64",
+        "version": "8.0.0-alpha10"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-iossimulatorarm64/8.0.0-alpha10/core-iossimulatorarm64-8.0.0-alpha10.module",
+        "group": "io.github.mflisar.toolbox",
+        "module": "core-iossimulatorarm64",
+        "version": "8.0.0-alpha10"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-iossimulatorarm64/8.0.0-alpha10/core-iossimulatorarm64-8.0.0-alpha10.module",
+        "group": "io.github.mflisar.toolbox",
+        "module": "core-iossimulatorarm64",
+        "version": "8.0.0-alpha10"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../core-jvm/8.0.0-alpha10/core-jvm-8.0.0-alpha10.module",
+        "group": "io.github.mflisar.toolbox",
+        "module": "core-jvm",
+        "version": "8.0.0-alpha10"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../core-jvm/8.0.0-alpha10/core-jvm-8.0.0-alpha10.module",
+        "group": "io.github.mflisar.toolbox",
+        "module": "core-jvm",
+        "version": "8.0.0-alpha10"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../core-jvm/8.0.0-alpha10/core-jvm-8.0.0-alpha10.module",
+        "group": "io.github.mflisar.toolbox",
+        "module": "core-jvm",
+        "version": "8.0.0-alpha10"
+      }
+    },
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-macosarm64/8.0.0-alpha10/core-macosarm64-8.0.0-alpha10.module",
+        "group": "io.github.mflisar.toolbox",
+        "module": "core-macosarm64",
+        "version": "8.0.0-alpha10"
+      }
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-macosarm64/8.0.0-alpha10/core-macosarm64-8.0.0-alpha10.module",
+        "group": "io.github.mflisar.toolbox",
+        "module": "core-macosarm64",
+        "version": "8.0.0-alpha10"
+      }
+    },
+    {
+      "name": "macosArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-macosarm64/8.0.0-alpha10/core-macosarm64-8.0.0-alpha10.module",
+        "group": "io.github.mflisar.toolbox",
+        "module": "core-macosarm64",
+        "version": "8.0.0-alpha10"
+      }
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-macosarm64/8.0.0-alpha10/core-macosarm64-8.0.0-alpha10.module",
+        "group": "io.github.mflisar.toolbox",
+        "module": "core-macosarm64",
+        "version": "8.0.0-alpha10"
+      }
+    },
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../core-wasm-js/8.0.0-alpha10/core-wasm-js-8.0.0-alpha10.module",
+        "group": "io.github.mflisar.toolbox",
+        "module": "core-wasm-js",
+        "version": "8.0.0-alpha10"
+      }
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../core-wasm-js/8.0.0-alpha10/core-wasm-js-8.0.0-alpha10.module",
+        "group": "io.github.mflisar.toolbox",
+        "module": "core-wasm-js",
+        "version": "8.0.0-alpha10"
+      }
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../core-wasm-js/8.0.0-alpha10/core-wasm-js-8.0.0-alpha10.module",
+        "group": "io.github.mflisar.toolbox",
+        "module": "core-wasm-js",
+        "version": "8.0.0-alpha10"
+      }
+    },
+    {
+      "name": "wasmJsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../core-wasm-js/8.0.0-alpha10/core-wasm-js-8.0.0-alpha10.module",
+        "group": "io.github.mflisar.toolbox",
+        "module": "core-wasm-js",
+        "version": "8.0.0-alpha10"
+      }
+    }
+  ]
+}

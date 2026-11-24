@@ -1,0 +1,288 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../backup/8.0.0-alpha10/backup-8.0.0-alpha10.module",
+    "group": "io.github.mflisar.toolbox",
+    "module": "backup",
+    "version": "8.0.0-alpha10",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.9.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.kmpparcelize",
+          "module": "library",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "styled-composedialog",
+          "version": {
+            "requires": "0.0.1-alpha40"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "backup-wasm-js.klib",
+          "url": "backup-wasm-js-8.0.0-alpha10.klib",
+          "size": 46167,
+          "sha512": "35db4447c25ce205f168f79eb49348d6e61aacbd75a9c66ded752fe069bcd12b824bdc3577e6204eaea557850e30dfeef9bb653441ba487a640f1e28feed7022",
+          "sha256": "6e8e05027fc8f3d947180338357847f9fcbd4c2abeef0ac1ede701956f891267",
+          "sha1": "a567769b2ab6bad6a59b337cea8ada81fd7c69a3",
+          "md5": "cf2ed8114727f8178fa17d9a2928058a"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.kmpparcelize",
+          "module": "library",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "styled-composedialog",
+          "version": {
+            "requires": "0.0.1-alpha40"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "io.github.mflisar.toolbox",
+          "module": "core",
+          "version": {
+            "requires": "8.0.0-alpha10"
+          }
+        },
+        {
+          "group": "io.github.mflisar.toolbox",
+          "module": "zip",
+          "version": {
+            "requires": "8.0.0-alpha10"
+          }
+        },
+        {
+          "group": "io.github.mflisar.lumberjack",
+          "module": "core",
+          "version": {
+            "requires": "12.0.0"
+          }
+        },
+        {
+          "group": "io.github.vinceglb",
+          "module": "filekit-dialogs-compose",
+          "version": {
+            "requires": "0.17.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "backup-wasm-js.klib",
+          "url": "backup-wasm-js-8.0.0-alpha10.klib",
+          "size": 46167,
+          "sha512": "35db4447c25ce205f168f79eb49348d6e61aacbd75a9c66ded752fe069bcd12b824bdc3577e6204eaea557850e30dfeef9bb653441ba487a640f1e28feed7022",
+          "sha256": "6e8e05027fc8f3d947180338357847f9fcbd4c2abeef0ac1ede701956f891267",
+          "sha1": "a567769b2ab6bad6a59b337cea8ada81fd7c69a3",
+          "md5": "cf2ed8114727f8178fa17d9a2928058a"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "files": [
+        {
+          "name": "backup-wasm-js-sources.jar",
+          "url": "backup-wasm-js-8.0.0-alpha10-sources.jar",
+          "size": 10380,
+          "sha512": "538d79f6d55d65e8cac56706fa93415a2c0b88aff526ca616b215a1d6d2f04fdc5d57600e34ae1ca07318f10e48a6c8197c89b4d834ef9c2f7bfe80b652b8f37",
+          "sha256": "de709744da4f47ac2e1c19cb172b9cc2b3960ed0cf3737ca98e215b45cba89f0",
+          "sha1": "bc16849be4097e4c2c6b29ac5f1a29a4cf16782d",
+          "md5": "5b8b289cf851e21b41f02829e98b870c"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.kmpparcelize",
+          "module": "library",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "styled-composedialog",
+          "version": {
+            "requires": "0.0.1-alpha40"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "io.github.mflisar.toolbox",
+          "module": "core",
+          "version": {
+            "requires": "8.0.0-alpha10"
+          }
+        },
+        {
+          "group": "io.github.mflisar.toolbox",
+          "module": "zip",
+          "version": {
+            "requires": "8.0.0-alpha10"
+          }
+        },
+        {
+          "group": "io.github.mflisar.lumberjack",
+          "module": "core",
+          "version": {
+            "requires": "12.0.0"
+          }
+        },
+        {
+          "group": "io.github.vinceglb",
+          "module": "filekit-dialogs-compose",
+          "version": {
+            "requires": "0.17.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "backup.kotlin_resources.zip",
+          "url": "backup-wasm-js-8.0.0-alpha10-kotlin_resources.kotlin_resources.zip",
+          "size": 348,
+          "sha512": "f50e6df58142c4a1d5461931d6ba7c95e99639862edfe5ad27d3df1f2e10b509f8b9e8dc5071a288840525557f3fef008278acf062df5218cedafd87291011ad",
+          "sha256": "19da9927ca50ea764cd6b2bd594d935cd37af7a2c96149e032dafac27756c3ca",
+          "sha1": "53ea36203fe6c797bf986dc06562caac096ae1bc",
+          "md5": "b4caaf036cadbe473d300b1d8d3acd50"
+        }
+      ]
+    }
+  ]
+}

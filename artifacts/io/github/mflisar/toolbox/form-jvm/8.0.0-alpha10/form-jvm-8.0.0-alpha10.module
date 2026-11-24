@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../form/8.0.0-alpha10/form-8.0.0-alpha10.module",
+    "group": "io.github.mflisar.toolbox",
+    "module": "form",
+    "version": "8.0.0-alpha10",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.9.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha40"
+          }
+        },
+        {
+          "group": "io.github.mflisar.toolbox",
+          "module": "core",
+          "version": {
+            "requires": "8.0.0-alpha10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "form-jvm.jar",
+          "url": "form-jvm-8.0.0-alpha10.jar",
+          "size": 142571,
+          "sha512": "384da98b1df17e3ff0687167d805457b440911f0c2985388f5c17478f68e97ff81a8a8f857453d860b1b07edfe9b047d053c0cc72ad1be6e477e8203ff021ad3",
+          "sha256": "29c9a877b53ac6103ffe73ff71ab9e59ca3e277acc2fc8cbfa8c36c1c4c0f7ae",
+          "sha1": "2dfeeb3e5a822fe7c56b50aad4d3e73b3347aac0",
+          "md5": "890a1b76a5842848b59b2d3a48366543"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha40"
+          }
+        },
+        {
+          "group": "io.github.mflisar.toolbox",
+          "module": "core",
+          "version": {
+            "requires": "8.0.0-alpha10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-icons-core",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-icons-extended",
+          "version": {
+            "requires": "1.7.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "form-jvm.jar",
+          "url": "form-jvm-8.0.0-alpha10.jar",
+          "size": 142571,
+          "sha512": "384da98b1df17e3ff0687167d805457b440911f0c2985388f5c17478f68e97ff81a8a8f857453d860b1b07edfe9b047d053c0cc72ad1be6e477e8203ff021ad3",
+          "sha256": "29c9a877b53ac6103ffe73ff71ab9e59ca3e277acc2fc8cbfa8c36c1c4c0f7ae",
+          "sha1": "2dfeeb3e5a822fe7c56b50aad4d3e73b3347aac0",
+          "md5": "890a1b76a5842848b59b2d3a48366543"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "form-jvm-sources.jar",
+          "url": "form-jvm-8.0.0-alpha10-sources.jar",
+          "size": 15304,
+          "sha512": "d37dd76b4baf5edee355e70bad1ab84db23786ee1f2e171144162904dc938c846ed7d75dfa27a663d8c6c2acf765342408e34035fc1267017d8228eb0341b1c7",
+          "sha256": "f89746a1d9ba40aa79f490a3ce09252e4a138212bb19f7dac2218e4d852370c7",
+          "sha1": "9a1c29893b17050330a74087206bb203f77af1fc",
+          "md5": "f18403703524a76582b580d4f48dc34d"
+        }
+      ]
+    }
+  ]
+}

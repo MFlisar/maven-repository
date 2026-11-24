@@ -1,0 +1,204 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../form/8.0.0-alpha10/form-8.0.0-alpha10.module",
+    "group": "io.github.mflisar.toolbox",
+    "module": "form",
+    "version": "8.0.0-alpha10",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.9.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha40"
+          }
+        },
+        {
+          "group": "io.github.mflisar.toolbox",
+          "module": "core",
+          "version": {
+            "requires": "8.0.0-alpha10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "form-wasm-js.klib",
+          "url": "form-wasm-js-8.0.0-alpha10.klib",
+          "size": 142451,
+          "sha512": "b105ec15e5d7d1ea8c5e2dd0f32a6cce7dda07d8de979a795ab166df7ff6ba672cc1d0f332b354684f3f63961eb9bda3f86efb99d30e83f099eb6c7ad12083d2",
+          "sha256": "4bf4ff021952009e71bb6f18be40beaa131e306a176c0e828f2a78ebc7b99b5b",
+          "sha1": "6a26b8092a38516087f137bce9407fc4fb905433",
+          "md5": "5ba71a1fef046580a73c2b894824bce1"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha40"
+          }
+        },
+        {
+          "group": "io.github.mflisar.toolbox",
+          "module": "core",
+          "version": {
+            "requires": "8.0.0-alpha10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-icons-core",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-icons-extended",
+          "version": {
+            "requires": "1.7.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "form-wasm-js.klib",
+          "url": "form-wasm-js-8.0.0-alpha10.klib",
+          "size": 142451,
+          "sha512": "b105ec15e5d7d1ea8c5e2dd0f32a6cce7dda07d8de979a795ab166df7ff6ba672cc1d0f332b354684f3f63961eb9bda3f86efb99d30e83f099eb6c7ad12083d2",
+          "sha256": "4bf4ff021952009e71bb6f18be40beaa131e306a176c0e828f2a78ebc7b99b5b",
+          "sha1": "6a26b8092a38516087f137bce9407fc4fb905433",
+          "md5": "5ba71a1fef046580a73c2b894824bce1"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "files": [
+        {
+          "name": "form-wasm-js-sources.jar",
+          "url": "form-wasm-js-8.0.0-alpha10-sources.jar",
+          "size": 15304,
+          "sha512": "d37dd76b4baf5edee355e70bad1ab84db23786ee1f2e171144162904dc938c846ed7d75dfa27a663d8c6c2acf765342408e34035fc1267017d8228eb0341b1c7",
+          "sha256": "f89746a1d9ba40aa79f490a3ce09252e4a138212bb19f7dac2218e4d852370c7",
+          "sha1": "9a1c29893b17050330a74087206bb203f77af1fc",
+          "md5": "f18403703524a76582b580d4f48dc34d"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha40"
+          }
+        },
+        {
+          "group": "io.github.mflisar.toolbox",
+          "module": "core",
+          "version": {
+            "requires": "8.0.0-alpha10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-icons-core",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-icons-extended",
+          "version": {
+            "requires": "1.7.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "form.kotlin_resources.zip",
+          "url": "form-wasm-js-8.0.0-alpha10-kotlin_resources.kotlin_resources.zip",
+          "size": 344,
+          "sha512": "3cae8d711d49e542743ea5f7d3cca34d05d819c6cf8ffa0f5d66500e22511ffc35bc9d416df9c6a5ecbab21f9395b868a815d3b96e566283326909d297938c8f",
+          "sha256": "260ffa59205a35ac0be332c281b03e17420857d5057f635f81bce30a95099eb3",
+          "sha1": "862012c55a2f9a625116d9b86046eff999f98132",
+          "md5": "783f7c467b96fc751093ce706ef171f8"
+        }
+      ]
+    }
+  ]
+}

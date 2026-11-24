@@ -1,0 +1,162 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ads/8.0.0-alpha10/ads-8.0.0-alpha10.module",
+    "group": "io.github.mflisar.toolbox",
+    "module": "ads",
+    "version": "8.0.0-alpha10",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.9.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ads-wasm-js.klib",
+          "url": "ads-wasm-js-8.0.0-alpha10.klib",
+          "size": 19190,
+          "sha512": "1378abe0922463e84e88af3a36c875c03e89f9e72f9ebf99a92ee36e5d0052c3f613dd21b5dc98f3fcaf0c0e5c8981952f5c07994f23a024472280633b566e51",
+          "sha256": "386c6c1821fc7779392fb2ccb54d22536e446c49582a42b3054ab1c725bdf518",
+          "sha1": "e41b321cf40a379d0198d3d956911866f1bf5440",
+          "md5": "9a346d7836c9a41cb4b67e46998f381c"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "io.github.mflisar.toolbox",
+          "module": "core",
+          "version": {
+            "requires": "8.0.0-alpha10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ads-wasm-js.klib",
+          "url": "ads-wasm-js-8.0.0-alpha10.klib",
+          "size": 19190,
+          "sha512": "1378abe0922463e84e88af3a36c875c03e89f9e72f9ebf99a92ee36e5d0052c3f613dd21b5dc98f3fcaf0c0e5c8981952f5c07994f23a024472280633b566e51",
+          "sha256": "386c6c1821fc7779392fb2ccb54d22536e446c49582a42b3054ab1c725bdf518",
+          "sha1": "e41b321cf40a379d0198d3d956911866f1bf5440",
+          "md5": "9a346d7836c9a41cb4b67e46998f381c"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "files": [
+        {
+          "name": "ads-wasm-js-sources.jar",
+          "url": "ads-wasm-js-8.0.0-alpha10-sources.jar",
+          "size": 2732,
+          "sha512": "b67e32c1686da70bc64a325d45b77759aa45f28d0a4fe434014ed3f6bfc1188fe236480a707018e82b9b8976c9f34ad78af54a0bf12545d997cedfb17d698f8d",
+          "sha256": "c6efc89364a9462b8dd0dcd5f829dae6a3d7eeab9f1d16836104e31439f2966d",
+          "sha1": "c3269cf9ec3ca428e1f122e10ebb355196fee385",
+          "md5": "38aba56b1166db038abbbeb4682afcc3"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "io.github.mflisar.toolbox",
+          "module": "core",
+          "version": {
+            "requires": "8.0.0-alpha10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ads.kotlin_resources.zip",
+          "url": "ads-wasm-js-8.0.0-alpha10-kotlin_resources.kotlin_resources.zip",
+          "size": 342,
+          "sha512": "8f64177846b95a179d7f4df3f8091e79397dd01f550127be930781f645a19c757a6b205ef196019edf1da215c9cff296694c31de26238e648771eadce71222a1",
+          "sha256": "ed86045e7f8dcba971dc15aa4df317501e3edef2d5edd30dfcacdca8194f5d8c",
+          "sha1": "8978d1094535936e78946a2ee7a5c5ce23278380",
+          "md5": "2f64c4e3427a35e31c995216a1379568"
+        }
+      ]
+    }
+  ]
+}
