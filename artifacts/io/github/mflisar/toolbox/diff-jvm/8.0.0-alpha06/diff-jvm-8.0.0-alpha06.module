@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../diff/8.0.0-alpha06/diff-8.0.0-alpha06.module",
+    "group": "io.github.mflisar.toolbox",
+    "module": "diff",
+    "version": "8.0.0-alpha06",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.9.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.toolbox",
+          "module": "core",
+          "version": {
+            "requires": "8.0.0-alpha06"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "diff-jvm.jar",
+          "url": "diff-jvm-8.0.0-alpha06.jar",
+          "size": 58150,
+          "sha512": "181d514f6161433a215da99efade5455636d17b85b502e1a5ed0adaed30fa00ca92200c88527cf509fc53c8fccbe5caeeed98690807ea8c4db9685682aa28b7c",
+          "sha256": "430ed5a92a5ded829a432ab67da3ad655e02a42fd1e7dcfd6f92e28370b0da1b",
+          "sha1": "9e3760f3993d15992bb6ffa98282dd9f530036ae",
+          "md5": "da67a1909e12900705c88309a024a9b0"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.toolbox",
+          "module": "core",
+          "version": {
+            "requires": "8.0.0-alpha06"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "diff-jvm.jar",
+          "url": "diff-jvm-8.0.0-alpha06.jar",
+          "size": 58150,
+          "sha512": "181d514f6161433a215da99efade5455636d17b85b502e1a5ed0adaed30fa00ca92200c88527cf509fc53c8fccbe5caeeed98690807ea8c4db9685682aa28b7c",
+          "sha256": "430ed5a92a5ded829a432ab67da3ad655e02a42fd1e7dcfd6f92e28370b0da1b",
+          "sha1": "9e3760f3993d15992bb6ffa98282dd9f530036ae",
+          "md5": "da67a1909e12900705c88309a024a9b0"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "diff-jvm-sources.jar",
+          "url": "diff-jvm-8.0.0-alpha06-sources.jar",
+          "size": 6400,
+          "sha512": "3e32bc18c7a49c18747060731b78292a94945a12198621d26e720b65c5489093884a127c4726360bf0c3341cc4d7e42cb1ed5e328fac182cbabd075f38241ed1",
+          "sha256": "608a17826dcf96586dd0ff211ef37aa8e8fbe9446d3995dd79600142594354e6",
+          "sha1": "50779a3aab15dfe479fafb844a6d96f36b6413a8",
+          "md5": "f2d271fd1a154de1d9398e0187b28213"
+        }
+      ]
+    }
+  ]
+}
