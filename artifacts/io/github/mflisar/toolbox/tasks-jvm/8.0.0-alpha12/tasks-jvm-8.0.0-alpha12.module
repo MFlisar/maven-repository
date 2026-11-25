@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../tasks/8.0.0-alpha12/tasks-8.0.0-alpha12.module",
+    "group": "io.github.mflisar.toolbox",
+    "module": "tasks",
+    "version": "8.0.0-alpha12",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.9.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.toolbox",
+          "module": "core",
+          "version": {
+            "requires": "8.0.0-alpha12"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tasks-jvm.jar",
+          "url": "tasks-jvm-8.0.0-alpha12.jar",
+          "size": 238022,
+          "sha512": "b0f18787c2821f84136b6c26c5cc29eb4dc1deb142e324b7123aed1b4f05aab2a1a4da1ba9779057164c7e213866fb1999da4adf9e27fbc61c2cf48802855262",
+          "sha256": "8905fa9e6209bbb6ff4b2fa22bd01caa3851c970780676ca02945ad12209fff8",
+          "sha1": "e42727c1e481c4dad0f60e9550cc79cf4e529ced",
+          "md5": "e28c7c559530efd1bb77cee708e34131"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.toolbox",
+          "module": "core",
+          "version": {
+            "requires": "8.0.0-alpha12"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-icons-core",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-icons-extended",
+          "version": {
+            "requires": "1.7.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tasks-jvm.jar",
+          "url": "tasks-jvm-8.0.0-alpha12.jar",
+          "size": 238022,
+          "sha512": "b0f18787c2821f84136b6c26c5cc29eb4dc1deb142e324b7123aed1b4f05aab2a1a4da1ba9779057164c7e213866fb1999da4adf9e27fbc61c2cf48802855262",
+          "sha256": "8905fa9e6209bbb6ff4b2fa22bd01caa3851c970780676ca02945ad12209fff8",
+          "sha1": "e42727c1e481c4dad0f60e9550cc79cf4e529ced",
+          "md5": "e28c7c559530efd1bb77cee708e34131"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "tasks-jvm-sources.jar",
+          "url": "tasks-jvm-8.0.0-alpha12-sources.jar",
+          "size": 25679,
+          "sha512": "c4ce701615e6684ba86ac5613337436d16c54ff84d7237ae25b7a52f9a20b032b96e72137ca3c5b230638cb164da7b93de32ab0426d2a4416fb441fe2fba1021",
+          "sha256": "04ad54c32f508e3e45cc5046c219703e93b83ed5b1dcb042d4b3b1d87971aae8",
+          "sha1": "da4c2d30bd787143d9df1daf3b8d084f1374fdd7",
+          "md5": "57e3537164694968edbf197641c1dd07"
+        }
+      ]
+    }
+  ]
+}
