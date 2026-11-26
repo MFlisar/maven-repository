@@ -1,0 +1,221 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../backup/8.0.0-alpha13/backup-8.0.0-alpha13.module",
+    "group": "io.github.mflisar.toolbox",
+    "module": "backup",
+    "version": "8.0.0-alpha13",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.9.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.kmpparcelize",
+          "module": "library",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "styled-composedialog",
+          "version": {
+            "requires": "0.0.1-alpha41"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "backup.aar",
+          "url": "backup-android-8.0.0-alpha13.aar",
+          "size": 121761,
+          "sha512": "c6e650f6e56c67d0fcf1389a0e15a3d600adce829a69f12c8777d9ccbcc98dde8cd1fb3ab563b7b7477694ca8f47fded230945dfa9d27b11a6d449f02670be6b",
+          "sha256": "544e4583800c67e9d3add6e8205dd70fa2591bdf2f7465087e58f63f4f5cbb55",
+          "sha1": "351586e643772cf7a34b96d0cdfa8f84e184440e",
+          "md5": "c29f93e960e3d42d35ddcb5a18d64678"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.kmpparcelize",
+          "module": "library",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "styled-composedialog",
+          "version": {
+            "requires": "0.0.1-alpha41"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.19.1"
+          }
+        },
+        {
+          "group": "androidx.work",
+          "module": "work-runtime-ktx",
+          "version": {
+            "requires": "2.12.0"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-compose",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "com.google.accompanist",
+          "module": "accompanist-permissions",
+          "version": {
+            "requires": "0.37.3"
+          }
+        },
+        {
+          "group": "io.github.mflisar.toolbox",
+          "module": "service",
+          "version": {
+            "requires": "8.0.0-alpha13"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "io.github.mflisar.toolbox",
+          "module": "core",
+          "version": {
+            "requires": "8.0.0-alpha13"
+          }
+        },
+        {
+          "group": "io.github.mflisar.toolbox",
+          "module": "zip",
+          "version": {
+            "requires": "8.0.0-alpha13"
+          }
+        },
+        {
+          "group": "io.github.mflisar.lumberjack",
+          "module": "core",
+          "version": {
+            "requires": "12.0.0"
+          }
+        },
+        {
+          "group": "io.github.vinceglb",
+          "module": "filekit-dialogs-compose",
+          "version": {
+            "requires": "0.17.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "backup.aar",
+          "url": "backup-android-8.0.0-alpha13.aar",
+          "size": 121761,
+          "sha512": "c6e650f6e56c67d0fcf1389a0e15a3d600adce829a69f12c8777d9ccbcc98dde8cd1fb3ab563b7b7477694ca8f47fded230945dfa9d27b11a6d449f02670be6b",
+          "sha256": "544e4583800c67e9d3add6e8205dd70fa2591bdf2f7465087e58f63f4f5cbb55",
+          "sha1": "351586e643772cf7a34b96d0cdfa8f84e184440e",
+          "md5": "c29f93e960e3d42d35ddcb5a18d64678"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "backup-android-sources.jar",
+          "url": "backup-android-8.0.0-alpha13-sources.jar",
+          "size": 19601,
+          "sha512": "e9d1384d9b280681349f47bac3da150e71770b68ef859f6b6a6e0ebbbd5313da91503cad931e6501a906ce54b2c8e24ed935b068bc37810a3feaca5ea6bc015e",
+          "sha256": "df38301eb5590cb028e7ee16ae236907f5abe507943f5122eb4612ae5697893f",
+          "sha1": "3b5a6bb8cec93e24667d6fa4b4f4a29e89ad17bb",
+          "md5": "6a14974d821d7950266ac4a93bc06306"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,455 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.mflisar.toolbox",
+    "module": "backup",
+    "version": "8.0.0-alpha13",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.9.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.kmpparcelize",
+          "module": "library",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "styled-composedialog",
+          "version": {
+            "requires": "0.0.1-alpha41"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "backup-metadata.jar",
+          "url": "backup-8.0.0-alpha13.jar",
+          "size": 14592,
+          "sha512": "b093a5382a0f49ab6d2fba4378ec93ba99e4917ab52f5dc7da6dfcf84c30ccd7cef5877238a05fa3ea6b449ab383f5d4aeef95419e52cbb313dcf9187befc82a",
+          "sha256": "28005a54337ca8ebd6e2342ee7a1b9d845f5036a08a429a1ba742ff54590b298",
+          "sha1": "7bb0b5d31af4cac9cbd7ba92f47b1aa8567992e2",
+          "md5": "1d02488ae58dff50fc6e9b6018592a8b"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "backup-kotlin-sources.jar",
+          "url": "backup-8.0.0-alpha13-sources.jar",
+          "size": 14110,
+          "sha512": "18fa5ab2afc14fa052d19f6d6e45c53f4046da5cc1cb015ae8dd05c51820faabdad63af59a09958ece8e43846c808ee0a4172f4482685da95e1fd7f8d2f4aa7b",
+          "sha256": "022a93810ad0b50f8a53932cba2ae54c5849f62c7ee4ddb4cb7b254fa852c3a2",
+          "sha1": "e18eb5a0752263630ec5735942d8e0c95cc54bf9",
+          "md5": "c947344d532b81d3911ce02bfe76b897"
+        }
+      ]
+    },
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../backup-android/8.0.0-alpha13/backup-android-8.0.0-alpha13.module",
+        "group": "io.github.mflisar.toolbox",
+        "module": "backup-android",
+        "version": "8.0.0-alpha13"
+      }
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../backup-android/8.0.0-alpha13/backup-android-8.0.0-alpha13.module",
+        "group": "io.github.mflisar.toolbox",
+        "module": "backup-android",
+        "version": "8.0.0-alpha13"
+      }
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../backup-android/8.0.0-alpha13/backup-android-8.0.0-alpha13.module",
+        "group": "io.github.mflisar.toolbox",
+        "module": "backup-android",
+        "version": "8.0.0-alpha13"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../backup-iosarm64/8.0.0-alpha13/backup-iosarm64-8.0.0-alpha13.module",
+        "group": "io.github.mflisar.toolbox",
+        "module": "backup-iosarm64",
+        "version": "8.0.0-alpha13"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../backup-iosarm64/8.0.0-alpha13/backup-iosarm64-8.0.0-alpha13.module",
+        "group": "io.github.mflisar.toolbox",
+        "module": "backup-iosarm64",
+        "version": "8.0.0-alpha13"
+      }
+    },
+    {
+      "name": "iosArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../backup-iosarm64/8.0.0-alpha13/backup-iosarm64-8.0.0-alpha13.module",
+        "group": "io.github.mflisar.toolbox",
+        "module": "backup-iosarm64",
+        "version": "8.0.0-alpha13"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../backup-iosarm64/8.0.0-alpha13/backup-iosarm64-8.0.0-alpha13.module",
+        "group": "io.github.mflisar.toolbox",
+        "module": "backup-iosarm64",
+        "version": "8.0.0-alpha13"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../backup-iossimulatorarm64/8.0.0-alpha13/backup-iossimulatorarm64-8.0.0-alpha13.module",
+        "group": "io.github.mflisar.toolbox",
+        "module": "backup-iossimulatorarm64",
+        "version": "8.0.0-alpha13"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../backup-iossimulatorarm64/8.0.0-alpha13/backup-iossimulatorarm64-8.0.0-alpha13.module",
+        "group": "io.github.mflisar.toolbox",
+        "module": "backup-iossimulatorarm64",
+        "version": "8.0.0-alpha13"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../backup-iossimulatorarm64/8.0.0-alpha13/backup-iossimulatorarm64-8.0.0-alpha13.module",
+        "group": "io.github.mflisar.toolbox",
+        "module": "backup-iossimulatorarm64",
+        "version": "8.0.0-alpha13"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../backup-iossimulatorarm64/8.0.0-alpha13/backup-iossimulatorarm64-8.0.0-alpha13.module",
+        "group": "io.github.mflisar.toolbox",
+        "module": "backup-iossimulatorarm64",
+        "version": "8.0.0-alpha13"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../backup-jvm/8.0.0-alpha13/backup-jvm-8.0.0-alpha13.module",
+        "group": "io.github.mflisar.toolbox",
+        "module": "backup-jvm",
+        "version": "8.0.0-alpha13"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../backup-jvm/8.0.0-alpha13/backup-jvm-8.0.0-alpha13.module",
+        "group": "io.github.mflisar.toolbox",
+        "module": "backup-jvm",
+        "version": "8.0.0-alpha13"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../backup-jvm/8.0.0-alpha13/backup-jvm-8.0.0-alpha13.module",
+        "group": "io.github.mflisar.toolbox",
+        "module": "backup-jvm",
+        "version": "8.0.0-alpha13"
+      }
+    },
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../backup-macosarm64/8.0.0-alpha13/backup-macosarm64-8.0.0-alpha13.module",
+        "group": "io.github.mflisar.toolbox",
+        "module": "backup-macosarm64",
+        "version": "8.0.0-alpha13"
+      }
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../backup-macosarm64/8.0.0-alpha13/backup-macosarm64-8.0.0-alpha13.module",
+        "group": "io.github.mflisar.toolbox",
+        "module": "backup-macosarm64",
+        "version": "8.0.0-alpha13"
+      }
+    },
+    {
+      "name": "macosArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../backup-macosarm64/8.0.0-alpha13/backup-macosarm64-8.0.0-alpha13.module",
+        "group": "io.github.mflisar.toolbox",
+        "module": "backup-macosarm64",
+        "version": "8.0.0-alpha13"
+      }
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../backup-macosarm64/8.0.0-alpha13/backup-macosarm64-8.0.0-alpha13.module",
+        "group": "io.github.mflisar.toolbox",
+        "module": "backup-macosarm64",
+        "version": "8.0.0-alpha13"
+      }
+    },
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../backup-wasm-js/8.0.0-alpha13/backup-wasm-js-8.0.0-alpha13.module",
+        "group": "io.github.mflisar.toolbox",
+        "module": "backup-wasm-js",
+        "version": "8.0.0-alpha13"
+      }
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../backup-wasm-js/8.0.0-alpha13/backup-wasm-js-8.0.0-alpha13.module",
+        "group": "io.github.mflisar.toolbox",
+        "module": "backup-wasm-js",
+        "version": "8.0.0-alpha13"
+      }
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../backup-wasm-js/8.0.0-alpha13/backup-wasm-js-8.0.0-alpha13.module",
+        "group": "io.github.mflisar.toolbox",
+        "module": "backup-wasm-js",
+        "version": "8.0.0-alpha13"
+      }
+    },
+    {
+      "name": "wasmJsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../backup-wasm-js/8.0.0-alpha13/backup-wasm-js-8.0.0-alpha13.module",
+        "group": "io.github.mflisar.toolbox",
+        "module": "backup-wasm-js",
+        "version": "8.0.0-alpha13"
+      }
+    }
+  ]
+}

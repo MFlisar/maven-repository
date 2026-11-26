@@ -1,0 +1,638 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../app/8.0.0-alpha13/app-8.0.0-alpha13.module",
+    "group": "io.github.mflisar.toolbox",
+    "module": "app",
+    "version": "8.0.0-alpha13",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.9.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.kotpreferences",
+          "module": "storage-keyvalue",
+          "version": {
+            "requires": "4.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.lifecycle",
+          "module": "lifecycle-runtime-compose",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.lifecycle",
+          "module": "lifecycle-viewmodel-compose",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.lifecycle",
+          "module": "lifecycle-viewmodel-navigation3",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.navigation3",
+          "module": "navigation3-ui",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "io.github.mflisar.toolbox",
+          "module": "core",
+          "version": {
+            "requires": "8.0.0-alpha13"
+          }
+        },
+        {
+          "group": "io.github.mflisar.toolbox",
+          "module": "zip",
+          "version": {
+            "requires": "8.0.0-alpha13"
+          }
+        },
+        {
+          "group": "io.github.mflisar.toolbox",
+          "module": "backup",
+          "version": {
+            "requires": "8.0.0-alpha13"
+          }
+        },
+        {
+          "group": "io.github.mflisar.lumberjack",
+          "module": "core",
+          "version": {
+            "requires": "12.0.0"
+          }
+        },
+        {
+          "group": "io.github.mflisar.lumberjack",
+          "module": "logger-console",
+          "version": {
+            "requires": "12.0.0"
+          }
+        },
+        {
+          "group": "io.github.mflisar.kotpreferences",
+          "module": "core",
+          "version": {
+            "requires": "4.0.1"
+          }
+        },
+        {
+          "group": "io.github.mflisar.kotpreferences",
+          "module": "extension-compose",
+          "version": {
+            "requires": "4.0.1"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha41"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "theme-pastel",
+          "version": {
+            "requires": "0.0.1-alpha41"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "theme-nature",
+          "version": {
+            "requires": "0.0.1-alpha41"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "styled-composedialog",
+          "version": {
+            "requires": "0.0.1-alpha41"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "styled-composepreferences",
+          "version": {
+            "requires": "0.0.1-alpha41"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "styled-composechangelog",
+          "version": {
+            "requires": "0.0.1-alpha41"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "app-wasm-js.klib",
+          "url": "app-wasm-js-8.0.0-alpha13.klib",
+          "size": 432003,
+          "sha512": "ad48cbbb72e6d61afe0f743a717edab14a44c894bbb9f71daaa3f65548f94af48e6656129e66ef180d1a7f9c3f535c858f1ef81d10413aec29fed17438b48dd9",
+          "sha256": "e5d80a424f38370395d6c9664177550f98c211b9d9b0eddc1713b0695f004a4b",
+          "sha1": "8535bd29ec4eb94943397253af1b71eab1fce5cf",
+          "md5": "5e7fd64a4721964b8f153b7210fa99b5"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.kotpreferences",
+          "module": "storage-keyvalue",
+          "version": {
+            "requires": "4.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.lifecycle",
+          "module": "lifecycle-runtime-compose",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.lifecycle",
+          "module": "lifecycle-viewmodel-compose",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.lifecycle",
+          "module": "lifecycle-viewmodel-navigation3",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.navigation3",
+          "module": "navigation3-ui",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "io.github.mflisar.toolbox",
+          "module": "core",
+          "version": {
+            "requires": "8.0.0-alpha13"
+          }
+        },
+        {
+          "group": "io.github.mflisar.toolbox",
+          "module": "zip",
+          "version": {
+            "requires": "8.0.0-alpha13"
+          }
+        },
+        {
+          "group": "io.github.mflisar.toolbox",
+          "module": "backup",
+          "version": {
+            "requires": "8.0.0-alpha13"
+          }
+        },
+        {
+          "group": "io.github.mflisar.lumberjack",
+          "module": "core",
+          "version": {
+            "requires": "12.0.0"
+          }
+        },
+        {
+          "group": "io.github.mflisar.lumberjack",
+          "module": "logger-console",
+          "version": {
+            "requires": "12.0.0"
+          }
+        },
+        {
+          "group": "io.github.mflisar.kotpreferences",
+          "module": "core",
+          "version": {
+            "requires": "4.0.1"
+          }
+        },
+        {
+          "group": "io.github.mflisar.kotpreferences",
+          "module": "extension-compose",
+          "version": {
+            "requires": "4.0.1"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha41"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "theme-pastel",
+          "version": {
+            "requires": "0.0.1-alpha41"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "theme-nature",
+          "version": {
+            "requires": "0.0.1-alpha41"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "styled-composedialog",
+          "version": {
+            "requires": "0.0.1-alpha41"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "styled-composepreferences",
+          "version": {
+            "requires": "0.0.1-alpha41"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "styled-composechangelog",
+          "version": {
+            "requires": "0.0.1-alpha41"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "fluent2",
+          "version": {
+            "requires": "0.0.1-alpha41"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-backhandler",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-icons-core",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-icons-extended",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "br.com.devsrsouza.compose.icons",
+          "module": "font-awesome",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "io.github.vinceglb",
+          "module": "filekit-dialogs-compose",
+          "version": {
+            "requires": "0.17.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "app-wasm-js.klib",
+          "url": "app-wasm-js-8.0.0-alpha13.klib",
+          "size": 432003,
+          "sha512": "ad48cbbb72e6d61afe0f743a717edab14a44c894bbb9f71daaa3f65548f94af48e6656129e66ef180d1a7f9c3f535c858f1ef81d10413aec29fed17438b48dd9",
+          "sha256": "e5d80a424f38370395d6c9664177550f98c211b9d9b0eddc1713b0695f004a4b",
+          "sha1": "8535bd29ec4eb94943397253af1b71eab1fce5cf",
+          "md5": "5e7fd64a4721964b8f153b7210fa99b5"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "files": [
+        {
+          "name": "app-wasm-js-sources.jar",
+          "url": "app-wasm-js-8.0.0-alpha13-sources.jar",
+          "size": 66952,
+          "sha512": "858d41fa6b10f87dec440269b21dc551767d8f3530be84a0c391abde02c25f7794c3cb61a65eb74000d5d13bb2294acd030ca216da07c09edee053d57b617b5f",
+          "sha256": "44a635362bb380bf0f0565dc2f37991732771d93920382125de3708530bb7831",
+          "sha1": "317101c0652fb2fc84fb54035c43a1f82f9dfb3c",
+          "md5": "22ecb602589538782378e62beb8d870f"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.kotpreferences",
+          "module": "storage-keyvalue",
+          "version": {
+            "requires": "4.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.lifecycle",
+          "module": "lifecycle-runtime-compose",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.lifecycle",
+          "module": "lifecycle-viewmodel-compose",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.lifecycle",
+          "module": "lifecycle-viewmodel-navigation3",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.navigation3",
+          "module": "navigation3-ui",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "io.github.mflisar.toolbox",
+          "module": "core",
+          "version": {
+            "requires": "8.0.0-alpha13"
+          }
+        },
+        {
+          "group": "io.github.mflisar.toolbox",
+          "module": "zip",
+          "version": {
+            "requires": "8.0.0-alpha13"
+          }
+        },
+        {
+          "group": "io.github.mflisar.toolbox",
+          "module": "backup",
+          "version": {
+            "requires": "8.0.0-alpha13"
+          }
+        },
+        {
+          "group": "io.github.mflisar.lumberjack",
+          "module": "core",
+          "version": {
+            "requires": "12.0.0"
+          }
+        },
+        {
+          "group": "io.github.mflisar.lumberjack",
+          "module": "logger-console",
+          "version": {
+            "requires": "12.0.0"
+          }
+        },
+        {
+          "group": "io.github.mflisar.kotpreferences",
+          "module": "core",
+          "version": {
+            "requires": "4.0.1"
+          }
+        },
+        {
+          "group": "io.github.mflisar.kotpreferences",
+          "module": "extension-compose",
+          "version": {
+            "requires": "4.0.1"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha41"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "theme-pastel",
+          "version": {
+            "requires": "0.0.1-alpha41"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "theme-nature",
+          "version": {
+            "requires": "0.0.1-alpha41"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "styled-composedialog",
+          "version": {
+            "requires": "0.0.1-alpha41"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "styled-composepreferences",
+          "version": {
+            "requires": "0.0.1-alpha41"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "styled-composechangelog",
+          "version": {
+            "requires": "0.0.1-alpha41"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "fluent2",
+          "version": {
+            "requires": "0.0.1-alpha41"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-backhandler",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-icons-core",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-icons-extended",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "br.com.devsrsouza.compose.icons",
+          "module": "font-awesome",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "io.github.vinceglb",
+          "module": "filekit-dialogs-compose",
+          "version": {
+            "requires": "0.17.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "app.kotlin_resources.zip",
+          "url": "app-wasm-js-8.0.0-alpha13-kotlin_resources.kotlin_resources.zip",
+          "size": 326,
+          "sha512": "9d48fcca2f9ce8c23365e4dc6e5dc5a600695c846cac4a69b42fce4d13adbd004524d38ef942fb416d3a2b78b6fd3adc3e7739ee3ec7cefa14ab29971347a40b",
+          "sha256": "7c85d1c066ab34ea77e586af30fd2acf59448397f52437b03aacfc0bd735cec9",
+          "sha1": "cc7fa8aec23a0b803d2ebbcf76881e6a9b7b6477",
+          "md5": "7123ed56b38b754058b71566cacf3ab5"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../coil/8.0.0-alpha13/coil-8.0.0-alpha13.module",
+    "group": "io.github.mflisar.toolbox",
+    "module": "coil",
+    "version": "8.0.0-alpha13",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.9.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "io.coil-kt.coil3",
+          "module": "coil-core",
+          "version": {
+            "requires": "3.6.3"
+          }
+        },
+        {
+          "group": "io.coil-kt.coil3",
+          "module": "coil-compose",
+          "version": {
+            "requires": "3.6.3"
+          }
+        },
+        {
+          "group": "io.github.mflisar.toolbox",
+          "module": "core",
+          "version": {
+            "requires": "8.0.0-alpha13"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "coil-wasm-js.klib",
+          "url": "coil-wasm-js-8.0.0-alpha13.klib",
+          "size": 50562,
+          "sha512": "e1e278adc152bfe86c9d8687db8b2e227f134dea47ece323e3d3e4aa15ea0cee8570cfd0cb4308b05992a51bb0c6d7a83a0db586bd25d56161ee4dcb6e568be7",
+          "sha256": "d1b3cd594fe88a89fc99f272a11ad427dfaffdfababbdd4f858f0909a4941ea2",
+          "sha1": "0621d1d543a009b6d819e8cf65ad93e904286bba",
+          "md5": "755876288bc371b5b69ba0e70d7819f8"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "io.coil-kt.coil3",
+          "module": "coil-core",
+          "version": {
+            "requires": "3.6.3"
+          }
+        },
+        {
+          "group": "io.coil-kt.coil3",
+          "module": "coil-compose",
+          "version": {
+            "requires": "3.6.3"
+          }
+        },
+        {
+          "group": "io.github.mflisar.toolbox",
+          "module": "core",
+          "version": {
+            "requires": "8.0.0-alpha13"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "coil-wasm-js.klib",
+          "url": "coil-wasm-js-8.0.0-alpha13.klib",
+          "size": 50562,
+          "sha512": "e1e278adc152bfe86c9d8687db8b2e227f134dea47ece323e3d3e4aa15ea0cee8570cfd0cb4308b05992a51bb0c6d7a83a0db586bd25d56161ee4dcb6e568be7",
+          "sha256": "d1b3cd594fe88a89fc99f272a11ad427dfaffdfababbdd4f858f0909a4941ea2",
+          "sha1": "0621d1d543a009b6d819e8cf65ad93e904286bba",
+          "md5": "755876288bc371b5b69ba0e70d7819f8"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "files": [
+        {
+          "name": "coil-wasm-js-sources.jar",
+          "url": "coil-wasm-js-8.0.0-alpha13-sources.jar",
+          "size": 8323,
+          "sha512": "38d7b64dc1f489bed17f2f3f86f14ff94916f84258132670f48f7aefd578709b832e0c5c01b8790846d3d97bb8dc418a5fb1a30d0c8438cfa96a4faf65536d26",
+          "sha256": "1629baa8ec230e65d6a05d4f24a8eb0fec2e99ed247813a40ce1172d369d2164",
+          "sha1": "81efcc244f1af3e35f0a848dcde96c590edd93a5",
+          "md5": "4899fd1655fbed3369e73336f868a8d8"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "io.coil-kt.coil3",
+          "module": "coil-core",
+          "version": {
+            "requires": "3.6.3"
+          }
+        },
+        {
+          "group": "io.coil-kt.coil3",
+          "module": "coil-compose",
+          "version": {
+            "requires": "3.6.3"
+          }
+        },
+        {
+          "group": "io.github.mflisar.toolbox",
+          "module": "core",
+          "version": {
+            "requires": "8.0.0-alpha13"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "coil.kotlin_resources.zip",
+          "url": "coil-wasm-js-8.0.0-alpha13-kotlin_resources.kotlin_resources.zip",
+          "size": 344,
+          "sha512": "71bab0f7c96c8b1164c26a4afb01ef22bc677a62dc0e422a745cd91b849d8b1f1fcfb705afe38bf4a589f92365e766ffc7d456593a04f7f9b406854ab5574f12",
+          "sha256": "9be98d12cc0d5f20992efeed3a71edfc34d42d6d011b3676f1bcb9c9d2eaed11",
+          "sha1": "5214d875c1d7067d01d352aa1a808dc353786de3",
+          "md5": "d8ecf995e362fd61ae7a093f1e80a79e"
+        }
+      ]
+    }
+  ]
+}

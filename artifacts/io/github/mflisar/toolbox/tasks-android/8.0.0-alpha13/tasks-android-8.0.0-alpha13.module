@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../tasks/8.0.0-alpha13/tasks-8.0.0-alpha13.module",
+    "group": "io.github.mflisar.toolbox",
+    "module": "tasks",
+    "version": "8.0.0-alpha13",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.9.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.toolbox",
+          "module": "core",
+          "version": {
+            "requires": "8.0.0-alpha13"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tasks.aar",
+          "url": "tasks-android-8.0.0-alpha13.aar",
+          "size": 222844,
+          "sha512": "6f61a34d67ab4f3cf83fa53f907f53c483e839c3010ac83081615cdfef63bbbefdc608c98b88229f366356016c02fd8407da46657e4609519351039b6c9cf365",
+          "sha256": "33d3f7edac25ebdfae73ee64e8c5ef3020f782369100846eac58ba9e4c7e5301",
+          "sha1": "41a2e002dbc2b6d4235e4d99157af49ac668f82f",
+          "md5": "2da75405a2e1a9b564b30699233c4129"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.toolbox",
+          "module": "core",
+          "version": {
+            "requires": "8.0.0-alpha13"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-icons-core",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-icons-extended",
+          "version": {
+            "requires": "1.7.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tasks.aar",
+          "url": "tasks-android-8.0.0-alpha13.aar",
+          "size": 222844,
+          "sha512": "6f61a34d67ab4f3cf83fa53f907f53c483e839c3010ac83081615cdfef63bbbefdc608c98b88229f366356016c02fd8407da46657e4609519351039b6c9cf365",
+          "sha256": "33d3f7edac25ebdfae73ee64e8c5ef3020f782369100846eac58ba9e4c7e5301",
+          "sha1": "41a2e002dbc2b6d4235e4d99157af49ac668f82f",
+          "md5": "2da75405a2e1a9b564b30699233c4129"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "tasks-android-sources.jar",
+          "url": "tasks-android-8.0.0-alpha13-sources.jar",
+          "size": 25679,
+          "sha512": "c4ce701615e6684ba86ac5613337436d16c54ff84d7237ae25b7a52f9a20b032b96e72137ca3c5b230638cb164da7b93de32ab0426d2a4416fb441fe2fba1021",
+          "sha256": "04ad54c32f508e3e45cc5046c219703e93b83ed5b1dcb042d4b3b1d87971aae8",
+          "sha1": "da4c2d30bd787143d9df1daf3b8d084f1374fdd7",
+          "md5": "57e3537164694968edbf197641c1dd07"
+        }
+      ]
+    }
+  ]
+}
