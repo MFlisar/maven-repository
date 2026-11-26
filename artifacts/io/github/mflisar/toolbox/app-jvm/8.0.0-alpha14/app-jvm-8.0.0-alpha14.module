@@ -1,0 +1,438 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../app/8.0.0-alpha14/app-8.0.0-alpha14.module",
+    "group": "io.github.mflisar.toolbox",
+    "module": "app",
+    "version": "8.0.0-alpha14",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.9.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.lumberjack",
+          "module": "logger-file",
+          "version": {
+            "requires": "12.0.0"
+          }
+        },
+        {
+          "group": "io.github.mflisar.kotpreferences",
+          "module": "storage-datastore",
+          "version": {
+            "requires": "4.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.lifecycle",
+          "module": "lifecycle-runtime-compose",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.lifecycle",
+          "module": "lifecycle-viewmodel-compose",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.lifecycle",
+          "module": "lifecycle-viewmodel-navigation3",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.navigation3",
+          "module": "navigation3-ui",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "io.github.mflisar.toolbox",
+          "module": "core",
+          "version": {
+            "requires": "8.0.0-alpha14"
+          }
+        },
+        {
+          "group": "io.github.mflisar.toolbox",
+          "module": "zip",
+          "version": {
+            "requires": "8.0.0-alpha14"
+          }
+        },
+        {
+          "group": "io.github.mflisar.toolbox",
+          "module": "backup",
+          "version": {
+            "requires": "8.0.0-alpha14"
+          }
+        },
+        {
+          "group": "io.github.mflisar.lumberjack",
+          "module": "core",
+          "version": {
+            "requires": "12.0.0"
+          }
+        },
+        {
+          "group": "io.github.mflisar.lumberjack",
+          "module": "logger-console",
+          "version": {
+            "requires": "12.0.0"
+          }
+        },
+        {
+          "group": "io.github.mflisar.kotpreferences",
+          "module": "core",
+          "version": {
+            "requires": "4.0.1"
+          }
+        },
+        {
+          "group": "io.github.mflisar.kotpreferences",
+          "module": "extension-compose",
+          "version": {
+            "requires": "4.0.1"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha42"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "theme-pastel",
+          "version": {
+            "requires": "0.0.1-alpha42"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "theme-nature",
+          "version": {
+            "requires": "0.0.1-alpha42"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "styled-composedialog",
+          "version": {
+            "requires": "0.0.1-alpha42"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "styled-composepreferences",
+          "version": {
+            "requires": "0.0.1-alpha42"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "styled-composechangelog",
+          "version": {
+            "requires": "0.0.1-alpha42"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "app-jvm.jar",
+          "url": "app-jvm-8.0.0-alpha14.jar",
+          "size": 522213,
+          "sha512": "a78f471500a374843244a39bbec03c8fa74f8dc8249faebd6c7e7eef6ca10a86c21405d255978ec6560ac96cec1a767d552e3e0304b940ffd88d8c29328b2aef",
+          "sha256": "86b08fefec227d6eb5065941f0ab2be4bc229b7480cc4b1fc9776519bae0b388",
+          "sha1": "0ec7b382c7f78dde65a0a6085ef01dc2a5a4a82d",
+          "md5": "3340681c3ac1f86f084042dcab062ed2"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.lumberjack",
+          "module": "logger-file",
+          "version": {
+            "requires": "12.0.0"
+          }
+        },
+        {
+          "group": "io.github.mflisar.kotpreferences",
+          "module": "storage-datastore",
+          "version": {
+            "requires": "4.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.lifecycle",
+          "module": "lifecycle-runtime-compose",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.lifecycle",
+          "module": "lifecycle-viewmodel-compose",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.lifecycle",
+          "module": "lifecycle-viewmodel-navigation3",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.navigation3",
+          "module": "navigation3-ui",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "io.github.mflisar.toolbox",
+          "module": "core",
+          "version": {
+            "requires": "8.0.0-alpha14"
+          }
+        },
+        {
+          "group": "io.github.mflisar.toolbox",
+          "module": "zip",
+          "version": {
+            "requires": "8.0.0-alpha14"
+          }
+        },
+        {
+          "group": "io.github.mflisar.toolbox",
+          "module": "backup",
+          "version": {
+            "requires": "8.0.0-alpha14"
+          }
+        },
+        {
+          "group": "io.github.mflisar.lumberjack",
+          "module": "core",
+          "version": {
+            "requires": "12.0.0"
+          }
+        },
+        {
+          "group": "io.github.mflisar.lumberjack",
+          "module": "logger-console",
+          "version": {
+            "requires": "12.0.0"
+          }
+        },
+        {
+          "group": "io.github.mflisar.kotpreferences",
+          "module": "core",
+          "version": {
+            "requires": "4.0.1"
+          }
+        },
+        {
+          "group": "io.github.mflisar.kotpreferences",
+          "module": "extension-compose",
+          "version": {
+            "requires": "4.0.1"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha42"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "theme-pastel",
+          "version": {
+            "requires": "0.0.1-alpha42"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "theme-nature",
+          "version": {
+            "requires": "0.0.1-alpha42"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "styled-composedialog",
+          "version": {
+            "requires": "0.0.1-alpha42"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "styled-composepreferences",
+          "version": {
+            "requires": "0.0.1-alpha42"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "styled-composechangelog",
+          "version": {
+            "requires": "0.0.1-alpha42"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "fluent2",
+          "version": {
+            "requires": "0.0.1-alpha42"
+          }
+        },
+        {
+          "group": "io.github.mflisar.lumberjack",
+          "module": "extension-composeviewer",
+          "version": {
+            "requires": "12.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-backhandler",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-icons-core",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-icons-extended",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "br.com.devsrsouza.compose.icons",
+          "module": "font-awesome",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "io.github.vinceglb",
+          "module": "filekit-dialogs-compose",
+          "version": {
+            "requires": "0.17.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "app-jvm.jar",
+          "url": "app-jvm-8.0.0-alpha14.jar",
+          "size": 522213,
+          "sha512": "a78f471500a374843244a39bbec03c8fa74f8dc8249faebd6c7e7eef6ca10a86c21405d255978ec6560ac96cec1a767d552e3e0304b940ffd88d8c29328b2aef",
+          "sha256": "86b08fefec227d6eb5065941f0ab2be4bc229b7480cc4b1fc9776519bae0b388",
+          "sha1": "0ec7b382c7f78dde65a0a6085ef01dc2a5a4a82d",
+          "md5": "3340681c3ac1f86f084042dcab062ed2"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "app-jvm-sources.jar",
+          "url": "app-jvm-8.0.0-alpha14-sources.jar",
+          "size": 71732,
+          "sha512": "317a51acd345342f04dca28388a3111d4a5ada778a4d573c4553070fa1d0fc9520d7b1197ddbc5b6151c1a1501bd7cae3b31d4bbf6a478da774f2fde8872ac90",
+          "sha256": "221ae12bf0091a0101a7ed8463accf908a068aaffebb0e003249c1cb8a6a42ee",
+          "sha1": "7ae3f2a309ac63b998c9cf6392ac757a85fb3ac4",
+          "md5": "8be37bd7e2f86020329b88f1f827b0b7"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../room/8.0.0-alpha14/room-8.0.0-alpha14.module",
+    "group": "io.github.mflisar.toolbox",
+    "module": "room",
+    "version": "8.0.0-alpha14",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.9.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.room",
+          "module": "room-runtime",
+          "version": {
+            "requires": "2.8.5"
+          }
+        },
+        {
+          "group": "io.github.mflisar.toolbox",
+          "module": "core",
+          "version": {
+            "requires": "8.0.0-alpha14"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "room-jvm.jar",
+          "url": "room-jvm-8.0.0-alpha14.jar",
+          "size": 156356,
+          "sha512": "e1a30c3596acdcd4ec49dea5da3050e4f5bfd94256bb4f9c0c9829cbc9ee3f4cbc155cde692db99da8fcef1f91db93856a8f35feb566f7a3d7357277d5f819f1",
+          "sha256": "2e112e9b8ffd32d390dc05a14cd1076e52da38c8c481aa7f1602b60d0da42613",
+          "sha1": "01d29a73172db58e18db99ab4a1b694ad2368ab6",
+          "md5": "371abc7e316eec02cdd2f46862473730"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.room",
+          "module": "room-runtime",
+          "version": {
+            "requires": "2.8.5"
+          }
+        },
+        {
+          "group": "io.github.mflisar.toolbox",
+          "module": "core",
+          "version": {
+            "requires": "8.0.0-alpha14"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "room-jvm.jar",
+          "url": "room-jvm-8.0.0-alpha14.jar",
+          "size": 156356,
+          "sha512": "e1a30c3596acdcd4ec49dea5da3050e4f5bfd94256bb4f9c0c9829cbc9ee3f4cbc155cde692db99da8fcef1f91db93856a8f35feb566f7a3d7357277d5f819f1",
+          "sha256": "2e112e9b8ffd32d390dc05a14cd1076e52da38c8c481aa7f1602b60d0da42613",
+          "sha1": "01d29a73172db58e18db99ab4a1b694ad2368ab6",
+          "md5": "371abc7e316eec02cdd2f46862473730"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "room-jvm-sources.jar",
+          "url": "room-jvm-8.0.0-alpha14-sources.jar",
+          "size": 18688,
+          "sha512": "15068ab96e57439afeeb7a6681bef7a7eac59dc8ac8ad11d6a7a3dc9eeed37f4ea26d59b807116e23afed6b97a82b71b7cff6d5610f03a079b2944edfa95d317",
+          "sha256": "760a924bd2d5472104554a8117b003273c33871a9d5e4d579e21ba77db9ab23d",
+          "sha1": "bea284b5e5b25230501eacbc40a01b7b3178e207",
+          "md5": "a4d6949ec9d740f60cd1a945e3e9a3d2"
+        }
+      ]
+    }
+  ]
+}
