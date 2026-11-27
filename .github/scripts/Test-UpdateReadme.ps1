@@ -6,13 +6,21 @@ function Assert-True($Condition, $Message) {
     if (-not $Condition) { throw $Message }
 }
 
-function Add-Metadata($Group, $Artifact, $Version, $Updated) {
+function Add-Metadata($Group, $Artifact, $Version, $Updated, $RepositoryName, $RepositoryUrl) {
     $directory = Join-Path $root ('artifacts\' + $Group.Replace('.', '\') + '\' + $Artifact)
     [System.IO.Directory]::CreateDirectory($directory) | Out-Null
     [System.IO.File]::WriteAllText((Join-Path $directory 'maven-metadata.xml'), @"
 <metadata><groupId>$Group</groupId><artifactId>$Artifact</artifactId><versioning>
 <latest>$Version</latest><versions><version>$Version</version></versions>
 <lastUpdated>$Updated</lastUpdated></versioning></metadata>
+"@)
+    $versionDirectory = Join-Path $directory $Version
+    [System.IO.Directory]::CreateDirectory($versionDirectory) | Out-Null
+    [System.IO.File]::WriteAllText((Join-Path $versionDirectory "$Artifact-$Version.pom"), @"
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+  <name>$RepositoryName</name>
+  <scm><url>$RepositoryUrl</url></scm>
+</project>
 "@)
 }
 
@@ -23,18 +31,23 @@ try {
     [System.IO.File]::WriteAllText($readmePath, $original)
     & $generator -RepositoryRoot $root
     $empty = [System.IO.File]::ReadAllText($readmePath)
-    Assert-True ($empty.Contains('| Artifact group | Latest version |')) 'Missing empty table.'
+    Assert-True ($empty.Contains('| Artifact group | Latest version | Repository |')) 'Missing empty table.'
     Assert-True ($empty.Contains("<!-- artifacts:start -->`n`n| Artifact group")) 'Table must be separated from the HTML comment for GitHub Pages.'
-    Assert-True ($empty.Contains("| --- | --- |`n`n<!-- artifacts:end -->")) 'Closing marker must be separated from the table.'
+    Assert-True ($empty.Contains("| --- | --- | --- |`n`n<!-- artifacts:end -->")) 'Closing marker must be separated from the table.'
 
-    Add-Metadata 'io.github.mflisar.composetable' 'material3' '0.0.1-alpha01' '20261028095223'
+    Add-Metadata 'io.github.mflisar.composetable' 'material3' '0.0.1-alpha01' '20261028095223' 'ComposeTable' 'https://github.com/MFlisar/ComposeTable'
+    Add-Metadata 'io.github.mflisar.composedialogs' 'core' '1.0.0' '20261028095223' 'ComposeDialogs' 'https://github.com/MFlisar/ComposeDialogs'
     & $generator -RepositoryRoot $root
-    Assert-True ([System.IO.File]::ReadAllText($readmePath).Contains(
-        '| [io.github.mflisar.composetable](https://github.com/MFlisar/maven-repository/tree/main/artifacts/io/github/mflisar/composetable) | <code>0.0.1-alpha01</code> |'
+    $result = [System.IO.File]::ReadAllText($readmePath)
+    Assert-True ($result.Contains(
+        '| [io.github.mflisar.composetable](https://github.com/MFlisar/maven-repository/tree/main/artifacts/io/github/mflisar/composetable) | <code>0.0.1-alpha01</code> | [ComposeTable](https://github.com/MFlisar/ComposeTable) |'
     )) 'The published composetable example must be extracted correctly.'
-    Add-Metadata 'io.github.mflisar.composetable' 'styled' '0.0.2-alpha01' '20261029095223'
-    Add-Metadata 'io.github.mflisar.composetable' 'styled-jvm' '0.0.2-alpha01' '20261029095223'
-    Add-Metadata 'a.example' 'core' '10.0.0' '20261028095223'
+    Assert-True ($result.Contains(
+        '| [io.github.mflisar.composedialogs](https://github.com/MFlisar/maven-repository/tree/main/artifacts/io/github/mflisar/composedialogs) | <code>1.0.0</code> | [ComposeDialogs](https://github.com/MFlisar/ComposeDialogs) |'
+    )) 'The ComposeDialogs source repository must be linked.'
+    Add-Metadata 'io.github.mflisar.composetable' 'styled' '0.0.2-alpha01' '20261029095223' 'ComposeTable' 'https://github.com/MFlisar/ComposeTable'
+    Add-Metadata 'io.github.mflisar.composetable' 'styled-jvm' '0.0.2-alpha01' '20261029095223' 'ComposeTable' 'https://github.com/MFlisar/ComposeTable'
+    Add-Metadata 'a.example' 'core' '10.0.0' '20261028095223' 'ARepository' 'https://github.com/MFlisar/ARepository'
     # Snapshot-level metadata must not become an extra group row.
     $snapshot = Join-Path $root 'artifacts\a\example\core\10.1-SNAPSHOT'
     [System.IO.Directory]::CreateDirectory($snapshot) | Out-Null
@@ -42,14 +55,17 @@ try {
         '<metadata><groupId>a.example</groupId><version>10.1-SNAPSHOT</version><versioning /></metadata>')
     & $generator -RepositoryRoot $root
     $result = [System.IO.File]::ReadAllText($readmePath)
-    Assert-True ($result.Contains('| [io.github.mflisar.composetable](https://github.com/MFlisar/maven-repository/tree/main/artifacts/io/github/mflisar/composetable) | <code>0.0.2-alpha01</code> |')) 'Incorrect group, link or latest version.'
+    Assert-True ($result.Contains('| [io.github.mflisar.composetable](https://github.com/MFlisar/maven-repository/tree/main/artifacts/io/github/mflisar/composetable) | <code>0.0.2-alpha01</code> | [ComposeTable](https://github.com/MFlisar/ComposeTable) |')) 'Incorrect group, link, latest version or source repository.'
+    Assert-True ($result.Contains(
+        '| [a.example](https://github.com/MFlisar/maven-repository/tree/main/artifacts/a/example) | <code>10.0.0</code> | [ARepository](https://github.com/MFlisar/ARepository) |'
+    )) 'Repository details must be read from POMs for previously unknown groups.'
     Assert-True ([regex]::Matches($result, '\| \[io.github.mflisar.composetable\]').Count -eq 1) 'Platform variants must share a group row.'
     Assert-True ($result.IndexOf('[a.example]') -lt $result.IndexOf('[io.github')) 'Groups must be sorted.'
     Assert-True ($result.StartsWith("# Repository`nBefore`n") -and $result.EndsWith("`nAfter`n")) 'Content outside markers changed.'
     & $generator -RepositoryRoot $root
     Assert-True ([System.IO.File]::ReadAllText($readmePath) -ceq $result) 'Generator must be idempotent.'
 
-    Add-Metadata 'broken.example' 'core' '' 'invalid'
+    Add-Metadata 'broken.example' 'core' '' 'invalid' 'Broken' 'https://github.com/MFlisar/Broken'
     $failed = $false
     try { & $generator -RepositoryRoot $root } catch { $failed = $true }
     Assert-True $failed 'Invalid metadata must fail explicitly.'

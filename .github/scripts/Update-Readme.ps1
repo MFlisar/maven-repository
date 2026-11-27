@@ -26,12 +26,38 @@ $entries = @(
                     throw "Missing version listing in $($file.FullName)"
                 }
                 $group = [string] $metadata.metadata.groupId
+                $artifact = [string] $metadata.metadata.artifactId
                 $latest = [string] $metadata.metadata.versioning.latest
                 $updated = [string] $metadata.metadata.versioning.lastUpdated
                 if ([string]::IsNullOrWhiteSpace($group) -or
+                    [string]::IsNullOrWhiteSpace($artifact) -or
                     [string]::IsNullOrWhiteSpace($latest) -or
                     $updated -notmatch '^\d{14}$') {
-                    throw "Missing or invalid groupId, latest or lastUpdated in $($file.FullName)"
+                    throw "Missing or invalid groupId, artifactId, latest or lastUpdated in $($file.FullName)"
+                }
+                $pomPath = Join-Path (Join-Path $file.DirectoryName $latest) "$artifact-$latest.pom"
+                if (-not (Test-Path -LiteralPath $pomPath -PathType Leaf)) {
+                    throw "Missing latest POM for artifact group '$group' in $pomPath."
+                }
+                [xml] $pom = [System.IO.File]::ReadAllText($pomPath)
+                $repositoryName = [string] $pom.project.name
+                $repositoryUrl = [string] $pom.project.scm.url
+                if ([string]::IsNullOrWhiteSpace($repositoryUrl)) {
+                    $repositoryUrl = [string] $pom.project.url
+                }
+                $repositoryUri = $null
+                if (-not [uri]::TryCreate($repositoryUrl, [System.UriKind]::Absolute, [ref] $repositoryUri) -or
+                    $repositoryUri.Scheme -ne 'https' -or
+                    $repositoryUri.Host -ne 'github.com' -or
+                    ($repositoryUri.AbsolutePath.Trim('/') -split '/').Count -ne 2) {
+                    throw "Latest POM must define a GitHub repository URL in scm.url or project.url in $pomPath."
+                }
+                if ([string]::IsNullOrWhiteSpace($repositoryName)) {
+                    $repositoryName = [uri]::UnescapeDataString(($repositoryUri.AbsolutePath.Trim('/') -split '/')[-1])
+                }
+                $repositoryUrl = $repositoryUri.GetLeftPart([System.UriPartial]::Path).TrimEnd('/')
+                if ($repositoryUrl.EndsWith('.git', [System.StringComparison]::OrdinalIgnoreCase)) {
+                    $repositoryUrl = $repositoryUrl.Substring(0, $repositoryUrl.Length - 4)
                 }
                 $timestamp = [datetime]::ParseExact(
                     $updated, 'yyyyMMddHHmmss', [System.Globalization.CultureInfo]::InvariantCulture
@@ -47,6 +73,8 @@ $entries = @(
                     Latest = $latest
                     Updated = $timestamp
                     Link = $link
+                    RepositoryName = $repositoryName
+                    RepositoryUrl = $repositoryUrl
                 }
             }
     }
@@ -55,13 +83,14 @@ $entries = @(
 $lines = @(
     '<!-- artifacts:start -->'
     ''
-    '| Artifact group | Latest version |'
-    '| --- | --- |'
+    '| Artifact group | Latest version | Repository |'
+    '| --- | --- | --- |'
     $entries | Group-Object Group -CaseSensitive | Sort-Object Name | ForEach-Object {
         $latest = $_.Group | Sort-Object Updated -Descending | Select-Object -First 1
         $groupText = $latest.Group.Replace('|', '&#124;').Replace('[', '&#91;').Replace(']', '&#93;')
         $versionText = $latest.Latest.Replace('&', '&amp;').Replace('<', '&lt;').Replace('|', '&#124;').Replace('`', '&#96;')
-        '| [{0}]({1}) | <code>{2}</code> |' -f $groupText, $latest.Link, $versionText
+        $repositoryText = $latest.RepositoryName.Replace('&', '&amp;').Replace('|', '&#124;').Replace('[', '&#91;').Replace(']', '&#93;')
+        '| [{0}]({1}) | <code>{2}</code> | [{3}]({4}) |' -f $groupText, $latest.Link, $versionText, $repositoryText, $latest.RepositoryUrl
     }
     ''
     '<!-- artifacts:end -->'
