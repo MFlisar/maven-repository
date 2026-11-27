@@ -1,0 +1,158 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../material3/0.0.1-alpha43/material3-0.0.1-alpha43.module",
+    "group": "io.github.mflisar.composestyled",
+    "module": "material3",
+    "version": "0.0.1-alpha43",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.9.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha43"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "theme-material3",
+          "version": {
+            "requires": "0.0.1-alpha43"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "iconset-material3",
+          "version": {
+            "requires": "0.0.1-alpha43"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "material3.aar",
+          "url": "material3-android-0.0.1-alpha43.aar",
+          "size": 409957,
+          "sha512": "4ad4efbf207c2d3707cace184ae541165c0ef748cc0c2931c29966a7eda8a46766c53046443b6cdadbd1a9d4d3653826ad12c9db0f380d5a19bb8fc52b43d1ee",
+          "sha256": "cb3a6d130f7b32797a97c60827d4b6f8250c424de3489fe1f101a54381109145",
+          "sha1": "4f13404f07da9827827b498009dc68425c89d771",
+          "md5": "1a38da5f37c8c51aeb1893a6f0bdb934"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-alpha43"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "theme-material3",
+          "version": {
+            "requires": "0.0.1-alpha43"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "iconset-material3",
+          "version": {
+            "requires": "0.0.1-alpha43"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "io.github.mflisar.composestyled",
+          "module": "foundation",
+          "version": {
+            "requires": "0.0.1-alpha43"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "material3.aar",
+          "url": "material3-android-0.0.1-alpha43.aar",
+          "size": 409957,
+          "sha512": "4ad4efbf207c2d3707cace184ae541165c0ef748cc0c2931c29966a7eda8a46766c53046443b6cdadbd1a9d4d3653826ad12c9db0f380d5a19bb8fc52b43d1ee",
+          "sha256": "cb3a6d130f7b32797a97c60827d4b6f8250c424de3489fe1f101a54381109145",
+          "sha1": "4f13404f07da9827827b498009dc68425c89d771",
+          "md5": "1a38da5f37c8c51aeb1893a6f0bdb934"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "material3-android-sources.jar",
+          "url": "material3-android-0.0.1-alpha43-sources.jar",
+          "size": 51717,
+          "sha512": "9a8a6a0906630021262ca3356086ffeb1492053ea5ffdb35439576e64aa0766d4b78f054bb5bf983ec3184d033d3766b6f2e91f3677991d0e3caa0e79bec92ee",
+          "sha256": "e450a01f82323f8fe05b516ffd49c9938da04f5c03cbfd736950be9027843a36",
+          "sha1": "a7b3d17cf2ff8cc885cd86b2483595fe17dfd271",
+          "md5": "1ae989907385635c1e5b4ac55662dc94"
+        }
+      ]
+    }
+  ]
+}
